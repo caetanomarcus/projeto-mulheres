@@ -10,6 +10,10 @@ const Wrapper = styled.div`
     color: #fff;    
     padding: 24px 126px;
     z-index: 2;
+
+    @media (max-width: 768px) {
+        display: none;
+    }
 `;
 
 const Container = styled.div`

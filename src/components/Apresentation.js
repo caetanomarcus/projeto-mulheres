@@ -1,5 +1,5 @@
-import  React, {useState} from "react"
-import styled, {keyframes} from "styled-components"
+import React, { useState } from "react"
+import styled, { keyframes } from "styled-components"
 
 //icons
 import rightArrow from '../assets/icons/right-arrow.png'
@@ -44,7 +44,7 @@ const Box = styled.div`
     justify-content: center;
     align-items: center; */
     color:#5F1478;
-    padding-top: ${({ hasPaddingTop }) => hasPaddingTop ? '50px' : '0'};
+    padding-top: ${({ hasPaddingTop }) => hasPaddingTop ? '24px' : '0'};
     position: relative;
     
 `;
@@ -86,10 +86,10 @@ const Page = styled.div`
     width: 100%;
     padding: 0 126px;
     margin: 0 auto;
-    animation: ${({ hasAnimation, direction}) => hasAnimation ? direction === 1 ? pageAnimation: reversePageAnimation : 'none' } 1.2s ease-in-out;
+    /* animation: ${({ hasAnimation, direction }) => hasAnimation ? direction === 1 ? pageAnimation : reversePageAnimation : 'none'} 1.2s ease-in-out; */
     position: relative;
 
-    ${({isFlex}) => isFlex && `
+    ${({ isFlex }) => isFlex && `
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -121,12 +121,14 @@ const ImagesBox = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 48px;
+    margin: 10px auto;
+    /* margin-right: 48px; */
     position: relative;
 
 
     @media (max-width: 1365px) {
         width: 100%;
+        flex-direction: column;
     }
     
 `;
@@ -137,6 +139,12 @@ const SmallImagesBox = styled.div`
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+
+    @media (max-width: 480px) {
+        width: 100%;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
 `;
 
 const ParagraphBox = styled.div`
@@ -161,7 +169,7 @@ const Paragraph = styled.p`
     ${({ firstLetterThemed }) => firstLetterThemed && `
            ::first-letter {
         font-size: 60px;
-        color: #AE276F;
+        // color: #AE276F;
         line-height: 1;
     }
     `}
@@ -171,7 +179,7 @@ const Paragraph = styled.p`
     ::first-line {
         font-size: 18px;
         font-weight: bold;
-        color: #AE276F;
+        // color: #AE276F;
         line-height: 1;
 
     }
@@ -180,11 +188,17 @@ const Paragraph = styled.p`
 
 const Image = styled.div`
     width: ${({ width }) => width};
-    height: ${({ big }) => big ? "280px" : "120px"};
+    height: ${({ big }) => big ? "260px" : "120px"};
     background-color: gray;
     border-radius: 4px;
+    margin: 0 auto;
     margin-top: ${(hasMarginTop) => hasMarginTop ? "20px" : "0"};
-    margin-bottom: ${(hasMarginBottom) => hasMarginBottom ? "20px" : "0px"};
+    /* margin-bottom: ${(hasMarginBottom) => hasMarginBottom ? "20px" : "0"}; */
+
+    @media (max-width: 480px) {
+        width: 100%;
+        height: 120px;
+    }
 `;
 
 const NextBtn = styled.button`
@@ -257,11 +271,11 @@ const Apresentation = () => {
     const renderImages = () => {
         return (
             <ImagesBox>
-                <Image width="260px" big />
+                <Image width="50%" big />
                 <SmallImagesBox>
                     {array.map((item, index) => {
                         if (index !== 0) {
-                            return <Image key={index} width={'120px'} hasMarginBottom={(index === 1) || (index === 2)} />
+                            return <Image key={index} width={'40%'} />
                         }
 
                         return null
@@ -277,83 +291,86 @@ const Apresentation = () => {
             setDirection(1);
             setPage(page + 1);
         }
-    
+
         const handleBack = () => {
-           setDirection(2)
-            setPage(page -1);
+            setDirection(2)
+            setPage(page - 1);
         }
-    
+
 
         return (
             <>
-                <NextBtn  isVisible={page !== lastPage} onClick={handleNext} />
-                <BackBtn isVisible={!(page === firstPage)}  onClick={handleBack}/>
+                <NextBtn isVisible={page !== lastPage} onClick={handleNext} />
+                <BackBtn isVisible={!(page === firstPage)} onClick={handleBack} />
             </>
         )
     }
 
-    const page1 = () => {
+    const renderText = () => {
         console.log(page)
         return (
-            <Page hasAnimation={page === 1}  key={Math.random()} direction={direction} >
-                  {renderButtons()}
-            <ImageTextBox>
-                <ParagraphBox>
-                    <Paragraph firstLineThemed firstLetterThemed >A exposição tem como patrocinadora a Fundação de Amparo à Pesquisa do Estado do Rio de Janeiro – FAPERJ, por meio do Programa de Apoio à Organização de Eventos Científicos,
-                        Tecnológicos e de Inovação no RJ. As peças apresentadas nesta Exposição pertencem a coleções particulares cedidas ao Nhempe, exibidas pela primeira vez ao público.
-                        Destaca-se, em grande parte do acervo, a Coleção “As Franciscas”, cujas peças originais do século XIX, possuem documentação de autenticidade e de valoração, tendo sido
-                        reunidas ao longo de anos, por meio da aquisição em leilões e antiquários.
-                        As imagens da Coleção foram cedidas ao Nhempe para esta Exposição temporária, bem como para a elaboração do Catálogo impresso com parte das peças apresentadas.
+            <Page >
+
+                <ImageTextBox>
+                    <ParagraphBox>
+                        <Paragraph firstLetterThemed >A Exposição <b>"Mulheres e educação no século XIX: <i>artefatos e sensibilidades</i>"</b> é uma atividade cultural elaborada pelo Núcleo de Pesquisa História e Memória das Políticas Educacionais no Território Fluminense (Nhempe), vinculado à Linha de Pesquisa Instituições, Práticas Educativas e História do Programa de Pós-Graduação em Educação (ProPEd), da Universidade do Estado do Rio de Janeiro (UERJ). Por estar sediada em uma Universidade socialmente referenciada, a Exposição destina-se, a priori, a contribuir para a formação humanística de seus estudantes, proporcionando a disseminação de bens culturais, juntamente com o conhecimento.
+
+                        </Paragraph>
+                    </ParagraphBox>
+                    {renderImages()}
+                </ImageTextBox>
+                <Box hasPaddingTop>
+                    <Paragraph >
+                        A Exposição tem como patrocinadora a Fundação de Amparo à Pesquisa do Estado do Rio de Janeiro – FAPERJ, por meio do Programa de Apoio à Organização de Eventos Científicos, Tecnológicos e de Inovação no RJ. As peças apresentadas nesta Exposição pertencem a coleções particulares cedidas ao Nhempe, exibidas pela primeira vez ao público. Destaca-se, em grande parte do acervo, a Coleção “As Franciscas”, cujas peças originais do século XIX, possuem documentação de autenticidade e de valoração, tendo sido reunidas ao longo de anos, por meio da aquisição em leilões e antiquários. As imagens da Coleção foram cedidas ao Nhempe para esta Exposição temporária, bem como para a elaboração do Catálogo impresso com parte das peças apresentadas.
+
                     </Paragraph>
-                </ParagraphBox>
-                {renderImages()}
-            </ImageTextBox>
-            <Box>
-                <Paragraph firstLetterThemed >
-                    O objetivo da Exposição <b>"Mulheres e educação no século XIX: artefatos e sensibilidades”</b> é apresentar um acervo inédito de objetos e materiais de escrita originais do século XIX, sensíveis à utilização feminina, em um mundo regido pelo masculino. A finalidade da Exposição é oferecer um mosaico de artefatos que remetem à mulher, com seus conceitos e usos cotidianos descritos em verbetes, entre eles, notadamente, àqueles relacionados à educação e à toalete feminina, característicos da concepção do que era apropriado à elas, em um tempo e contexto monarquista, patriarcal e estratificado socialmente. O material exposto reúne um acervo de 70 peças classificadas em quatro categorias: Cenários educativos; Escritas íntimas; Toaletes femininas e Imagens sensíveis.
+                </Box>
+                <Box hasPaddingTop>
+                    <Paragraph > O objetivo da Exposição "Mulheres e educação no século XIX: <i>artefatos e sensibilidades</i>” é apresentar um acervo inédito de objetos e materiais de escrita originais do século XIX, sensíveis à utilização feminina, em um mundo regido pelo masculino. A finalidade da Exposição é oferecer um mosaico de artefatos que remetem à mulher, com seus conceitos e usos cotidianos descritos em verbetes, entre eles, notadamente, àqueles relacionados à educação e à toalete feminina, característicos da concepção do que era apropriado à elas, em um tempo e contexto monarquista, patriarcal e estratificado socialmente. O material exposto reúne um acervo de 70 peças classificadas em quatro categorias: <i>Cenários educativos; Escritas íntimas; Toaletes femininas e Imagens sensíveis</i>.</Paragraph>
+                    <ImagesBox>
+                        <Image width={'500px'} big />
+                    </ImagesBox>
+                    <Paragraph  >O eixo <i>Cenários educativos </i> é constituído por 09 peças que exemplificam aspectos das práticas de ensino vivenciadas no século XIX. É demonstrado como crianças e jovens, especialmente meninas, aprendiam a leitura e a escrita. A seção <i>Escritas íntimas</i> apresenta 14 artefatos que remetem ao modo como o sexo feminino se apropriava da escrita para registrar a vida cotidiana e as efemérides que compunham sua existência, além de livros e álbuns que colecionavam ao longo da vida. A categoria <i>Toaletes femininas </i> é composta por 43 objetos que remetem ao dia a dia e a intimidade das mulheres no Oitocentos. O conjunto aborda hábitos de higiene, modos de vestir, trabalho e governança do lar entre outros aspectos. Em <i>Imagens sensíveis </i> são apresentadas 04 peças que abarcam situações como luto, religiosidade e memórias familiares presentes nos álbuns fotográficos. </Paragraph>
+                </Box>
+                <Box hasPaddingTop>
+                    <Paragraph >
+                        Para cada um dos 70 itens da Exposição "Mulheres e educação no século XIX: artefatos e sensibilidades”, foi elaborado um verbete escrito por pesquisadores, docentes e pós-graduandos com produção acadêmica na área de História da Educação. Os textos têm por característica demonstrar como tais objetos se faziam presente no cotidiano feminino do século XIX.
+                    </Paragraph>
+                    <ImagesBox>
+                        <Image width={'500px'} big />
+                    </ImagesBox>
+                    <Paragraph>
+                        A Exposição insere-se no campo da história das mulheres, mais propriamente à história da educação feminina, à medida que permite um conhecimento mais próximo da intimidade de personagens até então silenciadas, evidenciando um universo, nos quais, muitas vezes, os objetos expostos constituíam os singulares elementos do cenário em que se desenrolou suas vidas, em meio a crenças, desejos, anseios e contradições (PERROT, 2005). Pretende-se, assim, expor as mulheres na cena oitocentista, trazendo um recorte de gênero para o espaço cultural/expositivo, priorizando-se vestígios da cotidianidade feminina.
+                    </Paragraph>
+                    <ImageTextBox>
+                        {renderImages()}
+                        <ParagraphBox>
+                            <Paragraph>
+                                Para tanto, a Exposição "Mulheres e educação no século XIX: artefatos e sensibilidades” possui um acervo integralmente dedicado a elas, acrescido da elaboração de referências que remetem ao seu protagonismo. Além disso, a Exposição demonstra a importância de guardar, mostrar, relembrar, preservar aquilo que, durante tanto tempo, foi unicamente permitido como parte da vida de mulheres.
 
-                </Paragraph>
-            </Box>
-        </Page>
-        )
-    }
+                            </Paragraph>
+                        </ParagraphBox>
+                    </ImageTextBox>
+                </Box>
+                <Box hasPaddingTop>
 
-    const page2 = () => {
-        return (
-            <Page hasAnimation={page === 2} isFlex key={Math.random()}  direction={direction}>
-                   {renderButtons()}
-                <Paragraph firstLetterThemed firstLineThemed> O objetivo da Exposição "Mulheres e educação no século XIX: artefatos e sensibilidades” é apresentar um acervo inédito de objetos e materiais de escrita originais do século XIX, sensíveis à utilização feminina, em um mundo regido pelo masculino. A finalidade da Exposição é oferecer um mosaico de artefatos que remetem à mulher, com seus conceitos e usos cotidianos descritos em verbetes, entre eles, notadamente, àqueles relacionados à educação e à toalete feminina, característicos da concepção do que era apropriado à elas, em um tempo e contexto monarquista, patriarcal e estratificado socialmente. O material exposto reúne um acervo de 70 peças classificadas em quatro categorias: Cenários educativos; Escritas íntimas; Toaletes femininas e Imagens sensíveis.</Paragraph>
-                <Image width={'500px'} big />
-                <Paragraph firstLetterThemed >O eixo Cenários educativos é constituído por 09 peças que exemplificam aspectos das práticas de ensino vivenciadas no século XIX. É demonstrado como crianças e jovens, especialmente meninas, aprendiam a leitura e a escrita. A seção Escritas íntimas apresenta 14 artefatos que remetem ao modo como o sexo feminino se apropriava da escrita para registrar a vida cotidiana e as efemérides que compunham sua existência, além de livros e álbuns que colecionavam ao longo da vida. A categoria Toaletes femininas é composta por 43 objetos que remetem ao dia a dia e a intimidade das mulheres no Oitocentos. O conjunto aborda hábitos de higiene, modos de vestir, trabalho e governança do lar entre outros aspectos. Em Imagens sensíveis são apresentadas 04 peças que abarcam situações como luto, religiosidade e memórias familiares presentes nos álbuns fotográficos. </Paragraph>
+                </Box>
             </Page>
         )
     }
 
 
-    const renderPage = (page) => {
-        switch (page) {
-            case 1:
-                return page1()
-            case 2:
-                return page2()
-            default:
-                setPage(1)
-                return page1()
-        }
-    }
+
 
     // useEffect(() => {}, [page])
     return (
         <Wrapper>
-         
+
             <Box hasPaddingTop>
                 <Title>Apresentação  </Title>
-                <PaginationBox>
-                    <Circle active={page === 1} onClick={() => setPage(1)} />
-                    <Circle active={page === 2} onClick={() => setPage(2)} />
-                </PaginationBox>
             </Box>
-           {renderPage(page)}
+            {renderText()}
+
         </Wrapper>
     )
 }

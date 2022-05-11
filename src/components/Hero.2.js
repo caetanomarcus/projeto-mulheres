@@ -42,7 +42,7 @@ const Container = styled.div`
 `;
 
 const UpBox = styled.div`
-    width: calc(100% - 126px );
+    width: calc(100% - 252px );
     padding: 0 126px;
     /* max-width: 1366px; */
     display: flex;
@@ -55,6 +55,15 @@ const UpBox = styled.div`
     border-radius: 16px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
     position: relative;
+
+    @media (max-width: 768px) {
+        width: 100%;
+        margin: 0;
+        flex-direction: column;
+        padding: 0 16px;
+        box-shadow: none;
+        border: none;
+    }
 `;
 
 const BubbleContainer = styled.div`
@@ -79,6 +88,10 @@ const Bubbles = styled.div`
     transform: ${props => props.transform};
     border-radius: 50%;
     z-index: -1;
+
+    @media (max-width: 768px) {
+        display: none;
+    }
 `;
 
 const HeroTitleContainer = styled.div`
@@ -89,6 +102,11 @@ const HeroTitleContainer = styled.div`
      border-radius: 4px;
      width: 50%; 
      padding: 16px 0px;
+
+     @media (max-width: 768px) {
+        width: 100%;
+        flex-direction: column;
+     }
      
 `;
 
@@ -100,6 +118,7 @@ const Title = styled.h1`
     z-index: 1;
     width: ${({ width }) => width || '100%' };
     max-width: 1366px;
+    color: #3d0647;
 
     ${({hasUnderline}) => hasUnderline && `
          ::before {
@@ -131,6 +150,10 @@ const HeroTextContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    @media (max-width: 768px) {
+        width: 100%;
+    }
 `;
 
 const TitlesBox = styled.div`
@@ -192,7 +215,7 @@ const Hero2 = () => {
             <UpBox>
                 <HeroTitleContainer>
                     <TitleContainer>
-                        <Title>Mulheres e Educação </Title>
+                        <Title >Mulheres e Educação </Title>
                         <Title hasUnderline width='fit-content' >no Séc XIX</Title>
                     </TitleContainer>
                 </HeroTitleContainer>
