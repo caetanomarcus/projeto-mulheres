@@ -1,12 +1,15 @@
 import styled, { createGlobalStyle } from 'styled-components';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
+import ItemExposicao from './pages/ItemExposicao';
+import Exposicao from './pages/Exposicao';
 
 const GlobalStyle = createGlobalStyle`
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
   }
 
   body{
@@ -44,6 +47,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path='/exposicao' element={<Exposicao />} />
+          <Route path="/exposicao/:id" element={<ItemExposicao />} />
 
         </Routes>
 
