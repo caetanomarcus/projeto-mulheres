@@ -391,40 +391,30 @@ export const texts =[
                 footNoteNumber: null, 
                 image: []
             },
-        ],
-        text: [
             {
                 content: "As crianças desde muito transformam objetos e elementos disponíveis na natureza em brinquedos e possibilidades para brincar. O próprio corpo e o mundo ao redor são os primeiros passos para a exploração do mundo. Por muito tempo as crianças não foram compreendidas no brincar, mas os brinquedos existem desde a antiguidade, caso de piões e bonecas, por exemplo. O brincar e a ludicidade que o envolve tem uma historicidade que acompanha o processo de humanização e é parte da formação humana. Os sentidos e os materiais empregados, as formas de brincar e de compreender o brincar são marcados cultural, social e historicamente.",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
             },
-        ],
-        text: [
             {
                 content: "O bilboquê ou emboca-bolas é um brinquedo composto de uma bola ou taça perfurada conectada por um cordão a uma alça. O jogo consiste em enfiar a bola na alça com uma mão. Seja como for, a origem do bibloquê permanece obscura. A explicação mais provável seria que a palavra bilboquet vem do francês 'bille'. É provável que tenha surgido na França no final do século XVI. Manson (2001) refere que o bilboquê aparece em 1577, período em que são identificados muitos outros novos brinquedos emergindo, caso também das bolas de sabão. No entanto, Rabelais ao listar os jogos de Gargântua menciona o bilboquê, e a obra foi publicada em 1534, o que pode indicar que anos antes já estava em circulação. Em francês, antigamente, também era conhecido como ‘pique-balle’. Uma versão japonesa do brinquedo seria o ‘kendama’. Também pode ser conhecido como jogo da ‘taça e bola’.",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
             },
-        ],
-        text: [
             {
                 content: "Em Confissões, livro V, Jean-Jacques Rousseau escreveu que carregava no bolso um bilboquê e “ficava jogando todo o tempo para dispensar-me de falar quando nada tinha a dizer”. E afirmava ainda que “se todos fizessem o mesmo, os homens seriam menos maus, seu trato seria mais seguro e, penso, mais agradável. Enfim que os engraçados riam se quiserem, mas sustento que a única moral à altura do século presente é a moral do bilboquê” (ROUSSEAU, 2018, posição 3414). Para evitar o tédio e o enfado jogavam, para além das crianças, também os adultos.",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
             },
-        ],
-        text: [
             {
                 content: "Os modelos de bilboquê são variados e há exemplares bem distintos em relação ao tamanho, materiais empregados na fabricação, custos e estilos, apesar do uso e finalidade serem comuns. Desde séculos são localizados bilboquês fabricados com materiais diversos como madeira, mas também ossos, metais, marfim e outros mais contemporâneos, como o plástico. Com o passar do tempo, localiza-se a combinação do jogo do bilboquê, percebido como atividade de destreza, com a narrativa de histórias, danças ou ainda cantos, complexificando e dificultando o jogo.",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
             },
-        ],
-        text: [
             {
                 content: "No caso do Brasil, a difusão e a comercialização de brinquedos à venda remontam à segunda metade do século XIX, no Rio de Janeiro. Torna-se mais comum a oferta de venda de brinquedos em geral e do bilboquê em particular, ao longo do século XX, em outras regiões do país. Em leilão efetuado em janeiro de 1872, como parte do catálogo posto à venda, no lote 76 estava “1 cestinha, 1 espanador e bilboquet e 1 bandeja” como parte dos objetos de uma Saleta(JORNAL DO COMÉRCIO, 18/01/1872, p. 02). No Natal de 1885, o jornal Gazeta de Notícias do Rio de Janeiro anunciava em sua página, dentre os vários brinquedos disponíveis na rua da Assembleia, 111, a venda de bilboquês “brinquedo útil para as crianças” (GAZETA DE NOTÍCIAS, 25/12/1885, p. 6). O bilboquê foi apreciado por séculos, por gerações e culturas distintas, incentivado por ser um brinquedo de destreza e que exigia o desenvolvimento de diversas habilidades.",
                 citation: "",
@@ -1032,7 +1022,7 @@ export const texts =[
             institution: "Pontifícia Universidade Católica do Rio de Janeiro/PUC-Rio",
             department: ["Rede Municipal de Educação de Duque de Caxias"]
         },
-        author:{
+        author2:{
             name: "Amanda Dias de Oliveira",
             institution: "Universidade Federal do Rio de Janeiro/UFRJ",
             department: ["Programa de Pós-Graduação em História Social "]
@@ -2700,7 +2690,7 @@ export const texts =[
             institution: "Universidade Cidade de São Paulo",
             department: []
         },
-        author:{
+        author2:{
             name: "Maria Thais Fernandes ",
             institution: "Universidade Cidade de São Paulo",
             department: []
@@ -2994,37 +2984,164 @@ export const texts =[
         },
         text: [
             {
-                content: "",
+                content: "Lapiseira: substantivo feminino que nomeia um pequeno e portátil instrumento de corpo cilíndrico, que pode ser construído de metais, plásticos, ou de outros materiais para facilitar a comunicação escrita ou o desenho. De engenharia instintiva, ela segue a lógica de ser um objeto para escrita automático (como em tradução livre direta do inglês automatic pencil), recarregável e porque não, durável.",
+                citation: "",
+                footNoteNumber: null, 
+                image: [{
+                    url: "tem uma imagem aqui",
+                    legendImage: "Imagem 01: Propaganda sobre grafite da empresa Faber-Castell",
+                    fontImage: "Fonte: Faber-Castell, 2022."
+                }]
+            },
+            {
+                content: "Ao contrário de seu predecessor e parente próximo, o lápis, o corpo da lapiseira não se gasta durante seu uso. A extremidade usada como ponta para marcar o papel, sim: feita inicialmente de grafite (ou chumbo negro e plumbagina), um mineral da mesma família do diamante, pode ser encontrado hoje na forma natural ou sintética, e o Brasil é o terceiro maior produtor mundial em grafite natural. ",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
             },
+            {
+                content: "A primeira evidência da existência de uma lapiseira remonta aos destroços encontrados em 1977 do navio HMS Pandora, navio da Marinha Inglesa que naufragou em 1791. Apenas a partir de 1822, contudo, foram patenteadas por Sampson Mordan e Isaac John Hawkins na Grã-Bretanha as lapiseiras que serviam como invólucros de grafite, sem ainda os mecanismos de torção – que surgem em 1895 – que empurram o grafite em direção à ponta e apresentam a característica de lápis contínuo. ",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "No século XIX, as lapiseiras eram frequentemente vistas como um objeto de status social, uma vez que eram correntes o banho de ouro, de prata e o cravejamento de pedras preciosas e semipreciosas. Poderiam ser usadas como item de adereço, penduradas por delicados fios e cordas às pulseiras de relógios e braceletes, próximas às mãos atentas para uma anotação rápida.",
+                citation: "",
+                footNoteNumber: null, 
+                image: [{
+                    url: "tem uma imagem aqui",
+                    legendImage: "Imagem 02: Anúncio de venda de lapiseira – fragmento ",
+                    fontImage: "Fonte: Diário de Manáos, ano 1892, edição 252, p. 4"
+                }]
+            },
+            {
+                content: "Também temos registros¹  desses objetos sendo ofertados como presentes, prendas e formas de agradecimento a pessoas admiradas. Além disso, era comum, em caso de perda ou furto, registrar a ocorrência e procurar recuperar o item, seja por idas às delegacias de polícia ou por anúncios em jornais. ",
+                citation: "",
+                footNoteNumber: 1,
+                footNote: "¹ Busca realizada no banco de dados da Hemeroteca Digital da Biblioteca Nacional com o termo “lapiseira”, entre os anos de 1890 e 1899." ,
+                image: [{
+                    url: "tem uma imagem aqui",
+                    legendImage: "Imagem 03: Gatuno apreendido por furto de lapiseira e caneta – fragmento  ",
+                    fontImage: "Fonte: Gazeta de Notícias, ano 1890, edição 023, p. 2."
+                }]
+            },
+            {
+                content: "Nessas circunstâncias, pelo valor da recompensa oferecida, podemos presumir que o item não passava pelas mãos da classe trabalhadora com frequência. Em vista disso, tencionamos que o uso da lapiseira não abarcou, nesse período, as “escritas populares” no sentido proposto por Gómez (2020, p.83), uma vez que a utilização e a propriedade do objeto teriam ficado recolhidas àqueles que pudessem dispor de meios monetários para adquirir o item.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Para o autor, os escreventes populares são aqueles que compõem uma classe social médio-baixa, como carpinteiros, pequenos negociantes, trabalhadores, pedreiros etc., ou seja, pessoas comuns que compartilham de uma posição subalterna e pouco escolarizada. ",
+                citation: "",
+                footNoteNumber: null, 
+                image: [{
+                    url: "tem uma imagem aqui",
+                    legendImage: "Imagem 04: Busca por lapiseira perdida – fragmento",
+                    fontImage: "Fonte: O Paiz (RJ), ano 1892, edição 3605, p. 4."
+                }]
+            },
+            {
+                content:"E se era seleto o número de homens que utilizavam a lapiseira em seu cotidiano, menor deveria ser o número de mulheres que as possuíram e as manuseavam com destreza. Não cabe aqui toda a discussão que se faz necessária sobre a temática, apenas indicar que a questão tem sido levantada sobre diversas óticas em estudos de gênero, de história, de paleografia, de educação etc. e atentar para a necessidade de pesquisas constantes sobre o papel da mulher nas escritas deixadas por estas lapiseiras que, afinal, é um substantivo feminino por natureza.",
+                citation:"",
+                footNoteNumber:null,
+                image:[]
+            }
         ],
         references: [
             {
                 author: "",
-                title: "",
-                rest: ""
+                title: "A HISTÓRIA DA LAPISEIRA.Lapiseira Pentel, ",
+                rest: "2022. Disponível em: https://www.lapiseirapentel.com.br/a-historia-da-lapiseira/. Acesso em: 22 de março de 2022."
+            },
+            {
+                author: "",
+                title: "DIARIO DE MANÁOS: PROPRIEDADE DE UMA ASSOCIAÇÃO (AM) - 1890 A 1894.",
+                rest:"Biblioteca Nacional Digital,2022. Disponível em: http://memoria.bn.br/DocReader/DocReader.aspx?bib=716642&pesq=lapiseira&pasta=ano%20189&hf=memoria.bn.br&pagfis=1672. Acesso em: 22 de março de 2022."
+            },
+            {
+                author: "",
+                title: "FATOS INTERESSANTES. Faber-Castell",
+                rest: ",2022. Disponível em: https://www.faber-castell.com.br/corporate/curiosidades/fatos-interessantes.  Acesso em: 23 de março de 2022."
+            },
+            {
+                author: "",
+                title: "GAZETA DE NOTÍCIAS (RJ) – 1890 A 1899. ",
+                rest: "Biblioteca Nacional Digital, 2022. Disponível em: http://memoria.bn.br/DocReader/DocReader.aspx?bib=103730_03&pesq=lapiseira&pasta=ano%20189&hf=memoria.bn.br&pagfis=106. Acesso em: 22 de março de 2022. "
+            },
+            {
+                author: "GÓMEZ, Antônio Castillo. ",
+                title: "Grafias no cotidiano: escrita e sociedade na história (séculos XVI a XX). ",
+                rest: "Rio de Janeiro: Eduerj; Niterói: Eduff, 2020. "
+            },
+            {
+                author: "",
+                title: "GRAPHITE (NATURAL).",
+                rest: "U.S. Geological Survey, Mineral Commodity Summaries, January 2021. Disponível em: https://pubs.usgs.gov/periodicals/mcs2021/mcs2021-graphite.pdf. Acesso em: 22 de março de 2022."
             }
         ]
 
     },
     {
         id: 36,
-        title: "",
+        title: "Leque-Chapéu ",
         author:{
-            name: "",
-            institution: "",
-            department: []
+            name: "Lia Machado Fiuza Fialho ",
+            institution: "Universidade Estadual do Ceará",
+            department: ["Programa de Pós-Graduação em Educação"]
         },
         text: [
             {
-                content: "",
+                content: "O leque-chapéu da imagem é um adorno, confeccionado no século XIX, com doze arestas curvas de bambu e tecido de seda vermelho com dourado. O material confere beleza, leveza e versatilidade à peça, além do glamour, pela qualidade da fazenda utilizada, que possibilita textura suave em material nobre. Ademais, as imagens florais, em cores clássicas, permitem que sua utilização seja elegante tanto nos dias ensolarados como nas noites de festa.",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
             },
+            {
+                content: "Seu formato côncavo viabiliza sua dupla funcionalidade: servir como leque, encaixando-se perfeitamente em uma mão quando aberto em 180 graus, e como chapéu, quando explorado em sua abertura de 360 graus. De tal modo, o adereço, apreciado principalmente pelas mulheres, agrega a funcionalidade de dois objetos antigos e bastante utilizados mundialmente: o leque e o chapéu.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Apesar de retratado desde a Antiguidade em pinturas no Egito e na Pérsia, acredita-se que o leque teve origem na China do século VII, todavia, foi difundido principalmente no Japão, em seguida, na Europa dos finais do século XV. Com seus diferentes formatos e materiais, tornou-se complemento importante no vestuário da sociedade feminina durante o século XIX, sendo considerado símbolo de elegância e luxo, principalmente quando confeccionado com materiais nobres, como pedras, penas, tecido em seda, bordado, dentre outros. Destaca-se ainda que, muitas vezes, a ventilação proporcionada para se refrescar em bailes, óperas e recepções não era sua principal função, já que ele servia como adorno para demonstrar status social e como instrumento de comunicação entre homens e mulheres, mais especificamente entre casais que flertavam, para o envio discreto de mensagens que variavam de acordo com o posicionamento do leque em relação ao corpo feminino.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Ainda que remonte aos povos primitivos, o chapéu se tornou mais comum a partir da Antiguidade, primeiramente no Egito e Mesopotâmia e depois na Grécia e Roma. Diferentemente do leque, não era um item do vestuário quase exclusivo do mundo feminino, pois se fazia popular também entre os homens. Todavia, como um dos vários acessórios utilizados para cobrir a cabeça, semelhante ao leque, para além de sua função principal de proteger do sol, era amplamente utilizado como adorno a partir da Idade Média e, de acordo com o formato e o material utilizado na sua confecção, expressava identidade, distinção, poder, hierarquia e condição social. O chapéu sempre possuiu muitas variantes, principalmente porque, a depender da sua confecção e decoração, era objeto de cobiça tanto das mulheres como dos homens.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Os chapéus femininos foram se tornando cada vez mais elaborados a partir do século XV, contudo, foi no final do século XVI que eles se tornaram mais ornamentados em uma versão própria, bem distinta dos masculinos. As Millinery, construto de origem italiana utilizado para designar uma modista ou chapeleira, colaboraram sobremaneira para melhorar a qualidade dessa peça no século XVIII, enfeitando-os com plumas, rendas e outros acessórios, quando seu uso se popularizou. No início do século XIX, o uso do chapéu por mulheres já havia se espalhado por toda a Europa, difundindo-se mundo afora como sinônimo de glamour e elegância. Somente no final do século XIX, ele se tornou mais discreto e sóbrio, sendo utilizado no dia a dia, e não apenas em bailes e eventos prestigiados.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "No decorrer da História da humanidade, foram diversos os acessórios de moda confeccionados nos mais variados formatos, cores, materiais e temáticas, entre os quais o leque e o chapéu. Estes foram sendo cobiçados como adereços de prestígio, inclusive, expressando a diversidade cultural das sociedades. O leque-chapéu do século XIX, símbolo de estilo e personalidade, foi apreciado pelas mulheres pela sua capacidade de unir dois objetos muito caros à cultura mundial.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Portátil e fácil de carregar na bolsa por seu design dobrável, além de proteger contra o sol e gerar vento para abanar-se em dias quentes, o leque-chapéu era sinônimo de moda, beleza e modernidade. Muito utilizado em dias ensolarados, nos piqueniques, chás da tarde e cafés ao ar livre, ele era uma peça do vestuário feminino muito apreciada. A propósito, seu material, à base de bambu natural resistente e tecidos leves e finos, proporcionava a formação de uma aba generosa para a proteção solar do rosto e pescoço ou um abanador num estilo despojado. ",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Utilizado, primeiramente, por mulheres com boas condições financeiras, tornou-se um objeto que representa não apenas a história, mas também a arte e a cultura de muitas sociedades. Atualmente, com a produção majoritariamente industrializada, ainda continua símbolo de elegância em alguns países, inclusive, utilizado em ocasiões especiais.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            }
         ],
+        //não tem referências no documento baixado
         references: [
             {
                 author: "",
@@ -3036,90 +3153,236 @@ export const texts =[
     },
     {
         id: 37,
-        title: "",
+        title: "Livro-Caixa",
         author:{
-            name: "",
-            institution: "",
-            department: []
+            name: "Lorenna Bolsanello de Carvalho",
+            institution: "Universidade do Estado do Rio de Janeiro/UERJ",
+            department: ["Programa de Pós-Graduação em Educação/ProPEd"]
         },
         text: [
             {
                 content: "",
+                citation: "A professora ergueu os olhos por cima dos óculos. Mas a menina já estava de pé, braços abertos num longo espreguiçamento e, ligeira, atirou caixas e agulhas e linhas e dedal pra cima, pro alto, bem pro alto, esparramando pela sala dezenas de alfinetes e pedacinhos de renda que se foram alojar, num voo doido, por cima das meninas costureiras.(...) Contam, por fim, que a menina, filha de um professor de filosofia, passa as tardes devorando livros de aventuras, contos de fada, lendas e mitos, sonhando com terras distantes. E que (já ia me esquecendo) anda apaixonada por um tal de Robinson Crusoé (MEDEIROS, Maria Lúcia, 1988).",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "O ato de ler, para além da decodificação de símbolos gráficos, é um desvelar de significados que se encontram algumas vezes implícitos; outras, explícitos, na superfície do que chamamos texto. O jogo entre esconder e revelar faz parte do ofício de escritores e escritoras, que sugerem caminhos de interpretação para seus leitores e leitoras. Assumindo, então, a leitura como uma prática de atribuir possíveis sentidos a textos, sempre em processo, o livro torna-se um enigma a ser decifrado. Abrindo-o, podemos, qual Pandora, transgredir o status quo. Não à toa, o exercício da leitura por mulheres foi muitas vezes controlado pela sociedade. As restrições de acesso a textos eram frequentes, por exemplo, na primeira metade do século XIX, uma vez que a leitura (principalmente de romances) era vista como perturbadora da ordem social instituída. No entanto, há muito tempo a resistência feminina se dá, e com o ato de ler não foi diferente. Como afirma Morais:",
+                citation: "O irreversível caminho do fogo deflagrava-se: a leitura de romances já fazia parte do cotidiano feminino no século XIX. Essas leituras representavam o máximo de perigo, uma vez que a sua prática propiciava às leitoras escaparem às contingências, às convenções, por meio das viagens em torno de si mesmas: durante os serões ou na intimidade do seu quarto (MORAIS, 2002, p. 84).",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Adicionem-se a essas reflexões alguns questionamentos: e se o objeto-livro, para além de informações ou de narrativas transgressoras, pudesse guardar outros elementos de valor? Haveria a possibilidade de um livro esconder da sociedade outras formas de desobediência feminina? Além das disruptivas ideias, o objeto-livro em sua concretude poderia armazenar artefatos de estima de mulheres?",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
             },
+            {
+                content: "Em resposta a essas perguntas, o livro-caixa simula a aparência de um livro, mas é, na verdade, um repositório onde mulheres depositavam objetos que desejavam proteger. Quem imaginaria que um exemplar de “Histoire de Gil Blas de Santillane”, escrito por Alain-René Lesage, em edição publicada em 1771, pudesse conter mais do que um romance picaresco? O livro-caixa funcionava como um cofre. Eram variadas as possibilidades de objetos candidatos a permanecer no espaço existente após algumas páginas da obra: cartas de amor, joias ou qualquer outro elemento que se considerasse valioso e que devesse ficar oculto de olhos curiosos. Ao manuseá-lo, uma dupla transgressão se fazia e a ávida leitora mergulhava na contemplação de outros saberes.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "A necessidade de escamotear conhecimentos e intenções funcionava como arma de subversão. Ao avaliar prefácios produzidos por mulheres no século XIX, Muzart (p. 69, 1990) indica que: “A maioria se escondeu nas flores e diamantes, encarando os homens com ingênuas pieguices, com trejeitos de dependentes... Porém não nos devem confundir - são realmente artimanhas que ficam nas entrelinhas”. Em seu estudo, a pesquisadora apresenta o fato de que muitas mulheres, camuflando sua astúcia em formas que simulavam inocência e comedimento, eram capazes de combater condições de dependência em sutis atos de insubordinação.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Assim, contrariando o feminino imposto socialmente, mulheres utilizavam o livro-caixa como máscara para subverter regras de domínio. O jogo literário entre o implícito e o explícito se reforça na materialidade de um objeto que apresenta uma funcionalidade ambivalente. Nesse sentido, a construção de um pequeno espaço pessoal e único dentro do lar que pressupõe a domesticação dos corpos femininos é inventividade e resistência. ",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            }
         ],
         references: [
             {
-                author: "",
-                title: "",
-                rest: ""
+                author: "MEDEIROS, Maria Lúcia.",
+                title: "Zeus ou a menina e os óculos.",
+                rest: "São Paulo: Roswitha Kempf Editores, 1988."
+            },
+            {
+                author: "MORAIS, Maria Aristene Câmara.",
+                title: "Leituras de mulheres no século XIX.",
+                rest: "Belo Horizonte: Autêntica, 2002."
+            },
+            {
+                author: "MUZART, Zahidé Lupinacci. Artimanhas nas entrelinhas: leitura do paratexto de escritoras do século XIX. In: ",
+                title: "Revista Travessia",
+                rest: ", n. 21, p. 64-70, 1990."
             }
         ]
 
     },
     {
         id: 38,
-        title: "",
+        title: "Lupa",
         author:{
-            name: "",
-            institution: "",
-            department: []
+            name: "Fabiana Sena da Silva",
+            institution: "Universidade Federal da Paraíba",
+            department: ["Programa de Pós-Graduação em Educação"]
         },
         text: [
             {
-                content: "",
+                content: "Inventada com o propósito de aumentar a nitidez do que se vê, a lupa é considerada a precursora dos óculos e incluída na categoria de instrumentos de observação da Ciência Moderna. Em 1250, Roger Bacon (1214-1294) criou a lupa provido de uma lente que tinha a capacidade de ampliar imagens virtuais. O material utilizado para a produção de Bacon foi o vidro, descoberto em 4.000 a.C.",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
             },
+            {
+                content: "Ao longo da história da humanidade, foram identificadas muitas lupas, em diversas regiões, a exemplo de uma, à base de quartzo, nas ruínas do palácio do rei da Assíria, Senaqueribe (708-681 a.C.), em 1885. Fabricando vidro desde o século VI a.C., os chineses conheciam lentes de aumento e de diminuição, usando-as também para iniciar o fogo. Relatos do historiador Plínio (23-79 d.C.) citam 'Vidros Queimadores' (lentes), produzidos pelos romanos; esse vidros, por intermédio da luz solar, produziam chamas, logo podiam ser de grande utilidade para esse povo. Uma lente plano-convexa foi descoberta nas ruínas de Pompéia, em Roma. Na China, desde o século X, também já se moldavam lentes, utilizando-se cristal de rocha natural.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "No final do século XIX, a lupa de mão foi comumente utilizada como instrumento de investigação pelo personagem de ficção da literatura britânica, criado pelo médico e escritor Sir Arthur Conan Doyle (1859-1930), o detetive Sherlock Holmes. Desde a sua criação, entretanto, as pessoas já recorriam à lupa para ver com mais nitidez pequenos objetos e alguns detalhes ou superfícies.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Permitindo se enxergarem detalhes que a olho nu não se veriam, esse valoroso instrumento, também denominado de microscópio simples – por ser constituído de uma única lente convergente –, também oferece a vantagem de fácil portabilidade, por ser leve e versátil.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Nos dias de hoje, a lupa de mão é um equipamento ainda presente no cotidiano das pessoas por ser ideal para auxiliar em atividades que exigem maior acuidade visual, como leitura, artesanato, estética, joalheria, entre outros. A imagem da lupa de mão é comumente utilizada como ícone em sites que têm o recurso 'busca' ou 'pesquisa'.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "O funcionamento da lupa se dá em razão de o olho humano apenas focalizar uma imagem de um objeto em sua retina se a distância entre o objeto e o olho for maior que a de um ponto específico, um Ponto Próximo. Percebe-se facilmente a imagem desfocada quando o objeto visualizado está mais próximo do olho do que a distância esperada do Ponto Próximo. É notado facilmente quando o objeto está mais próximo do olho que a distância do Ponto Próximo a imagem se torna desfocada. A posição do Ponto Próximo é variável, de pessoa para pessoa. Faz-se necessário ressaltar, porém, que essa distância é mais comum em pessoas mais idosas. Exemplo é quando algumas pessoas não conseguem ler de perto, precisam esticar o braço (aumentar a distância do papel para o olho) para poderem ler sem dificuldades.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Assim, podemos imaginar que um objeto posto sobre o Ponto Próximo de um olho humano tem o tamanho da imagem produzida na retina; essa imagem varia conforme o ângulo que o objeto ocupa no campo de visão. Ao aproximar o objeto do olho, aumentamos esse ângulo. Ampliamos a capacidade de observar detalhes do objeto; todavia, como ele está numa distância menor que a do Ponto Próximo, o vemos sem foco, diminuindo sua nitidez.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Para que a imagem desfocada fique nítida outra vez, precisamos colocar uma lente convergente entre o olho e o objeto (é necessário que o objeto esteja mais próximo do olho do que o ponto focal da lente). A lente convergente se caracteriza por sua formação de vidro com um formato específico, curvada para o seu exterior, ângulo que permite a convergência de raios de luz em geral. Dessa forma, o que o olho passa a enxergar é uma imagem virtual do objeto, de modo que essa imagem fica mais distante do olho do que o Ponto Próximo, tornando-se, portanto, nítida.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            }
         ],
         references: [
             {
-                author: "",
-                title: "",
-                rest: ""
+                author: "FRUGONI, Chiara.",
+                title: "Invenções da Idade Média.",
+                rest: "Tradução de Eliana Aguiar. Rio de Janeiro, Zahar, 2007."
+            },
+            {
+                author: "HALLIDAY, David; KRANE, Kenneth S. e RESNICK, Robert.",
+                title: "Física 2.",
+                rest: " 5ª. edição. Editora LTC. 2007."
+            },
+            {
+                author: "ROSA, Carlos Augusto de Proença. História da Ciência, vol. 1.",
+                title: "Da Antiguidade ao Renascimento	Científico.",
+                rest: "Brasília,	Fundação	Alexandre	de	Gusmão,	2012.	4v."
             }
         ]
 
     },
     {
         id: 39,
-        title: "",
+        title: "Luva",
         author:{
-            name: "",
-            institution: "",
-            department: []
+            name: "Lia Faria",
+            institution: " Universidade do Estado do Rio de Janeiro/UERJ",
+            department: [" Programa de Pós-Graduação em Educação/ProPEd"]
         },
         text: [
             {
-                content: "",
+                content: "Os objetos evocam a experiência da vida em sociedade, como uma aventura para favorecer a interpretação histórica por meio do olhar. A história dos objetos antecede a escrita e revela dimensões da vida humana, identificando vozes ausentes no suporte escrito. Muitos objetos como as LUVAS caem em desuso e deixam de participar da vida dos cidadãos, tornando-se objetos da cultura visual. Neste sentido, no movimento da história os objetos se deslocam.",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
             },
+            {
+                content: "As luvas já foram um item indispensável do vestiário feminino conferindo elegância e charme as mulheres até o século XIX, embora se mantivessem ainda na primeira metade do século XX. Também fazendo parte da indumentária masculina.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "A estética francesa se impõe com a sede da corte portuguesa do Brasil, principalmente depois da independência nacional. O Rio de Janeiro de então era o Brasil e a rua do Ouvidor. O centro da cidade se tornou o local para flanear e comprar. Assim a moda prosperou a partir do avanço tecnológico do século XIX e permitiu a sua popularização.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "A luvas são peças obrigatórias para completar os elegantes trajes femininos, cada item fez da mulher uma fonte de capital simbólico. O vestuário discute relações de poder, de gênero, de prestígio e distinção. A roupa se define na cidade, como marca de experiência urbana. Por outro lado, as práticas urbanas conferem historicidade aos objetos até que caem em desuso deixando de participar da vida cotidiana da cidade. Deste modo, as luvas são observadas a partir de sua inserção significativa no vestuário da vida urbana.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Objetos ressaltam as experiências de uso, ostentação e reificação. Os próprios portadores dessas coisas passam a fazer parte da mis-en-scène da história da cidade. Logo, esses objetos representam portais da memória nos transportando ao espaço-tempo em que circulavam pelas ruas. Nesse momento, suas biografias se tornam personagens da crônica carioca.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Deste modo, andando pela cidade ficam as visões daquelas imagens em que as luvas marcaram a memória do Rio. Luvas de seda, de veludo, de crochê, de couro, cobrindo principalmente as mãos femininas das senhorinhas de então.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            }
         ],
         references: [
             {
-                author: "",
-                title: "",
-                rest: ""
+                author: "KNAUSS, Paulo; MALTA, Marize; LENZI, M. Isabel (Orgs.). ",
+                title: "História do Rio de Janeiro em 45 objetos.",
+                rest: "1. ed. Rio De Janeiro: Ed. FGV - Jauá, 2019. v. 1. 371p."
             }
         ]
 
     },
     {
         id: 40,
-        title: "",
+        title: "Mala para Piquenique",
         author:{
-            name: "",
-            institution: "",
-            department: []
+            name: "Izabela Cristina de Melo Santos",
+            institution: "Universidade Federal de Pernambuco",
+            department: ["Programa de Pós-Graduação em Educação"]
         },
         text: [
             {
-                content: "",
+                content: "Os primeiros registros de eventos como os piqueniques são datados na sociedade francesa do século XVIII, quando as refeições ao ar livre eram comuns em dias de caçada, como uma forma de celebrá-la (BENAYON, 2017). Foi no entanto na Inglaterra Vitoriana (1837-1901) que a atividade se popularizou, ocupando um lugar relevante nos hábitos dos círculos sociais da época, com a finalidade principal de estreitar relações sociais. Conforme Júlia Benayon (2015), a difusão da prática dos piqueniques, no contexto do século XIX, foi influenciada pela idealização da natureza expressa no Movimento Romântico. Ao longo do oitocentos os piqueniques tornaram-se uma alternativa para o lazer.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Representados em romances de autoras como Jane Austen e Louisa May Alcott, bem como em pinturas de artistas oitocentistas ― a exemplo de Holyday (or the Picnic), de James Tissot (1876); Almoço na Relva, de Édouard Monet (1863); e Picnic Supper on the Sand Dunes, de Charles Courtneu Curran (1890) ―, os piqueniques foram retratados enquanto um momento  de fuga do cotidiano, onde buscava-se por diversão e uma experiência de contemplação da natureza, ocorrendo na maioria das vezes no interior, sendo comum  excursões ou viagens para o local onde este seria realizado, como descrito numa das cenas do romance Emma, de Jane Austen, onde a personagem narra a frustação das expectativas sobre o evento: “Dez quilômetros foram vencidos na expectativa de encontrarem diversão, e todos tiveram um arrebatamento de entusiasmo logo à chegada; mas, no decorrer do dia, algumas deficiências surgiram” (AUSTEN, 2011, p. 374-375). Conforme nos informa Hubbel (2006, p. 44):",
+                citation: "[...] fazer piquenique é a busca prazerosa de um povo ocioso, então a dificuldade de mover a festa tem alguma recompensa. A recompensa é, principalmente, ideológica: permite ao participante compartilhar uma forma de comer que cria relações entre pequenos grupos de pessoas, marcos naturais e ideais culturais.",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "No Brasil, temos o exemplo da criação dos Parques Campestres criados em Pelotas no final da década de 1870, que favoreceram atividades de lazer, como os passeios e os piqueniques, configurando redes de sociabilidade, conforme tratam Dalilla Müller e Dalila Rosa Hallal (2013). Os piqueniques eram organizados por um grupo ou por uma família que iria se responsabilizar pelo transporte dos alimentos. As cestas de piquenique eram assim, uma das principais peças do evento. As mais comuns eram feitas de vime, de forma artesanal. Posteriormente, foram fabricadas com material mais resistente, a exemplo das malas de couro para piquenique, para facilitar o transporte nos carros. Além dos alimentos a serem consumidos, as cestas e/ou malas continham os utensílios necessários para a refeição, tais como talheres, copos, pratos, xícaras e outros para armazenamento de bebidas.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "As mulheres estão sempre presentes nas representações artísticas ou literárias do piquenique. Tal aspecto nos permite refletir sobre o deslocamento das mulheres no contexto social do século XIX ― quando havia constantemente a tentativa de limitar o acesso das mulheres a determinados espaços ― tornando os piqueniques uma das ocasiões em que elas puderam, ao mesmo tempo, divertirem-se e expressarem-se. Via de regra, era do público feminino a função de estar à frente dessa atividade, escolhendo os convidados e organizando o evento, que na época esteve revestido de intenções sobre as interações dos grupos convidados, seja de negócios ou futuros casamentos entre famílias. Como trata Michelle Perrot (2005, p. 278): “[...] as mulheres souberam apossar-se dos espaços que lhes eram deixados ou confiados, para desenvolver sua influência junto às portas do poder”; desse modo, os espaços ocupados por elas poderiam lhes fornecer instrumentos de poder na medida em que podiam articular intenções, ideias e estar incluída em debates. Assim como lhes conferiam certa liberdade, na medida em que estavam distantes do controle doméstico.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "O piquenique continua a ser realizado nos tempos contemporâneos como uma prática voltada ao lazer, descanso e desvio da rotina. Inclusive, alguns clubes literários vêm promovendo piqueniques temáticos com o intuito de reproduzirem os costumes vitorianos. São feitos, principalmente, em parques públicos, praias, no campo, geralmente em feriados, mantendo viva a intenção de compartilhar um momento agradável entre a família ou amigos, bem como de ter uma experiência social que desacelere um pouco o ritmo das atividades diárias.",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
@@ -3127,24 +3390,61 @@ export const texts =[
         ],
         references: [
             {
-                author: "",
-                title: "",
-                rest: ""
+                author: "AUSTEN, Jane.",
+                title: "Emma.",
+                rest: "Rio de Janeiro: Nova Fronteira, 2011."
+            },
+            {
+                author: "BENAYON, Julia da Silva. Piqueniques à venda: da poética ao fetiche. In: XVII ENANPUR Desenvolvimento, crise e resistência: quais os caminhos do planejamento urbano e regional?.",
+                title: "Anais",
+                rest: "[...]. São Paulo, 2017. p. 1-20. Disponível em: https://anais.anpur.org.br/index.php/anaisenanpur/article/view/1580. Acesso em: 31 mar. 2022."
+            },
+            {
+                author: "Os Parques Públicos Urbanos na Contemporaneidade: a compressão do tempo de lazer e o reflorescimento de práticas de resistência ─ reflexões sobre as atividades de piqueniques na cidade do Rio de Janeiro. In: XVI ENANPUR Espaço, Planejamento e Insurgências: Alternativas Contemporâneas para o Desenvolvimento Urbano e Regional. ",
+                title: "Anais",
+                rest: "[...], Belo Horizonte, 2015, p. 2015. Disponível em: https://anais.anpur.org.br/index.php/anaisenanpur/article/view/2207/2186. Acesso em: 31 mar. 2022."
+            },
+            {
+                author: "HUBBELL, Andrew. How Wordsworth Invented Picnicking and Saved British Culture.",
+                title: "Romanticism,",
+                rest: "v. 12, n. 1, apr.,  2006, p. 44-51. Disponível em: https://doi.org/10.1353/rom.2006.0003. Acesso em: 31 mar. 2022."
+            },
+            {
+                author: "MÜLLER, Dalilla; HALLAL, Dalila Rosa. Passeios e viagens em busca da natureza: novas sociabilidades da elite pelotense no século XIX. In: XXVII Simpósio Nacional de História: conhecimento histórico e diálogo social. ",
+                title: "Anais",
+                rest: "[...], Natal, 2013, p. 1-12. Disponível em: https://anpuh.org.br/uploads/anais-simposios/pdf/2019-01/1548874923_4dff78998604095f9abe57ffe622c27d.pdf. Acesso em: 31 mar. 2022."
+            },
+            {
+                author: "PERROT, Michele. Sair. In_____. ",
+                title: "As mulheres ou os silêncios da história.",
+                rest: "São Paulo, EDUSC, 2005."
             }
         ]
 
     },
     {
         id: 41,
-        title: "",
+        title: "Máquina de Calcular ",
         author:{
-            name: "",
-            institution: "",
-            department: []
+            name: "Edilene Simões Costa dos Santos",
+            institution: "Universidade Federal de Mato Grosso do Sul",
+            department: ["Programa de Pós-Graduação em Educação Matemática"]
         },
         text: [
             {
-                content: "",
+                content: "A máquina de calcular universal Schubert foi fabricada pela Alemanha e comercializada a partir de 1938, foram produzidas até o ano de 1960. A Schubert, como toda máquina de calcular, foi projetada para simplificar e tornar as operações aritméticas básica mais confiáveis, e cuja operação é principalmente mecânica. Então, resolve cálculos básicos de adição, subtração, multiplicação abreviada, operação de somar vários fatores, divisão. Também era possível realizar cálculo de salários e cálculos de inventários com o apoio de tabelas de cálculos, como a de transformações de frações ordinárias em decimais; de porcentagem. Essa máquina como outras máquinas de calcular da época é composta por:",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            }, //Verificar qual jeito deixar assim, ou cada número num parágrafo
+            {
+                content: "1- Manivela (principal), que determina volatas no sentido negativo ou positivo. 2- Contador de voltas: indica o número e voltas dadas com a manivela principal. 3-	Controle de inscrição: mostram as quantidades registradas no tambor de registro. 4-	Tambor de registro: dez colunas que contém os algarismos de zero a 9 que devem ser marcados para compor os elementos das respectivas operações. 5-	Contador de resultados: indica os resultados das operações efetuadas. 6-	Alavanca para limpar o totalizador e o contador de volta. 7-	Alavanca excluir o mecanismo de inscrição. 8-	Tecla para limpar apenas o mecanismo de resultados: usada para redefinir apenas o totalizador. 9-	Alavanca de transporte do carro. 10-	Tecla para transporte rápido do carro: serve para colocar o carro em qualquer posição rapidamente. 11-	Alavanca de mudança de sentido: serve para acionar o contador de voltas no sentido negativo ou positivo de acordo com a operação. 12-	Alavanca do contador de voltas. 13-	Alavanca de definição do resultado da operação realizada: após a inserção de todos dos dados é só girar a alavanca e o resultado aparecerá no contador de resultados.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: " Não temos indícios de que tenha sido utilizada nas escolas brasileiras ou em faculdades de engenharias. Na Hemeroteca Digital Brasileira é possível encontrar anúncios de vendas para escritórios. As máquinas de calcular mecânicas fazem parte da história da computação e foram substituídas na metade do século XX pelas máquinas de calcular eletrônicas.",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
@@ -3152,234 +3452,787 @@ export const texts =[
         ],
         references: [
             {
-                author: "",
-                title: "",
-                rest: ""
+                author: "HERAS, Salvador Pérez. ",
+                title: "Arqueología informática: diseño e implementación de una calculadora tipo Leibniz con Scratch. ",
+                rest: "2016. 77 f. Trabalho de conclusão de curso. Ingeniería Informática, Escola Tècnica Superior d’Enginyeria Informàtica Universitat Politècnica de València, València."
+            },
+            {
+                author: "SCHUBERT & CO. K. ",
+                title: "Construcción de Máquinas de Oficina. Manual. ",
+                rest: "s/d."
             }
         ]
 
     },
     {
         id: 42,
-        title: "",
+        title: "Máquina de Cortar o Cabelo",
         author:{
-            name: "",
-            institution: "",
-            department: []
+            name: "Walter Marcelo de Souza Ramundo",
+            institution: "Universidade do Estado do Rio de Janeiro/UERJ",
+            department: ["Programa de Pós-Graduação em Educação/ProPEd"]
         },
         text: [
             {
-                content: "",
+                content: "Numa rápida incursão à internet, facilmente encontramos diversos anunciantes que disponibilizam os cortadores de cabelo manual, os Hair Hand Clippers ou Tondeuse a Cheveux. Desde seu surgimento, na segunda metade do século XIX, esteve em fabricação, com poucas variações quanto ao material e sua mecânica. São geralmente metálicos, possuem duas lâminas em forma de pente que se cruzam a partir da pressão manual de suas alças, semelhante a um alicate. Para um eficaz funcionamento é desejável manter o menor atrito possível entre as lâminas. Sendo assim, era comum os antigos fabricantes também venderem óleos lubrificantes específicos. Com o advento das versões elétricas, a partir dos anos de 1920, seu uso diminuiria gradativamente. Todavia, o objeto segue vivo na atualidade, presentes em cursos para barbeiros, tornando-se mesmo um diferencial de mercado entre aqueles que possuem as “habilidades retrôs”. ",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
             },
+            {
+                content: "Sua invenção é comumente creditada ao sérvio Nikola Bimuzic, camponês que ao patentear a peça, tornou-se o bem sucedido “londrino” John Smith. No final do XIX, o cortador já circulava em larga escala na Europa, fazendo sucesso também nas Américas, principalmente nos Estados Unidos.¹  No Rio de Janeiro e em outros centros pelo Brasil, sua entrada no mercado corresponde ao período de crescente urbanização, dos movimentos abolicionista e republicano, do cientificismo que permitia a médicos e militares expandirem suas liturgias sanitárias e morais ao conjunto social.  Para a profissão de barbeiro, o aparelho significaria uma maior especialização e profissionalização, processo no qual, gradativamente, deslocava um ofício mais ambulante, praticado em sua maioria por indivíduos de origem africana, fortemente relacionado às práticas de cura; para endereços cada vez mais fixos, mais relacionados às funções estéticas/higiênicas e cujos praticantes possuíam origem europeia, com predomínio de portugueses.",
+                citation: "",
+                footNoteNumber: 1,
+                footNote: "¹ Somente no século XIX, nos Estados Unidos, nos arquivos do Espacenet Patent Search encontramos mais de quarenta patentes dos Hair Clippers. Pesquisa em: https://www.epo.org/ ", 
+                image: []
+            },
+            {
+                content: "As crescentes barbearias da Belle Époque brasileira figurariam em verdadeiros clubes destinados ao culto da masculinidade. O Jornal do Brasil (edição nº268, de 1893), por exemplo, trouxe a notícia de que “está exposto na vitrine da barbearia Jules Labatut a granada lançada pelos canhões do República contra a fortaleza de Barra Grande”. Assim, virilidade, energia, negócios, progresso, entre outros assuntos que se relacionavam ao ideal provedor, apresentavam-se nas roupas de corte mais simples e cores sóbrias, denotando um uso do tempo que se pretendia ausente das ditas “frivolidades femininas”. E na exceção que mantinha demandas de algum cuidado com o corpo – barba, cabelo e bigode – teriam na própria máquina manual o sentido da praticidade desejada, dos cortes mais rentes e, sobretudo, de uma forma mais célere.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Enquanto par antitético, o ideal de feminilidade, por outro lado, comportaria a destinação para o corpo e de seus sentidos estéticos, o cuidado pessoal que era interiorizado em uma educação fortemente destinada ao lar, cujos cabelos longos reservavam um lugar destacado. Seja pela continuidade dos sentidos religiosos e filosóficos do passado ou nas edificações cotidianas sincronizadas à Era Vitoriana, cortar os cabelos mais rente definitivamente não era uma boa opção às mulheres, tampouco a utilização do cortador manual. Símbolo da atratividade, da erotização em sua revelação, as grandes cabeleiras exigiriam tempo e mucamas, elemento de distinção dentre aquelas poucas que poderiam vivenciar e gozar deste ideal. Cortar o cabelo, ou realizar a limpeza da cabeça, somente pela orientação médica em função de alguma doenças ou, ainda, como forma de punição, uma ação quase sempre associada ao sofrimento. ",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Assim, item do uso mais estritamente masculino no século XIX, o cortador de cabelo revela elementos dos ideais de feminilidade por sua ausência, sobre as construções de gênero que se materializavam no cotidiano, na circulação dos espaços e nos sentidos estéticos e temporais que seriam operados em sua utilização. Nesse sentido, as então modernas maquinas de cortar cabelo significariam um possível mal necessário, um aparelho no qual quanto maior o distanciamento, maiores o bem-estar e a autoestima das mulheres.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            }
         ],
         references: [
             {
+                author: "BIDDDLEI-PERRY, Geraldine.",
+                title: "A Cultural History of Hair in the Modern Age.",
+                rest: "Bloomsbury Publishing, 2021."
+            },
+            {
+                author: "DANTAS, Rodrigo Aragão. ",
+                title: "A trajetória de médicos e barbeiros no Rio de Janeiro da segunda metade do século XIX",
+                rest: "História, Ciências, Saúde – Manguinhos, Rio de Janeiro, v.22, n.3, jul.-set. 2015, p.1043-1050."
+            },
+            {
+                author: "MATOS, M. Izilda S.",
+                title: "Cabelo, barba e bigode: masculinidades, corpos e subjetividades.",
+                rest: "Locus (UFJF) , v. 17, p. 125-145, 2012."
+            },
+            {
+                author: "DEL PRIORE, Mary (org.).",
+                title: "História das Mulheres no Brasil.",
+                rest: "São Paulo: Contexto/Unesp, 1997."
+            },
+            {
                 author: "",
-                title: "",
-                rest: ""
+                title: "Hemeroteca Digital: ",
+                rest: "Jornal do Brasil, edição nº268, ano 1893, p.1."
             }
         ]
 
     },
     {
         id: 43,
-        title: "",
+        title: "Mata-Borrão",
         author:{
-            name: "",
-            institution: "",
-            department: []
+            name: "Libania Xavier",
+            institution: "Universidade Federal do Rio de Janeiro",
+            department: ["Programa de Pós-Graduação em Educação"]
         },
         text: [
             {
-                content: "",
+                content: "Como indica o nome, este objeto foi utilizado como coadjuvante no ato da escrita e da ilustração. Consiste em uma peça, geralmente de madeira, em cuja base curva, em forma de arco, é afixado um tipo de papel extremamente absorvente. Ao ser colocado em cima das letras ou ilustrações ainda úmidas ou com excesso de tinta, evita que suas linhas e cores se expandam para fora do desenho, borrando suas bordas. ",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
             },
+            {
+                content: "Levando o nosso olhar para a Idade Média, mais precisamente a partir de meados do século XV, temos notícias da existência de papéis mata borrão encontrados dentro de livros, entre páginas ilustradas. Nos países da Europa ocidental, os séculos XVI e XVI testemunharam a expansão das praticas de leitura e de escrita, conforme observou o historiador Roger Chartier.  A utilização de instrumentos de escrita com penas, mais comumente de gansos, que eram embebidas em tinta, facultaram práticas de escrita que foram amplamente difundidas. Porém, havia a exigência de se buscar calcular a pressão da pena sobre o papel, de modo a evitar o excesso de tinta e a consequente indefinição das letras e de outros símbolos impressos. Outro inconveniente desta tecnologia de escrita é a facilidade com a tinta poderia evaporar ou, simplesmente, derramar, dificultando a prática escriturária.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Para remover os excessos e indefinições dos resultados da escrita, usou-se colocar um pedaço de papel mata-borrão maior do que a mancha a ser removida sobre este excesso e pressionar delicadamente, o quanto fosse necessário, para que o papel absorvesse a tinta, evitando que sua expansão contaminasse outras superfícies. Para facilitar esta tarefa, utilizou-se um suporte de papel mata-borrão que consiste em duas madeiras, uma que formam o arco e outra reta e com suporte para segurar com os dedos, de modo a permitir que o praticante pudesse deslizar o mata-borrão com o equilíbrio e a pressão adequados sobre a superfície do papel com excesso de umidade.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "O mata-borrão substituiu a areia (cinzas) que compunham os equipamentos de escrita para o qual se utilizou a pena ou caneta de aparo, o tinteiro e um areeiro. Com a invenção das canetas esferográficas, apoiadas em uma tecnologia que inclui uma pequena esfera metálica no bico que entraria em contato com o papel, dispersando a quantidade de tinta uniformemente por sobre a superfície. Tampando a outra extremidade do tubo que recebeu a esfera e o recipiente tubular com tinta, conseguiu-se fazer com que a tinta armazenada não secasse, garantido, assim maior mobilidade e facilidade de transportar a caneta e a tinta, simultaneamente, ao contrário da tecnologia anterior, que exigia a utilização da pena e da tinta, em separado. Desse modo, foi possível obter uma escrita mais limpa e uniforme. Com a comercialização desse tipo de instrumento de escrita, a caneta esferográfica, na segunda metade do século XIX e a paulatina generalização de seu uso, o mata borrão perdeu sua utilidade.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            }
         ],
         references: [
             {
                 author: "",
-                title: "",
-                rest: ""
+                title: "A origem das coisas.",
+                rest: " http://origemdascoisas.com/a-origem-da-caneta/ , acesso em 13/03/2022, 9 h."
+            },
+            {
+                author: "CHARTIER, Roger.",
+                title: "As práticas da escrita.",
+                rest: "In História da Vida Privada: da Renascença ao século das luzes. / organização Roger Chartier; tradução Hildegard Feist. — São Paulo: Companhia das Letras, 2009."
+            },
+            {
+                author: "",
+                title: "Jornal Maturidades:",
+                rest: "Universidade Aberta à maturidade da PUC-SP. https://www5.pucsp.br/maturidades/j65/curiosidades/curiosidades.html , acesso em 13/03/2022, 8:45 h."
+            },
+            {
+                author: "",
+                title: "Significados:",
+                rest: "o mata borrão. https://www.significados.com.br/mata-borrao/ , acesso em 13/03/2022, 8; 30 h."
             }
         ]
 
     },
     {
         id: 44,
-        title: "",
+        title: "Missal",
         author:{
-            name: "",
-            institution: "",
-            department: []
+            name: "Paula Leonardi",
+            institution: "Universidade do Estado do Rio de Janeiro/UERJ",
+            department: ["Programa de Pós-Graduação em Educação/ProPEd"]
         },
         text: [
             {
-                content: "",
+
+                content: "“Tudo na vida precisa de organização”, afirma a página do Claretiano na internet (MISSAL: A FÉ CELEBRADA E VIVIDA NA IGREJA | CLARETIANO - REDE DE EDUCAÇÃO, [s. d.]). No Museu Claretiano de Curitiba (PR, Brasil) há vários exemplares em exposição, contendo, inclusive, o Missal Tridentino datado de 1907, resultado do ordenamento realizado pelo Concílio de Trento (1545-1563) e que prevaleceu até 1965. Este Concílio foi uma resposta às mudanças sociais e econômicas em curso e ao Protestantismo - à ameaça de perda de adeptos e à inovação radical por ele proposta de comunicação do fiel diretamente com a divindade, sem intermediação do sacerdote, por meio da leitura.",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
             },
+            {
+                content: "O missel pode ser considerado um item representativo de um conjunto de inovações que gestaram o ser humano moderno: formação da consciência individual, do empenho produtivo, da identidade nacional, do confronto da Paideia Cristã predominante durante a Idade Média com a ética protestante no processo de constituição e expansão do capitalismo (CAMBI, 1999; WEBER, 2020). Em última instância, representa uma forma de educação (religiosa) que indica a mudança, sem precedentes na história da educação, de invenção da escola moderna e da difusão gradativa do ensino da leitura.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "O povo, na Idade Média era, em geral, analfabeto. A visão de mundo e fé cristã chegavam até ele pela palavra oral e pela imagem, como os ciclos pictóricos nas catedrais. Por esta razão, as ordens mendicantes também eram ordens de pregadores que realizavam verdadeiras performances teatrais.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Antes do século XV o ordenamento da liturgia era manuscrito. Sacerdotes e pregadores desenvolviam habilmente a técnica mnemônica presente na Instituto oratore de Quintiliano, no De oratore de Cícero e no Ad Herenium, anônimo atribuído à Cícero na Idade Média (YATES, 2007). Alberto Magno e Tomás de Aquino foram alguns dos responsáveis nessa cadeia de transmissão da “arte da memória”. Tal técnica “permitia ao orador aprimorar sua memória, o que o capacitava a tecer longos discursos de cor, com uma precisão impecável” (Yates, 2007, p. 18). ",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Com o advento da imprensa a antiga arte da memória caiu em desuso. Contemporâneo à difusão da imprensa, o Concílio ordena e normatiza a missa. Misseis espalharam-se por Nápoles, Milão, Veneza, Nurembert, Mogúncia. As principais casas de impressão estavam na França, em Paris e em Rouen (BAUDOT, 1912). Feito para uso do sacerdote durante a celebração da missa, gradativamente passou a frequentar as casas dos fiéis com mais posses. ",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "O exemplar aqui exposto intitula-se “Pequeno livro da missa e da confissão e outras devoções”. A edição foi feita sobre a do Prior d’Abrantes, traduzido para o português e publicada em Paris pela antiga Casa Morizot. Não foi possível precisar o ano da publicação. A peça mede 11 cm de altura por 07,5 cm de largura. Tem capa dura em madrepérola, com fecho em cobre, revestida de cetim azul em sua parte interna.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Há indícios de que seja para uso do fiel já que contém comentários e orientações, oferecendo aquele que não pôde comparecer à missa, a possibilidadede ler e meditar sobre o ritual. Seu sumário apresenta os seguintes temas, por vezes intercalados por imagens piedosas:",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "“Orações para pela manhã, exercícios quotidianos” ",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "“Orações para a noite”",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "“Ordinario da S. Missa”",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "“Exercicio para assistir ao Santo Sacrifício da Missa”",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "“Exame de consciência”",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "“Advertências e orações para antes e depois da confissão”",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "“Visitas ao Santíssimo Sacramento”",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "“Psalmos penitenciais”",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "“Vesperas do domingo”",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "“Dia do nascimento de nosso senhor jesus cristo”",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "“Domingo da ressurreição de Nosso Senhor Jesus Cristo”",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Domingo do Espírito Santo” ",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "“Solenidade de Corpus Christi”",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "“Dia do Santíssimo Coração de Nosso Senhor Jesus Cristo”",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "“Purissima Conceição de Maria”",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "“Dia da purificação de Nossa Senhora”",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "“Dia de Nossa Senhora da Assunção”",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: " “Dia de todos os Santos”",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Encontram-se, hoje, nos mais diversos materiais com preços que variam entre R$ 680,00 (seiscentos e oitenta reais) e R$ 39,00 (trinta e nove reais) a depender se usado ou novo. Há versões em latim, em português ou bilíngue. Certamente acompanha a expansão do mercado editorial católico crescente a partir dos anos 1980 (BITTENCOURT, 2014).",
+                citation: "" ,
+                footNoteNumber: null ,
+            }
+
         ],
         references: [
             {
+                author: "BAUDOT, Dom Jules.",
+                title: "Le missel romain. Ses origines, son Histoire. Tome deuxième, le missel plenier.",
+                rest: "Paris: Librairie Bloud & Cie, 1912."
+            },
+            {
+                author: "BITTENCOURT, Agueda Bernardete. O livro e o selo: editoras católicas no Brasil.",
+                title: "Pro-Posições,",
+                rest: "[s. l.], v. 25, n. 1, p. 117–137, 2014. Disponível em: http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0103-73072014000100007&lng=pt&tlng=pt. Acesso at: 2 Nov. 2020."
+            },
+            {
+                author: "CAMBI, Franco.",
+                title: "História da Pedagogia.",
+                rest: "São Paulo: Editora da Unesp, 1999. "
+            },
+            {
                 author: "",
-                title: "",
-                rest: ""
+                title: "MISSAL: A FÉ CELEBRADA E VIVIDA NA IGREJA | CLARETIANO - REDE DE EDUCAÇÃO.",
+                rest: "[S. l.], [s. d.]. Disponível em: https://claretiano.edu.br/blog/mcc/missal-a-fe-celebrada-e-vivida-na-igreja. Acesso at: 3 Feb. 2022. "
+            },
+            {
+                author: "WEBER, Max.",
+                title: "A ética protestante e o espírito do capitalismo.",
+                rest: "São Paulo: Disal, 2020. "
+            },
+            {
+                author: "YATES, Frances A.",
+                title: "A arte da memória.",
+                rest: "Campinas, SP: Editora da Unicamp, 2007."
             }
         ]
 
     },
     {
         id: 45,
-        title: "",
+        title: "Óculos/Pincenê",
         author:{
-            name: "",
-            institution: "",
-            department: []
+            name: "Sônia Maria da Silva Araújo",
+            institution: "Universidade Federal do Pará/UFPA",
+            department: ["Programa de Pós-Graduação em Educação/PPGED"]
         },
         text: [
             {
-                content: "",
+                content: "Objeto raro, hoje vendido em leilões como peça de coleção, Pincenê é um modelo de óculos criado para compensar ametropias e auxiliar no ato de ler. Considerado o primeiro modelo moderno de óculos, o Pincenê é uma versão leve, segura e confortável desse importante acessório produzido com o objetivo de tornar a leitura possível e mais agradável.",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
             },
+            {
+                content: "Inventado no século XV, e usado por mais de cinco séculos, o Pince-Nez, nome de origem francesa, significa “óculos sem hastes que se prende ao nariz pela pressão de uma mola. Etimologicamente, é formado por dois termos: pincer, que significa beliscar; e nez, que significa nariz. A grafia usada na língua portuguesa é 'Pincenê', cuja tradução literal significa 'alicate de nariz'. De fato, o Pincenê não tinha hastes e era somente ajustado ao nariz por uma pinça que prendia os dois aros correspondentes às duas lentes e os ajustava à ossatura do nariz. Para evitar que os Pincenês caíssem ao chão, a peça era presa às vestimentas por uma corrente. Os Pincenês deram origem aos óculos Lornhons, também de origem européia, inventados ainda no século XV, criados com um haste lateral dobrável para serem segurados com a mão e colocados em frente aos olhos. Os Lornhons foram fabricados até o século XX e fazem surgir os primeiros modelos de óculos femininos. O modelo tornou-se famoso por ser o 'óculos de ópera', utilizado como acessório especialmente nas idas aos teatros. Sua haste dobrável fora produzida em diversos modelos, distinguindo os mais sofisticados para mulheres e os mais simples para homens. Alguns eram confeccionados com pedras e metais preciosos. Quanto mais sofisticado o design do par, constituído de metal valoroso, como ouro e prata,ornado por pedraria esculpida, maior a “importância” da pessoa na sociedade.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "No século XVII surgiram os Numont, primeiros óculos com hastes fixas apoiadas nas orelhas. O modelo ofereceu mais conforto e, desde então, deu origem a modelos femininos alternativos. As armações finas e leves eram mais confortáveis e o uso de material diverso extraído da natureza acabou por tornar o acessório não só necessário, mas mais estiloso, expressando a personalidade e as condições sociais e econômicas de seus(as) usuários(as).",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Ao longo do século XX tendências ditaram os modelos mais utilizados pelas mulheres. Nas décadas e 40 e 50, o modelo “aviador”, preferido dos pilotos da força aérea americana, passa a ser fortemente assumido por elas. Na década de 60, o óculos estilo browline, que contornava as lentes apenas na parte de cima, seguindo o desenho das sobrancelhas, foi bastante utilizado, mas o modelo cat eye ou “gatinho” dominou, tendo sido explorado por importantes personagens femininas do cinema. Em 70, o estilo bug eye, que trazia lentes enormes, virou moda rapidamente, mas os modelos geométricos, explorados pelos movimentos hippie e punk, logo se impuseram e alcançaram seu auge, pois representavam a vontade de mudança daqueles tempos. Nas décadas de 80 e 90, a variedade de modelos com aros grossos e finos, tornou o acessório menos padronizado e mais criativo a ponto de desconstruir estilos hegemônicos e padronizados, mas, o modelo wrap around, que contornava o rosto nele se encaixando, predominou ao explorar a imagem saudável de quem pratica desporto. Com a chegada dos anos 2000, a peça se diversificou ainda mais, tornou-se multicolorida, leve e personificada.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            }
         ],
         references: [
             {
-                author: "",
-                title: "",
-                rest: ""
+                author: "ROCHA, Juliana.",
+                title: "Por trás desses óculos.",
+                rest: "In: http://www.invivo.fiocruz.br/cgi/cgilua.exe/sys/start.htm?infoid=779&sid=7 Acesso em: 26/01/2022."
+            },
+            {
+                author: "PINCENÊ.In: PRIBERAN, ",
+                title: "Dicionário Online de Português. ",
+                rest: "Disponível em: https://dicionario.priberam.org/pincenêcesso Acesso em: 26/01/2022."
+            },
+            {
+                author: "PINCENÊ. In: EDUCALINGO, ",
+                title: "Dicionário Online de Português.",
+                rest: "Disponível em: https://educalingo.com/pt/dic-pt/pincene Acesso em: 26/01/2022."
+            },
+            {
+                author: "PINCE-NEZ.In: WIKIWAND, ",
+                title: "Enciclopédia livre em língua inglesa. ",
+                rest: "Disponível em: https://www.wikiwand.com/pt/Pince-nez Acesso em: 27/01/2022."
+            },
+            {
+                author: "HOUAISS, Antonio; VILLAR, Mauro de SALLES. PINCENÊ. ",
+                title: "Dicionário Houaiss da Língua Portuguesa. ",
+                rest: "Rio de Janeiro: objetiva, 2001."
+            },
+            {
+                author: "RESERVA URBANA.",
+                title: "A verdadeira história: quem inventou os óculos. ",
+                rest: "Youtube, 26 out. 2015. Disponível em: https://www.youtube.com/watch?v=Wm7P1gQ0_xI Acesso: 27/01/2022."
             }
         ]
 
     },
     {
         id: 46,
-        title: "",
+        title: "Penas e Ponteiras",
         author:{
-            name: "",
-            institution: "",
-            department: []
+            name: "Vania Grim Thies",
+            institution: "Universidade Federal de Pelotas",
+            department: ["Programa de Pós-Graduação em Educação"]
         },
         text: [
             {
                 content: "",
+                citation: "O medo do esquecimento obcecou as sociedades europeias [...]. Para dominar sua inquietação, elas fixaram, por meio da escrita, os traços do passado, a lembrança dos mortos ou a glória dos vivos e todos os textos que não deveriam desaparecer (CHARTIER, 2007, p. 9).",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "A pena de aves foi um instrumento utilizado para o exercício caligráfico durante o século XIX. Era necessário selecionar cuidadosamente a pena a ser utilizada para o exercício da escrita afim de obter uma bonita caligrafia por meio de um exercício de treino muscular. A pena, também chamada de pluma, de ganso ou de pato foi muito utilizada nesse período, quando ainda não havia outros materiais disponíveis para o exercício da escrita. Quanto mais grossa a pena, menos esforço muscular era empregado para a escrita. Para usar a pena fina, era necessário empreender uma habilidade maior para sustentá-la no treino na caligrafia. Jean Hebrárd (2001), afirma que era preciso aprender a escrever para redigir um texto simples e, ainda, o papel era caro e a pluma de ganso era difícil de ser cortada pelos dedos inexperientes das crianças, mas ainda assim, era o instrumento obrigatório para aprender a escrever.",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
             },
+            {
+                content: "As penas eram materiais resistentes e permitiam, primeiramente o uso sem as ponteiras. Aos poucos, com a evolução dos instrumentos de escrita, as ponteiras começaram a ser utilizadas e acabaram liberando o professor do preparo da pena para as crianças aparando a ponta com canivetes. As ponteiras utilizadas eram de diferentes formatos e espessuras (com vincos, pontiagudas, pontas grossas, pontas finas, etc.) para serem fixadas na base da pena. Significaram um avanço importante para os exercícios caligráficos e era comum haver conjuntos com diferentes tipos de ponteiras que, colocadas na ponta da pena, favoreciam e embelezavam o traçado da caligrafia, podendo ser mais fino ou mais grosso, usadas para a escrita de títulos elaborados e/ou mais criativos, bem como para a escrita de textos que mantivessem um estilo padrão para o traçado da caligrafia.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "É importante refletir que escrever com a pena exigia um demasiado esforço corporal, principalmente durante o seu treino. O historiador Roger Chartier alerta que “aquele que escreve na era da pena, de pato ou não, produz uma grafia diretamente ligada a seus gestos corporais” (CHARTIER, 1998, p.16). O manuseio da pena junto ao suporte que serviria para a escrita, exigia habilidades gestuais combinadas – uso e sustentação da pena na mão e o exercício muscular para a escrita – produzindo uma arte caligráfica ornamental a partir dos diferentes modelos das ponteiras utilizadas, bem como a quantidade de tinta a ser empregada no papel, variando desde os traçados finos às possibilidades de traçados mais densos. De acordo com Razzini (2008), “os médicos higienistas recomendavam aos professores que ficassem atentos com a posição do corpo e a forma correta de os alunos segurarem a pena” (RAZZINI, 2008, p. 97), tamanho era o esforço para o treino da caligrafia.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Outro aspecto importante no exercício da caligrafia, era a quantidade adequada de tinta a ser utilizada na ponteira, bem como o tempo e o espaço necessário para traçar cada letra. A utilização da pena de aves com diferentes tipos de ponteiras, permaneceu como um instrumento de escrita por muito tempo durante o século XIX, possibilitando o treino caligráfico para os iniciantes até que os traçados já pudessem ser realizados com a pena metálica ou posteriormente com caneta tinteiro, sem correr o risco de erros e borrões que comprometessem o escrito e o papel.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            }
         ],
         references: [
             {
-                author: "",
-                title: "",
-                rest: ""
+                author: "CHARTIER, Roger. ",
+                title: "A aventura do livro: do leitor ao navegador: conversações com Jean Lebrun.",
+                rest: " Trad. Reginaldo Carmello Corrêa de Moraes. São Paulo: Editora UNESP, 1998. "
+            },
+            {
+                author: "CHARTIER, Roger.",
+                title: "Inscrever & apagar: Cultura escrita e literatura",
+                rest: "Trad. Luzmara Curcino Ferreira. São Paulo: Editora UNESP, 2007."
+            },
+            {
+                author: "HÉBRARD, Jean.",
+                title: "Por uma bibliografia material das escritas ordinárias: o espaço gráfico do caderno escolar (França – Séculos XIX e XX). ",
+                rest: "Revista Brasileira de História da Educação, Campinas (Autores Associados/SBHE), jan – jun. 2001, n. 1, pp 115 – 41."
+            },
+            {
+                author: "RAZZINI, Marcia de Paula Gregorio. ",
+                title: "Instrumentos de escrita na escola elementar: tecnologias e práticas.",
+                rest: "In: MIGNOT, Ana Chrystina Venancio (Org.). Cadernos à vista: escola, memória e cultura escrita. Rio de Janeiro: EdUERJ, 2008."
             }
         ]
 
     },
     {
         id: 47,
-        title: "",
+        title: "Pena e Tinteiro",
         author:{
-            name: "",
-            institution: "",
-            department: []
+            name: "Maria Teresa Santos Cunha",
+            institution: "Universidade do Estado de Santa Catarina/UDESC",
+            department: ["Programa de Pós-Graduação de História/PPGH","Programa de Pós-Graduação de Educação/PPGE"]
         },
         text: [
             {
                 content: "",
+                citation: "A pena se lançava sobre o papel, deslizava docemente (...) bordando as flores mais delicadas (...). As folhas se animavam ao seu contato (...) a pena trêmula e vacilante caía sobre a mesa sem forças e sem vida, e soltava uns acentos doces, notas estremecidas como as cordas da harpa ferida pelo vento.(ALENCAR, José de. Ao correr da pena. 3 de setembro de 1854)",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Tinteiro e caneta de pena são objetos para a escrita e, ao mesmo tempo, artefatos culturais de uma época que foram mobilizados, principalmente no século XIX no Brasil, por uma elite alfabetizada e privilegiada que era dona desses materiais em que o constante mergulhar da caneta de pena no tinteiro afiançava ao seu possuidor, além da distinção de uso, a posse de um saber técnico. A pena geralmente de ganso e mesmo de outras aves (corvo, águia, coruja, falcão) foi o instrumento de escrita mais usado no ocidente desde o século VI até o início do século XX. A pena mais comum, por exemplo, era a de ganso, as de cisne, bem mais caras, eram para ocasiões especiais e, para fazer linhas finas, a pena de corvo era a melhor. Todas exigiam tempo para prepará-las tendo em vista sua fragilidade (CLAYTON, 2015). Mas elas não estavam sozinhas para serem úteis à escrita: tinham que ser mergulhadas em um recipiente contendo tinta – o tinteiro - pois havia a necessidade de abastecimento para viabilizar seu uso. O tinteiro tornou-se, portanto, o par da caneta de pena e ambos se firmaram como dois materiais essenciais ao ato de escrever e cujo lugar de encontro se materializa na própria escrita. Imagens dessas peças raras esculpidas em prata e até em ouro figuram em coleções particulares, não raro estão depositadas como peças de museus e são dadas a contemplar nesta exposição. Elas fascinam, embalam sonhos e exalam uma força de sedução que assusta e atraí pois mostram traços descontínuos de um tempo. Pela contemplação dos objetos aqui expostos pode-se conhecer utensílios de escrita de uma época passada, imaginar um estilo de vida e de escrita que desapareceu. Ou quase. Ainda subsistem nas memórias estes objetos antigos portadores de um tempo acumulado que permitem o estudo da história da escrita.",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
             },
+            {
+                content: "Tinteiro e caneta de pena: o impressionismo nostálgico destes artefatos abre-se ao emocional em comunhão ilimitada com mistérios de passados: são objetos-relíquia, dotados do poder de lembrar (RANUM,1992). Objetos que possuem a presença simbólica da pessoa que os utilizou para se comunicar, escrever. Carregam consigo marcas de uma história, despertam lembranças capazes de levar a uma viagem através do tempo, capazes de fazer sentir saudades pois são objetos tocados, vividos e carregados de memórias.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content:"Esta exposição, cuja equipe tem a liderança da professora Maria Celi Chaves Vasconcelos, da UERJ, materializa objetos que ganharam estatuto de relíquia ligados ao Brasil do século XIX e poderão constituir, no futuro, um patrimônio indispensável à escrita de uma história documental de um cotidiano familiar e educacional ao ressaltar fragmentos, situações ordinárias, minúsculas, estas banalidades que, por sedimentação, constituem o essencial da existência. Não são absolutos, mas será possível, ao expô-los, dar-lhes sentidos que é, antes de tudo, municiá-los para fazerem-se menos indecifráveis e permitir estudos e encantamentos se confrontados com os materiais utilizados nesta segunda década do século XXI. Tinteiro e caneta de pena, aqui expostos, evocam a escrita, a ação da mão sobre o papel, responsáveis pelo gesto de escrever para dar perenidade a fatos da vida e para salvar do esquecimento e eternizar em folhas, ideias e saberes. Seja, como anuncia a epígrafe, deslizando docemente sobre o papel, seja de forma firme, trêmula e vacilante (..) a caneta de pena encontra e fertiliza seu lugar junto ao tinteiro para registrar por escrito, fatos e saberes. Afinal, o que nos reuniu, nessa exposição, foi a decisão comum de escrevermos sobre estes objetos guardados, relicários suntuosos que, pelas minúcias permitem enxergar pelo detalhe o que nos prende pelo conjunto.",
+                citation: "",
+                footNoteNumber: null,
+                image: []
+            }
         ],
         references: [
             {
-                author: "",
-                title: "",
-                rest: ""
+                author: "ALENCAR, José de.",
+                title: "Ao correr da pena.",
+                rest: "(Crônicas publicadas no “Correio Mercantil”, RJ.03/09/1854). Disponível em:  http://www.dominiopublico.gov.br/download/texto/bv000130.pdf. Acesso em: 18/02/2022."
+            },
+            {
+                author: "CLAYTON, Ewan.",
+                title: "La História de la Escritura.",
+                rest: "Madrid: Ediciones Siruela,2015."
+            },
+            {
+                author: "RANUM, Orest.",
+                title: "Os refúgios da intimidade. ", 
+                rest: "História da Vida privada. 3. Da Renascença ao Século das Luzes. /Organização Roger Chartier. SP: Companhia das Letras, 1991. p.211-266 "
             }
         ]
-
     },
     {
         id: 48,
-        title: "",
+        title: "Pente de Cabelo",
         author:{
-            name: "",
-            institution: "",
+            name: "Giuslane Francisca da Silva ",
+            institution: "Secretaria de Educação do Governo do Estado de Mato Grosso    ",
             department: []
         },
         text: [
             {
-                content: "",
+                content: "O pente é um daqueles objetos de uso diário, que dificilmente paramos para pensar em sua origem: onde? Quando? Por quem? São questões que raramente nos fazemos quando se trata de objetos como o acima citado. Muito mais do que um objeto para a higiene, o pente compôs em alguns períodos, parte importante da indumentária. Vejamos. O termo “pente”, deriva de uma palavra latina- “pecten”. Contudo, nada tinha a ver com o sentido que empregamos atualmente. Isso em decorrência do fato de que pecten, era o nome dado a uma espécie de molusco marinho que tinha uma concha com saliências semelhantes aos dentes dos pentes atuais. Para tanto, nossos ancestrais faziam uso dessas conchas na tentativa de alisar os cabelos (A ORIGEM DO, s/d). Foi por volta de 2300 a. C, que os babilônios a partir de espinhos de plantas, desenvolveram um objeto que se assemelhava aos pentes da atualidade. Mais tarde, passaram a empregar madeira e ossos de animais na confecção. Contudo, foi no Egito antigo que o pente se tornou um objeto muito apreciado e valorizado, sendo considerado inclusive, como um artigo de luxo. Muitos deles eram cobertos por ouro e pedras preciosas.",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
             },
+            {
+                content: "Embora tenha sido os egípcios a demonstrarem maior interesse quanto ao uso do pente, foram os romanos os responsáveis pelo desenvolvimento do formato do objeto em questão, mais parecido com o que conhecemos atualmente. Investiram, portanto na redução, de forma que coubesse até no bolso para ser usado nos intervalos das lutas. Serviam também como uma espécie de suporte para os complexos penteados femininos da sociedade romana (A HISTÓRIA DOS, s/d). Já na Idade Média diversos materiais passaram a ser empregados na confecção de pentes, tais como marfim, metal e até mesmo chumbo, empregado com o intuito de escurecer cor dos cabelos ruivos. É importante lembrar que naquela época, pessoas ruivas não eram bem vistas pela sociedade (RODRIGUES, 2013).",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Luiz XIV, o Rei Sol, inovou ao encomendar pentes de ouro, prata e pedras preciosas para segurar seus extravagantes penteados. Finalidade semelhante tinha o objeto durante o reinado de Elizabeth I. Era muito comum que mulheres espanholas e de algumas regiões da América Latina, usassem as “peinetas”, presilhas pente feitas com casco de tartaruga, para complementar um coque que poderia ainda, sustentar um véu de renda, conhecido como “mantilla” (WEBER, s/d). Com o passar do tempo, as presilhas pente foram ganhando versões mais simples e baratas também. Já no século XIX, pentes ornamentados com pedras preciosas constituía-se em enfeites para as mulheres das elites no Brasil, no período joanino (RAINHO, 2018).",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Nesse sentido, artigo criado há milhares de anos, o pente se constitui em um artigo importante para a higiene pessoal. Como foi possível perceber, além dos usos para a higiene, em alguns períodos, os pentes também se constituíram como peças essenciais às indumentárias, sobretudo nas categorias elitizadas. Para tanto, eram enfeitados com pedras preciosas e/ou ouro, de forma que se transformava também em mecanismo de distinção social.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            }
         ],
         references: [
             {
-                author: "",
-                title: "",
-                rest: ""
+                author: "A	ORIGEM	DO.",
+                title: "A	origem	das	coisas,",
+                rest: "s/p,	s/d.	Disponível	em:	< https://origemdascoisas.com/a-origem-do-pente/> Acesso em: 20 de fev. de 2022."
+            },
+            {
+                author: "A	HISTÓRIA DOS.",
+                title: "Pura Beleza,",
+                rest: "s/d.	Disponível	em: <https://www.salaopurabeleza.com.br/single-post/2017/07/14/a-hist%C3%B3ria-dos- cabelos> Acesso em: 24 de fev.de 2022."
+            },
+            {
+                author: "RAINHO, Maria do Carmo Teixeira. Indumentária colonial. ",
+                title: "O Arquivo Nacional e a História Luso-Brasileira,",
+                rest: "2018.	Disponível	em:	< http://historialuso.an.gov.br/index.php?option=com_content&view=article&id=5101&Itemid=362> Acesso em: 22 de fev. de 2022."
+            },
+            {
+                author: "RODRIGUES,	Mika.",
+                title: "A	origem	do	pente,",
+                rest: "s/p,	2013.	Disponível	em:		< https://obarbeiro.com.br/entretenimento/a-origem-do-pente/> Acesso em: 20 de fev. de 2022. WEBER,	Fernanda.	História:	presilha		pente.		Baldulakit.	Disponível	em:<https://badulakit.wordpress.com/2013/09/24/historia-presilha-pente/> 20 de fev. de 2022."
             }
         ]
 
     },
     {
         id: 49,
-        title: "",
+        title: "Piano",
         author:{
-            name: "",
-            institution: "",
-            department: []
+            name: "Ana Cristina Borges López M. Francisco",
+            institution: "Universidade do Estado do Rio de Janeiro/UERJ",
+            department: ["Pós-doutoranda do Programa de Pós-Graduação em Educação/ProPEd", "Bolsista da Fundação de Amparo à Pesquisa do Estado do Rio de Janeiro"]
         },
         text: [
             {
                 content: "",
+                citation: "Dedilhar o instrumento era um affair feminino ligado à delicadeza e também à convivência de se associar o piano, como objeto doméstico, a uma atividade feminina formalmente referida como parte da sua “educação”. Com base nesse pressuposto, a prática desse instrumento e sua propagação entre as mulheres das classes sociais mais abastadas passaram a ser, em grande parte, itens do código de conduta da época (TOFFANO, 2007, p. 55).",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "O square-piano inglês, também conhecido como piano quadrado, é um instrumento musical muito popular na música doméstica desde meados do século XVIII, quando desenvolvido por Johann Christoph Zumpe e outros construtores alemães imigrantes que se concentraram em sua construção e adequação às demandas da música de salão. As cordas do piano quadrado - que, de fato, é retangular - correm horizontalmente pelo instrumento de um lado para o outro como as de um clavicórdio, que provavelmente foi a fonte do design.",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
             },
+            {
+                content: "Ao longo da história, o piano sempre foi citado como um dos artefatos significantes de sensibilidade feminina. Deslizar os dedos sobre as teclas com graça, técnica e desenvoltura na execução harmônica e perfeita de notas, acordes e melodias era considerado, invariavelmente, um conhecimento fundamental da boa educação feminina. ",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "As aulas de piano poderiam ser dadas em casa ou em colégios, e as famílias, de acordo com seu potencial financeiro, poderiam alugar ou comprar um piano, que, por sua vez, variava de tamanho, forma e preço. É possível encontrar, nas seções dos jornais oitocentistas, anúncios de compra, venda e aluguel de pianos. Borges (2019) conta que, usualmente, tais anúncios eram acompanhados das indicações das lojas musicais, endereços e marcas que representavam, bem como de informações sobre salões, teatros e outros ambientes musicais que funcionavam na cidade; obras que eram apresentadas em concertos; nomes de professores de piano; e inaugurações de espaços musicais.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Dessa forma, o piano tornou-se um artefato ligado à atividade intelectual, mas que também remete a conceitos sobre vida, civilização, arte, educação, valores morais, culturais e políticos de uma época e sociedade. Para além, por vezes convertia-se em parte do patrimônio familiar capaz de saldar dívidas, por representar valor significativo no mercado ou por atender um dos requisitos das prendas domésticas ensejadoras para a realização de um bom casamento. Ao discorrer sobre a casa, os cenários cotidianos e os bens da viscondessa de Arcozelo, uma mulher nobre dos Oitocentos, Vasconcelos (2020) registra que",
+                citation: "Além do mobiliário, no gabinete de estudo, reforça a ideia de ser este o local de escrita de Maria Isabel, o fato de haver um “forte piano de mogno, meio armário, com 3 cordas e 7 oitavas, do afamado autor Victor Prealle, e 1 mocho de mogno, com assento de palhinha, para o mesmo”, sendo o piano um objeto comum nas salas aristocráticas femininas oitocentistas (VASCONCELOS, 2020, p. 24).",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "A Gazeta Artística, nos seus volumes 6 e 8 de 1910, enaltece a importância de um piano como condição de “bem estar da vida”, que por si preenche e alegra um ambiente, independentemente de ser executado por mãos boas ou modestas, pois “para grande parte do nosso meio o estudo do piano é feito por ostentação, ou porque se tem um piano em casa que é preciso aproveitar e também por fazer parte da boa educação [...] (GAZETA ARTÍSTICA, ano 1, nº 8, 2ª quinzena de março de 1910).",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "O piano permeou o imaginário criativo de artistas e, dessa forma, materializou-se em várias telas mundialmente conhecidas. As pinceladas de Degas (1834-1917), em Madame Camus ao Piano; de Toulouse-Lautrec (1864-1901), em Madame Juliette Pascal no Piano; de Matisse (1869-1954), em Lição de Piano; de René-Magritte (1898-1967), em  Georgette ao Piano; de Van Gogh (1853-1890), em Senhora Gachet ao Piano; de Guillaumin (1841-1927), em Garota ao Piano; de Robinson (1852-1896), em Ao Piano; e de Renoir (1841-1919), em Jovens Pianistas e Mulheres ao Piano, descortinam ao mundo esse universo em que o piano é sinônimo de beleza, cultura, boa educação e sensibilidade femininas.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Também os escritores que coloriam o imaginário da sociedade narravam sobre mocinhas casadoiras e heroínas, não raro mencionando o artefato como parte integrante do seu cotidiano. Macedo (1844, p. 34), em A Moreninha, fala de sua consolação ao “vê-la correr para o piano”; Caminha (1893, p. 37), em A Normalista, menciona  a hora em que a normalista tocava uma valsa ao piano; José de Alencar (1875, p. 161), em Senhora, lembra que o “piano, que é para as senhoras como o charuto para os homens, um amigo de todas as horas, um companheiro dócil e um confidente sempre atento”, ao passo que em A pata da Gazela apresenta Amélia estudando, ao piano, os exercícios de Herz. Machado de Assis apresenta-nos Guiomar sentada ao piano, em A mão e a Luva, e em Dom Casmurro conta que a senhora que não sabia tocar piano acabou aprendendo depois de casada, rapidamente passando a tocar nas casas de amizade. Em A Dama das Camélias, Alexandre Dumas (1848) traz Marguerite, que, sentada ao piano, “deixava correr os dedos sobre o teclado e começava peças que não terminava”.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "O piano que vemos na fotografia é um “square piano”, conforme se lê na inscrição de sua placa dourada, envelhecida e apagada pelo tempo, que o artefato ostenta logo acima do teclado marfim. Foi encomendado pela Família Real Britânica e trazido para o Rio de Janeiro pela família William McEwert McGregor, por volta de 1900. Os pianos desse estilo, conhecidos como “square”, eram muito apreciados na Europa dos séculos XVIII e XIX e costumavam ser presenteados às damas da nobreza, que os detinham como algo muito pessoal. O tamanho e o estilo desses instrumentos confirmam essa característica. Este piano, em especial, foi uma encomenda do Rei George IV para presentear sua filha, Charlote, o que indicaria que o instrumento tem, aproximadamente, duzentos anos. ",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Os fabricantes, “William Stodart & Son”, trabalhavam para a Família Real Britânica. O móvel é de mogno, laqueado, decorado com pinturas de florões feitas à mão e, comparado a instrumentos similares e contemporâneos, considerado uma raridade. A ausência de número de série, geralmente colocado pelos fabricantes em todos os instrumentos, pode ainda sugerir que seja único, ou seja, teria sido realmente produzido exclusivamente para atender a uma encomenda da Família Real, o que confere à peça um valor significativo, do ponto de vista histórico.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            }
         ],
         references: [
             {
-                author: "",
-                title: "",
-                rest: ""
+                author: "ALENCAR, José de. ",
+                title: "Senhora.",
+                rest: "Ministério da Cultura: Fundação Biblioteca Nacional — Departamento Nacional do Livro. Disponível em <http://www.dominiopublico.gov.br/. A pata da gazela. São Paulo: Ática, 15ª ed., 1998. (Bom Livro) "
+            },
+            {
+                author: "ASSIS, Machado de.",
+                title: "A mão e a luva.",
+                rest: "Disponível em: http://objdigital.bn.br/Acervo_Digital/Livros_eletronicos/amaoealuva.pdf.Dom Casmurro. Saraiva, 2010"
+            },
+            {
+                author: "BORGES, Aline Maia.",
+                title: "A cultura pianística em São Paulo: um recorte da memória urbana (1890-1914).",
+                rest: "Dissertação Mestrado em História - Programa de Estudos Pós-Graduados em História, Pontifícia Universidade Católica de São Paulo, São Paulo, 2019."
+            },
+            {
+                author: "CAMINHA, Adolfo. ",
+                title: "A Normalista",
+                rest: "Editora Magalhães & C, 1893"
+            },
+            {
+                author: "DUMAS FILHO, Alexandre. ",
+                title: "A dama das camélias. ",
+                rest: "São Paulo: Brasiliense, 1965.Gazeta Artística, ano 1, nº6, 2ª quinzena de fevereiro de 1910. Gazeta Artística, ano 1, nº 8, 2ª quinzena de março de 1910."
+            },
+            {
+                author: "MACEDO, Joaquim Manuel de",
+                title: "A Moreninha. ",
+                rest: "Moderna, 2015."
+            },
+            {
+                author: "TOFFANO, Jaci. ",
+                title: "As pianistas dos anos 1920 e a geração Jet-Lag – o paradoxo feminista.",
+                rest: "Brasília: Editora UnB, 2007)."
+            },
+            {
+                author: "VASCONCELOS, Maria Celi Chaves",
+                title: "Escritas femininas na casa oitocentista: memórias sobre o diário da viscondessa de Arcozelo. ",
+                rest: "Revista História da Educação (Online), 2020, v. 24: e97649 DOI: http://dx.doi.org/10.1590/2236-3459/97649 "
             }
         ]
-
     },
     {
         id: 50,
-        title: "",
+        title: "Piteira",
         author:{
-            name: "",
-            institution: "",
-            department: []
+            name: "Armando Freitas Tramontano",
+            institution: "Universidade do Estado do Rio de Janeiro/UERJ",
+            department: ["Programa de Pós-Graduação em Educação/ProPEd"]
         },
         text: [
             {
-                content: "",
+                content: "A piteira, também conhecida como boquilha, é um objeto que podia ser feito de osso, âmbar e, após 1985, passou a ser feito de material sintético. A piteira apresentada nessa exposição é feita de marfim, um material orgânico de aparência branca, muito resistente e que é extraído das presas de alguns animais como elefantes e hipopótamos. Conforme ressalta Alves (2017, p. 147), “é importante observar que o comércio internacional de marfins foi proibido em 1989”. Portanto, a piteira aqui exposta cumpre o papel de ser um objeto para estudos históricos.",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
             },
+            {
+                content: "Inicialmente, as piteiras foram pensadas para que se pudessem preservar os cachimbos, pois quando suas hastes quebravam, geralmente, os cachimbos precisavam ser descartados devido ao fato de que a haste junto com o fornilho¹ formavam uma peça única. Com piteiras removíveis esses objetos durariam mais tempo e, além disso, seria possível variar na estética dos cachimbos trocando suas partes e fazendo combinações com peças diferentes e de materiais diversos.",
+                citation: "",
+                footNoteNumber: 1,
+                footNote: " ¹ Fornilho do cachimbo é a parte onde se coloca o fumo para acender.", 
+                image: []
+            },
+            {
+                content: "Posteriormente, a piteira passou a ser utilizada com o cigarro, estando diretamente ligada à questão de que os cigarros não tinham filtros, fato que só mudou “na década de 1950” como “primeiro recurso utilizado para a redução de alcatrão e nicotina na fumaça”. (ALVES, 2016, p. 32) Inclusive, o comprimento das piteiras também é um fator que está ligado à redução de danos à saúde. Hissa observa que algumas formas de amenizar os males físicos e psicológicos do tabaco alcançava-se “usando cachimbos de longas hastes e longas piteiras em charutos.” (PARVILLE, 1869, 2-3 apud HISSA, 2020, p. 115)",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Entretanto, a luta feminina pelo direito à igualdade de gênero e à liberdade de expressão é bem mais antiga do que essa discussão sobre a necessidade de pôr, ou não, filtros em cigarros e acontece em todas as sociedades do planeta. A briga por direitos na política, nas ciências, no mercado de trabalho etc. está sempre em pauta no dia a dia da mulher no Brasil e no mundo. Para ter acesso e direito ao fumo e ao direito de fumar em público não foi diferente.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Nas palavras de Hissa (2020, p. 114), o cigarro “parece ter sido mais associado a homens, ricos ou pobres, até fins do século XIX, quando busca também o mercado feminino”. Contudo, estudos apresentados no Women and Smoking (Relatório do Cirurgião Geral do Escritório de Fumo e Saúde dos Estados Unidos) observam que o fumo, na forma de rapé² , já era consumido por mulheres, jovens e senhoras, no início do século XIX. Além disso, mulheres por todo o canto usavam o fumo em suas variadas formas: nas montanhas consumiam-se os cachimbos; nas fábricas, o rapé; as boêmias fumavam os charutos; e as mulheres urbanas, os cigarros. A situação do tabaco usado pelas mulheres passou a incomodar de tal forma que, em 1908, Nova York aprovou uma lei que tornava ilegal o ato de fumar em público para elas.",
+                citation: "",
+                footNoteNumber: 1, 
+                footNote: "² O rapé é um pó cuja matéria-prima é o tabaco. Esse pó era inalado em cerimônias espirituais.",
+                image: []
+            },
+            {
+                content: "Cruzando os fatos, chega-se à conclusão de que o uso da piteira no Brasil, entre as mulheres, ficou muito popular nos anos de 1920, com o surgimento do consagrado modelo de melindrosa que incluía um lindo vestido, luvas compridas nas mãos, um estiloso gorro na cabeça e um cigarro acompanhado de longa piteira. Alexandre Melo (2014, p. 3195) observa que “a moda melindrosa espalhou-se pelas principais cidades do Brasil”. Esse movimento, da força feminina que tomou o país, virou tema de música em forma de marchinha de carnaval.",
+                citation: "[...]Pinta, pinta, pinta, pinta melindrosa. Pinta, pinta, pinta, pinta, pinta bem. Quem não torna suas faces cor-de-rosa. Pinta o sete lá na rua com alguém[...] (JUNIOR, 1926)",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "O traje da melindrosa é utilizado até hoje como fantasias de carnaval e em bailes com essa temática, sempre incluindo cigarro acompanhado de longa piteira. O vestido está mais curto e decotado e, na cabeça, as mulheres costumam usar uma fita com uma linda pena. Para a mulher no final do século XIX e início do século XX, fumar cigarros representava transgressão às regras impostas, pois até então o fumo era privilégio dos homens, restando às mulheres fumarem em clubes exclusivos para este fim.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            }
+
         ],
         references: [
             {
-                author: "",
-                title: "",
-                rest: ""
+                author: "ALVES, Rogéria C",
+                title: "“FASCINANTE MARFIM”: A CIRCULAÇÃO DOS OBJETOS EM MARFIM DE ORIGEM AFRICANA (ANGOLA, PORTUGAL E BRASIL, SÉCULOS XVIII E XIX). ",
+                rest: "Revista Ars Historica, ISSN 2178-244X, nº14, Jan/Jun 2017, p. 137-156 | Disponível em: www.ars.historia.ufrj.br"
+            },
+            {
+                author: "ALVES, Venise B. ",
+                title: "A INFLUÊNCIA DA DENSIDADE DO FILTRO DE CIGARROS NOS TEORES DA FUMAÇA. ",
+                rest: "Dissertação de Mestrado. UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL, Porto Alegre, 2016."
+            },
+            {
+                author: "JUNIOR, F.",
+                title: "Pinta, Pinta, Melindrosa",
+                rest: "78RPM Intérprete: Fernando. 1926. Disponível em: https://immub.org/compositor/freire-junior. Acesso em: 26 mar. 2022"
+            },
+            {
+                author: "HISSA, S.B.V. ",
+                title: "Fumo e cachimbos estrangeiros na moderna São Paulo.",
+                rest: "R. Museu Arq. Etn. 34: 111-131, 2020"
+            },
+            {
+                author: "MELO, A. V. S. ",
+                title: "Melindrosas e almofadinhas: O masculino e o feminino por meios das charges nas revistas ilustradas (Recife, década de 1920). ",
+                rest: "Universidade Federal Rural de Pernambuco, Recife – PE – p. 3195-3210"
+            },
+            {
+                author: "US. Centers for Disease Control and Prevention. National Center for Chronic Disease Prevention and Health Promotion. ",
+                title: "Women and smoking: a report of the Surgeon General.",
+                rest: "Rockville: U.S. Dept. of Health and Human Services, Public Health Service, Office of the Surgeon General, 2001. https://www.ncbi.nlm.nih.gov/books/NBK44303/. Acesso em: 26 mar. 2022"
             }
         ]
 
