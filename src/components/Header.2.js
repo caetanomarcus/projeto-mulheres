@@ -13,7 +13,7 @@ const Wrapper = styled.div`
     padding: 24px 176px;
     z-index: 2;
 
-    @media (max-width: 768px) {
+    @media (max-width: 1024px) {
         padding: 24px 32px;
     }
 `;
@@ -118,8 +118,8 @@ const menu = [
         link: "/exposicao"
     },
     {
-        name: "Contato",
-        link: "/contato"
+        name: "Infos",
+        link: "/infos"
     },
 ]
 
@@ -130,10 +130,10 @@ const Header = () => {
         <Wrapper>
             <Container>
                 <UerjTextContainer>
-                    <SubTitle>O Departamento Cultural da Pró-Reitoria de Extensão e Cultura da Universidade do Estado do Rio de Janeiro apresenta a exposição</SubTitle>
+                    <SubTitle>A FAPERJ e o Departamento Cultural da Pró-Reitoria de Extensão e Cultura da Universidade do Estado do Rio de Janeiro apresentam a exposição</SubTitle>
                     <Menu>
                         {menu.map(item => (
-                            <a href={item.link}><MenuItem key={item.name}>
+                            <a href={item.link} key={item.name + Math.random()} ><MenuItem >
                                 {item.name}
                             </MenuItem></a>
                         ))}

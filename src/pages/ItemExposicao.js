@@ -6,13 +6,15 @@ import { useParams } from "react-router-dom";
 import Header from "../components/Header.2";
 
 const Container = styled.div`
-    
+     max-width: 1440px;
+     margin: 0 auto;
 `;
 
 const Box = styled.div`
     padding: 0 176px;
     margin: 16px 0;
     margin-top: 98px;
+   
 
     @media (max-width: 768px) {
         padding: 0 32px;
@@ -22,6 +24,12 @@ const Box = styled.div`
 const Paragraph = styled.p`
     font-size: 16px;
     margin-top: 14px;
+
+    @media (max-width: 480px) {
+        font-size: 14px;
+        word-break: break-word;
+    }
+    
 `;
 
 const Citation = styled.p`
@@ -36,6 +44,12 @@ const Img = styled.img`
     margin-bottom: 60px;
     margin-top: 30px;
 `;
+
+const References = styled.p`
+    font-size: 12px;
+    word-break: break-word;
+`;
+
 
 const ItemExposicao = () => {
     const params = useParams();
@@ -63,7 +77,7 @@ const ItemExposicao = () => {
                 )}
                 <h2>Referencias bibliograficas</h2>
                 {text.references.map((reference) =>
-                    <p key={reference}>{reference.author}  <b>{reference.title}</b>  {reference.rest} </p>
+                    <References key={reference}>{reference.author}  <b>{reference.title}</b>  {reference.rest} </References>
                 )}
             </Box>
 

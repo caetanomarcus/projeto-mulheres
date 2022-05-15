@@ -47,7 +47,7 @@ const Box = styled.div`
     justify-content: center;
     align-items: center; */
     color:#5F1478;
-    padding-top: ${({ hasPaddingTop }) => hasPaddingTop ? '24px' : '0'};
+    padding-top: ${({ hasPaddingTop }) => hasPaddingTop ? '72px' : '0'};
     position: relative;
     
 `;
@@ -63,27 +63,6 @@ const Title = styled.h2`
     }
 `;
 
-const PaginationBox = styled.div`
-    width: 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: absolute;
-    bottom: -15px;
-    left: 50%;
-    transform: translateX(-50%);
-
-`;
-
-const Circle = styled.div`
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: ${({ active }) => active ? '#5F1478' : 'transparent'};
-    border: 1px solid #5F1478;
-    cursor: pointer;
-
-`;
 
 const Page = styled.div`
     width: 100%;
@@ -98,6 +77,10 @@ const Page = styled.div`
         justify-content: center;
         align-items: center;
     `}
+
+@media (max-width: 1024px) {
+        padding: 24px 32px;
+    }
 `;
 
 const ImageTextBox = styled.div`
@@ -131,7 +114,10 @@ const ImagesBox = styled.div`
 
     @media (max-width: 1024px) {
         width: 100%;
+        max-width: auto;
+        margin: 10px 0;
         flex-direction: column;
+
     }
     
 `;
@@ -143,10 +129,11 @@ const SmallImagesBox = styled.div`
     justify-content: space-between;
     align-items: center;
 
-    @media (max-width: 480px) {
-        width: 22%;
+    @media (max-width: 768px) {
+        width: 100%;
         flex-wrap: nowrap;
-        /* flex-direction: column; */
+        flex-direction: column;
+        
     }
 `;
 
@@ -211,72 +198,10 @@ const Image = styled.div`
     }
 `;
 
-const NextBtn = styled.button`
-    width: 60px;
-    height: 60px;
-    border: none;
-    cursor: pointer;
-    position: absolute;
-    right: 0px;
-    top: 50%;
-    display: ${({ isVisible }) => isVisible ? "block" : "none"};
-    background: transparent;
-
-    ::after{
-        content: '';
-        width: 60px;
-        height: 60px;
-        background-image: url(${rightArrow});
-        background-size: cover;
-        position: absolute;
-        top: 0;
-        left: 0;
-    }
-
-
-    @media (max-width: 1365px) {
-        top: 490px;
-        right: 50px
-    }
-`;
-
-const BackBtn = styled.button`
-    width: 60px;
-    height: 60px;
-    border: none;
-    cursor: pointer;
-    position: absolute;
-    left: 0px;
-    top: 50%;
-    transform: rotate(180deg) translateY(-5px);
-    display: ${({ isVisible }) => isVisible ? "block" : "none"};
-    background: transparent;
-
-    ::after{
-        content: '';
-        width: 60px;
-        height: 60px;
-        background-image: url(${rightArrow});
-        background-size: cover;
-        position: absolute;
-        top: 0;
-        left: 0;
-    }
-
-    @media (max-width: 1365px) {
-        top: 490px;
-        right: 50px
-    }
-`;
-
-const array = [1, 2, 3, 4, 5]
 
 const Apresentation = () => {
 
     const [page, setPage] = useState(1);
-    const [direction, setDirection] = useState(1);
-    const firstPage = 1;
-    const lastPage = 2;
 
     const generateFiveNumbers = (page) => {
 
@@ -301,26 +226,6 @@ const Apresentation = () => {
         )
     }
 
-    const renderButtons = () => {
-
-        const handleNext = () => {
-            setDirection(1);
-            setPage(page + 1);
-        }
-
-        const handleBack = () => {
-            setDirection(2)
-            setPage(page - 1);
-        }
-
-
-        return (
-            <>
-                <NextBtn isVisible={page !== lastPage} onClick={handleNext} />
-                <BackBtn isVisible={!(page === firstPage)} onClick={handleBack} />
-            </>
-        )
-    }
 
     const renderText = () => {
         console.log(page)

@@ -20,7 +20,7 @@ import densimetro from '../assets/obras/densimetro.jpg';
 import escarradeira from '../assets/obras/escarradeira.jpg';
 import escovaDeCabeloEEspelho from '../assets/obras/escova-de-cabelo-e-espelho.jpg';
 import escovaDeDentes from '../assets/obras/escova-de-dentes.jpg';
-import escrivaninhaDeViagem from '../assets/obras/escrivaninha-de-viagem.jpg';
+import escrivaninha from '../assets/obras/escrivaninha-de-viagem.jpg';
 import espanador from '../assets/obras/espanador.jpg';
 import espatulaDeUnha from '../assets/obras/espatula-de-unha.jpg';
 import espivitadeira from '../assets/obras/espivitadeira.jpg';
@@ -70,76 +70,344 @@ import visorEsteroscopio from '../assets/obras/visor-esteroscopio.jpg';
 import visorGrafoscopio from '../assets/obras/visor-grafoscopio.jpg';
 
 
+
 export const images = [
     {
         id: 1,
         url: abaco,
         name: 'Ábaco',
+        category: 0
     },
     {
         id: 2,
         url: albumDeFotografias,
         name: 'Álbum de Fotografias',
+        category: 3
     },
     {
         id: 3,
         url: albumDeFamilia,
         name: 'Álbum de Família',
+        category: 3
     },
     {
         id: 4,
         url: ampulheta,
         name: 'Ampulheta',
+        category: 0
     },
     {
         id: 5,
         url: aquecedorDeCama,
         name: 'Aquecedor de Cama',
+        category: 2
     },
     {
         id: 6,
         url: bilboquet,
         name: 'Bilboquet',
+        category: 2
     },
     {
         id: 7,
         url: binoculos,
         name: 'Binóculos',
+        category: 2
     },
     {
         id: 8,
         url: caderneta,
         name: 'Caderneta',
+        category: 1
     },
     {
         id: 9,
         url: cadernoEscolar,
         name: 'Caderno Escolar',
+        category: 0
     },
     {
         id: 10,
         url: caixaDeRape,
         name: 'Caixa de Rapé',
+        category: 2
     },
     {
         id: 11,
         url: calcadeiraEAbotuador,
         name: 'Calcadeira e Abotuador',
+        category: 2
     },
     {
         id: 12,
         url: canetaDePena,
         name: 'Caneta de Pena',
+        category: 1
     },
     {
         id: 13,
         url: carimbador,
         name: 'Carimbador',
+        category: 1
     },
     {
         id: 14,
         url: cartasDeLuto,
         name: 'Cartas de Luto',
+        category: 1
     },
+    {
+        id: 15,
+        url: cataMigalhas,
+        name: 'Cata Migalhas',
+        category: 2
+    },
+    {
+        id: 16,
+        url: chatelaine,
+        name: 'Chatelaine',
+        category: 2
+    },
+    {
+        id: 17,
+        url: compasso,
+        name: 'Compasso',
+        category: 0
+    },
+    {
+        id: 18,
+        url: chave,
+        name: 'Chave',
+        category: 2
+    },
+    {
+        id: 19,
+        url: densimetro,
+        name: 'Densímetro',
+        category: 0
+    },
+    {
+        id: 20,
+        url: escarradeira,
+        name: 'Escarradeira',
+        category: 2
+    },
+    {
+        id: 21,
+        url: escovaDeCabeloEEspelho,
+        name: 'Escova de Cabelo e Espelho',
+        category: 2
+    },
+    {
+        id: 22,
+        url: escovaDeDentes,
+        name: 'Escova de Dentes',
+        category: 2
+    },
+    {
+        id: 23,
+        url: escrivaninha,
+        name: 'Escrivaninha',
+        category: 1
+    },
+    {
+        id: 24,
+        url: espivitadeira,
+        name: 'Espivitadeira',
+        category: 2
+    },
+    {
+        id: 25,
+        url: estojoDeBeleza,
+        name: 'Estojo de Beleza',
+        category: 2
+    },
+    {
+        id: 26,
+        url: espanador,
+        name: 'Espanador',
+        category: 2
+    },
+    {
+        id: 27,
+        url: espatulaDeUnha,
+        name: 'Espátula de Unha',
+        category: 2
+    },
+    {
+        id: 28,
+        url: estojoDeManicure,
+        name: 'Estojo de Manicure',
+        category: 2
+    },
+    {
+        id: 29,
+        url: estojoEscolar,
+        name: 'Estojo Escolar',
+        category: 0
+    },
+    {
+        id: 30,
+        url: ferramentasDeCostura,
+        name: 'Ferramentas de Costura',
+        category: 2
+    },
+    {
+        id: 31,
+        url: gomil,
+        name: 'Gomil',
+        category: 2
+    },
+    {
+        id: 32,
+        url: gramofone,
+        name: 'Gramofone',
+        category: 2
+    },
+    {
+        id: 33,
+        url: harpa,
+        name: 'Harpa',
+        category: 2
+    },
+    {
+        id: 34,
+        url: instrumentosMedicos,
+        name: 'Instrumentos Médicos',
+        category: 0
+    },
+    {
+        id: 35,
+        url: lapiseira,
+        name: 'Lapiseira',
+        category: 1
+    },
+    {
+        id: 36,
+        url:lequeChapeu,
+        name: 'Leque Chapeu',
+        category: 2
+    },
+    {
+        id: 37,
+        url: livroCaixa,
+        name: 'Livro Caixa',
+        category: 0
+    },
+    {
+        id: 38,
+        url: lupa,
+        name: 'Lupa',
+        category: 2
+    },
+    {
+        id: 39,
+        url: luvas,
+        name: 'Luvas',
+        category: 2
+    },
+    {
+        id: 40,
+        url: malaDePiquenique,
+        name: 'Mala para Piquenique',
+        category: 2
+    },
+    {
+        id: 41,
+        url: maquinaDeCalcular,
+        name: 'Máquina de Calcular',
+        category: 0
+    },
+    {
+        id: 42,
+        url: maquinaDeCortarCabelo,
+        name: 'Máquina de Cortar Cabelo',
+        category: 2
+    },
+    {
+        id: 43,
+        url: mataBorrao,
+        name: 'Mata Borrão',
+        category: 2
+    },
+    {
+        id: 44,
+        url: missal,
+        name: 'Missal',
+        category: 3
+    },
+    {
+        id: 45,
+        url: oculosPinance,
+        name: 'Óculos/ Píncenê',
+        category: 2
+    },
+    {
+        id: 46,
+        url: penaEPonteiras,
+        name: 'Pena e Ponteiras',
+        category: 1
+    },
+    {
+        id: 47,
+        url: penaETinteiro,
+        name: 'Pena e Tinteiro',
+        category: 1
+    },
+    {
+        id: 48,
+        url: penteDeCabelo,
+        name: 'Pente de Cabelo',
+        category: 2
+    },
+    {
+        id: 49,
+        url: piano,
+        name: 'Piano',
+        category: 2
+    },
+    {
+        id: 50,
+        url: piteira,
+        name: 'Piteira',
+        category: 2
+    },
+    {
+        id: 51,
+        url: portaAgulhas,
+        name: 'Porta Agulhas',
+        category: 2
+    },
+    {
+        id: 52,
+        url: portaJoias,
+        name: 'Porta Joias',
+        category: 2,
+    },
+    {
+        id: 53,
+        url: portaObjetosLiturgicos,
+        name: 'Porta Objetos Litúrgicos',
+        category: 3
+    },
+    {
+        id: 54,
+        url:portaVeneno,
+        name: 'Porta-Veneno',
+        category: 2
+    },
+    {
+        id: 55,
+        url: predendorDePapel,
+        name: 'Predendor de Papel',
+        category: 1
+    },
+    {
+        id: 56,
+        url: radioCapelinha,
+        name: 'Rádio Capelinha',
+        category: 2
+    },
+
 ]
   

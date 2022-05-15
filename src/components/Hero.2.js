@@ -22,11 +22,12 @@ const Container = styled.div`
     width: 100%;
     /* height: calc(100vh - 100px); */
     padding: 32px 0;
+    margin-top: 176px;
     /* padding-bottom: 62px; */
     position: relative ;
     color:#5F1478; //#7e0afa ;
     /* padding-top: 148px; */
-    margin-bottom: 50px;
+    margin-bottom: 176px;
     position: relative;
 
     ::after {
@@ -38,6 +39,8 @@ const Container = styled.div`
         bottom: -50px;
         left: 126px;
     }
+
+    
 
     
 `;
@@ -72,6 +75,11 @@ const UpBoxContainer = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @media (max-width: 1024px) {
+        padding: 24px 32px;
+        flex-direction: column;
+    }
 `;
 
 const BubbleContainer = styled.div`
