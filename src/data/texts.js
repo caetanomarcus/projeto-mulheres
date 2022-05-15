@@ -572,9 +572,10 @@ export const texts =[
                 image: []
             },
             {
-                content: "The Ballroom Guide #1 foi um Manual criado e publicado na Era Vitoriana (1837-1901), período de reinado da Rainha Vitória na Inglaterra, cujos padrões de moda se impuseram em grande parte do mundo ocidental, influenciando sobretudo comportamentos na elite da sociedade. Conforme informações no portal da Biblioteca do Congresso dos Estados Unidos, tal manual foi publicado em 1866, em Londres por F. Warne and Co. A descrição da obra pela biblioteca indica que esta fornece instruções detalhadas sobre atitude e comportamento nos bailes da época. A leitura do texto apresenta desde o protocolo para convidar pessoa, cardápio da festa, vestuário para moças, senhoras e cavalheiros até recomendações sobre quem poderia dançar e seus parceiros indicados.",
+                content: "The Ballroom Guide¹ foi um Manual criado e publicado na Era Vitoriana (1837-1901), período de reinado da Rainha Vitória na Inglaterra, cujos padrões de moda se impuseram em grande parte do mundo ocidental, influenciando sobretudo comportamentos na elite da sociedade. Conforme informações no portal da Biblioteca do Congresso dos Estados Unidos, tal manual foi publicado em 1866, em Londres por F. Warne and Co. A descrição da obra pela biblioteca indica que esta fornece instruções detalhadas sobre atitude e comportamento nos bailes da época. A leitura do texto apresenta desde o protocolo para convidar pessoa, cardápio da festa, vestuário para moças, senhoras e cavalheiros até recomendações sobre quem poderia dançar e seus parceiros indicados.",
                 citation: "",
-                footNoteNumber: null, 
+                footNoteNumber: 1, 
+                footNote: " First published in 1888, this 'Handy Manual For All Classes Of Society' gives detailed instructions for the holding of and attendance at a Ball. All aspects are covered from the correct form of invitation and reply, appropriate costumes, who may dance with whom, the provision of food and drink and, of course, the dances themselves. The original publishers advertised their book as 'the newest and most complete Ball-room Guide yet presented to the public.' In: https://www.loc.gov/resource/musdi.216.0?st=gallery #2 In: https://www.loc.gov/resource/musdi.216.0?st=gallery",
                 image: []
             },
             {
@@ -587,8 +588,10 @@ export const texts =[
                 content: "A literatura universal apresenta em trechos de suas famosas obras exemplos de que durante os bailes, a reserva de danças era um protocolo rotineiro. Jane Austen, em suas obras como a renomada Orgulho e Preconceito, evidencia tais solicitações para reserva das contradanças, entretanto, sem que houvesse registro em caderneta ou cartão. Austen alude, ainda, no texto de Mansfield Park (p.255, 2019) ao desejo de um rapaz dançar com a moça ao solicitar que “Reserve duas danças para mim, as que escolher, exceto as duas primeiras.” Todavia, talvez o hábito de cadernetas tenha se estabelecido apenas a partir do século XIX, ou ainda, apenas nas cortes, como demonstra o manual londrino já citado, e Austen ambientou seus romances nas áreas rurais inglesas durante o século XVIII.",
                 citation: "",
                 footNoteNumber: 1, 
-                footNote: "#1 First published in 1888, this 'Handy Manual For All Classes Of Society' gives detailed instructions for the holding of and attendance at a Ball. All aspects are covered from the correct form of invitation and reply, appropriate costumes, who may dance with whom, the provision of food and drink and, of course, the dances themselves. The original publishers advertised their book as 'the newest and most complete Ball-room Guide yet presented to the public.' In: https://www.loc.gov/resource/musdi.216.0?st=gallery #2 In: https://www.loc.gov/resource/musdi.216.0?st=gallery",
-                image: []
+                footNote: null,
+                image: [
+
+                ]
             },
             {
                 content: "A leitura de Honoré de Balzac (p.44) em sua obra- O Pai Goriot- apresenta o fato de que o registro do nome dos cavalheiros também poderia ocorrer nos próprios leques que as damas sempre portavam, pois muitas vezes também serviam como instrumentos de comunicação.",
@@ -960,13 +963,17 @@ export const texts =[
             institution: "Universidade do Estado de Santa Catarina/UDESC",
             department: ["Programa de Pós-Graduação de História/PPGH","Programa de Pós-Graduação de Educação/PPGE"]
         },
-        text: [
+        initialCitations: [
             {
-                content: "",
-                citation: "A pena se lançava sobre o papel, deslizava docemente (...) bordando as flores mais delicadas (...). As folhas se animavam ao seu contato (...) a pena trêmula e vacilante caía sobre a mesa sem forças e sem vida,	e soltava uns acentos doces, notas estremecidas como as cordas da harpa ferida pelo vento.(ALENCAR, José de. Ao correr da pena. 3 de setembro de 1854)",
-                footNoteNumber: null, 
-                image: []
+                text: {
+                    content: "A pena se lançava sobre o papel, deslizava docemente (...) bordando as flores mais delicadas (...). As folhas se animavam ao seu contato (...) a pena trêmula e vacilante caía sobre a mesa sem forças e sem vida,	e soltava uns acentos doces, notas estremecidas como as cordas da harpa ferida pelo vento.(ALENCAR, José de. Ao correr da pena. 3 de setembro de 1854)",
+                    footNoteNumber: null, 
+                }
+
             },
+        ],
+        text: [
+           
             {
                 content: "Tinteiro e caneta de pena são objetos para a escrita e, ao mesmo tempo, artefatos culturais de uma época que foram mobilizados, principalmente no século XIX no Brasil, por uma elite alfabetizada e privilegiada que era dona desses materiais em que o constante mergulhar da caneta de pena no tinteiro afiançava ao seu possuidor, além da distinção de uso, a posse de um saber técnico. A pena geralmente de ganso e mesmo de outras aves (corvo, águia, coruja, falcão) foi o instrumento de escrita mais usado no ocidente desde o século VI até o início do século XX. A pena mais comum, por exemplo, era a de ganso, as de cisne, bem mais caras, eram para ocasiões especiais e, para fazer linhas finas, a pena de corvo era a melhor. Todas exigiam tempo para prepará-las tendo em vista sua fragilidade. (CLAYTON, E, 2015). Mas elas não estavam sozinhas para serem úteis à escrita: tinham que ser mergulhadas em um recipiente contendo tinta – o tinteiro - pois havia a necessidade de abastecimento para viabilizar seu uso.",
                 citation: "",
@@ -2603,14 +2610,16 @@ export const texts =[
             institution: "Universidade Federal de Rondônia",
             department: ["Programa de Pós-Graduação em Educação Escolar/Mestrado e Doutorado Profissional"]
         },
-        text: [
+        initialCitations: [
             {
-                content: "",
-                citation: "[...]Ora agora, diga-me quem é que vai ao baile, no corpo da baronesa, fazendo parte do vestido e da elegância? Quem é que vai dançar com ministros e diplomatas, enquanto você volta para a caixinha da costureira, antes de ir para o balaio das mucamas? Vamos, diga lá. Parece que a agulha não disse nada; mas um alfinete, de cabeça grande e não menor experiência, murmurou à pobre agulha: — Anda, aprende, tola. Cansas-te em abrir caminho para ela e ela é que vai gozar da vida, enquanto aí ficas na caixinha de costura. Faze como eu, que não abro caminho para ninguém. Onde me espetam, fico[...]#1",
-                footNoteNumber: 1, 
-                footNote: "#1 Trecho da narrativa Um Apólogo de Machado de Assis. In: ASSIS, Machado de. Obra Completa. Rio de Janeiro: Nova Aguilar 1994. v. II.",
-                image: []
-            },
+                text: {
+                    content: "[...]Ora agora, diga-me quem é que vai ao baile, no corpo da baronesa, fazendo parte do vestido e da elegância? Quem é que vai dançar com ministros e diplomatas, enquanto você volta para a caixinha da costureira, antes de ir para o balaio das mucamas? Vamos, diga lá. Parece que a agulha não disse nada; mas um alfinete, de cabeça grande e não menor experiência, murmurou à pobre agulha: — Anda, aprende, tola. Cansas-te em abrir caminho para ela e ela é que vai gozar da vida, enquanto aí ficas na caixinha de costura. Faze como eu, que não abro caminho para ninguém. Onde me espetam, fico[...]",
+                    footNoteNumber: 1,
+                    footNote: "¹ Trecho da narrativa Um Apólogo de Machado de Assis. In: ASSIS, Machado de. Obra Completa. Rio de Janeiro: Nova Aguilar 1994. v. II.",
+                }
+            }
+        ],
+        text: [
             {
                 content: "A epígrafe deste texto, um trecho da narrativa machadiana intitulada “Um Apólogo” procura personificar as personagens, ferramentas de costura presentes na caixa, arca da costureira do final do século XIX. Agulha, alfinete, tesoura, linhas, aviamentos estavam presentes nesse estojo portátil utilizados diariamente tanto por costureiras quanto por alfaiates na arte de cerzir. Nessa acepção, é possível entender que estas ferramentas também alinhavavam as práticas sociais dos artesãos ou artesãs dos cortes de costura, das linguagens das modas e histórias de vida dos sujeitos frequentadores dos saraus, bailes, festas sociais, com uma indumentária singular, um estilo com uma marca, um segredo de vestimenta, assinada por aquele ou aquela, que em seu ateliê, era o artífice da costura.",
                 citation: "",
