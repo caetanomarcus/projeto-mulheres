@@ -4239,165 +4239,699 @@ export const texts =[
     },
     {
         id: 51,
-        title: "",
+        title: "Porta Agulhas",
         author:{
-            name: "",
-            institution: "",
-            department: []
+            name: "Angélica Borges",
+            institution: "Universidade do Estado do Rio de Janeiro/UERJ",
+            department: ["Programa de Pós-Graduação em Educação"]
         },
         text: [
             {
                 content: "",
+                citation: "E por mais que eu procurasse, nada de descobrir a rosa! Revolvi – mas oh! bem desejo tinha eu de não achar muito depressa! – revolvi os compridos bolsos da saia, e só encontrei entre as dobras do lenço um dedal e um estojo de agulha (CATULLE MENDES, A Época, 24/02/1888, p.2) ",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "O trecho acima, de um autor francês, faz parte de uma história sobre namoricos e “jogos inocentes” entre jovens. O rapaz não encontra a rosa escondida pela moça, mas identifica nos bolsos da saia dois objetos que faziam parte da educação feminina prevista nas escolas para meninas pela Lei Geral de Ensino de 1827: um dedal e um estojo que permitia carregar as agulhas sem se ferir acidentalmente ou de perdê-las. A Lei de 1827 estabeleceu a criação das escolas femininas e os saberes a serem ensinados. Tais saberes podem ser observados por meio da referência à personagem Maria Benedita na obra Quincas Borba, de Machado de Assis: “Nascera na roça e gostava da roça. A roça era perto, Iguaçu. De longe em longe vinha à cidade, passar alguns dias; mas, ao cabo dos dois primeiros, já estava ansiosa por tornar a casa. A educação foi sumária: ler, escrever, doutrina e algumas obras de agulha” (ASSIS, 1891, p.142).",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
             },
+            {
+                content: "A educação “sumária” recebida por Maria Benedita ilustra o ensino nas escolas públicas para meninas no século XIX tanto em Iguaçu, considerada “roça”, situada no Recôncavo da Guanabara (PEREIRA, 2020), quanto na Corte e nas demais regiões do país (MUNHOZ, 2018). A Lei de 1827 definiu no Artigo 6° que “Os professores ensinarão a ler, escrever, as quatro operações de aritmética, prática de quebrados, decimais e proporções, as noções mais gerais de geometria prática, a gramática de língua nacional, e os princípios de moral cristã e da doutrina da religião católica e apostólica romana, [...] preferindo para as leituras a Constituição do Império e a História do Brasil”. No entanto, o Artigo 12 estabeleceu que “As Mestras, além do declarado no Art. 6º, com exclusão das noções de geometria e limitado a instrução de aritmética só as suas quatro operações, ensinarão também as prendas que servem à economia doméstica”. ",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Os trabalhos de agulha igualmente estavam presentes no currículo das escolas normais (após a entrada de mulheres), nos concursos públicos para professoras e nas escolas particulares voltadas para famílias mais abastadas nas quais o currículo era mais diversificado. O ensino de meninas no Colégio Augusto, dirigido por Nísia Floresta Brasileira Augusta, conforme anúncio no Almanak Laemmert, compreendia: “leitura, caligrafia, religião cristã, aritmética, história, geografia, línguas e gramáticas portuguesa, francesa, italiana e inglesa; música, dança, piano, desenho e toda sorte de trabalhos de agulha” (Almanak Laemmert, 1850, p.244)",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Nesse sentido, carregar agulhas era algo esperado para meninas desde o início de sua escolarização. Não obstante, algumas experiências escolares desviaram-se da norma. Em 1833, Benedita da Trindade do Lado de Cristo, mestra de primeiras letras de São Paulo investigada por Hilsdorf (1997) e Munhoz (2018) foi inquirida pela Câmara da Cidade de São Paulo sobre a ausência das prendas domésticas nas aulas. A mestra enfatizou o ensino da leitura, escrita e aritmética em detrimento das prendas que já pertenceriam a uma tradição de transmissão no interior dos espaços domésticos, em um momento em que a costura pode ser entendida como trabalho domiciliar e estratégia de sobrevivência (MUNHOZ, 2018, p.125). Um documento localizado por Munhoz também registra que “alguns pais de família [que] mandão suas filhas a escola para aprenderem unicamente as primeiras letras, dando-lhes em casa o ensino das prendas domésticas” requeriam a dispensa das aulas de prendas (p.130). ",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Observa-se que as meninas não escapariam da aprendizagem das “obras de agulhas”, fosse na escola ou em casa. Portanto, encontrar um estojo de agulhas no bolso da saia de uma moça é um indício de que recebeu ou estava recebendo uma educação esperada para o sexo feminino e que seria aferida pela escola, sociedade e concursos públicos.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            }
         ],
         references: [
             {
                 author: "",
-                title: "",
-                rest: ""
+                title: "A Época, 24/02/1888.",
+                rest: "Disponível em http://memoria.bn.br/DocReader/798924/188 Almanak Laemmert (RJ), ano 1850. Disponível em http://memoria.bn.br/DocReader/313394x/3403"
+            },
+            {
+                author: "ASSIS, Machado. ",
+                title: "Quincas Borba.",
+                rest: "Rio de Janeiro: B.' L. Garnier, Livreiro-Editor, 1891. "
+            },
+            {
+                author: "HILSDORF, Maria Lucia S.. ",
+                title: "“Mestra Benedita ensina Primeiras Letras em São Paulo.” ",
+                rest: "In: Seminário Docência, Memória e Gênero, 1997. Anais... São Paulo: Plêiade, 1997. p. 95-104."
+            },
+            {
+                author: "MUNHOZ, Fabiana G.",
+                title: "Invenção do magistério público feminino paulista: ",
+                rest: "Mestra Benedita da Trindade do Lado de Cristo na trama de experiências docentes (1820-1860). 2018. Tese (Doutorado em Educação) - Faculdade de Educação, Universidade de São Paulo, São Paulo, 2018."
+            },
+            {
+                author: "PEREIRA, Kimberly A. G.",
+                title: "Tecendo letras e mulheres prendadas:",
+                rest: "a urdidura da escola primária e do magistério feminino em Magé no período do Império (1839-1889). Monografia (Graduação em Pedagogia) – FEBF-UERJ. Duque de Caxias, p. 86. 2020."
             }
         ]
 
     },
     {
         id: 52,
-        title: "",
+        title: "Porta Jóias",
         author:{
-            name: "",
-            institution: "",
-            department: []
+            name: "Simone Silveira Amorim",
+            institution: "Universidade Tiradentes/Instituto de Tecnologia e Pesquisa",
+            department: ["Programa de Pós-Graduação em Educação"]
         },
         text: [
             {
-                content: "",
+                content: "Vislumbrar o cotidiano das mulheres no século XIX é tarefa, a princípio, desafiadora, mas visualizar algumas peças por elas utilizadas nos ajuda a compreender o lugar dessas personagens na sociedade, obtendo-se uma certa dimensão da cultura da época. Por exemplo, para uma mulher daquele período, usar joias a colocava em um lugar de distinção, porém sua representação na sociedade não se limitava ao uso ostensivo delas, mas também ao devido acondicionamento dos objetos de adorno que denotavam religiosidade, moralidade, feminilidade, dentre outros aspectos.",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
             },
+            {
+                content: "Para tal, era preciso possuir o local adequado e que estivesse à altura do que nele seria guardado, sendo essa a função do elegante porta joias em formato de escrivaninha, com detalhes externos que incrustavam nele a representação do seu conteúdo. Assim, constitui-se como um objeto que tem o objetivo de guardar pequenos adereços femininos, assim como objetos que, por suas dimensões e usos, necessitam ser mantidos em um local de fácil acesso; possuem, usualmente, relativo valor econômico, mas que também possuem valor sentimental ou prático, diante do significado e tipo de uso de cada um deles.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Quanto às emoções, Ahmed (2004) informa que é preciso questionar sobre o que elas fazem e porque, mediante elas, sentimo-nos de uma dada maneira. Assim, a construção delas vai além de construtos sociais internos, não podendo ser consideradas como reações simplórias e usuais, mas devem ser entendidas como práticas geradas pelas relações culturais e sociais que o indivíduo constrói durante o seu viver. Dessa forma, “[...] ao invés das emoções serem entendidas como surgindo de dentro para fora, as emoções são assumidas como vindo de fora e movendo-se para dentro.” (AHMED, 2014, p. 9).",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Sobre representação, Chartier (2002) nos convida a compreendê-la como sendo “[...] do crédito concedido (ou recusado) à imagem que uma comunidade produz de si mesma, portanto de seu ‘ser percebido’, que depende a afirmação (ou a negação) de seu ser social” (p. 10). A partir desta concepção, é possível afirmar que possuir joias e as usar permitia gerar a representação pretendida a partir do olhar sobre si e do outro, ou seja, a forma como suas usuárias gostariam de ser vistas por toda a sociedade.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Santos (2016), ao investigar inventários de mulheres por ela descritas como sendo “de posses”, identificou objetos de ouro como argolas, crucifixos, pares de brinco, fivelas, botões, anéis, cordões, imagens de santas da igreja católica, enfeites de cabelo, dentre outros. Alguns dos adereços mencionados reportam ao sentimento religioso que envolvia a sociedade oitocentista e aos rituais femininos de preparação para participar da liturgia religiosa. A religiosidade fortaleceria a família em seus aspectos voltados à moralidade, perante a sociedade. As mulheres oitocentistas também tinham um papel essencial em meio a alta sociedade.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Portanto, no que diz respeito ao mundo feminino no século XIX, é possível adentrar nesse imaginário para compreender a importância de ter um porta joias para guardar as peças que possuíam valor não somente pecuniário, mas também emocional, especialmente quando herdadas, representando a continuidade e o fortalecimento das relações e laços familiares. Assim, o porta joias se constitui como uma “[...] tradução externa das tais sensibilidades geradas a partir da interioridade dos indivíduos.” (PESAVENTO, 2005, s. p), sendo que elas dizem respeito ao imaginário, relacionando-se à cultura.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Segundo Eagleton (2011, p. 184), “a cultura não é unicamente aquilo de que vivemos. Ela também é, em grande medida, aquilo para o que vivemos”. Assim, é possível pensar que viver para a família, em um ambiente envolto em religiosidade, questões econômicas e sociais são aspectos que reforçam a necessidade de fortalecer as representações coletivas. Assim, a cultura denota, em alguma maneira, o acesso à subjetividade social que não pode ser medida, mas compreendida a partir de modos de agir, gesticular, vestir, falar, sorrir, também pelos objetos que alguém possui e os usos que faz deles.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Para Perrot (2011), diversos aspectos da vida em sociedade concorriam para que as mulheres fossem direcionadas aos seus quartos, dentre eles: a organização doméstica, a religião, a decência e a moral, o erótico, dentre outros. Acrescente-se aqui a feminilidade, a partir do uso dos adereços femininos guardados em um porta joias. Nessa perspectiva, lança-se o olhar para o formato do porta joias: uma escrivaninha. Elegantemente esculpido, seus detalhes remontam à delicadeza e à sensibilidade, elementos culturalmente construídos, fortalecendo a representação do imaginário feminino.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Embora pareça ser, a princípio, um ato pretencioso tentar recompor cenas cotidianas de um passado relativamente distante, no século XIX, a partir do imaginário que evoca elementos como cores, gestos, ações, reações, olhares, odores, lugares e comportamentos não mais usuais, os indícios gerados pelo objeto em questão nos remontam a uma realidade que permite reviver uma ínfima parte da rotina de personagens da história. É possível concluir que essas histórias seriam outras se não fossem esses pequenos e ao mesmo tempo tão significativos objetos que compõem o viver de indivíduos na sociedade em que estão inseridos.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            }
         ],
         references: [
             {
-                author: "",
-                title: "",
-                rest: ""
+                author: "AHMED, S.",
+                title: "The Cultural Politics of Emotion.",
+                rest: "Edinburgh: Edinburgh University Press, 2014."
+            },
+            {
+                author: "CHARTIER, Roger.",
+                title: "À beira da falésia:",
+                rest: "a história entre incertezas e quietudes. Porto Alegre: Editora da UFRGS, 2002."
+            },
+            {
+                author: "EAGLETON, Terry.",
+                title: "A ideia de cultura.",
+                rest: "2ª edição. São Paulo: Editora Unesp, 2011."
+            },
+            {
+                author: "PERROT, Michelle. ",
+                title: "História dos Quartos.",
+                rest: "São Paulo, Paz e Terra, 2011."
+            },
+            {
+                author: "PESAVENTO, Sandra Jatahy.Sensibilidades no tempo, tempo das sensibilidades. ",
+                title: "Nuevo Mundo Mundos Nuevos ",
+                rest: "[En ligne], Colloques, mis en ligne le 04 février 2005. Disponível em: <http://nuevomundo.revues.org/229>. Acesso em: 4 fev. 2022."
+            },
+            {
+                author: "SANTOS, V. M. ",
+                title: "As mulheres de posses: ",
+                rest: "a instrução dos órfãos menores na Capitania de Sergipe Del Rey no século XVIII. 1. ed. Fortaleza: Imprece, 2016. v. 1. 322p."
             }
         ]
 
     },
     {
         id: 53,
-        title: "",
+        title: "Porta Objetos Litúrgicos",
         author:{
-            name: "",
-            institution: "",
-            department: []
+            name: "Dante Batista Silva ",
+            institution: "Universidade do Estado do Rio de Janeiro/UERJ",
+            department: ["Programa de Pós-Graduação em Educação/ProPEd"]
         },
         text: [
             {
-                content: "",
+                content: "Neste verbete, destacou-se especialmente, a caixa de madeira tipo marfim, na cor verde.  Ao pesquisar o acervo histórico do século XIX no Museu de Arte Sacra de São Paulo, tal fato mobilizou as seguintes indagações: 1) Qual a razão da caixa ser verde?;  2) Por que a madeira era do tipo marfim? e 3) Quais os objetos litúrgicos poderiam ser acomodados nesse tipo de caixa? Em resposta aos questionamentos, foi possível constatar que, muitos objetos constam no acervo do século, como imagens, crucifixos, sacrário e outras peças religiosas, em marfim com a presença da cor verde.",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
             },
+            {
+                content: "Trata-se de uma pequena caixa do Século XIX, medindo 11,5cm x 13,5cm X 15,5cm (porta), confeccionada em madeira tipo marfim, de cor verde, contém a sigla 'INRI' (Jesus Nazareno Rei dos Judeus), entalhada numa pequena placa de osso. O interior e o exterior da caixa são revestidos em couro craquelê verde; a fechadura impossibilita o acesso sem uma chave. ",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Calvo (2010, p. 62) pontua que, devido às necessidades de armazenamento de objetos como roupas, comidas, joias, os móveis foram surgindo e se transformando a partir da utilização de arcas e caixas.  O termo caixa, até o século XIX, foi encontrado em diversos documentos localizados em diversas coleções particulares, como as coleções dos museus.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "O desenvolvimento da caixa de madeira possibilitou a confecção de cômodas, para as sacristias nas igrejas, uma vez que, nas cômodas ou caixões, as gavetas eram usadas para o armazenamento das vestes litúrgicas. Até hoje, pode-se encontrar caixas ou arcas dos modelos antigos nas igrejas, em algumas colônias antigas e pequenos povoados. (CALVO, 2010, p. 66).",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Calvo (2011, p. 105) argumenta que, as modificações ocorreram em virtude das necessidades de trabalho, estudo e das celebrações religiosas, por isso, os móveis eram confeccionados de acordo com a sua utilidade, por isso, alguns eram criados para o descanso do corpo, outros para depósito de objetos valiosos, destacando-se que estão presentes materiais de madeira, ferro, marfim, ouro, decorados com desenhos entalhados na madeira ou incrustados com pedras preciosas.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Para Calvo (2011, p. 129), a caixa estará 'presente em todos os outros tipos de formatações de móveis de guardar, de acordo com as suas novas utilidades e atribuições, a configuração é sempre de uma caixa de onde partem outros formatos e decorações que se transformam em um novo móvel...'. (CALVO, 2011, p. 129).",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "A presença da cor verde significa, a expectativa de uma vida eterna, que segundo Silva (2019, p. 108 e 109), simboliza a confiança do fiel no Cristo Ressuscitado, ou seja, tem a ver com um tempo de renovação espiritual. O autor comenta ainda que, a cor verde está presente após as missas de domingo do tempo comum. Vale (2016, p. 120) a respeito da cor verde, considera que esta retrata aquilo que está sendo 'usado nos ofícios e nas missas durante o tempo comum'.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Sobre a cor verde e o tempo comum, Calvo (2011, p. 304) considera que, se trata de destacar que o verde 'É a cor que simboliza a esperança da vida. É usado nas missas do tempo comum após a Epifania do Senhor e Pentecostes, seu uso ocupa o maior espaço de tempo no ano litúrgico: 34 semanas (o ano litúrgico compreende 54 semanas)'.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Na fabricação das caixas e posteriormente dos móveis, Flexor (2009, p. 67) relata a exploração das florestas brasileiras, em especial, da Mata Atlântica, de Ilhéus e Cairu, utilizadas para obras da corte. Grande parte do fornecimento de madeiras, para o mobiliário baiano até o século XIX, eram extraídos de Ilhéus. Até 1780, a madeira jacarandá era utilizada na fabricação de móveis. A autora referencia o Juiz Baltazar da Silva Lisboa, que catalogou as espécies existentes, chamando a atenção para a madeira jacarandá, utilizada para as obras de decoração. Flexor (2009, p. 69) descreve a Pequiá-marfim, como uma madeira preciosa, de boa qualidade para elementos decorativos.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Acerca do movimento litúrgico, para Baptista (2015, p.61), os 'princípios fundamentais do movimento litúrgico, o retorno às fontes e a renovação do sentido de mistério, ou seja, a revelação de Deus à humanidade por meio de ações teândricas. Como consequência, a liturgia abandona o caráter de simples espetáculo'. ",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Ao abandonar o caráter de espetáculo, a liturgia 'passa a ser encarada, ao contrário, como a representação do único acontecimento salvador, a morte de Cristo, atualizada pelos sacramentos, a fim de que os fiéis possam beneficiar-se por sua aplicação a seus efeitos, daí a preeminência da Eucaristia e do altar'. A liturgia marcou presença como devoção, na celebração e na exposição da arte sagrada (BAPTISTA apud PALZOLA, 2015, p.15 e 35).",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "A arte sacra é definida por Romano Guardini (1960 p. 15/35): 'como um prolongamento do Mistério da Encarnação, na descida do divino no humano. A arte tem valor sacramental e é simbólica, isto é, sinal de união. A arte de culto indica a presença, é a imagem do invisível, leva à contemplação'.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "A finalidade da caixa, segundo Aldazábal (In, Vale, 2016, p. 150), era garantir a guarda da Eucaristia, e o 'SACRÁRIO: Ou «tabernáculo» é o pequeno recinto, à semelhança de caixa ou armário, onde se guarda a Eucaristia depois da celebração, para que possa ser levada aos doentes ou dela possam comungar, fora da Missa, os que não puderam participar nela'. Significa que, 'A palavra «sacrário» indica que é o lugar onde se «guarda o sagrado». Tabernaculum, em latim, significa «tenda de campanha»: daí a Festa judaica dos Tabernáculos ou das Tendas de Israel e, sobretudo, a «tenda do encontro» que era o seu ponto de referência, ao longo da travessia do deserto'. Por isso, diz-se que 'a verdadeira «tenda» é o próprio Cristo (cf. Heb 9,11.24), o Verbo que se fez carne e montou a sua tenda entre nós (cf. Jo 1,14) (...)'. ",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Piacenza (2005) retrata a utilização por fiéis, dessas caixas penduradas no pescoço com a eucaristia, até o século IV, prática que foi proibida pela igreja. A eucaristia é, 'um ato simbólico promovido para lembrar o sacrifício de Cristo, um memorial que perdura até os dias atuais, como ponto central da fé cristã'. (CALVO, 2011, p. 50).",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Em suma, a caixa verde de marfim, do século XIX, representa a renovação da vida, simbolizada na cor verde. A boa qualidade da madeira significa que, se trata de uma preciosidade do marfim, considerando sua durabilidade e a possibilidade de armazenar algo valoroso, a eucaristia. A caixa facilitava a locomoção de um lugar para outro, entendendo-se que além de ser um objeto utilizado nas missas para conservação do sagrado, era transportada para a realização de missas aos doentes impossibilitados de se locomover até o local sagrado para atender uma pessoa acamada e conceder-lhes a extrema-unção, como também contar com a possibilidade de servir aos fiéis, as hóstias na missa campal ou em tempos de guerra.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            }
         ],
         references: [
             {
-                author: "",
-                title: "",
-                rest: ""
+                author: "BAPTISTA, Anna Paola.",
+                title: "A economia de imagens ",
+                rest: "– Arte sacra católica depois do Vaticano II. Acesso em 21.03.2022. Disponível em: <http://dx.doi.org/10.18316/1981-7207.15.9>."
+            },
+            {
+                author: "CALVO, André Luiz Barbosa. ",
+                title: "O Mobiliário de Guardar na Bahia. ",
+                rest: "19º Encontro da Associação Nacional de Pesquisadores em Artes Plásticas “Entre Territórios” – 20 a 25/09/2010 – Cachoeira – Bahia – Brasil. Acesso em 18.08.2022. Disponível em: <http://docplayer.com.br/4495917-O-mobiliario-de-guardar-na-bahia-i.html>"
+            },
+            {
+                author: "______. André Luiz Barbosa. ",
+                title: "Os Arcazes das Sacristias das Igrejas de Salvador, Bahia: ",
+                rest: "Igreja do Colégio dos Jesuítas (atual Catedral Basílica), Igreja dos Carmelitas Descalços de Santa Teresa de Avelã, Igreja do Convento de São Francisco, Igreja do Convento de Nossa Senhora do Carmo e da Basílica Arquiabacial do Mosteiro de São Bento / André Luiz Barbosa Calvo. 2011."
+            },
+            {
+                author: "FLEXOR, Maria Helena Ochi.",
+                title: "Mobiliário baiano.",
+                rest: "Brasília, DF: Iphan / Programa Monumenta, 2009."
+            },
+            {
+                author: "GUARDINI, Romano.",
+                title: "Imagen del culto e imagen de devocion.",
+                rest: "Sobre la essência de la obra de arte, Guardarrama, Madri, 1960."
+            },
+            {
+                author: "MILANI, Eliva de Menezes.",
+                title: "Arquitetura, luz e liturgia:",
+                rest: "um estudo da iluminação nas igrejas católicas. 2006. Rio de Janeiro: Dissertação (Mestrado em Ciências em Arquitetura) Faculdade de Arquitetura e Urbanismo, Universidade Federal do Rio de Janeiro, Rio de Janeiro."
+            },
+            {
+                author: "PIACENZA, Mauro.",
+                title: "O receptáculo da Eucaristia.",
+                rest: "In: Revista 30 Dias. Junho de 2005. Disponível em: <http://www.30giorni.it/articoli_id_9093_l6.htm?id=9093>.Acesso em 23.03.2022."
+            },
+            {
+                author: "SILVA, Richard Gomes da.",
+                title: "A iconografia da arte sacra de Cláudio Pastro na Basílica Nacional de Aparecida.",
+                rest: "Dissertação de mestrado - Universidade do Estado do Rio de Janeiro, Instituto Artes, 2019."
+            },
+            {
+                author: "VALE, Renilda Santos do.",
+                title: "Memória da fé:",
+                rest: "a coleção de paramentos litúrgicos do Museu do Traje e do Têxtil da Fundação Instituto Feminino da Bahia, 2016. Dissertação (mestrado) - Universidade Federal da Bahia. Faculdade de Filosofia e Ciências Humanas, Salvador."
             }
         ]
 
     },
     {
         id: 54,
-        title: "",
+        title: "Porta Veneno",
         author:{
-            name: "",
-            institution: "",
-            department: []
+            name: "Evelyn de Almeida Orlando",
+            institution: "Pontifícia Universidade Católica do Paraná",
+            department: [" Programa de Pós-Graduação em Educação"]
         },
         text: [
+            {
+                content: "A história da perfumaria remonta à Antiguidade e aos egípcios que já faziam uso de unguentos, óleos e pomadas em seus cultos e cerimônias religiosas, mas também descobriram seu uso como arma de sedução. Cleópatra usava essências em seus banhos e em forma de pomada. Mesmo na Bíblia há indicações de usos do perfume com diversas situações. Tais produtos era armazenados em grandes ânforas ou em vasos decorados em terracota e, muitas vezes eram enterrados, como símbolo de distinção, junto com alguns egípcios mais ricos. Mas havia também, desde essa época, pequenos frascos que podem ser apreciados no Musée du Parfum, em Paris, o qual conta com peças de 3000 anos A.C. ",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Ao longo dos tempos, seus usos originais permaneceram e outros foram adicionados. Na Idade Média, esses pequenos frascos ganharam mais espaço de circulação e comportavam tanto essências e perfumes quanto veneno. Artesãos de renome produziam-nos na forma de pequenas caixas perfumadas feitas de vidro, porcelana ou mesmo de ouro, prata ou pedras semipreciosas para os mais abastados. Tornando-se cada vez mais sofisticados, independente do material, passavam a evocar alegorias barrocas, cenas românticas ou representações de animais. Eram peças únicas, criadas por encomenda para um seleto grupo que pudesse pagar. O preço do frasco era muitas vezes muito mais caro do que o do perfume e eram vendidos separadamente.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "A Renascença marcou a história do perfume. Catarina de Médici, ao se casar com o rei Henrique de Valois, da França, levou junto com ela, em sua comitiva, seu perfumista favorito, Renato il Fiorentino, o mestre das essências e dos venenos, que logo passou a ser conhecido como René le Fiorentin. Durante a viagem, a futura rainha da França pede que sua comitiva pesquise, no caminho, aromas que se assemelhem aqueles utilizados em Florença. A cidade de Grasse é eleita o lugar perfeito por suas flores e diversos aromas leves, sendo conhecida até hoje como a capital do perfume. ",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Para além do perfume tão desejado, os frascos, cada vez mais sofisticados e acima de qualquer suspeita, foram utilizados também para esconder veneno, uma das práticas silenciosas de resistência das mulheres para se livrarem de casamentos forçados. Passados de geração a geração e, como dizem os franceses “de bouche a oreille” (de boca a boca), as mulheres iam difundindo, em silêncio, uma resistência aos casamentos indesejados e maus tratos masculinos, compartilhando uma sensibilidade por meio de práticas de autoproteção. Exemplo dessa associação pode ser visto na trajetória da cosmetologista Giulia Tofana que, no século XVII tornou-se referência na arte do veneno Água de Tofana. Disfarçados em pequenos frascos que pudessem passar por cosméticos, acessórios ou artigos religiosos, tornaram-se a alternativa secreta de mulheres da nobreza e, posteriormente, também da burguesia. Sendo o enfrentamento físico, sobretudo por parte das mulheres, mais raro, não apenas pela questão da força física, mas por preferirem técnicas mais sutis e que não levantassem suspeitas sobre si, o veneno foi a forma extrema dessa violência secreta, tal como afirma a historiadora Michelle Perrot. ",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Foi também no século XVII, descobriu-se o cristal e os frascos passaram a ser produzidos nesse material, em Veneza ou na região da Boêmia, baseados em técnicas orientais utilizados em Murano, tornando-se verdadeiros artigos de luxo.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "No século XVIII, a França dominou o mundo do perfume, a partir de Grasse e Paris. A corte de Luiz XV ficou conhecida como “corte perfumada”. Frascos esmaltados eram pintados ou feitos de porcelana Sèvres, Chelsea e Meissen a partir de 1720, em forma de cabaça ou balaústre, ilustrados com cenas de gênero ou motivos chineses. Mas o cristal continuou a ser o material preferido e mais luxuoso. A Revolução Francesa, no entanto, deu um golpe fatal na perfumaria e em qualquer coisa que lembrasse a sociedade de corte francesa.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Foi no século XIX que a perfumaria voltou ao centro das preocupações, a partir da Imperatriz Josefina de Beauharnais, primeira esposa do Imperador Napoleão Bonaparte. À época, a perfumaria mais difundida era aquela considerada seca, em forma de talcos. A água de Colônia, adotada por Napoleão, rompeu esta tendência e aumentou o interesse pelos perfumes líquidos, o que foi possível a partir da revolução Industrial, sobretudo com a descoberta de produtos sintéticos, o que democratizou o acesso à perfumaria. Os novos frascos também passaram a ser industrializados, em vidro, mais barato que o cristal, mas acrescido de um capital simbólico que passaria a agregar valor ao seu conteúdo, antes vendido separadamente, em frascos mais simples.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "A peça em exposição, datada do século XIX, apresenta uma mistura de elementos da perfumaria industrializada do século XIX com elementos da Idade Média, indicando um signo de distinção ao frasco que, possivelmente, não era de uso corrente, o que nos permite pensar na permanência de práticas relacionadas tanto ao perfume quanto ao veneno pelas camadas mais ricas da sociedade francesa como uma forma de questionar ou reproduzir estereótipos culturais, tradições, convenções sociais e relações de poder.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
             {
                 content: "",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
-            },
+            }
         ],
         references: [
             {
+                author: "CASELA, Leticia. ADRIANA ASSINI. LA GIOIA DEL COLORE, IL PIACERE DELLA STORIA. ",
+                title: "Revista Internacional de Culturas y Literaturas,",
+                rest: "octubre 2011, p. 242-260. "
+            },
+            {
+                author: "CESATI, Franco.",
+                title: "Os Médici: história de uma dinastia europeia.",
+                rest: "Front Cover. Franco Cesati. Mandragora, 2014."
+            },
+            {
+                author: "GIULIA TOFANA,",
+                title: "a cosmetologista do século 17 que ajudou centenas de mulheres a se livrarem de seus maridos abusivos.",
+                rest: "Disponível em: https://www.bbc.com/portuguese/geral-55674902#:~:text=A%20vers%C3%A3o%20mais%20conhecida%20conta,grave%20do%20que%20imperfei%C3%A7%C3%B5es%20faciais."
+            },
+            {
                 author: "",
-                title: "",
-                rest: ""
+                title: "HISTOIRE DE LA PARFUMERIE : 3500 ANS D’HISTOIRE ",
+                rest: "!Disponível em: https://asso.lesenfantsduparfum.org/passion/histoire-de-la-parfumerie-3500-ans-dhistoire/"
+            },
+            {
+                author: "",
+                title: "HISTOIRE DU PARFUM. Partie 2 (XVIIème au XXème siècle). ",
+                rest: "Disponível em: Histoire Du Parfum. Partie 2 (XVIIème au XXème siècle) (sylvaine-delacourte.com)"
+            },
+            {
+                author: "",
+                title: "LA PETITE HISTOIRE DU FLACON DE PARFUM.",
+                rest: " Disponível em: https://www.carrementbelle.com/blog/fr/2022/02/16/petite-histoire-flacon-de-parfum/#:~:text=Le%20flacon%20de%20parfum%20faisait%20donc%20d%C3%A9j%C3%A0%20partie,verre%20%C3%A0%20l%E2%80%99aide%20de%20moule%20ou%20de%20presse."
+            },
+            {
+                author: "",
+                title: "LES COLLECTIONS: LES FLACONS INCONTOURNABLES. ",
+                rest: "Disponível em: https://musee-parfum-paris.fragonard.com/les-collections/"
+            },
+            {
+                author: "PERROT, Michelle.",
+                title: "História da vida privada.",
+                rest: "vol. 4. Trad. Denise Bottman, partes 1 e 2; Bernardo Joffily, partes 3 e 4. São Paulo: Companhia das Letras, 1991. "
             }
+            
         ]
 
     },
     {
         id: 55,
-        title: "",
+        title: "Prendedor de Papel",
         author:{
-            name: "",
-            institution: "",
+            name: "Fernando Rodrigo dos Santos Silva ",
+            institution: "Faculdade São Judas Tadeu",
             department: []
         },
         text: [
             {
-                content: "",
+                content: "As pinturas do século XIX inundaram o imaginário do período com representações sobre as mulheres em seu mundo privado por excelência, o quarto. Neste século muitas imagens ilustraram práticas de leitura e escrita feminina, como isolada e silenciosa. O que as mulheres escreviam e para quem tem sido objeto da história das mulheres há algumas décadas quando a história da leitura se tornou um tema relevante para a historiografia.",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
             },
+            {
+                content: "Nestas ilustrações sobre o quarto feminino burguês, é possível intuir sobre a “materialidade do ato de escrever” (PERROT, 2011, p. 93) a partir dos objetos que a arte oitocentista mostra ou ignora. A jovem retratada em seu quarto é solitária. Pode estar deitada em sua cama com seu livro ou carta, ou sentada à mesa sonhadora ou entretida com seus escritos.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Sobre a mesa quase sempre eram retratados papéis em folha solta ou encadernados, tinteiro, pena de escrever; às vezes livros, castiçais para velas, mais tarde com a luz elétrica, abajur, sugerindo que a noite era o momento em que se aplicavam à escrita pessoal para si ou para os íntimos. ",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Contudo, há outros objetos ignorados pelo olhar masculino, mas que compõem este cenário de mistério e sedução, como o prendedor de papel, peça capital para o arquivamento das cartas recebidas e guardadas. Segundo Perrot, a correspondência epistolar alcançou um aumento formidável no século XIX com a difusão do correio e das estradas de ferro (1998, p. 74).",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Desprezado pelo olhar masculino, o prendedor de papel faria parte do inventário de objetos associados à escrita feminina, se às mulheres oitocentistas tivesse sido permitida tecer imagens sobre sua rotina? A pequena peça de metal decorativa produzida para mulheres alfabetizadas conheceu seu boom em fins do século XIX, quando a criação de adornos voltados para a decoração da casa foi responsável pela produção de identidades sociais e de gêneros diferenciadas (CARVALHO, 2011, p. 450).",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Se a arte ignorou o prendedor de papel, onde acharíamos hoje este objeto? Parece-nos que dois espaços são bastante relevantes para descobrir tais peças da cultura material doméstica vintage:  as lojas virtuais de peças de antiquários e os museus de escritórios antigos. ",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Os sites de antiquários tornaram-se espaços interessantes para a localização do item, pois os adquirem para posterior revenda aos colecionadores. Ao pesquisar na internet foi possível identificar um número considerável de sites anunciando os brass hand clip art, como eram chamados em inglês os prendedores de papel de metal na forma de uma elegante mão feminina vitoriana com seu punho de renda e anel no dedo.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Pela quantidade de peças anunciadas nestes sites, é crível supor que este formato fosse o mais popular, mas também foram encontrados outros modelos como faces de anjo, aves, cabeças de cachorros, chaves, borboletas, etc. Variados eram também os materiais de metal usados nas peças, latão em ouro, prata esterlina, ferro fundido ou bronze. Quanto à nacionalidade dos itens, foram situadas peças de origem inglesa, francesa e austríaca.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "O primeiro clip de papel foi patenteado nos Estados Unidos, em 1867, por Samuel B Fay e serviria para prender bilhetes a tecidos, embora também pudesse ser usado para prender papéis. Em trinta anos, tais peças haviam se tornado populares com várias fábricas produzindo o artefato. Ainda segundo este site, os clipes de papel substituíram o uso de alfinetes, costuras e ilhós (PROKOP, 2018).",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Por seu caráter decorativo, os prendedores de papéis femininos encontraram menos prestígio do que os objetos da cultura material escrita masculina, próprios do trabalho intelectual dos homens. Muitos destes itens estão hoje sob a guarda de diversos museus, mesmo aqueles próprios do escritório residencial, situado na fronteira entre as esferas pública e privada, como mesa de trabalho, canetas feitas de metal, tinteiros, pesos de papel em mármore, etc (CARVALHO, 2008). ",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "O silêncio legado às fontes materiais femininas é indicador da invisibilidade que suas práticas tiveram para seus contemporâneos. Tais imagens nos chegaram como construções do imaginário masculino, que são ao mesmo tempo tiranas em relação às mulheres e fonte possíveis de deleite para os homens (2007, p. 25).",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            }
         ],
         references: [
             {
-                author: "",
-                title: "",
-                rest: ""
+                author: "CARVALHO, Vânia Carneiro de.",
+                title: "Gênero e Artefato:",
+                rest: "o sistema doméstico na perspectiva da cultura material. São Paulo: 1870-1920. São Paulo: Ed. da Universidade de São Paulo /Fapesp, 2008."
+            },
+            {
+                author: "CARVALHO, Vânia Carneiro de. Cultura Material, Espaço Doméstico e Musealização.",
+                title: "Varia História, ",
+                rest: "Belo Horizonte, v. 27, n. 46: p.443-469, jul./dez 2011."
+            },
+            {
+                author: "PERROT, Michelle.",
+                title: "Mulheres Públicas.",
+                rest: "Tradução: Roberto Leal Ferreira. São Paulo: Fundação. Editora da UNESP, 1998."
+            },
+            {
+                author: "PERROT, Michelle.",
+                title: "Minha História das Mulheres. ",
+                rest: "Tradução: Angela M. S. Côrrea. São Paulo: Contexto, 2007."
+            },
+            {
+                author: "PERROT, Michelle.",
+                title: "História dos Quartos. ",
+                rest: "Tradução: Alcida Brant. São Paulo: Paz & Terra, 2011. "
+            },
+            {
+                author: "PROKOP, Emily. ",
+                title: "The Story Behind: ",
+                rest: "The Extraordinary History Behind Ordinary Objects. Miami – FL. Mango Media: 2018."
             }
         ]
 
     },
     {
         id: 56,
-        title: "",
+        title: "Rádio Capelinha",
         author:{
-            name: "",
-            institution: "",
-            department: []
+            name: "Ingrid Constantino de Souza",
+            institution: "Universidade Federal Rural do Rio de Janeiro/UFFRJ",
+            department: ["Programa de Pós-Graduação em Ciências Sociais/PPGCS"]
+        },
+        author2:{
+            name: "Luciana Borges Patroclo",
+            institution: "Universidade do Estado do Rio de Janeiro/UERJ",
+            department: ["Programa de Pós-Graduação em Educação/ProPEd"]
         },
         text: [
             {
                 content: "",
+                citation: "A imagem da caixa de madeira em formato de capelinha que ocupava o principal lugar da sala ao redor da qual a família e os amigos se reuniam para juntos partilharem as notícias, as emoções e as diversões (AZEVEDO, 2002, p.10).",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "A partir da epígrafe acima é possível imaginar uma sala com as paredes em tom creme, o papel de parede se destaca pelos detalhes em dourado. A janela do quarto dava para o jardim cuidado e para a rua em que transeuntes passavam de um lado para o outro. Ao lado desta janela se via o um móvel de madeira de lei, passado de geração para geração. Em cima deste móvel há um vaso de louça com lindas rosas dentro, uma mulher entra no cômodo, ela está em um vestido branco e rendado, o espartilho faz o contorno de sua silhueta e a saia é levemente volumosa, os cabelos estão presos em um coque. A mulher coloca seu leque em cima do móvel, ao lado de seu livro (um romance famoso da época) está o Rádio Capelinha, ela se senta, estica o braço e o liga – começa neste momento, a ouvir as notícias da manhã.",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
             },
+            {
+                content: "Com as inovações tecnológicas advindas no final do século XIX e início do século XX, mais um aliado no cotidiano feminino: o rádio. Os primeiros inventos e experiências radiofônicas são provenientes dos Oitocentos. No Brasil, o padre Roberto Landell de Moura (1861-1928) já tinha realizado experimentos de “transmissão e recepção da palavra falada” ao longo da década de 1890 (SANTOS, 2003, p.4-5).  Na Itália, em 1896, o cientista italiano Guglielmo Marconi (1874-1837), realizou transmissões radiofônicas como nos moldes atuais. ",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Essa era a rotina de diversas mulheres da elite ao longo do século XIX e primeiras décadas dos Novecentos. Uma mulher para que fosse considerada “de boa família” tinha o lar como seu principal espaço de atuação e circulação. Uma mulher abastada sair à rua - sem a companhia do seu pai, do irmão ou do marido – não era algo costumeiro. Sua presença nos espaços públicos como teatros, encontros sociais e bailes tinham sempre a vigilância do marido e a própria sociedade (D’INCAO, 2018, p.228).  Por este motivo, a maioria das mulheres no século XIX viviam a maior parte do seu tempo no ambiente domiciliar, cuidando da rotina da casa e nas horas vagas liam revistas e livros. “A possibilidade do ócio entre as mulheres de elite incentivou a absorção das novelas românticas e sentimentais entre ou bordado e outro, receitas de doces e confidências entre as amigas (D’INCAO, 2018, p.229). ",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "No contexto brasileiro, oficialmente, a primeira transmissão de rádio ocorreu durante a Exposição Internacional de 1922; evento organizado como um marco dos festejos do centenário da Independência do Brasil. A introdução desse meio de comunicação também significava impingir novos modelos de comportamento e de alinhamento com o progresso norte-americano e europeu (COELHO, 2016, p.29-30):",
+                citation: "Como na América do Norte, este processo ocorre dentro da pequena parcela da elite com condições socioeconômicas para ter acesso a equipamentos então muito caros e compreender as potencialidades do rádio, o que, no caso brasileiro, reveste-se de boa dose de idealismo, por um viés educativo-cultural associado, no imaginário, a noções de moderno e de progresso. (...) Este “o que diriam os estrangeiros de nós” fica patente na organização e realização da Exposição Internacional do Rio de Janeiro, que vai comemorar o centenário da independência do Brasil em 1922. De um lado, apresenta a pretensa pujança nacional e, de outro, serve de mostruário ao progresso vindo do exterior. No caso do rádio, adapta-se às necessidades das indústrias eletroeletrônicas dos Estados Unidos em fase de expansão multinacional que, sem os rendimentos provenientes da produção voltada à Grande Guerra de 1914-1918, buscam novos mercados para garantir e ampliar seus níveis de lucro (FERRARETTO, 2014, p. 11-12).",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "O modelo Rádio Capelinha começou a ser comercializado no Brasil na década de 1930, como explica o historiador Nicolau Sevcenko:",
+                citation: "O rádio religa o que a tecnologia havia separado. Nesse sentido ele é o Orfeu moderno ou a “projeção órfica” a que aludia João do Rio, no seu sentido mais amplo e mais pleno. Não por acaso, na linguagem popular ele costumava ser carinhosamente chamado de “capelinha”, tanto pelo formato dos rádios com caixa em arco quanto pelo simbolismo transcendente que ele, literalmente, irradiava (1998, p. 586).",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "O aparelho tinha esse título em razão do seu formato remeter ao projeto arquitetônico das catedrais: “Suas características estéticas são do estilo Art Déco, que mantém linhas geométricas simples, com as extremidades levemente arredondadas” (SÃO PAULO, 2014). A madeira era o material utilizado na feitura desse meio de comunicação. Deve ser observado que a vinculação com a Art Déco encontra consonância com o fato desse estilo ter sido preponderante no Brasil das décadas de 1920 e 1940: “Expresso em pinturas, esculturas, prédios, móveis, rádios e objetos, o gosto déco está vinculado a um conjunto de manifestações artísticas que se propagou a partir dos anos vinte e viveu seu apogeu na década de 1930” (CORREIA, 2008, p.49). ",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "O rádio deu um novo brilho ao ambiente familiar, a voz saía daquela caixinha e ecoava por todos os cômodos da casa preenchendo os ambientes vazios. Proporcionou mudanças na rotina dos indivíduos e no ambiente da casa, pois os membros da família costumavam sentar juntos para ouvir músicas e programas radiofônicos. As mulheres encontravam companhia em sua intimidade ao se distrair com as vozes dos cantores e locutores do rádio. Conforme Azevedo (2002): “É através da figura feminina que o rádio conquista um espaço de destaque no cotidiano familiar” (p.78).",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Aos poucos, essas vozes saídas dos Rádios Capelinhas se multiplicaram. Meio de comunicação visto inicialmente como privilégio das famílias burguesas, transformou-se em um veículo de massa com a transmissão de radionovelas, propagandas publicitárias, cantores e cantoras distribuíam seu talento e ainda, transmissões de cunho político, como ocorreu nos Estados Unidos com o presidente Franklin Delano Roosevelt (1882-1945) e no Brasil, com o presidente Getúlio Dornelles Vargas (1882-1954).",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            }
         ],
         references: [
             {
+                author: "AZEVEDO, Lia Calabre de. ",
+                title: "No tempo do Rádio: radiodifusão e cotidiano do Brasil – 1923-1960.",
+                rest: "2002. 277fls. Tese (Doutorado em História) – Universidade Federal Fluminense, Niterói, 2002. Disponível em: https://www.historia.uff.br/academico/media/aluno/202/projeto/Tese-lia-calabre-de-azevedo.pdf . Acesso em: 19.abr.2022."
+            },
+            {
+                author: "CORREIA, Telma de Barros.Art déco e indústria: Brasil, décadas de 1930 e 1940. ",
+                title: "Anais do Museu Paulista. ",
+                rest: "São Paulo. n. Sér. v.16. n.2. p. 47-104. jul./dez 2008. Disponível em: https://doi.org/10.1590/S0101-47142008000200003 . Acesso em: 16.abr.2022. "
+            },
+            {
+                author: "COSTA, Patrícia Coelho da. ",
+                title: "Educadores no Rádio: ",
+                rest: "programas para ouvir e aprender (1935-1950). Rio de Janeiro: PUC-Rio; Mauad X, 20016. "
+            },
+            {
+                author: "D’INCAO, Maria Ângela. Mulher e família burguesa. In: PRIORE, Mary Del; PINSKY, Carla Bassanezi. (Org.).  ",
+                title: "História das Mulheres no Brasil. ",
+                rest: "10 ed. 6. reimpr. São Paulo: Contexto, 2018. p.223-240."
+            },
+            {
+                author: "FERRARETTO, Luiz Artur. De 1919 a 1923, os primeiros momentos do rádio no Brasil. ",
+                title: "Revista Brasileira de História da Mídia ",
+                rest: "(RBHM) - v.3, n.1, p.11-p.21, jan./jun2014. Disponível em: http://www.unicentro.br/rbhm/ed05/dossie/01.pdf . Acesso em: 18.abr.2022."
+            },
+            {
+                author: "SANTOS, César Augusto Azevedo dos. Landell de Moura ou Marconi, quem é o pioneiro?. Congresso Brasileiro de Ciências da Comunicação, 26º, 2003, Belo Horizonte – MG. ",
+                title: "Anais",
+                rest: "(eletrônico). Belo Horizonte-MG: Sociedade Brasileira de Estudos Interdisciplinares da Comunicação, 2003. p.1-15. Disponível em: http://www.portcom.intercom.org.br/pdfs/33836484318172605221344813340609283668.pdf "
+            },
+            {
+                author: "SEVCENKO, Nicolau. A capital irradiante: técnicas, ritmos e ritos do Rio. In: SEVCENKO, Nicolau. (Org.). ",
+                title: "História da vida privada no Brasil: ",
+                rest: "da Belle Époque à Era do Rádio. v.3. São Paulo: Companhia das Letras, 1998. p.513-620."
+            },
+            {
                 author: "",
-                title: "",
-                rest: ""
+                title: "VERBETE RÁDIO CAPELINHA. ",
+                rest: "Museu da Casa Brasileira. 2014. Disponível em: https://mcb.org.br/pt/acervo/radio-capelinha/ . Acesso em: 17.abr.2022. "
             }
         ]
 
     },
     {
         id: 57,
-        title: "",
+        title: "Roca de fiar",
         author:{
-            name: "",
-            institution: "",
-            department: []
+            name: "Aline Pinto Pereira",
+            institution: "Universidade do Estado do Rio de Janeiro/UERJ",
+            department: ["Programa de Pós-Graduação em Educação/ProPEd"]
         },
         text: [
             {
-                content: "",
+                content: "O desenvolvimento tecnológico está diretamente condicionado ao processo produtivo e, portanto, relacionado à existência humana. A roca, também conhecida como roda de fiar, é instrumento importante da história do trabalho e do cotidiano dos ofícios artesanais no Brasil, desde os tempos coloniais.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Aparelho intrínseco à ampliação da fiação e da tecelagem no mundo, a roca ainda tem datação e origem incertas, embora existam indícios de que tenha surgido no Oriente Médio, por volta do ano 5000 antes de Cristo. Inicialmente, possuía fusos manuais mais rudimentares, a partir dos quais o linho ou a lã eram tecidos artesanalmente.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Em meados do século XIII, no contexto do Renascimento Cultural e Científico, o instrumento teria sido difundido pela Europa. O Catolicismo, inclusive, remonta à figura de Santa Isabel, mulher que por volta do ano 1230 usava a máquina de fiar para tecer para os pobres.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "No período Moderno, a roca consistia em cavalete de madeira com pedal ou manivela, roda e engrenagem com porção de metal (cabeçal para o enrolamento da fibra) para a fiação. Por meio do hábil movimento de mãos e dos pés, respectivamente girando a roda e pisando no pedal, era possível transformar as fibras vegetais ou animais em fios.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Quanto à realidade brasileira, esteve associada à ocupação predominantemente feminina, pois, além dos serviços domésticos, tecelagem, costura, renda e bordado eram atividades costumeiras das mulheres. Entretanto, é importante destacar a participação de escravizados no processo de colheita das matérias-primas, a exemplo do algodão, que necessitava ser limpo por um cilindro de madeira (descaroçador), para ficar livre de impurezas, e ainda ser cardado (desenredado; penteado) para o uso.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Importante mencionar ainda a força simbólica que o instrumento teve na luta pela descolonização da Índia em meados do século XX. Na ocasião, Mahatma Gandhi (1869-1948) – liderança do conturbado processo de emancipação da antiga colônia britânica na Ásia -- incentivou seus conterrâneos a desafiarem o poderio inglês ao confeccionarem suas próprias roupas e, assim, recusarem os tecidos estrangeiros e industrializados da Europa.",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
@@ -4405,84 +4939,298 @@ export const texts =[
         ],
         references: [
             {
-                author: "",
-                title: "",
-                rest: ""
+                author: "ARAÚJO, Emanoel.",
+                title: "Arte, adorno, design e tecnologia no tempo da escravidão.",
+                rest: "São Paulo: Museu Afro-Brasil, 2013, 1ª edição."
+            },
+            {
+                author: "BORGES, Kátia Franciele Corrêa.",
+                title: "Fiar, Tecer e Rezar: a História das mulheres na fábrica de tecidos do Biribiri (1918-1959). ",
+                rest: "Universidade Federal de Juiz de Fora, 2019."
+            },
+            {
+                author: "GANDHI, Mohandas K.",
+                title: "A Roca e o Calmo Pensar.",
+                rest: "São Paulo: Palas Atenas, 1991. IBRAM. Roca. Acervo Digital. Disponível	em: https://museusibramgoias.acervos.museus.gov.br/museu-das-bandeiras/roca/ Acesso em março de 2022."
             }
         ]
 
     },
     {
         id: 58,
-        title: "",
+        title: "Sineta",
         author:{
-            name: "",
-            institution: "",
-            department: []
+            name: "Terezinha Oliveira",
+            institution: "Universidade Estadual de Maringá",
+            department: ["Programa de Pós-Graduação em Educação"]
         },
         text: [
             {
-                content: "",
+                content: "A sineta (delicada e pequena Sineta, cujas dimensões são 6 x 7 cm) representa uma figura feminina da nobreza da primeira metade do século XIX, pelo vestuário próprio do tempo e da classe social.",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
             },
+            {
+                content: "Em um de seus romances históricos da ‘Comédia Humana’, Memórias de duas jovens esposas, Balzac (1799-1850) traça um retrato que remete à imagem feminina da sineta: “Hoje de manhã, após muitos ensaios, vi-me bem e devidamente espartilhada, calçada, apertada, penteada, vestida, enfeitada” (BALZAC, 2012, p. 204). A personagem que, até então, vivera num internato, descreve o seu preparo para o baile no qual será apresentada à sociedade. A peça também exemplifica a influência da cultura francesa na sociedade imperial brasileira, evidenciada pela Missão Artística Francesa promovida por D. João VI em 1816 (DIAS, 2006).",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "No início do século XIX ocorre uma mudança no vestuário feminino: “O efeito da cintura fina pode ser aumentado tornando a saia mais ampla e as mangas fofas. Foi o que aconteceu na década de 1820. No início as saias ainda eram um pouco estreitas, mas pesavam na barra com babados ou outros adornos (...). As mangas também eram modificadas, primeiro por um pequeno enchimento nos ombros” (LAVER, 1989, p. 162). O chapéu, segundo Laver (1989, p. 164), também sofre modificações, “(...) Os turbantes tornaram-se muito largos, de maneira que já não tinham aspecto de turbantes e se transformaram em verdadeiros chapéus”. A imagem representa a mulher com um turbante alto, circundando a cabeça que assume a forma de um chapéu como o descrito pelo autor.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "A mulher retratada na peça traz, também, um objeto à mão, provavelmente, uma bolsa. No início do século XIX, as bolsas se tornam acessórios indispensáveis às mulheres da nobreza “Confeccionada em seda e veludo da mesma cor do vestido, as reticules tinham correntes como alça e ficavam presas ao pulso ou a cintura, além de serem ornamentadas com pérolas, bordados, renda e fios de ouro” (TRISTANTE; ROLIM, 2015, p. 4-5). ",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Além da figura feminina retratada na sineta, merece destaque a finalidade do objeto. Antes de se tornar um acessório de serviço, como sino de mesa, ou decoração de espaços privados, ou ainda peça de interesse para antiquários, o sino é um instrumento milenar – com origem chinesa, datada de mais de 3 mil anos a.C. Assim como as palavras e os conceitos, os utensílios seguem o movimento da história.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "No ocidente, desde o início da Idade Média, há registros da presença de sinos nas igrejas e mosteiros. Exemplo dos mais notáveis desse tempo é a sistematização da vida apresentada no mosteiro Monte Cassino, fundado por Bento de Nursia no século VI (REGRA DE SÃO BENTO, 1980), pois, desde as primeiras horas do dia, o sino marcava as ações dos monges. A igreja se constituiu outro lugar usual do sino, aliás, sino e igreja foram sinônimos durante todo o medievo. Além de marcar o ritmo do tempo, o sino tinha um papel simbólico de registrar na memória de todos a presença de um ser superior e onipresente. Le Goff (1980), em Na Idade Média: tempo da Igreja e tempo do mercador’, observa que a vida dos homens era regrada pelo tempo da Igreja; os sinos definiam as atividades, do mesmo modo que nos mosteiros. Somente após a invenção do relógio é que o sino principiou a perder sua função de sistematizador do cotidiano. Thierry (1856), ao analisar o ambiente citadino dos séculos XII e XIII, também chama a atenção para o papel do uso simbólico do sino, que era usado inclusive para reunir, organizar e sistematizar as reuniões das pessoas no ambiente citadino. Tinha, portanto, segundo esse autor, uma finalidade política. ",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "O sino estava vinculado à vida prática dos homens por ser a medida do tempo nos mosteiros, na igreja e na cidade, mas, por outro lado, desempenhava e, ainda desempenha, uma finalidade mental associada à religiosidade.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Assim, se a sineta pode ser considerada uma peça de decoração, vulgarizada como objeto de uso doméstico dos segmentos dominantes da sociedade e que, inclusive no Brasil, foi popularizada pelas telenovelas, nas quais, o/a patrão/patroa chama e ordena seus serviçais, particularmente o mordomo, também pode ser observada no âmbito das mudanças sociais. ",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            }
         ],
         references: [
             {
+                author: "BALZAC, H. Memória de duas jovens esposas. In: ",
+                title: "A Comédia Humana. ",
+                rest: "São Paulo: Globo, 2012, p. 190-357."
+            },
+            {
+                author: "DIAS, E. Correspondências entre Joachim Le Breton e a corte portuguesa na Europa. O nascimento da Missão Artística de 1816.",
+                title: "Anais do Museu Paulista. ",
+                rest: "São Paulo, 4(2). p. 301-313 jul/dez. 2006."
+            },
+            {
+                author: "LAVER, J.",
+                title: ". A roupa e a moda.",
+                rest: "Uma história concisa. São Paulo: Companhia das Letras, 1989."
+            },
+            {
+                author: "LE GOFF, J. Na Idade Média: tempo da Igreja e tempo do Mercador. In: LE GOFF, J. ",
+                title: ". Para um novo conceito da Idade Média. ",
+                rest: "Lisboa: Editorial Estampa, 1980, p. 43-60."
+            },
+            {
                 author: "",
-                title: "",
-                rest: ""
+                title: "REGRA DE SÃO BENTO.",
+                rest: "Rio de Janeiro: Edições Lumen Christi, 2019. "
+            },
+            {
+                author: "TRISTANTE, R. C. S; ROIM, T. P. B. ",
+                title: "A história da bolsa: sua evolução no contexto histórico da moda feminina.",
+                rest: "Marília, 2(4), p. 1-10. 2015. Disponível em: http://faip.revista.inf.br/imagens_arquivos/arquivos_destaque/jNKC7jwdDOFxlT5_2016-6-15-20-22-28.pdf Aesso em 12 jan. 2022."
+            },
+            {
+                author: "THIERRY, A.",
+                title: "Dix ans d’études historiques. ",
+                rest: "Paris: Furne, 1856."
             }
         ]
 
     },
     {
         id: 59,
-        title: "",
+        title: "Sinete",
         author:{
-            name: "",
-            institution: "",
-            department: []
+            name: "Nailda Marinho da Costa ",
+            institution: "Universidade Federal do Estado do Rio de Janeiro/UNIRIO ",
+            department: ["Programa de Pós-Graduação em Educação/PPGEdu"]
         },
         text: [
+            {
+                content: "No Guia de Identificação de Arte Sacra, elaborado por Raphael Joao Hallack Fabrino (2012), publicado pelo o IPHAN – Instituto do Patrimônio Histórico e Artístico Nacional, o sinete é definido como “utensílio composto de pequeno cabo a que se acha adaptada uma peça,  geralmente metálica, gravada em relevo. Utilizada para imprimir em lacre, papel ou cera. Por extensão, a própria marca que se acha gravada também denomina-se sinete”. (FABRINO, 2021).",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Há indícios da existência de sinetes desde a antiguidade. Não se sabe exatamente onde e quando surgiram. Alguns estudos apontam que os mais antigos datam de 3.000 anos antes de Cristo, sendo encontrado na Mesopotâmia como figuras esculpidas em rolos de pedras. Também se apresenta em forma de anel para selar documentos. Gregos e romanos usavam o anel de sinete, de metal (ouro ou prata). “O anel de sinete é um objeto de metal como ouro ou prata usado como assinatura do proprietário e/ou responsável por uma Organização, para selar e autenticar documentos e cartas” (MERCALDI e MOURA, 2014, p.3).",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "O sinete também é encontrado em versículos da Bíblia sagrada “Então escreveu cartas em nome de Acabe, e as selou com o seu Sinete”. Disponível em https://novabiblia.com.br/sinete-na-biblia.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Na idade Média, o anel de sinete foi usado pela primeira vez   na   Igreja Católica Apostólica Romana “pelo Papa Clemente IV como selo de uma carta que enviou para seu sobrinho no ano 1265. O papa o utilizou para fechar toda correspondência privada ao pressionar o anel sobre o lacre de cera vermelha derretida em cada envelope.” Conhecido como 'Anel do Pescador', “é todo feito em ouro e apresenta uma imagem em baixo relevo de Pedro pescando em seu barco e o nome do papa que o está usando em alto relevo na parte superior escrito em latim”. (GASPARETTO JUNIOR, s.d).",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "No final da Idade Média, na Europa, o anel de sinete foi usado como um meio de identificação, como fator distintivo de uma classe social. Todos “que eram intitulados a usar armas usavam anéis de sinete com seus brasões”, enfatizando sua função simbólica. Dessa form, “o sinete ganhou nova vida”. (MERCALDI E MOURA, 2014, p.5).",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Em 1305, o rei português D. Diniz, decretou que para um documento possuir validade oficial, deveria ser redigido por tabeliães autenticando com o carimbo/selo da cidade ou vila. “Os carimbos/selos do concelho, como lhe chamavam, deveriam conter palavras régias, sinais reais, o nome de D.Diniz e o nome da cidade ou vila” https://www.carimbosreal.com.br/historia-dos-carimbos",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Um sinete pode ser entendido como sinônimo carimbo, mas não simplesmente. No dicionário online de português sinete é definido como um Selo gravado em relevo ou em baixo- relevo com as armas ou as iniciais de quem o usa: apor seu sinete. Marca ou sinal feito com sinete. [Figurado] Marca distintiva, originalidade. Como sinônimos de sinete: “carimbo, chancela, selo, timbre”. Carimbo é definido como “Instrumento confeccionado em madeira ou metal, composto por uma base de borracha que contém letras ou figuras em relevo para serem mergulhadas em tinta, usado para sinalizar documentos, identificar papéis, livros etc; selo, sinete”. “Sinal ou marca impresso ou feito por esse instrumento”. [Popular] “Marca de nome que, feita com esse instrumento, substitui uma assinatura, ou valida o conteúdo de alguma coisa”. Disponível em https://www.dicio.com.br/sinetes/",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Os carimbos como conhecemos hoje – já em desuso, como os de madeira e base em borracha trazendo textos, letras e figuras em relevo, surgiram a partir da descoberta do processo de vulcanização criado em 1844 pelo estadunidense Charles Goodyear (1800-1860). Os carimbos de madeira tem sido substituídos pelos carimbos de plásticos e auto-entintados que possuem almofada embutida”. http://stampbrazil.com/blog/a-historia-do-carimbo/",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "No Brasil, o termo carimbo surgiu no século XIX fazendo referência ao símbolo ou marca pública colocada na moeda-papel e na moeda metálica que por aqui circulava. E remonta a vergonhosa história da escravidão. O ferro em brasa foi utilizado para marcar na pele do escravo um símbolo (seta, cruz, figura geométrica etc.), uma letra maiúscula ou, então, duas letras montadas, como sinal de propriedade ou castigo aos escravos rebeldes ou fugitivos. O costume existia desde os antigos egípcios e romanos. Alguns escravos eram marcados a ferro ainda na África, antes do embarque para o Brasil. De acordo com Clóvis Moura, autor do Dicionário da Escravidão Negra no Brasil, a palavra “carimbo”, que é de origem africana, surgiu a partir desse hábito. Edusp, 2013. https://studhistoria.com.br/qq-isso/ferro-de-marcar- escravo/. O termo carimbo vem da palavra “ka’rimbu” do vocabulário quimbundo que é língua da família banta, falada em Angola pelos ambundos cujo significado é “marca”. https://www.carimbosreal.com.br/historia-dos-carimbos",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "A história do sinete também remete a história da carta pessoal ou institucional, como um tipo de correspondência. No século XIX, uma carta desde sua concepção até o seu envio ao destinatário, envolvia uma série de elementos materiais como envelopes, papéis, penas, canetas, lugares de escrever, de guardar (GAUSTED, 2009) e sinetes para lacrá-las. O sinete com que a condessa de Barral assinava suas cartas enviadas ao Imperador Pedro II , foi uma das peças da exposição intitulada “Condessa de Barral: cartas & imagens”, organizada no Centro Cultural Banco do Brasil, em 2015. Luisa Margarida Portugal e Barros, manteve vasta correspondência, com o Imperador Pedro II (VASCONCELOS, 2015). Ela foi a preceptora responsável pela educação das princesas Leopoldina e Isabel, filhas de Dom Pedro II. (AGUIAR E VASCONCELLOS, 2012)",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Atualmente, o sinete possui uma variedade de utilidades como em convites sofisticados [de casamento, aniversário] e adquiridos junto a empresas especializadas...” (GASTAUD, 2009, p.59); empresas que buscam apresentar seus produtos em estilo único e personalizado. Os sinetes ainda são encontrados em leilões, museus, colecionadores, a venda na web. Nela há diversos vídeos ensinando a como fazer sinetes e lacres de cera.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
             {
                 content: "",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
-            },
+            }
         ],
         references: [
             {
-                author: "",
-                title: "",
-                rest: ""
+                author: "AGUIAR, Jaqueline Vieira de; VASCONCELLOS, Maria Celi Chaves.",
+                title: "“Meus caros paes”: a educação das Princesas Isabel e Leopoldina.",
+                rest: "Revista Educação em Questão, Natal, v.44, n.30, p.6-35,	set./dez.	2012.	Disponível	em https://periodicos.ufrn.br/educacaoemquestao/article/view/4079."
+            },
+            {
+                author: "FABRINO, Raphael Joao Hallack. ",
+                title: "Guia de Identificação de Arte Sacra. ",
+                rest: "IPHAN, 2012. (Trabalho de pesquisa desenvolvido na Superintendência do IPHAN no Rio de Janeiro, como parte do Programa de Mestrado em Preservação do Patrimônio Cultural – IPHAN, Rio de Janeiro, 2012. "
+            },
+            {
+                author: "GASPARETTO JUNIOR, Antonio.",
+                title: "Anel do pescador.",
+                rest: "Disponível em https://www.infoescola.com/religiao/anel-do-pescador/ "
+            },
+            {
+                author: "GASTAUD, Carla Rodrigues. ",
+                title: "De correspondências e correspondências: cultura escrita e práticas epistolares no Brasil entre 1880 e 1950. ",
+                rest: "Universidade Federal do Rio Grande do Sul. Faculdade de Educação. Programa de Pós-graduação em Educação. Porto Alegre, 2009. Tese (Doutorado em Educação)"
+            },
+            {
+                author: "MERCALDI, Marlon. MOURA, Mônica. ",
+                title: "Função social dos anéis: uma breve história. ",
+                rest: "In: Anais do 10º Colóquio de Moda. 7ª Edição Internacional. 1º Congresso Brasileiro de Iniciação Científica em Design e Moda, 2014. 2014. Disponível em: http://coloquiomoda.com.br/anais/Coloquio%20de%20Moda%20-%202014/COMUNICACAO-ORAL/CO-EIXO3-CULTURA/CO-EIXO-3-Funcao-dos-Aneis-Uma-breve-Historia.pdf. Acesso em: 03 mar. 2022."
+            },
+            {
+                author: "VASCONCELOS, Maria Celi Chaves. ",
+                title: "Exposição revela personagem da corte brasileira: condessa de Barra. ",
+                rest: "In. Boletim Faperj. Rio de Janeiro, publicado em 04/12/2014. Disponível em https://www.faperj.br/?id=2801.2.0"
             }
         ]
 
     },
     {
         id: 60,
-        title: "",
+        title: "Sombrinha",
         author:{
-            name: "",
-            institution: "",
+            name: "Alice Rigoni Jacques",
+            institution: "Memorial Do Deutscher Hilfsverein ao Colégio Farroupilha",
             department: []
         },
         text: [
             {
-                content: "",
+                content: "A sombrinha… ela confere um charme a mais às ruas nos dias cinzentos e volta e meia também dá as caras em dias ensolarados.",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
             },
+            {
+                content: "Ao caminhar, passear ou pegar atalhos com a sombrinha surgem conversas fugazes, comentários sobre folhas caídas no chão, gatos e cães que povoam as ruas e pássaros que, com sua melodia, alegram os dias. No desvio dos caminhos, observam-se os movimentos cotidianos,      os braços dados debaixo da mesma sombrinha. São marcas de um tempo que se pereniza nas andanças dos nossos caminhos. Andar por aí, solto, sem destino fixo, pode lembrar a flânerie de Baudelaire, que traz a figura do observador, perambulador. Para Azevedo (2013, p. 140), o flâneur circulava sem destino pelas ruas e deixava-se encantar por tudo que as compunha, como se a cidade fosse um filme ou uma exposição de arte que instigasse sua curiosidade e proporcionasse certo êxtase estético. A ação provocada pelo flanar das sombrinhas ao perambular pelas ruas, parques ou outros lugares, permite novas formas de apropriação desses espaços e o engendramento de novas singularidades que, na percepção de Guattari (1992, p. 173), nada mais é do que a “produção do destino da humanidade”. Assim, no flanar pelos diversos espaços vê-se uma poética a partir da qual o olhar transeunte sobre a cidade e seus passantes se constrói, denunciando a pressa, o pragmatismo econômico nas atitudes e a expressão da velhice como marcas de uma sociedade em que a literatura tenta buscar espaço. ",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Ao buscar entender um pouco o lugar ocupado pelas sombrinhas, supõe-se que elas surgiram na região da Mesopotâmia e, como na região quase não havia chuvas, elas eram usadas por reis e pessoas de posse para se protegerem do sol. Foi a partir do século XVI, com as Grandes Navegações, que as sombrinhas conheceram seus dias de glória na Europa. Feitas em seda e importadas diretamente da Índia pelos portugueses, as sombrinhas se tornaram símbolo de riqueza e prestígio.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "No século XVII, a sombrinha e o guarda-chuva se separaram, inclusive com o surgimento de palavras diferentes, no francês e no inglês, para os dois objetos. A grande diferença estava nos materiais utilizados (seda nas sombrinhas e tecidos menos nobres nos guarda-chuvas) e no fato de que os guarda-chuvas eram impermeabilizados com óleos, assim como se fazia na China.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "No século XVIII, as estampas e decorações das sombrinhas também ficaram um pouco mais leves. Saem os pesados bordados e as franjas metálicas e entram as sedas estampadas com florais adamascados, típicos das indústrias de seda francesas. Assim, a sombrinha começou a se popularizar como um acessório para proteger a palidez da pele, muito valorizada na época, e chegou ao seu auge no século XIX.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Um dos registros visuais desse artefato é a peça aqui apresentada, uma sombrinha de seda, do século XIX, com cabo de ferro e porcelana, decorada com a pintura de um casal e medindo aproximadamente 83 cm. A seda, tecido nobre, foi fabricada do casulo da lagarta de diversas mariposas. O aramado, suportado por uma haste em ferro, também compõe o artefato, dando um toque nobre ao acessório. Já a representação de um casal, encenada na pintura que reveste o cabo da sombrinha, remete à imaginação da paixão, do encantamento do encontro e da cumplicidade a dois.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Já nos anos 50, as mulheres usavam as sombrinhas muito mais pelo seu charme do que pela sua praticidade, desfilavam pelas ruas exibindo seus glamourosos acessórios da moda. Nos dias de hoje, ela é um utilitário que, graças aos novos modelos cheios de cores, estampas e formatos diversos, voltou à cena com tudo como um acessório de moda prático e versátil, para fazer a alegria principalmente de quem mora em cidades de climas extremos, com muitas chuvas ou muito sol.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            }
         ],
         references: [
             {
-                author: "",
-                title: "",
-                rest: ""
+                author: "AZEVEDO, Maria Thereza Oliveira. Passeio de sombrinha: poéticas urbanas, subjetividades contemporâneas e modos de estar na cidade. ",
+                title: "Revista Magistro [online],",
+                rest: "Rio de Janeiro, v.8, n.2, p. 138-146, 2013."
+            },
+            {
+                author: "GUATTARI, Felix. ",
+                title: "Caosmose um novo paradigma estético. ",
+                rest: "São Paulo: Editora 34, 1992."
             }
         ]
 
