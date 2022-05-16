@@ -78,7 +78,7 @@ const Convidado = styled.p`
 
 `;
 
-const Infos = () => {
+const Infos = ({ setOpen }) => {
 
     const renderProgramation = () => {
 
@@ -119,7 +119,7 @@ const Infos = () => {
 
     return (
         <Container>
-           <Header />
+           <Header setOpen={setOpen} />
             <Content>
                 <Title>Informações</Title>
                 {renderProgramation()}

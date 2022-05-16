@@ -19,6 +19,7 @@ const Box = styled.div`
 
     @media (max-width: 768px) {
         padding: 0 32px;
+        margin-top: 12px;
     }
 `;
 
@@ -73,7 +74,7 @@ const ButtonContainer = styled.div`
 `;
 
 
-const ItemExposicao = () => {
+const ItemExposicao = ( {setOpen }) => {
     const params = useParams();
     const { id } = params;
     const text = texts.find((text) => text.id === Number(id));
@@ -90,7 +91,7 @@ const ItemExposicao = () => {
 
     return (
         <Container>
-            <Header />
+            <Header setOpen={setOpen} />
             <Box key={text.id}>
                 <h1>{text.title}</h1>
                 <Img src={image.url} alt={image.alt} />
@@ -101,33 +102,33 @@ const ItemExposicao = () => {
                <AuthorBox>
                <h2>{text.author.name}</h2>
                 <h3>{text.author.institution}</h3>
-                {text.author.department.map((department) =>
-                    <h4 key={department}>{department}</h4>
+                {text.author.department.map((department, index) =>
+                    <h4 key={index + Math.random()}>{department}</h4>
                 )}
                </AuthorBox>
                {text.author2 && (
                     <AuthorBox>
                     <h2>{text.author2.name}</h2>
                      <h3>{text.author2.institution}</h3>
-                     {text.author2.department.map((department) =>
-                         <h4 key={department}>{department}</h4>
+                     {text.author2.department.map((department, index) =>
+                         <h4 key={index + Math.random()}>{department}</h4>
                      )}
                     </AuthorBox>
                )}
                 {text.initialCitations && text.initialCitations.map((citation) => (
                     <div>
-                        <Citation key={citation.text.content}>{citation.text.content} <sup>{citation.text.footNoteNumber}</sup></Citation>
+                        <Citation key={citation.text.content + Math.random()}>{citation.text.content} <sup>{citation.text.footNoteNumber}</sup></Citation>
                     </div>
                 ))}
                 {text.text.map((paragraph) =>
-                    <>
-                        <Paragraph key={paragraph.content}>{replaceCodeToSup(paragraph.content, paragraph.footNoteNumber)}</Paragraph>
+                    <div key={paragraph.content}>
+                        <Paragraph >{replaceCodeToSup(paragraph.content, paragraph.footNoteNumber)}</Paragraph>
                         <Citation>{paragraph.citation}</Citation>
-                    </>
+                    </div >
                 )}
                 <h2>Referências bibliograficas</h2>
                 {text.references.map((reference) =>
-                    <References key={reference}>{reference.author}  <b>{reference.title}</b>  {reference.rest} </References>
+                    <References key={reference + Math.random()}>{reference.author}  <b>{reference.title}</b>  {reference.rest} </References>
                 )}
             </Box>
             <Footer />

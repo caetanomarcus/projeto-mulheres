@@ -11,10 +11,10 @@ const Container = styled.div`
 `;
 
 
-const Home = () => {
+const Home = ({ setOpen }) => {
     return (
         <Container>
-            <Header />
+            <Header setOpen={setOpen} />
             <Hero />
             <Apresentation />
             <Footer />

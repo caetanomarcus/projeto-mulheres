@@ -1,4 +1,4 @@
-import * as React from "react"
+import React from "react"
 import styled from "styled-components"
 
 // styles
@@ -27,6 +27,7 @@ const Container = styled.div`
     justify-content: space-between;
     align-items: center;
 
+
     
 `;
 
@@ -39,6 +40,7 @@ const UerjTextContainer = styled.div`
 
     @media (max-width: 768px) {
         flex-direction: column;
+        align-items: flex-end;
        
         
     }
@@ -52,6 +54,7 @@ const SubTitle = styled.h2`
 
      @media (max-width: 768px) {
         width: 100%;
+        font-size: 10px;
     }
    
 `;
@@ -107,10 +110,26 @@ const MenuItem = styled.li`
 
 const MenuMobile = styled.div`
     display: none;
+    width: 22px;
+    height: 12px;
+    margin-right: 12px;
+    margin-left: 0;
+    margin-top: 12px;
+    cursor: pointer;
+
 
     @media (max-width: 768px) {
         display: flex;
+        flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     }
+`;
+
+const Line = styled.div`
+  width: 100%;
+  height: 1px;
+  background: #7e0afa;
 `;
 
 //data
@@ -131,7 +150,7 @@ const menu = [
 
 
 // markup
-const Header = () => {
+const Header = ({setOpen}) => {
     return (
         <Wrapper>
             <Container>
@@ -145,6 +164,11 @@ const Header = () => {
                         ))}
 
                     </Menu>
+                    <MenuMobile  onClick={() => setOpen( prevState => !prevState)} >
+                        <Line />
+                        <Line />
+                        <Line />
+                    </MenuMobile>
                 </UerjTextContainer>
             </Container>
         </Wrapper>

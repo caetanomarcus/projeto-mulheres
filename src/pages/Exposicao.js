@@ -305,7 +305,7 @@ const Name = styled.p`
 
 //categorys 0 = Cenários Educativos, 1 = Escritas Íntimas, 2 = Toaletes Femininas, 3 = Imagens Sensíveis
 
-const Exposicao = () => {
+const Exposicao = ( {setOpen }) => {
     const [categorys, setCategorys] = useState([]);
     const [offset, setOffset] = useState(0);
     const [limit, setLimit] = useState(10);
@@ -394,7 +394,7 @@ const Exposicao = () => {
 
     return (
         <Container>
-            <Header />
+            <Header setOpen={setOpen} />
             <FilterContainer>
                 <Filter>
                     <p>Filtros</p>

@@ -47,6 +47,10 @@ const Box = styled.div`
     color:#5F1478;
     padding-top: ${({ hasPaddingTop }) => hasPaddingTop ? '72px' : '0'};
     position: relative;
+
+    @media (max-width: 768px) {
+        padding-top: ${({ hasPaddingTop }) => hasPaddingTop ? '16px' : '0'};
+    }
     
 `;
 

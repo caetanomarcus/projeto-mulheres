@@ -23,6 +23,16 @@ const Container = styled.div`
         left: 126px;
     }
 
+    @media (max-width: 768px) {
+        margin-top: 0px;
+        margin-bottom: 0px;
+
+        ::after {
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+
 `;
 
 const UpBox = styled.div`
