@@ -56,7 +56,6 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 const Container = styled.div`
-width: 100vw;
 height: fit-content;
 `;
 
