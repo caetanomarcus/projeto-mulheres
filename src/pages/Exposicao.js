@@ -1,9 +1,15 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import Header from "../components/Header.2";
 import { images } from "../data/images";
 
+//images
+import leftArrow from "../assets/icons/left-arrow.png";
+import rightArrow from "../assets/icons/right-arrow.png";
+import Footer from "../components/Footer";
+
 const Container = styled.div`
+    width: 100%;
     max-width: 1440px;
     margin: 0 auto;
     position: relative;
@@ -19,6 +25,10 @@ const FilterContainer = styled.div`
     position: absolute;
     right: 176px;
     z-index: 3;
+
+    @media (max-width: 1024px){
+        right: 32px;
+    }
     
 `;
 
@@ -132,14 +142,64 @@ const Checkbox = styled.input`
 
 `;
 
+const PaginationContainer = styled.div`
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+`;
 
+const PaginationBox = styled.div`
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media (max-width: 1024px) {
+        font-size: 14px;
+    }
+
+    @media (max-width: 768px) {
+        width: 50%;
+    }
+`;
+
+const PaginationButton = styled.button`
+    width: 32px;
+    height: 32px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    position: relative;
+
+
+    :focus {
+        outline: none;
+    }
+
+    ::after{
+        content: "";
+        display: block;
+        width: 16px;
+        height: 16px;
+        background-image: url(${props => props.icon});
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+`;
 
 const ImagesContainer = styled.div`
     display: flex;
+    min-height: 100vh;
     justify-content: center;
     flex-wrap: wrap;
     padding: 0 176px;
-    margin-top: 60px;
+    margin-top: 16px;
 
     @media (max-width: 1024px) {
         padding: 0 32px;
@@ -164,6 +224,13 @@ position: relative;
         display: flex;
     }
 }
+
+${({haveNoImages}) => haveNoImages && `
+    background-color: #f0f0f0;
+    opacity: 0.5;
+    height:  60px;
+`}
+
 `;
 
 const Blur = styled.div`
@@ -236,20 +303,15 @@ const Name = styled.p`
 
 `;
 
-const VerMais = styled.button`
-    width: fit-content;
-    height: fit-content;
-    border: solid #3c3c3c;
-    border-radius: 4px;
-    background-color: #fff;
-    margin: 0 auto;
-`;
 //categorys 0 = Cenários Educativos, 1 = Escritas Íntimas, 2 = Toaletes Femininas, 3 = Imagens Sensíveis
 
 const Exposicao = () => {
     const [categorys, setCategorys] = useState([]);
     const [offset, setOffset] = useState(0);
     const [limit, setLimit] = useState(10);
+    const [page, setPage] = useState(1);
+    const [filteredImages, setFilteredImages] = useState([]);
+
 
     const renderSwtichCheckbox = (label, position) => {
 
@@ -258,8 +320,14 @@ const Exposicao = () => {
             if (categorys.includes(position)) {
                 const newArray = categorys.filter(item => item !== position);
                 setCategorys(newArray);
+                setPage(1);
+                setOffset(0);
+                setLimit(10);
             } else {
                 setCategorys([...categorys, position]);
+                setPage(1);
+                setOffset(0);
+                setLimit(10);
             }
 
         }
@@ -276,31 +344,53 @@ const Exposicao = () => {
     }
 
     const renderImages = () => {
-        const filteredImages = images.filter(image => {
-            const { category } = image;
-
-            if (categorys.length === 0) {
-                return true;
-            }
-
-            return categorys.includes(category);
-        });
-
-
-        return filteredImages.slice(offset,limit).map((image) => (
+       
+        const array = filteredImages.slice(offset,limit).map((image) => (
             <Anchor key={image.id} href={"/exposicao/" + image.id} >
                 <Name>{image.name}</Name>
-                <ImgContainer src={image.src}>
+                <ImgContainer haveNoImages={!image.url}>
                     <Img src={image.url} alt={image.name} />
                     <Blur />
                 </ImgContainer>
             </Anchor>
         ))
+
+        return array
     }
 
-    const handleClickVerMais = () => {
-        setOffset(offset + limit);
+ 
+    const totalPages = (filteredImages.length %10 === 0 )? filteredImages.length/10 : Math.floor(filteredImages.length/10) + 1;
+
+
+    const handleClickNext = () => {
+        if (page < totalPages) {
+            setPage(page + 1);
+            setLimit(limit + 10);
+            setOffset(offset + 10);
+        }
     }
+
+    const handleClickPrev = () => {
+        if (page > 1) {
+            setPage(page - 1);
+            setLimit(limit - 10);
+            setOffset(offset - 10);
+        }
+    }
+
+    useEffect(() => {
+     const array =   images.filter(image => {
+            const { category } = image;
+    
+            if (categorys.length === 0) {
+                return true;
+            }
+    
+            return categorys.includes(category);
+        })
+
+        setFilteredImages(array);
+    }, [page, categorys]);
 
     return (
         <Container>
@@ -316,10 +406,17 @@ const Exposicao = () => {
                     </FiltersBox>
                 </Filter>
             </FilterContainer>
+            <PaginationContainer>
+                <PaginationBox>
+                    <PaginationButton icon={leftArrow} onClick={handleClickPrev} />
+                    <p>Página {page} de {totalPages}</p>
+                    <PaginationButton icon={rightArrow} onClick={handleClickNext} />
+                </PaginationBox>
+            </PaginationContainer>
             <ImagesContainer>
                 {renderImages()}
             </ImagesContainer>
-            <VerMais>Ver mais</VerMais>
+            <Footer />
         </Container>
     )
 }

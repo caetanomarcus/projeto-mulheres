@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import ItemExposicao from './pages/ItemExposicao';
 import Exposicao from './pages/Exposicao';
+import Infos from './pages/Infos';
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -49,6 +50,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path='/exposicao' element={<Exposicao />} />
           <Route path="/exposicao/:id" element={<ItemExposicao />} />
+          <Route path='/infos' element={<Infos />} />
 
         </Routes>
 

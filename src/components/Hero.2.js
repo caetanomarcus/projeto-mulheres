@@ -1,22 +1,5 @@
 import React from 'react'
-import styled, { keyframes } from 'styled-components'
-
-//assets
-import penaETinteiro from "../assets/penaetinteiro.jpg"
-import pink from '../assets/pink.jpg'
-
-//keyframes
-
-const imageAnimation = keyframes`
-    0% {
-        opacity: 0;
-        transform: translateX(-100%);
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(0);
-    }
-`;
+import styled from 'styled-components'
 
 const Container = styled.div`
     width: 100%;
@@ -40,9 +23,6 @@ const Container = styled.div`
         left: 126px;
     }
 
-    
-
-    
 `;
 
 const UpBox = styled.div`
@@ -79,35 +59,6 @@ const UpBoxContainer = styled.div`
     @media (max-width: 1024px) {
         padding: 24px 32px;
         flex-direction: column;
-    }
-`;
-
-const BubbleContainer = styled.div`
-    position: absolute ;
-    width: ${props => props.size};
-    height:  ${props => props.size} ;
-    top: ${props => props.top}  ;
-    left: ${props => props.left};   
-    right: ${props => props.right};
-    overflow: hidden;
-`;
-
-const Bubbles = styled.div`
-    width: ${props => props.size};
-    height:  ${props => props.size} ;
-    position: ${props => props.position || 'absolute'};
-    top: ${props => props.top} ;
-    left: ${props => props.left};   
-    right: ${props => props.right};
-    background-image: url(${pink});
-    background-size: cover;
-    transform: ${props => props.transform};
-    border-radius: 50%;
-    z-index: -1;
-    display: none;
-
-    @media (max-width: 768px) {
-        display: none;
     }
 `;
 
@@ -190,52 +141,10 @@ const Title2 = styled.h2`
 const Title3 = styled.h2`
     font-weight: 500;
 `;
-const HeroImage = styled.div`
-    width: calc(100% - 256px);
-    /* height: 400px; */
-    max-width: 1440px;
-    margin: 0 auto;
-    height: 485px;
-    /* display: flex ;
-    justify-content: center;
-    align-items: flex-start; */
-    margin-right: 0;
-    margin-left: auto;
-    position: relative ;
-    
-`;
-
-const Image = styled.div`
-    width: 100%;
-    height: 400px;
-    background-image: url(${penaETinteiro});
-    background-position: center;
-    background-size: cover;
-    border-radius: 2px;
-    position: absolute;
-    top: 65px;
-    padding: 24px;
-    animation: ${imageAnimation} 2s ease-in-out;
-    
-`;
-
-const ImageText = styled.p`
-    color: #fff;
-    font-weight: 600;
-    position: absolute;
-    bottom: 24px;
-
-`;
 
 const Hero2 = () => {
-    console.log(typeof pink)
     return (
         <Container>
-            <BubbleContainer right='0' size='100px'>
-                <Bubbles size='100px' top='0' right='-60px' position='relative' />
-            </BubbleContainer>
-            <Bubbles top='400px' left='-235px' size='300px' transform='translateY(50%)' />
-           
             <UpBox>
                <UpBoxContainer>
                <HeroTitleContainer>

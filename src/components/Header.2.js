@@ -105,7 +105,13 @@ const MenuItem = styled.li`
 
 `;
 
-const MenuMobile = styled.div``;
+const MenuMobile = styled.div`
+    display: none;
+
+    @media (max-width: 768px) {
+        display: flex;
+    }
+`;
 
 //data
 const menu = [

@@ -408,6 +408,90 @@ export const images = [
         name: 'Rádio Capelinha',
         category: 2
     },
+    {
+        id: 57,
+        url: rocaDeFiar,
+        name: 'Roca de Fiar',
+        category: 2
+    },
+    {
+        id: 58,
+        url: sineta,
+        name: 'Sineta',
+        category: 2
+    },
+    {
+        id: 59,
+        url: sinete,
+        name: 'Sinete',
+        category: 1
+    },
+    {
+        id: 60,
+        url: sombrinha,
+        name: 'Sombrinha',
+        category: 2
+    },
+    {
+        id: 61,
+        url: talha,
+        name: 'Talha',
+        category: 2
+    },
+    {
+        id: 62,
+        url: taquigrafo,
+        name: 'Taquígrafo',
+        category: 1
+    },
+    {
+        id: 63,
+        url: telefone,
+        name: 'Telefone',
+        category: 2
+    },
+    {
+        id: 64,
+        url: telegrafo,
+        name: 'Telégrafo',
+        category: 1
+    },
+    {
+        id: 65,
+        url: tesouraDeParteira,
+        name: 'Tesoura de Parteira',
+        category: 2
+    },
+    {
+        id: 66,
+        url: verascopio,
+        name: 'Verascópio',
+        category: 2
+    },
+    {
+        id: 67,
+        url: urinol,
+        name: 'Urinol',
+        category: 2
+    },
+    {
+        id: 68,
+        url: urinolFeminino,
+        name: 'Urinol Feminino',
+        category: 2
+    },
+    {
+        id: 69,
+        url: visorEsteroscopio,
+        name: 'Visor Esteroscópio',
+        category: 2
+    },
+    {
+        id: 70,
+        url: visorGrafoscopio,
+        name: 'Visor Gráfoscópio',
+        category: 2
+    },
 
 ]
   

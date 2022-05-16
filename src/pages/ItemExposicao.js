@@ -4,6 +4,7 @@ import { texts } from "../data/texts";
 import { images } from '../data/images';
 import { useParams } from "react-router-dom";
 import Header from "../components/Header.2";
+import Footer from "../components/Footer";
 
 const Container = styled.div`
      max-width: 1440px;
@@ -19,6 +20,10 @@ const Box = styled.div`
     @media (max-width: 768px) {
         padding: 0 32px;
     }
+`;
+
+const AuthorBox = styled.div`
+    margin-bottom: 20px;
 `;
 
 const Paragraph = styled.p`
@@ -93,11 +98,22 @@ const ItemExposicao = () => {
                     {(id > 1) && <a href={prevLink}>ANTERIOR</a>}
                     {(id < 70) && <a href={nextLink}>PRÓXIMO</a>}
                 </ButtonContainer>
-                <h2>{text.author.name}</h2>
+               <AuthorBox>
+               <h2>{text.author.name}</h2>
                 <h3>{text.author.institution}</h3>
                 {text.author.department.map((department) =>
                     <h4 key={department}>{department}</h4>
                 )}
+               </AuthorBox>
+               {text.author2 && (
+                    <AuthorBox>
+                    <h2>{text.author2.name}</h2>
+                     <h3>{text.author2.institution}</h3>
+                     {text.author2.department.map((department) =>
+                         <h4 key={department}>{department}</h4>
+                     )}
+                    </AuthorBox>
+               )}
                 {text.initialCitations && text.initialCitations.map((citation) => (
                     <div>
                         <Citation key={citation.text.content}>{citation.text.content} <sup>{citation.text.footNoteNumber}</sup></Citation>
@@ -114,7 +130,7 @@ const ItemExposicao = () => {
                     <References key={reference}>{reference.author}  <b>{reference.title}</b>  {reference.rest} </References>
                 )}
             </Box>
-
+            <Footer />
         </Container>
     )
 }

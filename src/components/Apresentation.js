@@ -1,9 +1,7 @@
-import React, { useState } from "react"
+import React from "react"
 import styled, { keyframes } from "styled-components"
 import { images } from "../data/images";
 
-//icons
-import rightArrow from '../assets/icons/right-arrow.png'
 
 //keyframes
 
@@ -110,6 +108,8 @@ const ImagesBox = styled.div`
     margin: 10px auto;
     /* margin-right: 48px; */
     position: relative;
+    margin-top: 62px;
+    margin-bottom: 62px;
 
 
     @media (max-width: 1024px) {
@@ -201,12 +201,6 @@ const Image = styled.div`
 
 const Apresentation = () => {
 
-    const [page, setPage] = useState(1);
-
-    const generateFiveNumbers = (page) => {
-
-    }
-
     const renderImages = (big, first, second, third, fourth) => {
         const lista = [images[first], images[second], images[third], images[fourth]];
         console.log(lista, 'lista', first, second, third, fourth);
@@ -218,17 +212,14 @@ const Apresentation = () => {
 
                         return <Image key={index} width={'40%'} image={item?.url} />
 
-
-                        return null
                     })}
                 </SmallImagesBox>
             </ImagesBox>
         )
     }
 
-
     const renderText = () => {
-        console.log(page)
+
         return (
             <Page >
 
@@ -261,7 +252,7 @@ const Apresentation = () => {
                         <Image width={'500px'} big alone image={images[6].url}/>
                     </ImagesBox>
                     <Paragraph>
-                        A Exposição insere-se no campo da história das mulheres, mais propriamente à história da educação feminina, à medida que permite um conhecimento mais próximo da intimidade de personagens até então silenciadas, evidenciando um universo, nos quais, muitas vezes, os objetos expostos constituíam os singulares elementos do cenário em que se desenrolou suas vidas, em meio a crenças, desejos, anseios e contradições (PERROT, 2005). Pretende-se, assim, expor as mulheres na cena oitocentista, trazendo um recorte de gênero para o espaço cultural/expositivo, priorizando-se vestígios da cotidianidade feminina.
+                        A Exposição insere-se no campo da história das mulheres, mais propriamente à história da educação feminina, à medida que permite um conhecimento mais próximo da intimidade de personagens até então silenciadas, evidenciando um universo, nos quais, muitas vezes, os objetos expostos constituíam os singulares elementos do cenário em que se desenrolou suas vidas, em meio a crenças, desejos, anseios e contradições (PERROT, 2005)¹. Pretende-se, assim, expor as mulheres na cena oitocentista, trazendo um recorte de gênero para o espaço cultural/expositivo, priorizando-se vestígios da cotidianidade feminina.
                     </Paragraph>
                     <ImageTextBox>
                         {renderImages(7,8,9,10,11)}
@@ -274,7 +265,27 @@ const Apresentation = () => {
                     </ImageTextBox>
                 </Box>
                 <Box hasPaddingTop>
-
+                    <Paragraph >
+                    Nessa perspectiva, a Exposição volta-se para elementos do passado feminino brasileiro no Oitocentos, buscando uma valorização da história de mulheres, por vezes, propositalmente silenciada e esquecida, deixando-as órfãs de seus próprios símbolos e signos característicos de uma época (RICOEUR, 2007)² . 
+                    </Paragraph>
+                </Box>
+                <Box hasPaddingTop>
+                    <Paragraph>
+                    Além disso, essa narrativa expográfica demonstra o que as mulheres foram, o que elas têm feito através dos tempos e como isso repercute no que elas estão fazendo agora, denotando as camadas de passado que possui o presente (KOSELLECK, 2014)³.
+                    </Paragraph>
+                    <ImagesBox >
+                        <Image width={'500px'} big alone image={images[45].url}/>
+                    </ImagesBox>
+                </Box>
+                <Box hasPaddingTop>
+                    <Paragraph>
+                    Assim, a Exposição é também apresentada como um exemplo de transferência de conhecimento do patrimônio histórico educacional para a comunidade. Os objetos expostos não têm voz, mas através dos verbetes, o visitante poderá encontrar respostas para suas dúvidas em relação a tais peças. Nesse sentido, comunicamos e oferecemos a sociedade o conhecimento gerado a partir do grupo de pesquisa, viabilizados por meio desta Exposição "Mulheres e educação no século XIX:<i>artefatos e sensibilidades</i> ”.
+                    </Paragraph>
+                </Box>
+                <Box hasPaddingTop>
+                    <Paragraph>
+                    Desejamos que você, visitante, desfrute das imagens e das narrativas que emanam dos artefatos e verbetes apresentados!
+                    </Paragraph>
                 </Box>
             </Page>
         )

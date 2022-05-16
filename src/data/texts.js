@@ -391,40 +391,30 @@ export const texts =[
                 footNoteNumber: null, 
                 image: []
             },
-        ],
-        text: [
             {
                 content: "As crianças desde muito transformam objetos e elementos disponíveis na natureza em brinquedos e possibilidades para brincar. O próprio corpo e o mundo ao redor são os primeiros passos para a exploração do mundo. Por muito tempo as crianças não foram compreendidas no brincar, mas os brinquedos existem desde a antiguidade, caso de piões e bonecas, por exemplo. O brincar e a ludicidade que o envolve tem uma historicidade que acompanha o processo de humanização e é parte da formação humana. Os sentidos e os materiais empregados, as formas de brincar e de compreender o brincar são marcados cultural, social e historicamente.",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
             },
-        ],
-        text: [
             {
                 content: "O bilboquê ou emboca-bolas é um brinquedo composto de uma bola ou taça perfurada conectada por um cordão a uma alça. O jogo consiste em enfiar a bola na alça com uma mão. Seja como for, a origem do bibloquê permanece obscura. A explicação mais provável seria que a palavra bilboquet vem do francês 'bille'. É provável que tenha surgido na França no final do século XVI. Manson (2001) refere que o bilboquê aparece em 1577, período em que são identificados muitos outros novos brinquedos emergindo, caso também das bolas de sabão. No entanto, Rabelais ao listar os jogos de Gargântua menciona o bilboquê, e a obra foi publicada em 1534, o que pode indicar que anos antes já estava em circulação. Em francês, antigamente, também era conhecido como ‘pique-balle’. Uma versão japonesa do brinquedo seria o ‘kendama’. Também pode ser conhecido como jogo da ‘taça e bola’.",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
             },
-        ],
-        text: [
             {
                 content: "Em Confissões, livro V, Jean-Jacques Rousseau escreveu que carregava no bolso um bilboquê e “ficava jogando todo o tempo para dispensar-me de falar quando nada tinha a dizer”. E afirmava ainda que “se todos fizessem o mesmo, os homens seriam menos maus, seu trato seria mais seguro e, penso, mais agradável. Enfim que os engraçados riam se quiserem, mas sustento que a única moral à altura do século presente é a moral do bilboquê” (ROUSSEAU, 2018, posição 3414). Para evitar o tédio e o enfado jogavam, para além das crianças, também os adultos.",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
             },
-        ],
-        text: [
             {
                 content: "Os modelos de bilboquê são variados e há exemplares bem distintos em relação ao tamanho, materiais empregados na fabricação, custos e estilos, apesar do uso e finalidade serem comuns. Desde séculos são localizados bilboquês fabricados com materiais diversos como madeira, mas também ossos, metais, marfim e outros mais contemporâneos, como o plástico. Com o passar do tempo, localiza-se a combinação do jogo do bilboquê, percebido como atividade de destreza, com a narrativa de histórias, danças ou ainda cantos, complexificando e dificultando o jogo.",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
             },
-        ],
-        text: [
             {
                 content: "No caso do Brasil, a difusão e a comercialização de brinquedos à venda remontam à segunda metade do século XIX, no Rio de Janeiro. Torna-se mais comum a oferta de venda de brinquedos em geral e do bilboquê em particular, ao longo do século XX, em outras regiões do país. Em leilão efetuado em janeiro de 1872, como parte do catálogo posto à venda, no lote 76 estava “1 cestinha, 1 espanador e bilboquet e 1 bandeja” como parte dos objetos de uma Saleta(JORNAL DO COMÉRCIO, 18/01/1872, p. 02). No Natal de 1885, o jornal Gazeta de Notícias do Rio de Janeiro anunciava em sua página, dentre os vários brinquedos disponíveis na rua da Assembleia, 111, a venda de bilboquês “brinquedo útil para as crianças” (GAZETA DE NOTÍCIAS, 25/12/1885, p. 6). O bilboquê foi apreciado por séculos, por gerações e culturas distintas, incentivado por ser um brinquedo de destreza e que exigia o desenvolvimento de diversas habilidades.",
                 citation: "",
@@ -1032,7 +1022,7 @@ export const texts =[
             institution: "Pontifícia Universidade Católica do Rio de Janeiro/PUC-Rio",
             department: ["Rede Municipal de Educação de Duque de Caxias"]
         },
-        author:{
+        author2:{
             name: "Amanda Dias de Oliveira",
             institution: "Universidade Federal do Rio de Janeiro/UFRJ",
             department: ["Programa de Pós-Graduação em História Social "]
@@ -2700,7 +2690,7 @@ export const texts =[
             institution: "Universidade Cidade de São Paulo",
             department: []
         },
-        author:{
+        author2:{
             name: "Maria Thais Fernandes ",
             institution: "Universidade Cidade de São Paulo",
             department: []
