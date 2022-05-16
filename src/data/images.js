@@ -3,7 +3,7 @@ import albumDeFamilia from '../assets/obras/album-de-familia.jpg';
 import albumDeFotografias from '../assets/obras/album-de-fotografias.jpg';
 import ampulheta from '../assets/obras/ampulheta.jpg';
 import aquecedorDeCama from '../assets/obras/aquecedor-de-cama.jpg';
-import bilboquet from '../assets/obras/bilboquet.jpg';
+import bilboquet from '../assets/obras/bilboque.jpg';
 import binoculos from '../assets/obras/binoculos.jpg';
 import caderneta from '../assets/obras/caderneta.jpg';
 import cadernoEscolar from '../assets/obras/caderno-escolar.jpg';
