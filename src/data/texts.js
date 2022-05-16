@@ -5237,40 +5237,118 @@ export const texts =[
     },
     {
         id: 61,
-        title: "",
+        title: "Talha",
         author:{
-            name: "",
-            institution: "",
-            department: []
+            name: "Andre Jorge Marcelino da Costa Marinho ",
+            institution: "Universidade Federal do Estado do Rio de Janeiro",
+            department: ["Programa de Pós-Graduação em Educação"]
         },
         text: [
             {
                 content: "",
+                citationPoesia: "Por água clama o Rio de Janeiro A todo instante em fúria desabrida,E o Governo escutando o seu berreiro Mata-lhe a sede? Não! Faz avenida. [...]Em nossos tempos de neurastemia,Está grassando a avenidomania,Moléstia de feição a mais grotescaPor isso, quando no Café do Brito Pede-se um copo d’água,Ouve-se um grito: - Garçom, um copo de avenida fresca ¹. (TIGRE, p. 36, 2005)",
+                footNoteNumber: 1,
+                footNote: " ¹ Texto de Bastos Tigres produzido no período das reformas urbanas do Rio de Janeiro do início do século XX.",
+                image: []
+            },
+            {
+                content: "A Talha é um recipiente com o objetivo de armazenar água fresca para consumo no ambiente doméstico. A peça tem 34 cm de altura e foi confeccionada em faiança (cerâmica branca), no século XIX, com pinturas manuais de flores na cor rosa e fundo branco no estilo Art Nouveau. O utensílio em tela pode permitir a compreensão histórica de alguns dos hábitos do cotidiano, relacionados ao acesso e consumo de água limpa, bem como as atenções da esfera públicas para a sua distribuição e tratamento.",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
             },
+            {
+                content: "No Brasil, a partir do século XVI, as primeiras iniciativas para organizar o sistema de distribuição e tratamento de água ocorreram com a construção de aquedutos e encanamentos, no intuito de levar a água até as fontes, chafarizes e/ou bicas para acesso da população. No entanto, nesses locais, a qualidade da água era impactada pelo uso das lavanderias públicas, bebedouros de animais e descarte de lixo e esgoto nos locais de extração, contribuindo para a poluição da água.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Outro problema estava na distância entre as residências e os locais de coleta da água. Assim, alguns setores recorriam aos “aguadeiros ou carregadores de água, que circulavam pelas ruas da cidade, a pé ou em carroças, vendendo o líquido” (KLAUCK, 2018, p. 177) e as armazenavam em moringas, potes ou cuias. ",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "No caso da elite brasileira, a importação de produtos europeus provocados pela abertura dos portos e a crescente integração do país no mercado mundial no século XIX, também deixou suas marcas nos recipientes para água, como a talha em faiança. Os utensílios domésticos produzido nesse material eram mais aceitos do que de outras modalidades de cerâmicas, tendo em vista, por exemplo, o alto valor econômico das peças de porcelana (SILVA, GOMES, 2009).",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "O processo de “purificação” da água pelas talhas era bastante rudimentar e ocorria por meio da decantação (BELLINGIERI, 2004), no qual, após a sedimentação, a água era retirada com o auxílio de uma concha, sem esbarrar no fundo, para não levantar os dejetos. Até o século XVIII, a potabilidade da água para consumo era realizada pelo campo visual, a partir do qual as pessoas separavam as consideradas ‘boas águas’ das ‘águas pestilentas’. Assim, caso não se pudesse enxergar as impurezas, se a água tivesse aparência cristalina e não tivesse gosto ruim, a conclusão era a de que estava própria para o consumo (BELLINGIERI, 2004).",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Até meados do século XIX a preocupação sistêmica com a qualidade da água que se bebia não estava presente na agenda pública, tendo em vista o grande número de epidemias e doenças que afetavam a população no período oitocentista, tais como o cólera-morbo (FIOCRUZ, 2022), geralmente transmitido pela água contaminada. Com o crescimento dos centros urbanos e suas populações, as autoridades públicas buscaram tratar da higiene e saúde pública de forma mais ampla (MELLO, 2010).",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Em relação ao tratamento da água para o consumo, a principal mudança ocorreu no início do século do XX, com instalação das primeiras indústrias no país, dentre elas, as de porcelanas responsáveis pela produção das primeiras velas filtrantes (BELLINGIERI, 2006). A união da vela de filtragem, para a purificação, com a talha, para a conservação da água fresca, resultou no formato de filtro de água atual, comum na maioria das casas brasileiras, sendo o filtro de barro, uma invenção nacional, um dos melhores do mundo (O GLOBO, 2017).",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            }
         ],
         references: [
             {
-                author: "",
-                title: "",
-                rest: ""
+                author: "BELLINGIERI, Júlio Cesar. Água de beber: a filtração doméstica e a difusão do filtro de água em São Paulo. ",
+                title: "Anais do Museu Paulista. ",
+                rest: "São Paulo. N. Sér. v.12. p. 161-191. jan./dez. 2004."
+            },
+            {
+                author: "Uma Análise da Indústria de Filtros de Água no Brasil. ",
+                title: "Cerâmica Industrial, ",
+                rest: "(3) mai./jun., 2006."
+            },
+            {
+                author: "FIOCRUZ. Biblioteca Virtual em Saúde Adolpho Lutz.",
+                title: "A busca de um lugar ao sol. Doenças e epidemias no Rio de Janeiro (1850-1880). ",
+                rest: "Disponível em: <http://www.bvsalutz.coc.fiocruz.br/html/pt/static/trajetoria/volta_brasil/busca_doenca.php> Acesso: 24 mar., 2022."
+            },
+            {
+                author: "KLAUCK, Aline Gabriela. ",
+                title: "Água, fontes e aguadeiros: o abastecimento hídrico em nossa Senhora do Desterro (século XIX). ",
+                rest: "Dissertação (mestrado) - Universidade Federal de Santa Catarina, Centro de Filosofia e Ciências Humanas, Programa de Pós-Graduação em História, Florianópolis, 2018."
+            },
+            {
+                author: "MELLO, Juliana Oakim Bandeira de. O abastecimento de água da cidade do Rio de Janeiro durante o período joanino. ",
+                title: "Revista do Arquivo Geral da cidade do Rio de Janeiro, ",
+                rest: "n.4, p.159-167, 2010."
+            },
+            {
+                author: "O GLOBO. ",
+                title: "Filtro de barro, invenção brasileira, é um dos melhores do mundo, ",
+                rest: "16 jun., 2017. Disponível em: <https://g1.globo.com/globo-reporter/noticia/2017/06/filtro-de-barro-invencao-brasileira-e-um-dos-melhores-do-mundo.html> Acesso em 24 mar., 2022."
+            },
+            {
+                author: "TIGRE, Bastos. Cirano & Cia apud KOK, Glória. Rio de Janeiro na época da Av. Central, ",
+                title: "Bei Comunicações, ",
+                rest: "São Paulo, 2005."
+            },
+            {
+                author: "SILVA, Jeremyas Machado; GOMES, Flamarion Freire Da Fontoura. Faiança fina e a identidade burguesa na Uruguaiana do século XIX.",
+                title: "Anais do 1º Salão Internacional de Ensino, Pesquisa e Extensão da UNIPAMPA,",
+                rest: "v. 1, n. 1, 2009."
             }
         ]
 
     },
     {
         id: 62,
-        title: "",
+        title: "Taquígrafo",
         author:{
-            name: "",
-            institution: "",
-            department: []
+            name: "Patrícia Coelho",
+            institution: "Pontifícia Universidade Católica do Rio de Janeiro – PUC-Rio",
+            department: ["Programa de Pós-Graduação em Educação"]
         },
         text: [
             {
-                content: "",
+                content: "O taquígrafo era um objeto para o registro de diálogos e discursos com a maior rapidez possível, de forma que não fosse perdida nenhuma palavra. A linguagem da taquigrafia é fonética, composta de sinais específicos que representam sons, palavras ou até frases mais usuais. O taquígrafo tinha pequeno volume, de aproximadamente 22 centímetros, podendo ser transportado em uma bolsa. Era de ferro envernizado de preto e com teclas niqueladas. A escrita, antes feita a pena ou a lápis, passou a ser feita pelas teclas, em número de dez para cada mão, dispostas no sentido de varetas de um leque, sob um plano horizontal. A teclas poderiam ser apertadas em conjunto ou separadamente, e corresponderiam ao alfabeto taquigráfico. A pressão dos dedos sobre as teclas poderia comandar dois tipos de ações. A primeira era o movimento do papel, que desenrolava por meio de uma engrenagem. A segunda era a impressão nesse papel por meio de lâminas, do sinal correspondente ao botão ou botões apertados, para formar os estenogramas ou seja, o traçado de uma sílaba ou palavra na linguagem taquigráfica. A máquina era capaz de facilitar o trabalho do taquígrafo, tornando-o mais leve e consequentemente mais rápido do que o registro manual, uma vez que os artefatos de escrita não deslizavam no papel com a mesma velocidade da máquina. O taquígrafo era muito utilizado no parlamento para registrar discursos.",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
@@ -5278,199 +5356,773 @@ export const texts =[
         ],
         references: [
             {
-                author: "",
-                title: "",
-                rest: ""
+                author: "PONTES, Lílian Cordeiro Costa; ALVES, Regina Memória. ",
+                title: "A taquigrafia e seus fundamentos.",
+                rest: "Fortaleza, INESP, 2012. "
+            },
+            {
+                author: "Notas. ",
+                title: "Novidades",
+                rest: ", 17/08/1888, p.1 "
+            },
+            {
+                author: "Tachygraphia.",
+                title: "A União",
+                rest: ", 1890, p.4."
+            },
+            {
+                author: "Telephonemas. ",
+                title: "O Paiz",
+                rest: ", 7/08/1888, p.4"
             }
         ]
 
     },
     {
         id: 63,
-        title: "",
+        title: "Telefone",
         author:{
-            name: "",
-            institution: "",
-            department: []
+            name: "Renata Soares",
+            institution: "Faculdade São Judas Tadeu/ Universidade Estácio de Sá - UNESA",
+            department: ["Docente – Graduação em Pedagogia"]
+        },
+        author2:{
+            name: "Flávia dos Santos Soares",
+            institution: " Universidade Federal Fluminense - UFF",
+            department: ["Programa de Pós-Graduação em Educação – Faculdade de Educação"]
         },
         text: [
             {
-                content: "",
+                content: "“– Meu Deus, isso fala!”  ",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
             },
+            {
+                content: "Foi com essa expressão de espanto que D. Pedro II reagiu ao telefone, após participar da apresentação realizada por Graham Bell durante a exposição do centenário de independência dos Estados Unidos na Filadelfia em 1876. O Imperador foi um dos primeiros a adquirir ações da companhia de Bell e rapidamente faria a novidade desembarcar na capital do Brasil. ",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "O telefone foi inventado em 1876 e estabeleceu um novo modelo de comunicação e de organização social, encurtando e relativizando as distâncias. Apesar do primeiro registro de patente indicar Alexander Graham Bell como seu criador, as disputas de paternidade de uma das tecnologias mais importantes da história atravessaram os séculos. No entanto, foi Graham Bell, ao reproduzir acidentalmente o chamado a seu assistente, 'Senhor Watson, venha cá. Preciso falar com o senhor', que conquistou o lugar histórico de pai do telefone. ",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "O telefone a Magneto foi desenvolvido durante as pesquisas para o aperfeiçoamento do serviço de telégrafo possibilitando a transmissão de mais de uma mensagem simultaneamente. A tecnologia do telefone baseava-se na transmissão de sinais elétricos por condutores, assim como o telégrafo, mas por meio de corrente elétrica alternada reproduzida por um diafragma de magneto. O termo batizou os primeiros telefones “telefone Magneto de parede” “telefone de mesa a Magneto”.  O formato que mantinha o fone pendurado no corpo do aparelho também gerou o nome popular “telefone de forca”. ",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Já contando com uma consistente rede de telégrafo com cabos terrestres e submarinos ligando boa parte do território nacional, em 1879 o Brasil viu instalado o seu primeiro telefone ligando o palácio de Petrópolis a Quinta da Boa Vista. O aparelho passou a ser utilizado por uma pequena parte da população para fins privados e comerciais, mas seria amplamente assimilado socialmente como símbolo de modernidade. A sua primeira exibição foi anunciada com destaque:",
+                citation: "Pela primeira vez realizar – se – há amanhã nesta cidade uma experiência do telephone, desse engenhoso é admirável aparelho devido ao gênio inventivo dos norte-americanos. Os aparelhos que tem de funccionar forão fabricados nas officina do Grande Mágico, de que é proprietário o Sr. F Rodde que dirigirá em pessoa à experiência. (Diário do Rio de Janeiro, 18 de dezembro de 1877 apud Jornal do Commercio, 28 de dezembro de 1877, p.2). ",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "A produção do primeiro aparelho pela loja Grande Mágico revela o caráter misterioso e fascinante que a nova tecnologia despertava da sociedade.",
+                citation: "A relação entre mágica e aparelhos mecânicos, bem como com produtos medicinais, fica clara no ramo de atuação de uma loja, Ao Grande Mágico, localizada na prestigiosa Rua do Ouvidor. Vejamos o que vendia: aparelho eletro-medicinal científico, ligas-elétricas mágicas, colar de Royer, anéis, pulseiras, drogarias, perfumarias, limas sulfúricas para calos, canetas eletro-voltáicas, fogos de artifício, equipamentos para mágicos, entre tantos outros produtos. Um de seus lemas era “Mágica Branca...ciência...ao alcance de todos” (MELO, 2021, p. 547).",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Ignorado pelos que não enxergavam muitas diferenças em relação ao telegrafo, desacreditado por outros que julgavam o aparelho uma “fábula americana” e festejado pela maioria, o telefone lançou moda. O aparelho ganhou rapidamente o debate público, virou nome de periódicos (O telephone, chronica hebdomadária. Rio de Janeiro, publicada entre 1978 e 1879), tema de crônicas, colunas periódicas em jornais de grande circulação (Gazeta da Noite, Jornal do Commercio), enredo de espetáculos teatrais (A telefonista, comédia opereta de Antony Mars em cartaz em 1892 no Teatro Apollo no Rio de Janeiro), modelo de chapéu e, pela possibilidade de rápida comunicação simultânea, figura de metáfora para os sentimentos humanos na literatura e na poesia: ",
+                citation: "O olhar, só olhar, porque o olhar dos amantes é um telefone em plena atividade. Trocão recados de instante a instante e conversam apesar da distância com a mesma facilidade com que o fariam por meio da voz se estivessem juntos. A distância é uma palavra vã para os namorados (Jornal do Commercio, 15 de fevereiro de 1878, p. 2).",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "A grafia do nome do aparelho “telephone”, à francesa, no lugar “telephono” suscitou também debates acalorados sobre a utilização da língua portuguesa: ",
+                citation: "O traductor do francêz para portuguêz traduz telephone por telephone. É um erro de quasi toda a gente, um erro sem razão. Os franceses dizem telephone e telegraphe pela natureza de sua língua. Mas nós que dizemos telégrapho porque cargas d'água havemos dizer telephone? (Revista Ilustrada, janeiro de 1885, p. 6)",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Para além de grafias e expressões do cotidiano, o telefone criou facilidades para o comércio e logo as lojas cariocas estampavam nas propagandas publicadas nos periódicos os números de três dígitos em que se podia contactar diretamente com os estabelecimentos para encomendas, reservas, consultas ou simplesmente deixar recados (Theatro Recreio, telefone 634. 1887. Escriptório de engenharia Pedro Leandro Lamberti, n. 207 1884, Ao Cyano de Ouro Alfaiataria n. 355 1885). As estações de bonde também anunciavam as instalações de telefones de uso público que permitiam o contato com carros de aluguel para a comodidade de quem se deslocava pela cidade. ",
+                citation: "Na estação dos Voluntários da Pátria, está collocado um telefone, pelo qual os Srs. passageiros podem, a qualquer hora do dia ou da noite, pedir carros extraordinários ou animaes que chegarão com a pequena demora de um quarto de horas (Jornal do Commercio, 1879, p.7).",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Além das facilidades da rápida comunicação, o telefone passou a fazer parte dos serviços públicos. O corpo de bombeiros, a polícia, os correios e até as igrejas enxergaram no uso do telefone a possibilidade de melhorar e agilizar suas atividades. ",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "No entanto, as comodidades do aparelho também levantavam suspeitas e provocava deboche sobre os abusos do seu uso. As crônicas e charges miravam os políticos brasileiros:",
+                citation: "Muitos deputados resolveram não mais comparecer para as conversas fiadas, e recorrem ao telefone para saber se há ou não sessão. Boa ideia desde já aderimos ao systhema ao menos assim São Cristóvão não nos apunhalará em vão (Revista Illustrada, julho de 1891, p.5)",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Ao longo do século XX o telefone renovaria sua forma, ocuparia definitivamente os espaços públicos e privados da sociedade, se estabeleceria como símbolo de tecnologia e de distinção social. Juntamente com os bondes, automóveis, relógios de pulso, luz elétrica, fotografia, cinema e aviação, o telefone fez parte das novidades que reconfiguraram a vida em sociedade, desafiando o tempo e a distância e forjando o homem moderno. ",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            }
         ],  
         references: [
             {
                 author: "",
-                title: "",
-                rest: ""
+                title: "JORNAL DO COMMERCIO",
+                rest: ", Rio de Janeiro, edição 360, 28 de dezembro de 1877."
+            },
+            {
+                author: "",
+                title: "JORNAL DO COMMERCIO",
+                rest: ", Rio de Janeiro, edição 00046, 15 de fevereiro de 1878."
+            },
+            {
+                author: "",
+                title: "JORNAL DO COMMERCIO",
+                rest: ", Rio de Janeiro, edição 00091, 1 de abril de 1879."
+            },
+            {
+                author: "MELO, Victor Andrade de. Uma diversão entre a ciência e o ocultismo: os espetáculos de mágica no rio de janeiro do século XIX. Belo Horizonte. ",
+                title: "Revista LICERE",
+                rest: ", Belo Horizonte, v.24, n.3, p. 527–574, set/2021."
+            },
+            {
+                author: "",
+                title: "REVISTA ILLUSTRADA",
+                rest: ". Rio de Janeiro, edição 00400, janeiro de 1885. "
+            },
+            {
+                author: "",
+                title: "REVISTA ILLUSTRADA",
+                rest: ". Rio de Janeiro, edição 00624, julho de 1891. "
             }
         ]
 
     },
     {
         id: 64,
-        title: "",
+        title: "Telégrafo",
         author:{
-            name: "",
-            institution: "",
-            department: []
+            name: "Alexandra Lima da Silva",
+            institution: "Universidade do Estado do Rio de Janeiro/UERJ",
+            department: ["Programa de Pós-Graduação em Educação/ProPEd"]
         },
         text: [
             {
-                content: "",
+                content: "Março de 2022. Enquanto este texto era escrito, o mundo assistia simultaneamente, às imagens dos ataques da Rússia à Ucrânia. Pessoas desesperadas trocam mensagens por meio de aplicativos como Telegram e What’s app. As notícias de uma guerra nunca foram tão velozes e instantâneas.",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
             },
+            {
+                content: "Mas no século XIX, quando o telégrafo surgiu, a sensação de velocidade também esteve presente. Num tempo em que as pessoas se correspondiam por cartas, o telégrafo modificou a maneira como a comunicação acontecia.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "No Brasil, a expansão da rede telegráfica aconteceu no período de 1866-1886:",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "“Nesses vinte anos, o Império construiu 10.969 quilômetros de linhas telegráficas ligando 182 estações, capazes de ‘estreitar num sólido e vigoroso laço de fio telegráfico todo o vasto litoral de um ao outro extremo do país’. A eletricidade e o fio telegráfico eram pensados, então, como os meios modernos capazes de atar as províncias, costurá-las umas às outras, evitando dessa forma a desagregação do território” (MACIEL, 2001, p. 6).",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Ainda que muitos sistemas telegráficos tenham sido utilizados ao longo de séculos, o telégrafo elétrico foi desenvolvido em meados do século XIX e por mais de 100 anos, se tornou o principal meio de transmissão de informações. O telégrafo foi um dos meios de transmissão das notícias das grandes guerras mundiais do século XX.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Ainda que outros inventores tenham desenvolvido projetos anteriormente, foram Samuel Morse e seu assistente, Alfredo Vail, os que se consagraram como os criadores do código Morse e do telégrafo elétrico, no ano de 1837.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "A palavra telégrafo significa “sinais à distância” ou “escrita à distância”. Através dos fios, o telégrafo conectou regiões distantes geograficamente. O mundo pôde conversar de forma mais veloz, pois os fios encurtaram as distâncias oceânicas e transcontinentais. Infelizmente, nem sempre a comunicação e o diálogo diplomático são os caminhos escolhidos pelos líderes que governam os países. Alguns seguem escolhendo o caminho da violência bélica, por este ser um caminho mais rentável para alguns. Notícias de guerra seguem atuais.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            }
         ],
         references: [
             {
+                author: "Biblioteca Nacional. ",
+                title: "“Há 168 anos, era inaugurada a primeira linha de telégrafo do Brasil”. ",
+                rest: "Disponível em: https://www.bn.gov.br/acontece/noticias/2020 [Acesso em 15/02/2022]"
+            },
+            {
+                author: "MACIEL, Laura Antunes. ",
+                title: "Cultura e tecnologia: a constituição do serviço telegráfico no Brasil. ",
+                rest: "Revista Brasileira de História, 21 (41), 2001, Disponível em: https://www.scielo.br/j/rbh/a/rrXsdCMRcbJRK5Xx6VpBLvD/?lang=pt"
+            },
+            {
                 author: "",
-                title: "",
-                rest: ""
+                title: "A nação por um fio: caminhos, práticas e imagens da Comissão Rondon",
+                rest: ". 1ª. ed. São Paulo: Educ/Fapesp, 1998. 319p"
+            },
+            {
+                author: "SCHULZ, Peter. ",
+                title: "Quem inventou o telégrafo? Esquerda-direita-direita, direita, esquerda- direita...",
+                rest: "Disponível em: https://www.unicamp.br/unicamp/index.php/ju/artigos/peter- schulz/quem-inventou-o-telegrafo-esquerda-direita-direita-direita-esquerda-direita [ Consulta em 01/03/2022]"
             }
         ]
 
     },
     {
         id: 65,
-        title: "",
+        title: "Tesoura de Parteira",
         author:{
-            name: "",
-            institution: "",
-            department: []
+            name: "Marilyn Alves Maia",
+            institution: "Universidade do Estado do Rio de Janeiro/UERJ",
+            department: ["Programa de Pós-Graduação em Educação/ProPEd"]
         },
         text: [
             {
                 content: "",
+                citation: "Naqueles dias, ajudados por vizinhos, Ana Terra, Eulália e Pedro construíram o rancho onde iam morar. Tinha paredes de taipa e era coberto de capim. Quando o rancho ficou pronto, Ana, o filho e a cunhada, que até então tinham vivido com a família de Marciano, entraram na casa nova. O único móvel que possuíam era a velha roca de D. Henriqueta. Dormiam todos no chão em esteiras feitas de palha. Ana conservava sempre junto de si, à noite, a velha tesoura, pensando assim: ‘‘Um dia inda ela vai ter a sua serventia’’. (VERÍSSIMO, 2002, p. 170).",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Na saga O Tempo e o Vento de Érico Veríssimo (1905-1975) há diversas personagens que representam o feminino, entre elas, Henriqueta e Ana Terra, mãe e filha. Tais personagens se fundem e exacerbam o período vivenciado por elas. Henriqueta trabalhava o dia inteiro e ficava durante a noite em sua roca de fiar, consciente e resignada com sua vida. Recomendava a Ana que aceitasse a mesma sina. Quando precisou partir em busca de outra vida, acompanhada de seu filho Pedro, Ana levou consigo a velha roca de fiar de sua mãe e a tesoura de parto. Simbolicamente, a roca significava que o tempo tinha que prosseguir, pois sua tessitura não podia parar. A tesoura simbolizava a ruptura com o passado e, simultaneamente, o começo da nova vida e todas as outras vidas que Ana ajudaria a vir ao mundo ao exercer o ofício de parteira. Ana Terra possuía em sua essência a consciência de sua força e a segurança do seu papel diante da realidade. Para ela que trabalhava em casa e na lavoura, ‘fazendo serviço de homem’, cada dia era uma cópia do outro. Não havia domingo e nem dia santo que a impedisse de sair quando fosse chamada a auxiliar no nascimento e cortar algum cordão umbilical.",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
             },
+            {
+                content: "No século XIX, o Diccionario da lingua brasileira de Luiz Maria da Silva Pinto (1775-1869), publicado em 1832, definiu a tesoura como: “Instrumento de cortar de duas peças afiadas e unidas por um eixo. Peça de dois páos em aspa [...]” (PINTO, 1832, p.880). Ao longo do tempo a tesoura foi ganhando mais sofisticação nas suas estruturas, com mais aplicabilidade, passando da forma rudimentar a modelos diferenciados para fins diversos: corte de cabelo; tosa de animais, de árvores; bordados; costuras; cirurgias; entre tantos outros.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "A tesoura de parto, objeto desse verbete, é um instrumento que por muitos séculos teve sua história atrelada às mulheres partejantes, e assim, se estabeleceu como um definidor de experiências por excelência, passando das calejadas mãos de parteiras, às finas mãos de médicos cirurgiões. As protagonistas do ofício de partejar, além de acompanharem as gestantes antes e após o parto, davam também os primeiros cuidados à criança. O repertório de saberes era passado pela experiência, de mulher para mulher, do ver fazer para o saber fazer, como bem sublinham Palharin e Figueirôa (2018). A institucionalização da medicina, sobretudo, a partir do século XIX, deslocou a prática popular das parteiras ao espaço da marginalidade - quando eram perseguidas, difamadas e criminalizadas - como ressalta a célebre parteira da Casa Imperial, Madame Durocher (1809-1893). No artigo Deve ou não haver parteiras?, publicado nos Annaes Brasilienses de Medicina, da Academia Imperial de Medicina, Durocher defendeu a classe afirmando serem “as únicas pessoas capazes e habilitadas para os partos” (1871, p.257).  A entrada dos homens com seus conhecimentos fisiológicos e anatômicos à assistência do parto, se sobrepõe ao ofício milenar das parteiras. No Brasil, Madame Durocher foi a primeira mulher a receber, em 1834, o diploma de parteira emitido pela Faculdade de Medicina do Rio de Janeiro, uma das poucas a frequentar o espaço, majoritariamente masculino. As mulheres, cujo ofício era trazer crianças ao mundo, inicialmente apenas com os saberes herdados da experiência cotidiana, foram gradativamente excluídas de sua prática milenar, levando muito mais tempo para ocupar academias da ciência. ",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "O Dr. Lucien Pénard (1810-1890), cirurgião sênior da Marinha que assumiu diversos lugares de honra junto à sociedade médica de Paris, escreveu o Guide pratique de l'agcougheur direcionado a obstetras, parteiras e estudantes. A quinta edição, que o médico considerava ser uma promessa de boa aceitação por ser mais completo na descrição dos métodos de operação, descrevia o modo como abordar a parturiente; os diferentes tipos de parto; posição do feto; tabela de acidentes que requerem ação imediata da parteira; os instrumentos necessários - entre eles a tesoura de parto -, e outros ensinamentos. Sobre o material a ser utilizado para o parto, discorreu: ",
+                citation: "Se for pedido para fazer um parto perto de sua casa, podemos, a menos que se saiba da urgência do caso; apenas traga seu estetoscópio, algumas gramas de centeio ergoté, e seu kit, no qual deve conter: um par de tesoura reta de pontas arredondas, - uma sonda de mulher, - um bisturi longo comum, com borda da ponta ligeiramente convexa, - um segundo bisturi reto e fechado, - um tubo laríngeo, duas ou três agulhas curvas para sutura, e fios todos encerados ¹  (PÉNARD, 1879, p.220).",
+                footNoteNumber: 1, 
+                footNote: " ¹ Livre tradução da autora.",
+                image: []
+            },
+            {
+                content: "Sobre os cuidados dispensados aos recém-nascidos, o guia orienta que após se constatar que a criança estivesse respirando bem, o cuidado imediato em amarrar o cordão umbilical:",
+                citation: "Para isso, pega-se um dos filetes de fio encerado, que foram preparados anteriormente, e estrangula-se firmemente o cordão a uma distância do umbigo de no máximo 3 a 4 centímetros, tendo o cuidado de encerrar o cabo da linha em nó duplo (...). Terminando o nó duplo, o excesso é subtraído das duas extremidades do filete, e, depois disso, o próprio cordão umbilical é cortado com uma tesoura, um centímetro depois da ligadura (PÉNARD,1879, p. 253). ",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Com relação aos procedimentos com a parturiente, o médico Pénard recomendava fazer um corte no períneo. Este procedimento tinha por precaução a possível ruptura no períneo, ainda que não houvesse nenhum experimento científico demonstrando a necessidade de tal intervenção para a laceração do períneo. Dr. Lucien Pénard considerava um mecanismo tolo o ato de passar o dedo ao redor, entre a cabeça da criança e a vulva, a fim de facilitar a passagem. Ressaltava ainda que o método proposto já era utilizado pelo renomado obstetra Paul Antoine Dubois (1795-1871), e por vários assistentes de parto daquele período. Nesses termos, aventava que se armassem com uma tesoura forte e se fizesse, “de cada lado, em direção à parte posterior dos grandes lábios, uma incisão de no máximo um centímetro”. Admite ser um ato doloroso, contudo, sem danos, ao que observa: “sem dúvida, abre-se assim o caminho para duas lágrimas em vez de uma; mas essas lágrimas não irão longe e não interessarão, aliás, a nenhum órgão importante.” ((PÉNARD,1879, p. 244).",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Para o Dr. Pénard, a dor do corte seria pouco sentida, em vista das intensas dores do instante do parto. A justificativa para tal prática decorre da minimização da dor da mulher, ancorada pelo discurso de autoridade que define e ordena a ciência, a sociedade e os corpos, tendo nos corpos das mulheres maior centralidade, garantindo com isso maior controle e intervenção sobre a população – a isso Foucault denominará de biopoder, observando que “a velha potência de morte em que se simbolizava o poder soberano é agora, cuidadosamente, recoberta pela administração dos corpos e pela gestão calculista da vida” (FOUCAULT, 2013, p. 150).",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Apresentar a tesoura implica mais que descrever suas experiências de usos, possibilita perceber significados nas formas da vida em sociedade. Os objetos evocam a participação dos indivíduos na criação ordinária e histórica da ação humana. Ao definirmos tesoura de parto, definimos sentidos para tais coisas, fazendo delas representações e vestígios das ações e das memórias da sociedade. ",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            }
         ],
         references: [
             {
-                author: "",
-                title: "",
-                rest: ""
+                author: "DUROCHER, Marie Josephine Mathilde Durocher. ",
+                title: "Deve ou não haver parteiras?",
+                rest: "?. In: ANNAES BRASILIENSES DE MEDICINA. n.8, Tomo XXII, p.256-271, jan.1871.  Disponível em: http://memoria.bn.br/DOCREADER/062014/5694 .Acesso em: 04 abr. 2022. "
+            },
+            {
+                author: "FOUCAULT, Michel. ",
+                title: "História da sexualidade I:",
+                rest: "a vontade de saber. 23.ed. Rio de Janeiro: Graal, 2013."
+            },
+            {
+                author: "PALHARINI, Luciana Aparecida; FIGUEIRÔA, Silvia de Mendonça. Gênero, história e medicalização do parto: a exposição “Mulheres e práticas de saúde”. ",
+                title: "História, Ciências, Saúde-Manguinhos",
+                rest: ", v. 25, n. 4, p. 1039-1061, 2018. Casa de Oswaldo Cruz, Fundação Oswaldo Cruz."
+            },
+            {
+                author: "PÉNARD, Lucien. ",
+                title: "Guide pratique de l'accoucheur et de la sage-femme. ",
+                rest: "5.ed. Paris: Librairie J.- B. Baillière et Fils, 1879. p.200, p.246, p.249. Disponível em: https://gallica.bnf.fr/ark:/12148/bpt6k5833555c. Acesso em: 04 abr. 2022."
+            },
+            {
+                author: "PINTO, Luiz Maria da Silva.",
+                title: "Diccionario da lingua brasileira. ",
+                rest: "Ouro Preto - MG: Typrographia de Silva: 1832. Disponível em: https://digital.bbm.usp.br/handle/bbm/5414. Acesso em: 07.abr.2022."
+            },
+            {
+                author: "VERÍSSIMO, Érico. ",
+                title: "O Tempo e o Vento ",
+                rest: "(O Continente I). São Paulo: Globo, 1997."
             }
         ]
 
     },
+    //concluir
     {
         id: 66,
-        title: "",
+        title: "Verascópio",
         author:{
-            name: "",
-            institution: "",
-            department: []
+            name: "Heloisa Helena Meirelles dos Santos",
+            institution: " Universidade do Estado do Rio de Janeiro/UERJ",
+            department: ["Programa de Pós-Graduação em Educação/ProPEd"]
         },
         text: [
             {
-                content: "",
+                content: "Inscrição: STÉRÉOSCOPE vues prises avec le VÉRASCOPE RICHARD .",
+                citation: "",
+                footNoteNumber: 1,
+                footNote: "¹Estereoscópio com vista para Verascópio Richard.", 
+                image: []
+            },
+            {
+                content: "VERASCÓPIO RICHARD. Aparelho estereoscópico para ver fotos em 3a. dimensão. Fabricação francesa. Séc. XIX. Dispositivo estereoscópico compacto, para ver fotos com visão panorâmica tridimensional, confeccionado em madeira ou metal pela Maisons de la Furnitures Photographiques du Richard Frères. O aparelho foi criado em 1893 pelo industrial Jules Richard (1848-1930), que introduziu um novo formato de lâminas de vidro com duas ou mais lentes, com um sensor acoplado de imagens para cada uma. Este aparelho estereoscópico expõe imagens planas simultaneamente, em perspectiva, com tridimensionalidade. As imagens fotográficas exibidas no verascópio eram realísticas e por isso eram anunciadas com destaque como “Feitos do Estereoscópio”, no Catálogo de produtos da empresa Richard: ",
+                citation: "A fotografia estereoscópica ² [visualizada no verascópio], desenhando ao mesmo tempo as formas exatas, erige diante de nós, no espaço, um verdadeiro modelo do sujeito que aparece com seu relevo natural. Os planos se soltam, sentimos a espessura dos objetos, a distância que os separa. Temos a completa ilusão de ver o próprio assunto novamente, através deste maravilhoso aparelho: o estereoscópio! Os objetos estão ali, à nossa frente: aqui está o belo caminho que afunda sob os pinheiros; ali, bem perto, o velho cedro em cuja sombra havíamos descansado; seus galhos pendurados chegam tão perto de nós que nós estendemos a mão para agarrá-los! Feriado de alívio! Maravilhosa e poderosa ilusão que estátuas em vez de desenhos! Nem o cinema fugidio e vacilante; nem o carbono ou a goma mais bem-sucedidos podem nos dar a aparência de uma realidade mais realística através da estereoscopia [contida no verascópio] (ÉTABLISSEMENTS J. RICHARD, 1931, p. 5)³",
+                footNoteNumber: 2, 
+                footNote: [" ² Foram precursores da fotografia estereoscópica no Brasil os fotógrafos Marc Ferrez (1843-1923), carioca e   Revert Henrique Klumb (1826- 1886), alemão, morador da cidade serrana de Petrópolis. Marc Ferrez tem seu acervo de 15 imagens do século XIX preservadas no Instituto Moreira Salles. Destacam-se na obra as fotografias panorâmicas da cidade do Rio de Janeiro e arredores feitas com câmeras estereoscópicas. Recebeu de D. Pedro II título de Photographo da Marinha Imperial, (VASQUEZ e FERREZ, 1993).  Klumb foi agraciado, em 1861, por D. Pedro II, com o título “Fotógrafo da Casa Imperial”. Klumb é autor do livro “Doze horas em diligência. Guia do viajante de Petrópolis a Juiz de Fora”, única obra do Brasil do século XIX a ser idealizada, fotografada, escrita e publicada por uma só pessoa. Também foi o primeiro livro de fotografia inteiramente litografado e produzido no país. Dois exemplares desta obra pertencem ao acervo da Biblioteca Nacional (VASQUEZ, 2000)"," ³ Tradução livre da autora de texto do Catálogo da empresa J. Richard de 1931, em língua francesa."],
+                image: []
+            },
+            {
+                content: "Funcionamento ",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
             },
+            {
+                content: "No interior do verascópio, fabricado inicialmente em estrutura metálica nos formatos 6 × 13 cm e 45 × 107 cm, as imagens estereoscópicas fixadas na placa de vidro são afastadas e inclinadas no sentido horizontal, fazendo com que se unifiquem com aspecto de tridimensionalidade, pela sensação de relevo visualizada (ibidem). O aparelho possibilita ver a imagem ampliada 36 vezes (PERIN,1993). O princípio do verascópio é a observação de duas imagens estereoscópicas à distância dos dois olhos, para possibilitar visão do relevo exato. Para isso os centros das objetivas ficam posicionados a uma distância de, aproximadamente, 65 milímetros, sendo esta a maior largura possível das imagens a serem observadas, o que permite que o verascópio use placas de vidro com cerca de 13% do comprimento do aparelho com a mesma imagem, em ângulos diferentes. Para aproveitamento máximo da cobertura visual das lentes, as imagens no dispositivo possuem formato quadrado com altura de 65 milímetros cada uma. Este efeito ocorre porque esta é a distância que separa os olhos humanos. O verascópio é um aparelho estereoscópico leve (950 g) e simples de usar, ao contrário de seus antecessores, como daguerreótipo #4  , destinados, todos, a profissionais da fotografia. Usa um formato pequeno de 45x107, para uso amador, na observação de fotos impressas para o modelo. Este mesmo Verascópio Richard faz parte do acervo do Museu Imperial de Petrópolis, com mais de mil diapositivos. Foi doado, com as placas dos diapositivos, por Maria Lúcia David de Sanson e teria pertencido, segundo consta, ao avô de seu esposo (PENNAFORT, 2009). Grande acervo de diapositivos, o maior do Brasil para este aparelho, encontra-se no Museu da Imagem e Som (Coleção Guilherme dos Santos) e Instituto Moreira Salles ",
+                citation: "",
+                footNoteNumber: 1,
+                footNote: " #4 Imagem fixada sobre uma geralmente de placa de cobre, com um banho de prata que produz uma superfície espelhada positiva e negativa, dependendo do ângulo em que é observada. (KOSSOY, 2009)" ,
+                image: []
+            },
+            {
+                content: "Uso no Brasil",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "A fotografia – como “traço essencial da comunidade da imagem” (BARTHES, 2012, p.13) ajudou a construir a representação de civilidade e modernidade do Segundo Império brasileiro que se estende ao início da fase republicana brasileira, agindo como “elemento constitutivo da nova nacionalidade [associado ao] Estado monárquico, portador e impulsionador do projeto civilizatório, e a natureza, [tomada] como base territorial e material deste Estado” (SALLES, 1996, p;68). No século XIX a forma mais significativa e moderna de imagem visual, foi o estereoscópio. Ao documentar a vida social dita “civilizada”, o registro fotográfico estereoscópico substitui as pinturas dos viajantes estrangeiros que retratavam, pelo exotismo, as paisagens e povo brasileiros. O uso do verascópio Brasil se estende ao período republicano porque “a proclamação da República representava, aos olhos de alguns membros da elite, ‘o embarque no trem da evolução rumo à estação civilização” (MELO, 2009, p.18 apud PEÇANHA, 2012, p.2). Na república, a difusão da meta de civilização pela imagem se amplia com o aperfeiçoamentos de outros aparelhos estereoscópicos de base similar que sucederam e aperfeiçoaram, no século XX, o verascópio:  o Glifoscópio (1905-1930), o Hómeos (1914-1930)  e o Taxifoto #5 .   Este movimento de registro civilizatório na fotografia, de acesso mais popular e possível a todos, ocorre principalmente através dos retratos, em carte de visite e da divulgação das paisagens e prédios públicos em cartões postais, porque permitiam, também, a construção de identidades sociais através da imagem (LOPES, MAUAD, MUAZE, 2017); As imagens para verascópio de logradouros e prédios da cidade, especialmente da cidade-capital, com ou sem a inclusão de sujeitos, demonstravam a inserção do Brasil à “civilização da imagem” (KOSSOY, 2002, p. 63), em um momento onde civilizar era a palavra de ordem. ",
+                citation: "Com o passar do tempo, o que é possível de encontrar que seja mais agradável mais divertido que os diapositivos sobre vidro da fotoestereocospia? Reunidos em família e acompanhados de bons amigos sentados ao redor da mesa passa-se de mão em mão o aparelho estereoscópico [o verascópio] exibindo os diapositivos! [E surgem as imagens de] bons momentos que passaram, [...] criaturas que talvez nunca mais encontrem no caminho, [...] estação de águas [...], excursão[...], cidades de verão [...], convivência íntima de uma longa viagem [...] (SANTOS, 2019, p. 226 apud MONTEIRO, 1988) ",
+                footNoteNumber: 1,
+                footNote: " #5 O Glifoscópio é um aparelho econômico com 35 F, ao invés de 175 F do verascópio. Também usa placas diapositivas para permitir a visualização tridimensal. O modelo Hómeos usa filme de 35mn, com visualização em formato 24x18. O Taxifoto possibilita visualização com placas com 25 faixas, pode ser transformado em projetor. O relevo é visualizado com óculos verde/vermelho.(PÉRIN, 1993)",
+                image: []
+            },
+            {
+                content: "O uso da fotografia no/do verascópio de vistas por amadores não-fotógrafos, permitiu a inclusão na vida cotidiana nas imagens, o que permite questionar: se este aparelho não profissional foi comum a todas as classes sociais no Brasil do século XIX e início do século XX; se houve possibilidade de manuseio por mulheres; e se poderia ser parte de coleção (POMIAN, 1984) que representasse a sensibilidade feminina. No século XX o uso e aquisição deste aparelho estereoscópico se restringe ao seu uso no ambiente doméstico da elite brasileira, porque o verascópio de vistas as vinculava à civilidade republicana. Por ser o verascópio de vistas com tridimensionalidade um aparelho destinado a amadores interessados em fotografia, com interesse em trazer para sua intimidade imagens mais realistas de lugares e pessoas, obtidas com um aparelho estereoscópico, é possível acreditar que no Brasil, no final do século XIX, poucos o possuíam já que seus diapositivos eram inicialmente vendidos somente em Paris, na sede da empresa J. Richard. No entanto, “aparelho estereoscópico com vistas” aparece nos leilões de móveis e utensílios das salas de visita a venda, como o anúncio de leilão de J. Dias como constante de seu catálogo no Jornal do Commercio de 5 de março de 1900, p. 5; o leilão de Assis Carneiro publicado no Jornal do Commercio de 9 de março de 1900 à p. 7. O uso deste aparelho, comumente designado “estereoscópio com vistas”, também foi citado em nota sobre a visita do presidente brasileiro Campos Salles a Buenos Aires, no Jornal do Commercio de 1 de novembro de 1900, à p.1. A matéria relata que o Intendente Adolpho Bullrich apresentou ao presidente em um “estereoscópio com vista” as festas que ocorriam na cidade em homenagem à sua passagem pela Argentina. Tal menção é indício do uso do aparelho no primeiro ano do século XX e, também, em outros países da América do Sul. Afirma Santos (2019), provavelmente baseada em anúncios de leilões publicados nos periódicos do Rio de Janeiro, que era comum nas salas de visita das famílias brasileiras, haver uma caixa estereoscópica, um verascópio, um taxifoto ou similar, para o lazer da família e amigos. O interesse por fotos estereoscópicas no início do século XX ajudava também a divulgar a marca de cigarros Veado que, em seu anúncio no Correio da Manhã de 2 de julho de 1909, informava: “Cigarros Veado, delicada mistura de fumo cubano, lindas carteirinhas, bella colecção de Photo Stereoscopio a 300 réis, nas principaes casas de varejo da capital e do interior, alta novidade” (p.8) #6 .",
+                citation: "",
+                footNoteNumber: null,
+                footNote:[" #6 Obedecida a grafia da fonte."] ,
+                image: []
+            },
+            {
+                content: "As imagens estereoscópicas historicamente registradas como tal eram placas de vidro e foram produzidas no início do século XX. Encontrei placas produzidas por e para o verascópio Richard produzidas no Brasil, no arquivo de Guilherme Antônio dos Santos, precursor da estereoscopia com Verascópio entre nós. Dentre elas, a vista do Morro do Corcovado tomada da Rua do Aqueduto, atual Almirante Alexandrino (1920), placas de carnaval de rua no Rio de Janeiro (1932) chegada e banho de mar, em Copacabana, dos reis da Bélgica quando de sua visita a terras brasileiras (1920) no acervo do Instituto Moreira Salles. Grande parte da coleção de Santos encontra-se sob a guarda do Museu da Imagem e do Som, no Rio de Janeiro . O fotógrafo amador Guilherme dos Santos em depoimento ao jornal A Noite, Suplemento, na Secção de Rotogravura, em 1 de agosto de 1950, à p. 6, afirma que ao viajar para a Europa, em 1905, e verificar “a maneira deprimente com que era apresentado o Brasil em certas fotografias” (SANTOS, 1950, p.6), resolveu fazer um arquivo de imagens #8  que desfizesse tal impressão, apresentando um Brasil civilizado e cheio de atrações, habitado por uma raça superior” (ibidem). As reproduções de imagens deste fotógrafo amador chegaram a ser doadas, através do Ministério das Relações Exteriores, a Chefes de Estado e personalidades estrangeiras para difundir a imagem “civilizada” do Brasil, no período das festas do Centenário da Independência (1922). Em entrevista posterior de Guilherme dos Santos ao periódico Correio da Manhã de 20 de maio de 1952, à p.5, Santos revelou que seu arquivo possuía, naquele momento #9 , 12.000 imagens da cidade do Rio de Janeiro e outras 8.000 imagens dos Estados do Rio de Janeiro, Minas Gerais e São Paulo, estas últimas de 1908, destacando-se no acervo por ele construído os aspectos históricos e artísticos do material.  Fazem parte deste acervo imagético o arquivo em placas de vidro para verascópio de nus femininos fotografado no Brasil por Santos. As placas eróticas para verascópio foram inicialmente produzidas por J. Richard, na Rue Mélingue, 26, em Paris com imagens europeias que eram ambientadas como animação de pinturas. Exibiam cenas de sedução, denominadas “imagens para cavalheiros”. Estas fotos eróticas produzidas pela empresa Richard se destinavam oficialmente a abastecer as câmeras verascópicas que a empresa fabricava, mas, “não é coincidência que o estereoscópio tenha se tornado sinônimo do imaginário erótico e pornográfico ao longo do século XIX” (CRARY, 2012, p. 125). ",
+                citation: "",
+                footNoteNumber: 3, 
+                footNote: [" #7 A reserva técnica do Instituto Moreira Salles possui cerca de 3.000 imagens de Guilherme dos Santos. A maior parte do acervo deste fotógrafo-amador encontra-se sob a guarda do “Museu da Imagem e do Som do Rio de Janeiro, onde estão 17.812 mil negativos e 9.310 mil positivos (em vidro), além de 1.302 ampliações em papel feitas a partir dos negativos”(Disponível em: https://ims.com.br/titular-colecao/guilherme-santos/ Acesso: 21/02/2022.'" ," #8 À época da entrevista Guilherme Santos estimava seu arquivo com “16.000 documentos [imagéticos] fixados em clichês-matrizes [que permitem] reproduçãoes em número ilimitado” (SANTOS, 1950, p.6)","#9 Em matéria publicada na Coluna “Rio de Bairro em Bairro”, do O Globo de 7 de janeiro de 1964, à p.5, 2ª ed., Guilherme dos Santos informa contar com 18.000 placas de diapositivos para o verascópio. A coluna sugere à Superintendência do IV Centenário da cidade do Rio de Janeiro que faça uma exposição pública com as matrizes em vidro." ],
+                image: []
+            },
+            {
+                content: "A produção de nus femininos floresceu muito no início do século XX na Europa e no Brasil (PLATEAU HASSARD, 2022), como indica o acervo de Guilherme dos Santos. As imagens femininas em uso no verascópio sempre refletiam o olhar do fotógrafo que via a objetificação da mulher (PRIORE, 2011). Estas imagens, também encontradas em postais no Rio de Janeiro, demonstram uma liberdade de expressão e comportamento usual naquele momento, de maneira direta e sem artifícios divulgadas até em jornais como o Rio Nu. Comenta Gilberto Amado em suas memórias – descritas em “Mocidade no Rio de Janeiro e primeira viagem à Europa” (1958) – a intensa liberalidade de costumes para homens e o  “intenso tráfego carnal” (p.11) que assumiam ares de licitude e normalidade, o que se estendia, não só presencial como imaginariamente, às imagens da relação sexual (implícita ou explícita) impressas, e que no verascópio, podiam ser levadas à casa apreciadas em 3D.  O verascópio, na literatura brasileira foi citado por Gustavo Barroso (1888 - 1959), professor, ensaísta e romancista, em sua obra memorialística de 1941, “Consulado da China” pela lembrança da revelação,  por um dos personagens, de placas diapositivas. Na historiografia foi citado em artigo de Iara Cecília Pimentel Rolim (2014), pela informação que o etnólogo, antropólogo, pesquisador e fotógrafo francês, naturalizado brasileiro, Pierre Verger (1902-1996) trocou seu Verascópio Richard que fazia fotos (não era verascópio de vistas) por uma máquina fotográfica moderna, a Rolleiflex. Tese de doutoramento recentemente (2019) defendida por Maria Isabela Mendonça dos Santos analisa o papel da fotografia estereoscópica na cultura visual brasileira através do acervo de Guilherme do Santos considerado, o maior colecionador e produtor da estereoscopia no Brasil. O uso de aparelhos de estereoscopia com vista é discutido também por Rodrigo Peixoto (2017) ao abordar o paradigma da educação visual – referendada em Pestalozzi, que apoia e difunde um ensino visual – apoiado na experiência desenvolvida para uma sociedade moderna baseada no uso da tecnologia para proporcionar conhecimento que pode admitir-se à representação da realidade.",
+                citation: "As fotografias [estereoscópicas para visualização no verascópio] assumiram naturalmente um papel de relevo na sala de aula, impondo-se como resumo de todo um mundo. Nelas coabitavam tanto os valores de verdade e objetividade da fotografia, como a valia de objeto que a sua natureza óptica tridimensional lhe conferia (PEIXOTO, 2017, p. 37)",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "A escolha das imagens a serem visualizadas no verascópio, incialmente por parte dos fotógrafos e empresas que as comercializavam e, principalmente, por parte da instituição educativa/docente reforça o papel disciplinador imposto no cotidiano escolar brasileiro nos séculos XIX e XX que trabalha com a educação através dos sentidos, organizada pela razão do professor.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Conclusão ",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "O Verascópio Richard com vista foi um sucesso desde sua criação pela tridimensionalidade das fotos impressas em seu diapositivo, trazendo para o aconchego das casas a possiblidade de ver, o mais realisticamente possível naquele momento tecnológico, imagens que se desejava recordar e compartilhar. As mulheres tinham acesso a este aparelho estereoscópico por ser de fácil manuseio e compor um dos acessórios da sala de visitas onde entretiam os convidados da casa, logo, também se prestavam à sensibilidade feminina de escolha dos móveis e utensílios que comporiam aquele ambiente de convívio social. As “fotos de cavalheiros” impressas nas placas de vidro do diapositivo por satisfazeram a sexualidade masculina do momento, centrada no patriarcalismo e secundarização das mulheres na sociedade. ",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            }
         ],
         references: [
             {
-                author: "",
-                title: "",
-                rest: ""
+                author: "AMADO, Gilberto. ",
+                title: "Mocidade no Rio de Janeiro e primeira viagem à Europa. ",
+                rest: "Rio de Janeiro: Livraria José Olímpio, 1958.   "
+            },
+            {
+                author: "BARROSO, Gustavo. ",
+                title: "Consulado da China. ",
+                rest: " 3º volume de “Memórias”. Rio de Janeiro: Getúlio M. Costa Editora,1941."
+            },
+            {
+                author: "BARTHES, Roland. ",
+                title: "A Câmara Clara. ",
+                rest: "Nota sobre fotografia. Edição Especial. Rio de Janeiro: Nova Fronteira, 2012."
+            },
+            {
+                author: "BIBLIOTECA NACIONAL.",
+                title: "Hemeroteca.",
+                rest: "A Noite: Suplemento, de 1 de agosto de 1950; Correio da Manhã de 2 de julho de 1909; Correio da Manhã, 20 de maio de 195; Jornal do Commercio, 5 de março de 1900; Jornal do Commercio, 9 de março de 1900; Jornal do Commercio de 1 de novembro de 1900; O Globo de 7 de janeiro de 1964."
+            },
+            {
+                author: "CRARY, Jonathan. ",
+                title: "Técnicas do observador. ",
+                rest: "Visão e modernidade no século XIX. Rio de Janeiro: Contaponto Editora, 2012."
+            },
+            {
+                author: "DEL PRIORE, Mary. ",
+                title: "Histórias Íntimas: ",
+                rest: " sexualidade e erotismo na História do Brasil. São Paulo: Editora Planeta do Brasil, 2011."
+            },
+            {
+                author: "ÉTABLISSEMENTS J. RICHARD. ",
+                title: "Vérascope, Glyphoscope, Taxiphote, Homéos. ",
+                rest: "Catalogue du Juin 1931. Paris, France: Établissements J. Richard, 1931."
+            },
+            {
+                author: "JAYO, Martin. ",
+                title: "Verascope Richard. ",
+                rest: "In: ____. Quando a cidade era mais gentil. Disponível em: https://quandoacidade.wordpress.com/2014/09/11/verascope-richard/ Acesso: 25/01/2022 "
+            },
+            {
+                author: "LOPES, Marcos Felipe de Brum; MAUAD, Ana Maria e MUAZE, Mariana. Retratos do Brasil Contemporâneo: práticas fotográficas nos séculos XIX e XX. ",
+                title: "REB. Revista  Estudios Brasileños. ",
+                rest: "vol.4, nº 8. Espanha, Salamanca/Brasil, São Paulo: Ediciones Universidad de Salamanca/ Universidade de São Paulo (USP), 2º semestre, 2017. p. 160-175. "
+            },
+            {
+                author: "MELO, Maria Thereza Chaves. ",
+                title: "A modernidade republicana. ",
+                rest: "Tempo, n º26, 2009 . p. 15-31"
+            },
+            {
+                author: "MONTEIRO, Lilia Maria Maya. Depoimento da série Projetos Especiais. ",
+                title: "Projeto Guilherme Santos. ",
+                rest: "Rio de Janeiro, RJ: Museu da Imagem e do Som, 1988. "
+            },
+            {
+                author: "KOSSOY, BORIS.  ",
+                title: "Realidades e ficç6es na trama fotográfica ",
+                rest: "(3º ed.). São Paulo: Ateliê, 2002."
+            },
+            {
+                author: "A Fotografia Além da Corte. Expansão da fotografia no Brasil Império. ",
+                title: "Acervo. ",
+                rest: "v. 22, no 1. Rio de Janeiro: Biblioteca Nacional jan/jun 2009. p. 109-122."
+            },
+            {
+                author: "KLUMB, Revert Henrique. ",
+                title: "Doze horas em Diligência. ",
+                rest: " Guia do viajante de Petrópolis a Juiz de Fora Rio de Janeiro: Casa do Editor J. J. Costa Pereira Braga/Photografia Klumb, 1872."
+            },
+            {
+                author: "PEÇANHA, Natália Batista Uma pedagogia “para homens”: O Rio Nu e sua função disciplinadora do homem civilizado. Anais. ",
+                title: "XV Encontro Regional de História - ANPUH-Rio ",
+                rest: "(Ofício do Historiador: Ensino e Pesquisa). Rio de Janeiro, São Gonçalo: FFP/UERJ/ ANPUH-RIO. 23 e 27 de julho de 2012. p. 1- 17."
+            },
+            {
+                author: "PENNAFORT, Roberta. Herdeiros desprendidos ajudam a compor acervo. In: ",
+                title: "O Estadão de São Paulo,",
+                rest: "18 de abril de 2009. Disponível em: https://brasil.estadao.com.br/noticias/geral,herdeiros-desprendidos-ajudam-a-compor-acervos,357270 acesso: 21 de janeiro de 2022."
+            },
+            {
+                author: "PERIN, Jacques. ",
+                title: "Jules Richard et la magie du relief. ",
+                rest: "Mialet, France: Cyclope, 1993."
+            },
+            {
+                author: "PLATEAU HASSARD le blog His. ",
+                title: "Jules Richard et le vérascope. ",
+                rest: "Disponível em:http://plateauhassard.blogspot.com/2012/11/jules-richard-et-le-verascope.html Acesso: 10/02/2022."
+            },
+            {
+                author: "POMIAN, Krzysztof. Coleção. ",
+                title: "Enciclopédia Einaudi. ",
+                rest: "Porto: Imprensa Nacional/Casa da Moeda, 1984. p. 51-86. "
+            },
+            {
+                author: "ROLIM, Iara Cecília Pimentel. ",
+                title: "Pêche au arpon, a trajetória de uma fotografia. ",
+                rest: " Resgate, vol. XXII, nº 27. Jan./Jun., 2014 p. 18-29."
+            },
+            {
+                author: "SALLES, Ricardo, ",
+                title: "Nostalgia Imperial.",
+                rest: "A Formação da Identidade Nacional no Brasil do Segundo Reinado, Rio de Janeiro, Topbooks, 1996, p. 98."
+            },
+            {
+                author: "SANTOS, Maria Isabela Mendonça dos. ",
+                title: "A mirada estereoscópica de Guilherme Santos:",
+                rest: "cultura visual no Rio de Janeiro (séculos XIX, XX). Tese (Doutorado). Rio de Janeiro, Niterói: Universidade Federal Fluminense (UFF), 2019"
+            },
+            {
+                author: "SANTOS, Guilherme dos.Entrevista concedida ao Jornal A Noite (Suplemento), Rotogravura, publicada em 1 de agosto de 1950, p.6 In:  ",
+                title: "BIBLIOTECA NACIONAL. ",
+                rest: "Hemeroteca Digital. Disponível em http://memoria.bn.br/DocReader/DocReader.aspx?bib=120588&pagfis=41252 Acessssso: 21/02/2022."
+            },
+            {
+                author: "TAVARES, Maria da Conceição da Silva. ",
+                title: "Do Naturalismo às Ciências Modernas nos Açores. ",
+                rest: "Ensaio Biográfico de Francisco Afonso Chaves (1857-1926). Tese (Doutorado em História e Filosofia das Ciências). Universidade de Lisboa/Faculdade de Ciências. Lisboa, Po  rtugal: Universidade de Lisboa/Faculdade de Ciências, 2017."
+            },
+            {
+                author: "VASQUEZ, Pedro Karp ",
+                title: "Fotógrafos Alemães no Brasil do Século XIX.",
+                rest: "São Paulo: Metalivros, 2000."
+            },
+            {
+                author: "VASQUEZ, Pedro Karp e FERREZ, Gilberto (curadoria e textos). ",
+                title: "Exposição A fotografia no Brasil do século XIX: ",
+                rest: "150 anos do fotógrafo Marc Ferrez 1843/1993. São Paulo: Pinacoteca do Estado, 1993."
             }
         ]
 
     },
     {
         id: 67,
-        title: "",
+        title: "Urinol",
         author:{
-            name: "",
-            institution: "",
-            department: []
+            name: "Juciele Pereira Dias",
+            institution: "Universidade do Estado do Rio de Janeiro/UERJ",
+            department: ["Programa de Pós-Graduação em Educação/ProPEd"]
         },
         text: [
             {
-                content: "",
+                content: "O urinol (séc XIX - ourinol, cf. PINTO, 1832) é um recipiente de uso cotidiano para urinar, defecar ou mesmo escarrar. De formato geralmente arrendondado, pode ser feito de porcelana, cerâmica, pedra, metal, com ou sem ornamentos. Trata-se de uma peça relativamente pequena, não pesada, portátil, ou seja, de possível deslocamento para desprezo dos dejetos e limpeza. Seu nome e uso apresenta variações no tempo e no espaço, sendo também conhecido como penico, bispote, vaso da noite, bacio, vaso de câmara, pot de comadre. No caso de uso especializado, em ambiente hospitalar, possui as terminologias específicas de papagaio ou comadre. Uma curiosidade sobre seu uso é o de servir também como instrumento de trabalho da parteira. Segundo Barreto (2001, p. 147), “quando a secundina [placenta] demorava de sair, a parida deveria sentar em um urinol com água fervendo para receber todo o vapor, dizendo numa só respiração: salsa, salsa, salsa”.",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
             },
+            {
+                content: "Segundo Schettino (2012), até o século XX, apesar de ter um local reservado para fazer suas necessidades fisiológicas (casinha), alguns moradores davam preferência ao uso do urinol em seus quartos. Hoje muitas pessoas se lembram do popular penico das avós: esmaltado, branco, com alça lateral, guardado embaixo da cama para uso noturno, mas que também podiam ser acomodados em uma portinha inferior da mesinha de cabeceira da cama. E o penico ou ainda o ‘troninho’, feitos em plástico, fazem agora parte do cotidiano de muitas crianças bem pequenas em processo de desfralde. O troninho normalmente tem um assento, com uma tampa que cobre o urinol acoplado e removível para limpeza.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Na página on-line do Museu do Urinol (https://museodelorinal.es/museo/), situado em Rodrigo, na Espanha, é contado que no século III, com Diocleciano, já se tinha um lugar reservado para urinar ou defecar, porém seu uso era coletivo. Posteriormente, em castelos e mosteiros, foram feitos canais que ligavam essas “latrinas” a um fosso, mas teria sido com Carlos V, em 1374, na França, que se advertiu que as casas particulares deveriam ter seus lugares reservados para dejetos humanos. Com isso, no século XVII, são fabricados os urinóis de porcelana e de grés, difundindo-se a partir do século XVIII ao serem produzidos também em outros materiais.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "No Brasil do período colonial, segundo Schettino (2012, p. 171-172), a casa urbana tinha um quintal com senzala e a “secreta” (casinha), porém, frequentemente, o urinol era preferido e seu conteúdo despejado em praias ou terrenos distantes pelos escravizados. Desde o século XIX, em um “mundo em que a higiene pública era precária, o urinol era objeto imprescindível à vida doméstica” (MELLO E SOUZA, 1997). Logo, a pergunta que fica é: afinal, como se dá esse processo de desprezo dos dejetos do urinol no espaço urbano e quais os seus efeitos sócio-históricos? Sabe-se que, no século XIX, quando a cultura do uso do urinol estava presente na sociedade, nas casas havia um recipiente onde se despejava o conteúdo. Segundo Oliveira (2015, p. 36), o nome dado a esse recipiente era “tigre”, enquanto “tigreiro” era como denominavam o escravizado responsável por carregar os grandes vasos com excrementos, que escorriam por seus corpos, marcando-o os pelos desprezos (des)humanos.",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            }
         ],
         references: [
             {
+                author: "PINTO, Luiz Maria da Silva. ",
+                title: "DICCIONÁRIO da Lingua Brasileira. ",
+                rest: "Ouro Preto: Typhographia de Silva, 1832. Disponível em: https://digital.bbm.usp.br/handle/bbm/5414 . Acesso em: 16 mar 2022."
+            },
+            {
+                author: "OLIVEIRA Isabel Cristina Borges de. ",
+                title: "Vocabulário Controlado sobre escravidão, abolição e pós-abolição:",
+                rest: "a representação dos conceitos. Coordenado por Lucia Maria Velloso de Oliveira. – Rio de Janeiro: Fundação Casa de Rui Barbosa, 2015. 49 p. Disponível em: http://www.memoriaescravidao.rb.gov.br/pdf/VocabularioControlado.pdf. Acesso em: 16 mar 2022."
+            },
+            {
                 author: "",
-                title: "",
-                rest: ""
+                title: "MUSEO DEL ORINAL. ",
+                rest: "Historia del orinal. Disponível em: https://museodelorinal.es/museo/historia-del-orinal/. Acesso em: 16 mar 2022."
+            },
+            {
+                author: "BARRETO, Renilda. Corpo de mulher: a trajetória do desconhecido na Bahia do século XIX. ",
+                title: "História: ",
+                rest: "Questões & Debates, Curitiba, n. 34, p. 127-156, 2001. Editora da UFPR."
+            },
+            {
+                author: "SCHETTINO, Patrícia Thomé Junqueira. ",
+                title: "A MULHER E A CASA: ",
+                rest: "Estudo sobre a relação entre as transformações da arquitetura residencial e a evolução do papel feminino na sociedade carioca no final do século XIX e início do século XX. Tese (Doutorado em Arquitetura e Urbanismo) – Programa de Pós-graduação em Arquitetura e Urbanismo da Escola de Arquitetura da Universidade Federal de Minas Gerais, Belo Horizonte, Universidade Federal de Minas Gerais, 2012"
+            },
+            {
+                author: "MELLO E SOUZA, Laura.",
+                title: "História da vida privada no brasil: ",
+                rest: "Cotidiano e vida privada na América portuguesa. Volume 1. Caderno de imagens. Coordenação geral da coleção por Fernando A. Novais. Rio de Janeiro, RJ: Companhia das Letras, 1997."
             }
         ]
 
     },
     {
         id: 68,
-        title: "",
+        title: "Urinol Feminino",
         author:{
-            name: "",
-            institution: "",
-            department: []
+            name: "Paloma Rezende de Oliveira",
+            institution: "Universidade do Estado de Minas Gerais",
+            department: ["Departamento de Educação, Letras e Linguística"]
         },
         text: [
             {
-                content: "",
+                content: "A importação de porcelanas produzidas na França no século XIX introduziu um padrão francês nos usos e gostos da elite brasileira, que o adotou como parte de seu modo de vida e de classe social. Foi neste sentido que importou, sobretudo da França, todo um aparato material para suas residências, sejam urbanas ou rurais (BARBUY, 2019). Soma-se a isso, as transformações no espaço doméstico decorrentes da crescente urbanização e separação entre local de trabalho e moradia, que demarcaram o público e o privado. O arranjo da casa é incrementado por meio da decoração. Os cômodos se especializam, ganham móveis fixos e se enchem de objetos associados ao morador e ao seu gosto pessoal (CARVALHO, 2003). Outro elemento importante foi o conjunto de medidas sanitárias e o incentivo a certas práticas de higiene como forma de combater as diversas doenças contagiosas, que refletiu no design dos objetos, sendo privilegiado o uso de materiais como porcelana também em banheiras, urinóis e latrinas, em substituição às cadeiras retretes em madeira (PAULILLO, 2017). Assim, uma estética francesa se introduz nesses meios em que a origem dos objetos representa por si só uma garantia do bom gosto. Importar da França numerosos objetos de luxo, caros e refinados, era então moda e uma necessidade social das classes altas (BARBUY, 2019).",
                 citation: "",
                 footNoteNumber: null,
                 image: []
             },
+            {
+                content: "Em uma escala de valor, as louças mais caras descritas nos inventários post mortem eram as de porcelana, pois sua pasta possuía elevado custo, diferente das demais peças em que a técnica decorativa era determinante para a atribuição de valor. Desse modo, as porcelanas eram utilizadas em raras ocasiões, como em um jantar, baile ou chá para convidados especiais (SOARES, 2011). A porcelana francesa tinha, apesar de todas as dificuldades comerciais, em relação aos concorrentes ingleses e alemães, uma importância econômica, pois seu valor mais forte era o simbólico. A ideia de refinamento, na França, associava-se claramente à perfeição do processo artesanal, sendo os objetos produzidos por meio de técnicas sempre elaboradas dos materiais empregados e imbuídos de uma concepção estética. Sua estética, qualidade e origem desempenhavam um papel de destaque no aparato das elites brasileiras no século XIX (BARBUY, 2019).",
+                citation: "",
+                footNoteNumber: null,
+                image: []
+            },
+            {
+                content: "De acordo com Paulillo (2017, p.312), o urinol, “vaso sanitário portátil usado para urinar e defecar”, também conhecido como “mijadeiro, penico, vaso ou vaso noturno”, é encontrado em anúncios de leilões listado junto aos móveis dos quartos, indicando seu uso neste cômodo. O urinol de porcelana, por sua vez, era atrelado à higiene e limpeza, principalmente no início do século XX, quando no Brasil se propaga o discurso higienista. Ainda assim, Schettino (2012) relata que era usual a sobreposição de funções de utensílios e cômodos da casa. Por ser facilmente transportável, o urinol indica certa maleabilidade de lugar e/ou o compartilhamento. Tal característica levou, muitas vezes ao seu uso inadequado, como observado pelos viajantes que visitaram a região do Serro/MG, nos oitocentos, onde, apesar da elegância dos serviços, serviam sopa no urinol de louça e colocavam uma quantidade de pratos dispostos na mesa sem uma função aparente (SENA, 2007).",
+                citation: "",
+                footNoteNumber: null,
+                image: []
+            },
+            {
+                content: "Ainda hoje, o urinol feminino, por seu formato oval e suas alças, é facilmente confundido com a peça de mesa fabricada por Hache, Jullien & Cie, identificada como “molheira” nos leilões da atualidade, diferenciando-se do urinol por acompanhar um prato oval com a mesma decoração. Esta fábrica francesa, fundada em Vierzon, em 1845, por Petry e conduzida por seu filho Adolphe Hache e seu genro Léon Pépin-Lehalleur, contava com quase mil trabalhadores, no final do século, e era concorrente de Pillivuyt, Limoges e Sèvres, funcionando até o ano de 1934 (LETOUNEAU, 1995). O monograma que acompanha esta peça também indica que ela recebeu medalha de ouro na terceira Feira Mundial de Paris ou Exposition Universelle, realizada entre maio e novembro de 1878, a qual foi descrita por Ortigão (2018).",
+                citation: "",
+                footNoteNumber: null,
+                image: []
+            }
+            
         ],  
         references: [
             {
-                author: "",
-                title: "",
-                rest: ""
-            }
+                author: "BARBUY, Heloísa. Um sistema comercial-cultural de importação de porcelanas de mesa francesas no Brasil do século XIX. ",
+                title: "Varia Historia. ",
+                rest: "Belo Horizonte, vol. 35, n. 67, p. 275- 309, jan/abr 2019."
+            },
+            {
+                author: "CARVALHO, Vânia Carneiro de. Gênero e cultura material: uma introdução bibliográfica.",
+                title: "Anais do Museu Paulista: ",
+                rest: "História e Cultura Material. v.8-9, n.1, p. 293-324, 2003."
+            },
+            {
+                author: "LETOUNEAU, Henri. L'industrie de la porcelaine en Berry et régions voisines. Essai de géographie historique. ",
+                title: "Norois. ",
+                rest: "n. 167 , 1995, p. 535-548."
+            },
+            {
+                author: "ORTIGÃO, Ramalho. ",
+                title: "Paris Exposição Universal. ",
+                rest: "Feitoria dos livros. 2018."
+            },
+            {
+                author: "PAULILLO, Clarissa de Almeida. ",
+                title: "Corpo, casa e cidade: ",
+                rest: "três escalas da higiene na consolidação do banheiro na moradia paulistana (1893-1929). Dissertação. Mestrado em Design e Arquitetura) - Faculdade de Arquitetura e Urbanismo da Universidade de São Paulo. São Paulo, 2017."
+            },
+            {
+                author: "SCHETTINO, Patrícia Tomé. ",
+                title: "A mulher e a casa: ",
+                rest: "estudo sobre a relação entre as transformações da arquitetura residencial e a evolução do papel feminino na sociedade carioca no final do século XIX e início do XX. Tese. Escola de Arquitetura. UFMG, 2012."
+            },
+            {
+                author: "SENA, Tatiana da Costa. ",
+                title: "O consumo de louças estrangeiras e produção artesanal de louça vidrada em Vila Rica (1808-1822). ",
+                rest: "Monografia. Departamento de História. UFOP, 2007."
+            },
+            {
+                author: "SOARES, Fernanda Codevilla. ",
+                title: "Vida material de Desterro no século XIX: ",
+                rest: "as louças do palácio do governo de Santa Catarina, Brasil. Tese. Universidade de Trás-Os-Montes e Alto Douro. Vila Real, 2011."
+            },
+            {
+                author: "UNITED STATES. Comission to the Paris Exposition (1889). ",
+                title: "Reports of the United States Commissioners to the Universal Exposition of Paris. ",
+                rest: "p.302-303. Disponível em: <Reports of the United States Commissioners to the Universal Exposition of ... - Google Livros>. Acesso em: 21 fev.2022."
+            },
         ]
 
     },
     {
         id: 69,
-        title: "",
+        title: "Visor Estereoscópio",
         author:{
-            name: "",
-            institution: "",
-            department: []
+            name: "Mariana de Aguiar Ferreira Muaze",
+            institution: " Universidade Federal do Estado do Rio de Janeiro",
+            department: ["Programa de Pós-Graduação em História"]
         },
         text: [
             {
-                content: "",
+                content: "A palavra fotografia deriva do radical grego, phôs, que significa luz e quer dizer “a arte de fixar a luz de objetos mediante a ação de certas substâncias”. Esta denominação registra um pouco da história do surgimento desta tecnologia, na qual Louis Jacques Mande Daguerre, em 1839, aperfeiçoando as experiências de Nicéphore Niépce, inventou o primeiro processo fotográfico: o daguerreótipo. Desde então, houve grandes investimentos no aprimoramento técnico da fotografia a fim de aumentar sua viabilidade econômica. Assim, diversos pesquisadores buscaram uma reprodução fotográfica cada vez mais veloz e “verdadeira”, entendida como mais próxima à imagem que os olhos humanos captam do mundo. Abriu-se, então, uma corrida rumo à verossimelhança que impulsionou o desenvolvimento de novas técnicas, formatos e processos fotográficos, a exemplo do: talbotico, ferrotipo, ambrotipo, papel albuminado e o formato carte-de-visite, bem como a fotografia estereoscópica.",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
             },
+            {
+                content: "A fotografia estereoscopica foi inventada em 1844, pelo escocês Sir David Brewster, que aperfeiçoou os estudos da visão binocular de Charles Wheatstone e desenvolveu uma mercadoria de grande apelo comercial. Em 1851, o aparelho Brewster (visor estereoscópico) foi apresentado à rainha Vitória da Inglaterra na primeira Exposição Universal de Londres e se tornou uma febre. O processo utilizava uma câmera com duas lentes gêmeas, cujos centros opticos eram separados por 3,6 cm, distância média entre os olhos humanos. No ato fotográfico, a câmera gerava duas imagens diferentes do mesmo referente que, depois de reveladas, eram colocavas lado a lado num cartão. Através de visor, as imagens se fundiam e geravam uma experiência visual tridimencional ao observador. O sucesso do invento foi tamanho que, em 1854, foi criada a primeira empresa de produção e distribuição de vistas estereoscópicas - a London Stereoscopic Company. A empresa usava o slogan “No home without a Stereoscope”/ “Nenhum lar sem estereoscopia” e continha um catálogo com mais de 10.000 para serem compradas. ",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "O consumo de imagens estereoscópicas não se restringiu a Europa e Estados Unidos. Com a expansão da fotografia pelo mundo, a tecnologia das câmeras e visores estereoscopicos foi sendo aperfeiçoada e, em 1862, passou a permitir a visualização de tipos humanos. Desde então, as temáticas representadas se ampliaram e deixaram se ser objetos inertes e naturezas mortas para se tornarem paisagens urbanas e naturais, lugares turísticos, fotografias de personalidades, monumentos e sítios históricos, retratos de familiares e até mesmo pornografia. As imagens estereoscópicas eram expostas tanto nas exposições universais quanto em outros lugares públicos de lazer e instrução. Mas foi no espaço da casa, na intimidade das famílias das classes médias e abastadas, que os cartões estereoscópicos foram cotidianamente visualizados. Ao lado do piano, dos carte-de-visite, dos livros e de outras mercadorias, estas imagens compuseram a materialidade de um habitus de classe, baseado na distinção, que demarcou o mundo dos mais abastados seja no Brasil, na Europa ou nos Estados Unidos. Enquanto objetos da cultura material, estes artefatos da modernidade integraram o mundo do lazer, do colecionismo, da decoração e do consumo das famílias enriquecidas e ajudaram a interconectar lugares e pessoas à ordem burguesa e capitalista em ascensão no século XIX. ",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            },
+            {
+                content: "Os visores eram encontrados em diferentes modelos (de pé, de mesa, de mão) e havia caixas refinadas para o armazenamento dos cartões estereoscópicos colecionados. Portanto, se por um lado estes objetos decoravam as salas de estar, por outro assumiam protagonismo em eventos que reuniam amigos e familiares para a observação coletiva das imagens tridimensionais. No Brasil, diferentes famílias os consumiam, dentre elas os Ribeiro de Avellar que encomendaram a francesa Maison Central de Photográphie, Stéréoscopique et Pittoresque, em 1873, um aparelho de estereoscopia e algumas dúzias de imagens que custaram 421.50 francos, e a família de Benjamin Constant, cujo cunhado Karl Fraenkel e a filha Bernardina colecionavam imagens de museus e personalidades. Contudo, uma das grandes incentivadoras estereoscopia no Brasil foi a família imperial, que contratou o alemão Revert Henrique Klumb, fotógrafo pioneiro neste tipo de imagem no país, para registrar diversos monumentos e logradouros públicos. Mesmo assim, Klumb não se furtou a eternizar cenas da escravidão na capital da corte e nas fazendas do interior. ",
+                citation: "",
+                footNoteNumber: null, 
+                image: []
+            }
         ],
         references: [
             {
-                author: "",
-                title: "",
-                rest: ""
+                author: "FREUND, Gisele. ",
+                title: "Fotografia e Sociedade. ",
+                rest: "Lisboa: Vega, 1974, MUAZE, Mariana. “O Império do Retrato: fotografia e poder na sociedade oitocentista”. Projeto História (PUC-SP), v.34, p.169 - 187, 2007. "
+            },
+            {
+                author: "LUZ, F. C., & PEIXOTO, R. ",
+                title: "“O Efeito Espectáculo da Fotografia Estereoscópica do Séc. XIX: ",
+                rest: "Contributos para um Arquivo Digital”. Artciencia.Com, Revista De Arte, Ciência E Comunicação, (20-21), 2017.  "
+            },
+            {
+                author: "PARENTE, José Inacio. ",
+                title: "A Estereoscopia no Brasil. ",
+                rest: "Rio de Janeiro: Sextante, 1999."
+            },
+            {
+                author: "SANTOS, Maria Isabela Mendonça dos. ",
+                title: "Cenas cariocas: o Rio de Janeiro através das estereoscopias de Guilherme dos Santos",
+                rest: ", Dissertação de mestrado, Programa de Pós Graduação em História da Universidade Federal Fluminense, 2014.  "
+            },
+            {
+                author: "TURAZZI, Maria Inês. ",
+                title: "Poses e Trejeitos – a fotografia e as exposições na era do espetáculo. ",
+                rest: "RJ: FUNART & Rocco, 1995."
             }
         ]
 
     },
     {
         id: 70,
-        title: "",
+        title: "Visor Grafoscópio",
         author:{
-            name: "",
-            institution: "",
-            department: []
+            name: "Ana Lúcia Cunha Fernandes",
+            institution: "Universidade Federal do Rio de Janeiro",
+            department: ["Faculdade de Educação"]
         },
         text: [
             {
-                content: "",
+                content: "Um visor grafoscópio era um dispositivo do século XIX usado em salas de estar para melhorar a visualização de fotografias e texto. Tal objeto consistia em uma lente de aumento geralmente colocada em uma moldura de madeira e servia para ampliar textos e imagens. O grafoscópio deve basear-se na patente de Charles John Rowsell de 1864. Peça fechada mede 22,5cm x 15cm x 7 cm. Aparelho que faz parte de um conjunto mais amplo de aparelhos e dispositivos óticos, inserido no contexto do século XIX, período de massificação e de difusão da cultura do impresso, de produção e reprodução de imaginários societais e de circulação de repertórios temáticos, indicando novos regimes de produção, apropriação e difusão de sentidos por meio de novas práticas culturais em circulação no bojo da construção de uma civilização/cultura moderna. Nesse sentido, artefatos como esse podem ser entendidos como instrumentos que promovem a circulação e a transferência de novos saberes e a produção de formas de vida urbana, em consonância com a ideia de progresso Trata-se de uma conjuntura marcada por transformações e transferências técnicas e tecnológicas, tornando disponível um novo sistema de objetos que permitiam a difusão de diversos imaginários sociais que envolvem a técnica no interior de uma cultura moderna (eletricidade, telefone, telégrafo, fonógrafo, cinematógrafo, etc.). Um novo sistema de objetos pertencentes a um “sistema técnico que também indicava novas formas aspiracionais da vida moderna e suas imagens” (Narita, 2019), o que contribuía para a organização das formas de socialização em um mundo em profundas mudanças. Além dos aspectos societais, também se pode perceber a influência de tais dispositivos nas práticas educativas, como nos mostra o mesmo autor ao mencionar um ofício assinado por Benjamin Constant em 1882 que informava sobre a utilidade do grafoscópio e seu regime de atenção a uma “variedade de imagens diversamente multiplicadas”, “deixando ver um syllabario ou grande numero de combinações syllabicas em caracteres de imprensa e manuscriptos, desenhos, figuras e quadros communs da vida para as lições de cousas” (Documento do Arquivo Geral da Cidade do Rio de Janeiro, apud Narita 2019).",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
@@ -5478,9 +6130,14 @@ export const texts =[
         ],
         references: [
             {
-                author: "",
-                title: "",
-                rest: ""
+                author: "NARITA, Felipe Ziotti. ",
+                title: "Educação, vida urbana e moralidade: ",
+                rest: "a elaboração do povo e a invenção do social no fim de século brasileiro. Relatório de Pesquisa de Pós-Doutorado. USP Ribeirão Preto, 2019."
+            },
+            {
+                author: "SILVA, Maria Cristina Miranda da. ",
+                title: "A presença de aparelhos e dispositivos ópticos no Rio de Janeiro do século XIX.",
+                rest: "Tese (Doutorado em Comunicação e Semiótica) – Pontifícia Universidade Católica de São Paulo, São Paulo, 2006."
             }
         ]
 
