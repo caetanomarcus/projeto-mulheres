@@ -1,16 +1,24 @@
 import React from 'react';
+import styled from 'styled-components';
 import Apresentation from '../components/Apresentation';
+import Footer from '../components/Footer';
 import Header from '../components/Header.2';
 import Hero from '../components/Hero.2';
 
 
-const Home = () => {
+const Container = styled.div`
+    
+`;
+
+
+const Home = ({ setOpen }) => {
     return (
-        <>
-            <Header />
+        <Container>
+            <Header setOpen={setOpen} />
             <Hero />
             <Apresentation />
-        </>
+            <Footer />
+        </Container>
     )
 }
 

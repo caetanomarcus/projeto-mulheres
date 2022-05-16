@@ -1,31 +1,16 @@
 import React from 'react'
-import styled, { keyframes } from 'styled-components'
-
-//assets
-import penaETinteiro from "../assets/penaetinteiro.jpg"
-import pink from '../assets/pink.jpg'
-
-//keyframes
-
-const imageAnimation = keyframes`
-    0% {
-        opacity: 0;
-        transform: translateX(-100%);
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(0);
-    }
-`;
+import styled from 'styled-components'
 
 const Container = styled.div`
     width: 100%;
     /* height: calc(100vh - 100px); */
-    padding: 72px 0;
+    padding: 32px 0;
+    margin-top: 176px;
+    /* padding-bottom: 62px; */
     position: relative ;
     color:#5F1478; //#7e0afa ;
-    padding-top: 148px;
-    margin-bottom: 50px;
+    /* padding-top: 148px; */
+    margin-bottom: 176px;
     position: relative;
 
     ::after {
@@ -38,22 +23,28 @@ const Container = styled.div`
         left: 126px;
     }
 
-    
+    @media (max-width: 768px) {
+        margin-top: 0px;
+        margin-bottom: 0px;
+
+        ::after {
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+
 `;
 
 const UpBox = styled.div`
-    width: calc(100% - 252px );
-    padding: 0 126px;
-    /* max-width: 1366px; */
-    display: flex;
-    /* flex-wrap: wrap; */
-    justify-content: space-between;
-    align-items: center;
-    background-color: #f0f0f0;
+    width: 100%; //calc(100% - 352px );
+    
+    /* max-width: 1440px; */
+  
+    background-color: #7e0afa12;
     margin: 0 auto ;
-    border: solid #fff 1px;
-    border-radius: 16px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    /* border: solid #fff 1px; */
+    /* border-radius: 16px; */
+    /* box-shadow: 0px 0px 10px rgba(0,0,0,0.1); */
     position: relative;
 
     @media (max-width: 768px) {
@@ -66,42 +57,30 @@ const UpBox = styled.div`
     }
 `;
 
-const BubbleContainer = styled.div`
-    position: absolute ;
-    width: ${props => props.size};
-    height:  ${props => props.size} ;
-    top: ${props => props.top}  ;
-    left: ${props => props.left};   
-    right: ${props => props.right};
-    overflow: hidden;
-`;
+const UpBoxContainer = styled.div`
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 24px 176px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-const Bubbles = styled.div`
-    width: ${props => props.size};
-    height:  ${props => props.size} ;
-    position: ${props => props.position || 'absolute'};
-    top: ${props => props.top} ;
-    left: ${props => props.left};   
-    right: ${props => props.right};
-    background-image: url(${pink});
-    background-size: cover;
-    transform: ${props => props.transform};
-    border-radius: 50%;
-    z-index: -1;
-
-    @media (max-width: 768px) {
-        display: none;
+    @media (max-width: 1024px) {
+        padding: 24px 32px;
+        flex-direction: column;
     }
 `;
 
 const HeroTitleContainer = styled.div`
-    height: 50% ;
+    height: 48% ;
     display:flex ;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
      border-radius: 4px;
      width: 50%; 
-     padding: 16px 0px;
+     /* padding: 16px 0px; */
+
 
      @media (max-width: 768px) {
         width: 100%;
@@ -116,11 +95,11 @@ const Title = styled.h1`
     font-size: 44px;
     position: relative;
     z-index: 1;
-    width: ${({ width }) => width || '100%' };
-    max-width: 1366px;
+    width: ${({ width }) => width || '100%'};
+    max-width: 1440px;
     color: #3d0647;
 
-    ${({hasUnderline}) => hasUnderline && `
+    ${({ hasUnderline }) => hasUnderline && `
          ::before {
         content: '';
         width: 100%;
@@ -142,14 +121,15 @@ const Paragraph = styled.p`
     
 `;
 const HeroTextContainer = styled.div`
-    width: 55% ;
+    width: 48% ;
     /* border: solid #fff 2px;
     border-radius: 6px; */
-    padding: 12px;
+    padding: 12px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 
     @media (max-width: 768px) {
         width: 100%;
@@ -171,49 +151,13 @@ const Title2 = styled.h2`
 const Title3 = styled.h2`
     font-weight: 500;
 `;
-const HeroImage = styled.div`
-    width: calc(100% - 126px);
-    height: 300px;
-    /* max-width: 1366px; */
-    display: flex ;
-    justify-content: center;
-    align-items: center;
-    margin-right: 0;
-    margin-left: auto;
-    position: relative ;
-    
-`;
-
-const Image = styled.div`
-    width: 100%;
-    height: 300px;
-    background-image: url(${penaETinteiro});
-    background-position: center;
-    background-size: cover;
-    border-radius: 2px;
-    position: absolute;
-    top: 65px;
-    padding: 24px;
-    animation: ${imageAnimation} 2s ease-in-out;
-`;
-
-const ImageText = styled.p`
-    color: #fff;
-    font-weight: 600;
-    position: absolute;
-    bottom: 24px;
-
-`;
 
 const Hero2 = () => {
     return (
         <Container>
-            <BubbleContainer right='0' size='100px'>
-                <Bubbles size='100px' top='0' right='-60px' position='relative' />
-            </BubbleContainer>
-            <Bubbles top='400px' left='-235px' size='300px' transform='translateY(50%)' />
             <UpBox>
-                <HeroTitleContainer>
+               <UpBoxContainer>
+               <HeroTitleContainer>
                     <TitleContainer>
                         <Title >Mulheres e Educação </Title>
                         <Title hasUnderline width='fit-content' >no Séc XIX</Title>
@@ -234,13 +178,15 @@ const Hero2 = () => {
                         conhecimento.</Paragraph>
 
                 </HeroTextContainer>
-                
+               </UpBoxContainer>
+
             </UpBox>
-            <HeroImage>
+            {/* <HeroImage>
                 <Image>
                     <ImageText>Pena e Tinteiro</ImageText>
                 </Image>
-            </HeroImage>
+            </HeroImage> */}
+
         </Container>
     )
 }

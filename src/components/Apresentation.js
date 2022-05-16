@@ -1,8 +1,7 @@
-import React, { useState } from "react"
+import React from "react"
 import styled, { keyframes } from "styled-components"
+import { images } from "../data/images";
 
-//icons
-import rightArrow from '../assets/icons/right-arrow.png'
 
 //keyframes
 
@@ -36,6 +35,8 @@ const Wrapper = styled.div`
     width: 100%;
     position: relative;
     overflow: hidden;
+    max-width: 1440px;
+    margin: 0 auto;
 `;
 
 const Box = styled.div`
@@ -44,8 +45,12 @@ const Box = styled.div`
     justify-content: center;
     align-items: center; */
     color:#5F1478;
-    padding-top: ${({ hasPaddingTop }) => hasPaddingTop ? '24px' : '0'};
+    padding-top: ${({ hasPaddingTop }) => hasPaddingTop ? '72px' : '0'};
     position: relative;
+
+    @media (max-width: 768px) {
+        padding-top: ${({ hasPaddingTop }) => hasPaddingTop ? '16px' : '0'};
+    }
     
 `;
 
@@ -60,31 +65,10 @@ const Title = styled.h2`
     }
 `;
 
-const PaginationBox = styled.div`
-    width: 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: absolute;
-    bottom: -15px;
-    left: 50%;
-    transform: translateX(-50%);
-
-`;
-
-const Circle = styled.div`
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: ${({ active }) => active ? '#5F1478' : 'transparent'};
-    border: 1px solid #5F1478;
-    cursor: pointer;
-
-`;
 
 const Page = styled.div`
     width: 100%;
-    padding: 0 126px;
+    padding: 0 176px;
     margin: 0 auto;
     /* animation: ${({ hasAnimation, direction }) => hasAnimation ? direction === 1 ? pageAnimation : reversePageAnimation : 'none'} 1.2s ease-in-out; */
     position: relative;
@@ -95,6 +79,10 @@ const Page = styled.div`
         justify-content: center;
         align-items: center;
     `}
+
+@media (max-width: 1024px) {
+        padding: 24px 32px;
+    }
 `;
 
 const ImageTextBox = styled.div`
@@ -124,11 +112,16 @@ const ImagesBox = styled.div`
     margin: 10px auto;
     /* margin-right: 48px; */
     position: relative;
+    margin-top: 62px;
+    margin-bottom: 62px;
 
 
-    @media (max-width: 1365px) {
+    @media (max-width: 1024px) {
         width: 100%;
+        max-width: auto;
+        margin: 10px 0;
         flex-direction: column;
+
     }
     
 `;
@@ -140,10 +133,11 @@ const SmallImagesBox = styled.div`
     justify-content: space-between;
     align-items: center;
 
-    @media (max-width: 480px) {
+    @media (max-width: 768px) {
         width: 100%;
         flex-wrap: nowrap;
         flex-direction: column;
+        
     }
 `;
 
@@ -162,7 +156,7 @@ const ParagraphBox = styled.div`
 `;
 
 const Paragraph = styled.p`
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.5;
     color:#5F1478;
 
@@ -188,12 +182,19 @@ const Paragraph = styled.p`
 
 const Image = styled.div`
     width: ${({ width }) => width};
-    height: ${({ big }) => big ? "260px" : "120px"};
+    height: ${({ big }) => big ? "280px" : "120px"};
     background-color: gray;
+    background-image: ${({ image }) => `url(${image})`};
+    background-size: cover;
+    background-position: center;
     border-radius: 4px;
     margin: 0 auto;
     margin-top: ${(hasMarginTop) => hasMarginTop ? "20px" : "0"};
-    /* margin-bottom: ${(hasMarginBottom) => hasMarginBottom ? "20px" : "0"}; */
+    margin-bottom: ${(alone) => alone ? "20px" : "0"};
+
+    @media (max-width: 1024px) {
+        width: 50vw;
+    }
 
     @media (max-width: 480px) {
         width: 100%;
@@ -201,113 +202,28 @@ const Image = styled.div`
     }
 `;
 
-const NextBtn = styled.button`
-    width: 60px;
-    height: 60px;
-    border: none;
-    cursor: pointer;
-    position: absolute;
-    right: 0px;
-    top: 50%;
-    display: ${({ isVisible }) => isVisible ? "block" : "none"};
-    background: transparent;
-
-    ::after{
-        content: '';
-        width: 60px;
-        height: 60px;
-        background-image: url(${rightArrow});
-        background-size: cover;
-        position: absolute;
-        top: 0;
-        left: 0;
-    }
-
-
-    @media (max-width: 1365px) {
-        top: 490px;
-        right: 50px
-    }
-`;
-
-const BackBtn = styled.button`
-    width: 60px;
-    height: 60px;
-    border: none;
-    cursor: pointer;
-    position: absolute;
-    left: 0px;
-    top: 50%;
-    transform: rotate(180deg) translateY(-5px);
-    display: ${({ isVisible }) => isVisible ? "block" : "none"};
-    background: transparent;
-
-    ::after{
-        content: '';
-        width: 60px;
-        height: 60px;
-        background-image: url(${rightArrow});
-        background-size: cover;
-        position: absolute;
-        top: 0;
-        left: 0;
-    }
-
-    @media (max-width: 1365px) {
-        top: 490px;
-        right: 50px
-    }
-`;
-
-const array = [1, 2, 3, 4, 5]
 
 const Apresentation = () => {
 
-    const [page, setPage] = useState(1);
-    const [direction, setDirection] = useState(1);
-    const firstPage = 1;
-    const lastPage = 2;
-
-    const renderImages = () => {
+    const renderImages = (big, first, second, third, fourth) => {
+        const lista = [images[first], images[second], images[third], images[fourth]];
+        console.log(lista, 'lista', first, second, third, fourth);
         return (
             <ImagesBox>
-                <Image width="50%" big />
+                <Image width="50%" big image={images[big]?.url} />
                 <SmallImagesBox>
-                    {array.map((item, index) => {
-                        if (index !== 0) {
-                            return <Image key={index} width={'40%'} />
-                        }
+                    {lista.map((item, index) => {
 
-                        return null
+                        return <Image key={index} width={'40%'} image={item?.url} />
+
                     })}
                 </SmallImagesBox>
             </ImagesBox>
         )
     }
 
-    const renderButtons = () => {
-
-        const handleNext = () => {
-            setDirection(1);
-            setPage(page + 1);
-        }
-
-        const handleBack = () => {
-            setDirection(2)
-            setPage(page - 1);
-        }
-
-
-        return (
-            <>
-                <NextBtn isVisible={page !== lastPage} onClick={handleNext} />
-                <BackBtn isVisible={!(page === firstPage)} onClick={handleBack} />
-            </>
-        )
-    }
-
     const renderText = () => {
-        console.log(page)
+
         return (
             <Page >
 
@@ -317,7 +233,7 @@ const Apresentation = () => {
 
                         </Paragraph>
                     </ParagraphBox>
-                    {renderImages()}
+                    {renderImages(0, 1, 2, 3, 4)}
                 </ImageTextBox>
                 <Box hasPaddingTop>
                     <Paragraph >
@@ -328,7 +244,7 @@ const Apresentation = () => {
                 <Box hasPaddingTop>
                     <Paragraph > O objetivo da Exposição "Mulheres e educação no século XIX: <i>artefatos e sensibilidades</i>” é apresentar um acervo inédito de objetos e materiais de escrita originais do século XIX, sensíveis à utilização feminina, em um mundo regido pelo masculino. A finalidade da Exposição é oferecer um mosaico de artefatos que remetem à mulher, com seus conceitos e usos cotidianos descritos em verbetes, entre eles, notadamente, àqueles relacionados à educação e à toalete feminina, característicos da concepção do que era apropriado à elas, em um tempo e contexto monarquista, patriarcal e estratificado socialmente. O material exposto reúne um acervo de 70 peças classificadas em quatro categorias: <i>Cenários educativos; Escritas íntimas; Toaletes femininas e Imagens sensíveis</i>.</Paragraph>
                     <ImagesBox>
-                        <Image width={'500px'} big />
+                        <Image width={'500px'} big alone image={images[5].url} />
                     </ImagesBox>
                     <Paragraph  >O eixo <i>Cenários educativos </i> é constituído por 09 peças que exemplificam aspectos das práticas de ensino vivenciadas no século XIX. É demonstrado como crianças e jovens, especialmente meninas, aprendiam a leitura e a escrita. A seção <i>Escritas íntimas</i> apresenta 14 artefatos que remetem ao modo como o sexo feminino se apropriava da escrita para registrar a vida cotidiana e as efemérides que compunham sua existência, além de livros e álbuns que colecionavam ao longo da vida. A categoria <i>Toaletes femininas </i> é composta por 43 objetos que remetem ao dia a dia e a intimidade das mulheres no Oitocentos. O conjunto aborda hábitos de higiene, modos de vestir, trabalho e governança do lar entre outros aspectos. Em <i>Imagens sensíveis </i> são apresentadas 04 peças que abarcam situações como luto, religiosidade e memórias familiares presentes nos álbuns fotográficos. </Paragraph>
                 </Box>
@@ -337,13 +253,13 @@ const Apresentation = () => {
                         Para cada um dos 70 itens da Exposição "Mulheres e educação no século XIX: artefatos e sensibilidades”, foi elaborado um verbete escrito por pesquisadores, docentes e pós-graduandos com produção acadêmica na área de História da Educação. Os textos têm por característica demonstrar como tais objetos se faziam presente no cotidiano feminino do século XIX.
                     </Paragraph>
                     <ImagesBox>
-                        <Image width={'500px'} big />
+                        <Image width={'500px'} big alone image={images[6].url}/>
                     </ImagesBox>
                     <Paragraph>
-                        A Exposição insere-se no campo da história das mulheres, mais propriamente à história da educação feminina, à medida que permite um conhecimento mais próximo da intimidade de personagens até então silenciadas, evidenciando um universo, nos quais, muitas vezes, os objetos expostos constituíam os singulares elementos do cenário em que se desenrolou suas vidas, em meio a crenças, desejos, anseios e contradições (PERROT, 2005). Pretende-se, assim, expor as mulheres na cena oitocentista, trazendo um recorte de gênero para o espaço cultural/expositivo, priorizando-se vestígios da cotidianidade feminina.
+                        A Exposição insere-se no campo da história das mulheres, mais propriamente à história da educação feminina, à medida que permite um conhecimento mais próximo da intimidade de personagens até então silenciadas, evidenciando um universo, nos quais, muitas vezes, os objetos expostos constituíam os singulares elementos do cenário em que se desenrolou suas vidas, em meio a crenças, desejos, anseios e contradições (PERROT, 2005)¹. Pretende-se, assim, expor as mulheres na cena oitocentista, trazendo um recorte de gênero para o espaço cultural/expositivo, priorizando-se vestígios da cotidianidade feminina.
                     </Paragraph>
                     <ImageTextBox>
-                        {renderImages()}
+                        {renderImages(7,8,9,10,11)}
                         <ParagraphBox>
                             <Paragraph>
                                 Para tanto, a Exposição "Mulheres e educação no século XIX: artefatos e sensibilidades” possui um acervo integralmente dedicado a elas, acrescido da elaboração de referências que remetem ao seu protagonismo. Além disso, a Exposição demonstra a importância de guardar, mostrar, relembrar, preservar aquilo que, durante tanto tempo, foi unicamente permitido como parte da vida de mulheres.
@@ -353,7 +269,27 @@ const Apresentation = () => {
                     </ImageTextBox>
                 </Box>
                 <Box hasPaddingTop>
-
+                    <Paragraph >
+                    Nessa perspectiva, a Exposição volta-se para elementos do passado feminino brasileiro no Oitocentos, buscando uma valorização da história de mulheres, por vezes, propositalmente silenciada e esquecida, deixando-as órfãs de seus próprios símbolos e signos característicos de uma época (RICOEUR, 2007)² . 
+                    </Paragraph>
+                </Box>
+                <Box hasPaddingTop>
+                    <Paragraph>
+                    Além disso, essa narrativa expográfica demonstra o que as mulheres foram, o que elas têm feito através dos tempos e como isso repercute no que elas estão fazendo agora, denotando as camadas de passado que possui o presente (KOSELLECK, 2014)³.
+                    </Paragraph>
+                    <ImagesBox >
+                        <Image width={'500px'} big alone image={images[45].url}/>
+                    </ImagesBox>
+                </Box>
+                <Box hasPaddingTop>
+                    <Paragraph>
+                    Assim, a Exposição é também apresentada como um exemplo de transferência de conhecimento do patrimônio histórico educacional para a comunidade. Os objetos expostos não têm voz, mas através dos verbetes, o visitante poderá encontrar respostas para suas dúvidas em relação a tais peças. Nesse sentido, comunicamos e oferecemos a sociedade o conhecimento gerado a partir do grupo de pesquisa, viabilizados por meio desta Exposição "Mulheres e educação no século XIX:<i>artefatos e sensibilidades</i> ”.
+                    </Paragraph>
+                </Box>
+                <Box hasPaddingTop>
+                    <Paragraph>
+                    Desejamos que você, visitante, desfrute das imagens e das narrativas que emanam dos artefatos e verbetes apresentados!
+                    </Paragraph>
                 </Box>
             </Page>
         )
@@ -365,12 +301,10 @@ const Apresentation = () => {
     // useEffect(() => {}, [page])
     return (
         <Wrapper>
-
             <Box hasPaddingTop>
                 <Title>Apresentação  </Title>
             </Box>
             {renderText()}
-
         </Wrapper>
     )
 }
