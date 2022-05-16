@@ -305,6 +305,22 @@ const Apresentation = () => {
                 <Title>Apresentação  </Title>
             </Box>
             {renderText()}
+            <Box hasPaddingTop>
+                <Paragraph><b>Coordenação Geral da Exposição</b></Paragraph>
+                <Paragraph>Diogo dos Santos Silva (UERJ)</Paragraph>
+            </Box>
+            <Box hasPaddingTop>
+                <Paragraph><b>Curadores:</b></Paragraph>
+                <Paragraph>Maria Celi Chaves Vasconcelos (UERJ)</Paragraph>
+                <Paragraph>Pablo Álvarez Domínguez (Universidade de Sevilha – ES)</Paragraph>
+                <Paragraph>Alexandra Lima da Silva (UERJ)</Paragraph>
+                <Paragraph>Ana Cristina B. Lopez M. Francisco (UERJ)</Paragraph>
+                <Paragraph>Luciana Borges Patroclo (UERJ)</Paragraph>
+            </Box>
+            <Box hasPaddingTop>
+                <Paragraph><b>Curadora convidada:</b></Paragraph>
+                <Paragraph>Cláudia Gonçalves de Lima (UERJ)</Paragraph>
+            </Box>
         </Wrapper>
     )
 }
