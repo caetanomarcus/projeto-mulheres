@@ -7,6 +7,10 @@ import Header from "../components/Header.2";
 import Footer from "../components/Footer";
 
 const Container = styled.div`
+     
+`;
+
+const Content = styled.div`
      max-width: 1440px;
      margin: 0 auto;
 `;
@@ -184,7 +188,8 @@ const ItemExposicao = ({ setOpen }) => {
     return (
         <Container>
             <Header setOpen={setOpen} />
-            <Box key={text.id}>
+          <Content>
+          <Box key={text.id}>
                 <h1>{text.title}</h1>
                 <Img src={image.url} alt={image.alt} />
                 <ButtonContainer>
@@ -250,6 +255,7 @@ const ItemExposicao = ({ setOpen }) => {
                     <References key={reference + Math.random()}>{reference.author}  <b>{reference.title}</b>  {reference.rest} </References>
                 )}
             </Box>
+          </Content>
             <Footer />
         </Container>
     )

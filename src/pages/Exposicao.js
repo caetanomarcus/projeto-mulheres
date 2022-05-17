@@ -9,6 +9,10 @@ import rightArrow from "../assets/icons/right-arrow.png";
 import Footer from "../components/Footer";
 
 const Container = styled.div`
+   
+`;
+
+const Content = styled.div`
     width: 100%;
     max-width: 1440px;
     margin: 0 auto;
@@ -395,6 +399,7 @@ const Exposicao = ( {setOpen }) => {
     return (
         <Container>
             <Header setOpen={setOpen} />
+            <Content>
             <FilterContainer>
                 <Filter>
                     <p>Filtros</p>
@@ -416,6 +421,7 @@ const Exposicao = ( {setOpen }) => {
             <ImagesContainer>
                 {renderImages()}
             </ImagesContainer>
+            </Content>
             <Footer />
         </Container>
     )
