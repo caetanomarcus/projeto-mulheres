@@ -1,6 +1,7 @@
 import React from "react"
 import styled, { keyframes } from "styled-components"
 import { images } from "../data/images";
+import { useNavigate } from "react-router-dom";
 
 
 //keyframes
@@ -64,7 +65,39 @@ const Title = styled.h2`
         /* color: #000; */
     }
 `;
+const ButtonContainer = styled.div`
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
+`;
+
+const ButtonToInfos = styled.button`
+    border: solid 1px #5F1478;
+    padding: 14px;
+    border-radius: 4px;
+    background-color: transparent;
+    color:#5F1478;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 16px;
+
+    :hover {
+        background-color: #5F1478;
+        color: #fff;
+
+    }
+
+    @media (max-width: 768px) {
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+    
+`;
 
 const Page = styled.div`
     width: 100%;
@@ -202,8 +235,22 @@ const Image = styled.div`
     }
 `;
 
+const MembersBox = styled.div`
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    @media (max-width: 768px) {
+        padding: 24px 32px;
+    }
+`;
+
 
 const Apresentation = () => {
+
+    const navigate = useNavigate();
 
     const renderImages = (big, first, second, third, fourth) => {
         const lista = [images[first], images[second], images[third], images[fourth]];
@@ -253,13 +300,13 @@ const Apresentation = () => {
                         Para cada um dos 70 itens da Exposição "Mulheres e educação no século XIX: artefatos e sensibilidades”, foi elaborado um verbete escrito por pesquisadores, docentes e pós-graduandos com produção acadêmica na área de História da Educação. Os textos têm por característica demonstrar como tais objetos se faziam presente no cotidiano feminino do século XIX.
                     </Paragraph>
                     <ImagesBox>
-                        <Image width={'500px'} big alone image={images[6].url}/>
+                        <Image width={'500px'} big alone image={images[6].url} />
                     </ImagesBox>
                     <Paragraph>
                         A Exposição insere-se no campo da história das mulheres, mais propriamente à história da educação feminina, à medida que permite um conhecimento mais próximo da intimidade de personagens até então silenciadas, evidenciando um universo, nos quais, muitas vezes, os objetos expostos constituíam os singulares elementos do cenário em que se desenrolou suas vidas, em meio a crenças, desejos, anseios e contradições (PERROT, 2005)¹. Pretende-se, assim, expor as mulheres na cena oitocentista, trazendo um recorte de gênero para o espaço cultural/expositivo, priorizando-se vestígios da cotidianidade feminina.
                     </Paragraph>
                     <ImageTextBox>
-                        {renderImages(7,8,9,10,11)}
+                        {renderImages(7, 8, 9, 10, 11)}
                         <ParagraphBox>
                             <Paragraph>
                                 Para tanto, a Exposição "Mulheres e educação no século XIX: artefatos e sensibilidades” possui um acervo integralmente dedicado a elas, acrescido da elaboração de referências que remetem ao seu protagonismo. Além disso, a Exposição demonstra a importância de guardar, mostrar, relembrar, preservar aquilo que, durante tanto tempo, foi unicamente permitido como parte da vida de mulheres.
@@ -270,28 +317,52 @@ const Apresentation = () => {
                 </Box>
                 <Box hasPaddingTop>
                     <Paragraph >
-                    Nessa perspectiva, a Exposição volta-se para elementos do passado feminino brasileiro no Oitocentos, buscando uma valorização da história de mulheres, por vezes, propositalmente silenciada e esquecida, deixando-as órfãs de seus próprios símbolos e signos característicos de uma época (RICOEUR, 2007)² . 
+                        Nessa perspectiva, a Exposição volta-se para elementos do passado feminino brasileiro no Oitocentos, buscando uma valorização da história de mulheres, por vezes, propositalmente silenciada e esquecida, deixando-as órfãs de seus próprios símbolos e signos característicos de uma época (RICOEUR, 2007)² .
                     </Paragraph>
                 </Box>
                 <Box hasPaddingTop>
                     <Paragraph>
-                    Além disso, essa narrativa expográfica demonstra o que as mulheres foram, o que elas têm feito através dos tempos e como isso repercute no que elas estão fazendo agora, denotando as camadas de passado que possui o presente (KOSELLECK, 2014)³.
+                        Além disso, essa narrativa expográfica demonstra o que as mulheres foram, o que elas têm feito através dos tempos e como isso repercute no que elas estão fazendo agora, denotando as camadas de passado que possui o presente (KOSELLECK, 2014)³.
                     </Paragraph>
                     <ImagesBox >
-                        <Image width={'500px'} big alone image={images[45].url}/>
+                        <Image width={'500px'} big alone image={images[45].url} />
                     </ImagesBox>
                 </Box>
                 <Box hasPaddingTop>
                     <Paragraph>
-                    Assim, a Exposição é também apresentada como um exemplo de transferência de conhecimento do patrimônio histórico educacional para a comunidade. Os objetos expostos não têm voz, mas através dos verbetes, o visitante poderá encontrar respostas para suas dúvidas em relação a tais peças. Nesse sentido, comunicamos e oferecemos a sociedade o conhecimento gerado a partir do grupo de pesquisa, viabilizados por meio desta Exposição "Mulheres e educação no século XIX:<i>artefatos e sensibilidades</i> ”.
+                        Assim, a Exposição é também apresentada como um exemplo de transferência de conhecimento do patrimônio histórico educacional para a comunidade. Os objetos expostos não têm voz, mas através dos verbetes, o visitante poderá encontrar respostas para suas dúvidas em relação a tais peças. Nesse sentido, comunicamos e oferecemos a sociedade o conhecimento gerado a partir do grupo de pesquisa, viabilizados por meio desta Exposição "Mulheres e educação no século XIX:<i>artefatos e sensibilidades</i> ”.
                     </Paragraph>
                 </Box>
                 <Box hasPaddingTop>
                     <Paragraph>
-                    Desejamos que você, visitante, desfrute das imagens e das narrativas que emanam dos artefatos e verbetes apresentados!
+                        Desejamos que você, visitante, desfrute das imagens e das narrativas que emanam dos artefatos e verbetes apresentados!
                     </Paragraph>
                 </Box>
             </Page>
+        )
+    }
+
+    const renderMembers = () => {
+
+        return (
+            <MembersBox>
+                <Box hasPaddingTop>
+                    <Paragraph><b>Coordenação Geral da Exposição</b></Paragraph>
+                    <Paragraph>Diogo dos Santos Silva (UERJ)</Paragraph>
+                </Box>
+                <Box hasPaddingTop>
+                    <Paragraph><b>Curadores:</b></Paragraph>
+                    <Paragraph>Maria Celi Chaves Vasconcelos (UERJ)</Paragraph>
+                    <Paragraph>Pablo Álvarez Domínguez (Universidade de Sevilha – ES)</Paragraph>
+                    <Paragraph>Alexandra Lima da Silva (UERJ)</Paragraph>
+                    <Paragraph>Ana Cristina B. Lopez M. Francisco (UERJ)</Paragraph>
+                    <Paragraph>Luciana Borges Patroclo (UERJ)</Paragraph>
+                </Box>
+                <Box hasPaddingTop>
+                    <Paragraph><b>Curadora convidada:</b></Paragraph>
+                    <Paragraph>Cláudia Gonçalves de Lima (UERJ)</Paragraph>
+                </Box>
+            </MembersBox>
         )
     }
 
@@ -301,26 +372,15 @@ const Apresentation = () => {
     // useEffect(() => {}, [page])
     return (
         <Wrapper>
+            <ButtonContainer>
+                <ButtonToInfos onClick={() => navigate("/infos")}  >Veja nossa programação</ButtonToInfos>
+                <ButtonToInfos onClick={() => navigate("/exposicao")}  >Veja nossa exposição</ButtonToInfos>
+            </ButtonContainer>
             <Box hasPaddingTop>
                 <Title>Apresentação  </Title>
             </Box>
             {renderText()}
-            <Box hasPaddingTop>
-                <Paragraph><b>Coordenação Geral da Exposição</b></Paragraph>
-                <Paragraph>Diogo dos Santos Silva (UERJ)</Paragraph>
-            </Box>
-            <Box hasPaddingTop>
-                <Paragraph><b>Curadores:</b></Paragraph>
-                <Paragraph>Maria Celi Chaves Vasconcelos (UERJ)</Paragraph>
-                <Paragraph>Pablo Álvarez Domínguez (Universidade de Sevilha – ES)</Paragraph>
-                <Paragraph>Alexandra Lima da Silva (UERJ)</Paragraph>
-                <Paragraph>Ana Cristina B. Lopez M. Francisco (UERJ)</Paragraph>
-                <Paragraph>Luciana Borges Patroclo (UERJ)</Paragraph>
-            </Box>
-            <Box hasPaddingTop>
-                <Paragraph><b>Curadora convidada:</b></Paragraph>
-                <Paragraph>Cláudia Gonçalves de Lima (UERJ)</Paragraph>
-            </Box>
+            {renderMembers()}
         </Wrapper>
     )
 }

@@ -25,10 +25,11 @@ const Container = styled.div`
 
     @media (max-width: 768px) {
         margin-top: 0px;
-        margin-bottom: 0px;
+        margin-bottom: 86px;
 
         ::after {
             left: 50%;
+            bottom: -16px;
             transform: translateX(-50%);
         }
     }
@@ -122,8 +123,6 @@ const Paragraph = styled.p`
 `;
 const HeroTextContainer = styled.div`
     width: 48% ;
-    /* border: solid #fff 2px;
-    border-radius: 6px; */
     padding: 12px 0;
     display: flex;
     flex-direction: column;
@@ -148,9 +147,6 @@ const Title2 = styled.h2`
     font-weight: 600;
     
 `;
-const Title3 = styled.h2`
-    font-weight: 500;
-`;
 
 const Hero2 = () => {
     return (
@@ -159,14 +155,12 @@ const Hero2 = () => {
                <UpBoxContainer>
                <HeroTitleContainer>
                     <TitleContainer>
-                        <Title >Mulheres e Educação </Title>
-                        <Title hasUnderline width='fit-content' >no Séc XIX</Title>
+                        <Title >Mulheres e Educação no Século XIX</Title>
                     </TitleContainer>
                 </HeroTitleContainer>
                 <HeroTextContainer>
                     <TitlesBox>
-                        <Title2> artefatos</Title2>
-                        <Title3>e sensibilidades</Title3>
+                        <Title2> artefatos e sensibilidades </Title2>
                     </TitlesBox>
                     <Paragraph>é uma atividade
                         cultural elaborada pelo Núcleo de Pesquisa História e Memória das Políticas Educacionais no
@@ -181,12 +175,6 @@ const Hero2 = () => {
                </UpBoxContainer>
 
             </UpBox>
-            {/* <HeroImage>
-                <Image>
-                    <ImageText>Pena e Tinteiro</ImageText>
-                </Image>
-            </HeroImage> */}
-
         </Container>
     )
 }

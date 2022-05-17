@@ -155,7 +155,7 @@ const Header = ({setOpen}) => {
         <Wrapper>
             <Container>
                 <UerjTextContainer>
-                    <SubTitle>A FAPERJ e o Departamento Cultural da Pró-Reitoria de Extensão e Cultura da Universidade do Estado do Rio de Janeiro apresentam a exposição</SubTitle>
+                    <SubTitle>A FAPERJ e o Departamento Cultural da Pró-Reitoria de Extensão e Cultura da Universidade do Estado do Rio de Janeiro apresentam a Exposição</SubTitle>
                     <Menu>
                         {menu.map(item => (
                             <a href={item.link} key={item.name + Math.random()} ><MenuItem >
