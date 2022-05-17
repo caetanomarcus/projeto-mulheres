@@ -91,9 +91,7 @@ const ItemExposicao = ({ setOpen }) => {
     const text = texts.find((text) => text.id === Number(id));
     const image = images.find((image) => image.id === Number(id));
 
-    const replaceCodeToSup = (text, footNoteNumber) => {
-        return text.replace(/#[0-9]/g, "¹");
-    }
+
 
     const verifyIfContainsOneOnlyWord = (text) => {
         return text.split(" ").length === 1;
