@@ -132,6 +132,8 @@ const ReferencesTitle = styled.h2`
 
 const Rodape = styled.p`
     margin-bottom: 6px;
+    font-size: 12px;
+
     @media (max-width: 480px) {
         font-size: 12px;
     }
