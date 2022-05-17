@@ -11,11 +11,6 @@ const Container = styled.div`
     padding-bottom: 16px;
 `;
 
-const ContentBox = styled.div`
-    width: 100%;
-    background-color: #7e0afa12;
-`;
-
 const Img = styled.img`
     width: 100%;
 `
