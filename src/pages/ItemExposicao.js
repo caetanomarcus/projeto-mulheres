@@ -25,6 +25,21 @@ const Box = styled.div`
 
 const AuthorBox = styled.div`
     margin-bottom: 20px;
+
+    h2, h3, h4 {
+        margin-bottom: 8px;
+    }
+
+    @media (max-width: 480px) {
+
+        h2{
+            font-size: 20px;
+        }
+
+        h3, h4{
+            font-size: 16px;
+        }
+    }
 `;
 
 const Paragraph = styled.p`
@@ -44,11 +59,56 @@ const Paragraph = styled.p`
     
 `;
 
+const Poesia = styled.p`
+    font-size: 16px;
+    margin-top: 14px;
+    line-height: 1.6;
+    text-align: left;
+    font-weight: ${({isbold}) => isbold ? 'bold' : 'normal'};
+
+    @media (max-width: 480px) {
+        font-size: 14px;
+        word-break: break-word;
+        text-align: justify;
+        line-height: 1.7;
+      
+    }
+    
+`;
+
+const ImageContainer = styled.div`
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    p{
+        font-size: 12px;
+        margin: 6px;
+    }
+
+    @media (max-width: 480px){
+        p{
+            font-size: 10px;
+        }
+
+        img {
+            max-width: 90vw;
+        }
+    }
+
+`;
+
 const Citation = styled.p`
     font-size: 12px;
     margin: 24px 0;
     margin-left: 50%;
     text-align: justify;
+
+    @media (max-width: 480px) {
+        margin-left: 20%;
+    }
 `;
 
 const Img = styled.img`
@@ -65,6 +125,17 @@ const InsideImgBox = styled.div`
 `;
 
 const InsideImg = styled.img``;
+
+const ReferencesTitle = styled.h2`
+    margin-bottom: 24px;
+`;
+
+const Rodape = styled.p`
+    margin-bottom: 6px;
+    @media (max-width: 480px) {
+        font-size: 12px;
+    }
+`;
 
 const References = styled.p`
     font-size: 12px;
@@ -143,8 +214,12 @@ const ItemExposicao = ({ setOpen }) => {
                     <div key={paragraph.content}>
                         <Paragraph  isbold={verifyIfContainsOneOnlyWord(paragraph.content) || paragraph.content === "Uso no Brasil"}>{(paragraph.content)}</Paragraph>
                         <Citation>{paragraph.citation}</Citation>
-                        {/* <Citation>{paragraph.citationPoesia}</Citation> */}
-                        {paragraph.image[0]?.url && <InsideImgBox> <InsideImg src={paragraph.image[0].url} alt={'paragraph.insideImgAlt'} /></InsideImgBox>}
+                        <Poesia>{paragraph.citationPoesia}</Poesia>
+                        {paragraph.image[0]?.url && <ImageContainer>
+                         <p>{paragraph.image[0].legendImage}</p>
+                         <InsideImgBox> <InsideImg src={paragraph.image[0].url} alt={'paragraph.insideImgAlt'} /></InsideImgBox>
+                         <p>{paragraph.image[0].fontImage}</p>
+                        </ImageContainer>}
                     </div >
                 )}
 
@@ -152,12 +227,12 @@ const ItemExposicao = ({ setOpen }) => {
             {verifyIfHaveFootNote(text) && (
                 <>
                     <Box>
-                        <h2>Notas de rodapé</h2>
+                        <ReferencesTitle>Notas de rodapé</ReferencesTitle>
                         {text.text.map((paragraph) => {
                             if (typeof paragraph.footNote === 'string') {
-                                return <p>{paragraph.footNote}</p>
+                                return <Rodape>{paragraph.footNote}</Rodape>
                             } else {
-                                return paragraph.footNote?.map((paragraph) => <p>{paragraph}</p>)
+                                return paragraph.footNote?.map((paragraph) => <Rodape>{paragraph}</Rodape>)
                             }
 
                         }
@@ -168,7 +243,7 @@ const ItemExposicao = ({ setOpen }) => {
 
             }
             <Box>
-                <h2>Referências bibliograficas</h2>
+                <ReferencesTitle>Referências bibliográficas</ReferencesTitle>
                 {text.references.map((reference) =>
                     <References key={reference + Math.random()}>{reference.author}  <b>{reference.title}</b>  {reference.rest} </References>
                 )}

@@ -1,4 +1,9 @@
 import image01_08 from '../assets/images-texts/8-01.png'
+import image01_35 from '../assets/images-texts/35-01.png'
+import image02_35 from '../assets/images-texts/35_02.png'
+import image03_35 from '../assets/images-texts/35_03.png'
+import image04_35 from '../assets/images-texts/35_04.png'
+import image01_28 from '../assets/images-texts/28_01.png'
 
 
 export const texts =[
@@ -2472,7 +2477,10 @@ export const texts =[
                 citation: "",
                 footNoteNumber: null,
                 legendImage: "Fonte: A Mãi de Familia, 1879-1888.",
-                image: ["tem uma imagem aqui"]
+                image: [{
+                    url: image01_28,
+                    fontImage: "Fonte: A Mãi de Familia, 1879-1888."
+                }]
             },
             {
                 content: "Na dramaturgia, a contextualização relacionada com o padrão aristocrático pode ser resgatada por meio de uma das cenas do clássico filme E o vento levou (1939), interpretada por Scarlett O’Hara (Vivien Leigh) e Rhett Butler (Clark Gable). Quando ele carinhosamente a cumprimenta, segurando-lhe as mãos, nota que suas unhas não estavam bem cuidadas. Isso o leva a acreditar que a jovem não estava no nível de aristocracia que tentava demonstrar.",
@@ -2996,7 +3004,7 @@ export const texts =[
                 citation: "",
                 footNoteNumber: null, 
                 image: [{
-                    url: "tem uma imagem aqui",
+                    url: image01_35,
                     legendImage: "Imagem 01: Propaganda sobre grafite da empresa Faber-Castell",
                     fontImage: "Fonte: Faber-Castell, 2022."
                 }]
@@ -3018,7 +3026,7 @@ export const texts =[
                 citation: "",
                 footNoteNumber: null, 
                 image: [{
-                    url: "tem uma imagem aqui",
+                    url: image02_35,
                     legendImage: "Imagem 02: Anúncio de venda de lapiseira – fragmento ",
                     fontImage: "Fonte: Diário de Manáos, ano 1892, edição 252, p. 4"
                 }]
@@ -3029,7 +3037,7 @@ export const texts =[
                 footNoteNumber: 1,
                 footNote: "¹ Busca realizada no banco de dados da Hemeroteca Digital da Biblioteca Nacional com o termo “lapiseira”, entre os anos de 1890 e 1899." ,
                 image: [{
-                    url: "tem uma imagem aqui",
+                    url: image03_35,
                     legendImage: "Imagem 03: Gatuno apreendido por furto de lapiseira e caneta – fragmento  ",
                     fontImage: "Fonte: Gazeta de Notícias, ano 1890, edição 023, p. 2."
                 }]
@@ -3045,7 +3053,7 @@ export const texts =[
                 citation: "",
                 footNoteNumber: null, 
                 image: [{
-                    url: "tem uma imagem aqui",
+                    url: image04_35,
                     legendImage: "Imagem 04: Busca por lapiseira perdida – fragmento",
                     fontImage: "Fonte: O Paiz (RJ), ano 1892, edição 3605, p. 4."
                 }]

@@ -7,6 +7,8 @@ import barraDeLogos from '../assets/barra_de_logos.png'
 
 const Container = styled.div`
     width: 100%;
+    padding: 68px 36px;
+    padding-bottom: 16px;
 `;
 
 const ContentBox = styled.div`
@@ -23,9 +25,6 @@ const Footer = () => {
 
     return (
         <Container>
-            <ContentBox>
-
-            </ContentBox>
             <Img src={barraDeLogos} />
         </Container>
     )
