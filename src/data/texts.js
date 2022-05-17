@@ -12,8 +12,8 @@ export const texts =[
         title: "Ábaco",
         author: {
             name: "Denise Medina França ",
-            institution: "Universidade Do Estado Do Rio De Janeiro ",
-            department: ["Programa de Pós-Graduação em Educação",]
+            institution: "Universidade do Estado do Rio de Janeiro/UERJ",
+            department: ["Programa de Pós-Graduação em Educação/ProPEd",]
         },
         text: [
            { 
@@ -122,11 +122,11 @@ export const texts =[
         title: "Álbum de família",
         author: {
             name: "Sibila Lilian Osis",
-            institution: "Universidade Estadual do Rio de Janeiro",
+            institution: "Universidade do Estado do Rio de Janeiro/UERJ",
             department: [
-                "Programa de Pós-Graduação em Educação",
-                "Docente da Universidade do Estado do Amazonas",
-                "Bolsista do Conselho Nacional de Desenvolvimento Científico e Tecnológico"
+                "Programa de Pós-Graduação em Educação/ProPEd",
+                "Docente da Universidade do Estado do Amazonas/UEA",
+                "Bolsista do Conselho Nacional de Desenvolvimento Científico e Tecnológico/CNPq"
             ],
         },
        
@@ -241,8 +241,8 @@ export const texts =[
         title: "Ampulheta",
         author:{
             name: "Márcia Cabral da Silva ",
-            institution: "Universidade do Estado do Rio de Janeiro ",
-            department: ['Programa de Pós-graduação em Educação']
+            institution: "Universidade do Estado do Rio de Janeiro/UERJ",
+            department: ['Programa de Pós-Graduação em Educação/ProPEd']
         },
         text: [
             {
@@ -302,8 +302,8 @@ export const texts =[
         title: "Aquecedor de cama",
         author:{
             name: "Marta Maria Gama",
-            institution: "Universidade do Estado do Rio de Janeiro-UERJ",
-            department: ['Programa de Pós-Graduação em Educação - Doutorado']
+            institution: "Universidade do Estado do Rio de Janeiro/UERJ",
+            department: ['PPrograma de Pós-Graduação em Educação/ProPEd']
         },
         initialCitations: [
            {
@@ -3482,7 +3482,7 @@ export const texts =[
     },
     {
         id: 42,
-        title: "Máquina de Cortar o Cabelo",
+        title: "Máquina de Cortar Cabelo",
         author:{
             name: "Walter Marcelo de Souza Ramundo",
             institution: "Universidade do Estado do Rio de Janeiro/UERJ",
@@ -3879,7 +3879,7 @@ export const texts =[
     },
     {
         id: 46,
-        title: "Penas e Ponteiras",
+        title: "Pena e Ponteiras",
         author:{
             name: "Vania Grim Thies",
             institution: "Universidade Federal de Pelotas",
@@ -4057,7 +4057,7 @@ export const texts =[
         author:{
             name: "Ana Cristina Borges López M. Francisco",
             institution: "Universidade do Estado do Rio de Janeiro/UERJ",
-            department: ["Pós-doutoranda do Programa de Pós-Graduação em Educação/ProPEd", "Bolsista da Fundação de Amparo à Pesquisa do Estado do Rio de Janeiro"]
+            department: ["Pós-doutoranda do Programa de Pós-Graduação em Educação/ProPEd"]
         },
         text: [
             {
@@ -4259,7 +4259,7 @@ export const texts =[
         author:{
             name: "Angélica Borges",
             institution: "Universidade do Estado do Rio de Janeiro/UERJ",
-            department: ["Programa de Pós-Graduação em Educação"]
+            department: ["Programa de Pós-Graduação em Educação/ProPEd"]
         },
         text: [
             {
@@ -4330,7 +4330,7 @@ export const texts =[
     },
     {
         id: 52,
-        title: "Porta Jóias",
+        title: "Porta-Joias",
         author:{
             name: "Simone Silveira Amorim",
             institution: "Universidade Tiradentes/Instituto de Tecnologia e Pesquisa",
@@ -4799,13 +4799,13 @@ export const texts =[
         title: "Rádio Capelinha",
         author:{
             name: "Ingrid Constantino de Souza",
-            institution: "Universidade Federal Rural do Rio de Janeiro/UFFRJ",
+            institution: "Universidade Federal Rural do Rio de Janeiro/UFRRJ",
             department: ["Programa de Pós-Graduação em Ciências Sociais/PPGCS"]
         },
         author2:{
             name: "Luciana Borges Patroclo",
             institution: "Universidade do Estado do Rio de Janeiro/UERJ",
-            department: ["Programa de Pós-Graduação em Educação/ProPEd"]
+            department: ["Pós-doutoranda do Programa de Pós-Graduação em Educação/ProPEd", "Bolsista da Fundação de Amparo à Pesquisa do Estado do Rio de Janeiro"]
         },
         text: [
             {
