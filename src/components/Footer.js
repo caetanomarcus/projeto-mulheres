@@ -5,7 +5,7 @@ import styled from "styled-components";
 
 import barraDeLogos from '../assets/barra_de_logos.png'
 
-const Container = styled.div`
+const Container = styled.footer`
     width: 100%;
     padding: 68px 36px;
     padding-bottom: 16px;
