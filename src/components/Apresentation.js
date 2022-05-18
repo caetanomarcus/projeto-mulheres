@@ -242,11 +242,33 @@ const MembersBox = styled.div`
     justify-content: center;
     align-items: center;
     text-align: center;
+
+
     @media (max-width: 768px) {
         padding: 24px 32px;
     }
 `;
 
+const RodaPeBox = styled.div`
+    width: calc(100% - 352px);
+    border-top: solid #000 1px;
+    padding: 26px;
+    margin: 0 auto;
+    margin-top: 40px;
+
+    @media (max-width: 1024px) {
+        width: calc(100% - 64px);
+    }
+`;
+
+const Rodape = styled.p`
+    margin-bottom: 6px;
+    font-size: 12px;
+
+    @media (max-width: 480px) {
+        font-size: 12px;
+    }
+`;
 
 const Apresentation = () => {
 
@@ -381,6 +403,11 @@ const Apresentation = () => {
             </Box>
             {renderText()}
             {renderMembers()}
+            <RodaPeBox>
+                <Rodape>¹ PERROT, Michelle. As mulheres ou os silêncios da história. Bauru: EDUSC, 2005.</Rodape>
+                <Rodape>² RICOEUR, Paul. A memória, a história, o esquecimento. Campinas: Editora da Unicamp, 2007.</Rodape>
+                <Rodape>³  KOSELLECK, R. Estratos do tempo. Estudos sobre história. Rio de Janeiro: Contraponto; Editora PUC-Rio, 2014.</Rodape>
+            </RodaPeBox>
         </Wrapper>
     )
 }
