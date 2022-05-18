@@ -1543,7 +1543,12 @@ export const texts =[
         id: 18,
         title: "Chave",
         author:{
-            name: ["Alessandro Sathler", "Izabel Cristina Galiaço Ávila"],
+            name: ["Alessandro Sathler"],
+            institution: "Universidade do Estado do Rio de Janeiro/UERJ",
+            department: ["Programa de Pós-Graduação em Educação/ProPEd"]
+        },
+        author2:{
+            name: ["Izabel Cristina Galiaço Ávila"],
             institution: "Universidade do Estado do Rio de Janeiro/UERJ",
             department: ["Programa de Pós-Graduação em Educação/ProPEd"]
         },
@@ -3772,6 +3777,7 @@ export const texts =[
                 content: "Encontram-se, hoje, nos mais diversos materiais com preços que variam entre R$ 680,00 (seiscentos e oitenta reais) e R$ 39,00 (trinta e nove reais) a depender se usado ou novo. Há versões em latim, em português ou bilíngue. Certamente acompanha a expansão do mercado editorial católico crescente a partir dos anos 1980 (BITTENCOURT, 2014).",
                 citation: "" ,
                 footNoteNumber: null ,
+                image: []
             }
 
         ],

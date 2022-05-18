@@ -119,7 +119,7 @@ const autores = [
     'Aline Pinto Pereira',
     'Amanda Dias de Oliveira',
     'Ana Cristina Borges López M. Francisco ',
-    'AnaLúciaCunha',
+    'Ana Lúcia Cunha',
     'Andre Jorge Marcelino da Costa Marinho ',
     'Angélica Borges ',
     'Armando Freitas Tramontano',
@@ -130,7 +130,7 @@ const autores = [
     'Dante Batista Silva',
     'Débora Rodrigues Caputo ',
     'Denise Medina França ',
-    'DórisBittencourtAlmeida',
+    'Dóris Bittencour Almeida',
     'Edilene Simões Costa dos Santos',
     'Ednardo Monteiro Gonzaga do Monti',
     'Elen Biguelini',
@@ -148,9 +148,9 @@ const autores = [
     'Lia Faria ',
     'Lia Machado Fiuza Fialho ',
     'Libania Xavier ',
-    'LorennaBolsanello de Carvalho',
+    'Lorenna Bolsanello de Carvalho',
     'Luciana Borges Patroclo',
-    'LucianeSgarbiS.Grazziotin',
+    'Luciane Sgarbi S. Grazziotin',
     'Márcia Cabral da Silva',
     'Margarete May Berkenbrock-Rosito',
     'Maria Angélica da Gama Cabral Coutinho',
@@ -164,7 +164,7 @@ const autores = [
     'Nailda Marinho da Costa',
     'Nicoli Braga Macêdo ',
     'Paloma Rezende de Oliveira ',
-    'PatríciaCoelho ',
+    'Patrícia Coelho ',
     'Paula Leonardi ',
     'Paulo Rezzutti',
     'Raylane Andreza Dias Navarro Barreto ',
@@ -179,7 +179,7 @@ const autores = [
     'Tatiane de Freitas Ermel',
     'Terciane Ângela Luchese ',
     'Terezinha Oliveira',
-    'Vania GrimThies',
+    'Vania Grim Thies',
     'Vinicius Monção',
     'Walter Marcelo de Souza Ramundo',
     'Washington Dener dos Santos Cunha',
@@ -312,15 +312,19 @@ const Infos = ({ setOpen }) => {
                         <Pessoa>Amanda Bandeira</Pessoa>
                         <Pessoa>Amanda Lopes</Pessoa>
                         <Pessoa>Andressa Abbagliato</Pessoa>
+                        <Pessoa>Bruno Silva de Sousa (Bolsista ID)</Pessoa>
                         <Pessoa>Carla Fionda</Pessoa>
                         <Pessoa>Isaac Nicacio (PIBIC)</Pessoa>
                         <Pessoa>Karen Navega</Pessoa>
                         <Pessoa>Kássia Meireles</Pessoa>
+                        <Pessoa>Luiz Tiago da Silva Gomes (IC CNPq)</Pessoa>
                         <Pessoa>Manuela Guimarães</Pessoa>
                         <Pessoa>Mariana Gon</Pessoa>
                         <Pessoa>Monique Araújo (Extensão)</Pessoa>
                         <Pessoa>Nana Maresti</Pessoa>
+                        <Pessoa>Raphael Gualter Peixoto (Bolsista Apoio Técnico CNPq)</Pessoa>
                         <Pessoa>Renan Santos (Extensão)</Pessoa>
+                        <Pessoa>Tiago Augusto Xavier de Souza (Bolsista Proatec)</Pessoa>
                         <Pessoa>Veronica Folla</Pessoa>
                     </BlockBox>
                     <BlockBox>

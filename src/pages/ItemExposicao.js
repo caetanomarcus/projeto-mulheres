@@ -152,7 +152,7 @@ const References = styled.p`
 const ButtonContainer = styled.div`
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: ${({alignRight}) => alignRight ? 'flex-end' : 'space-between'};
     align-items: center;
     margin-bottom: 36px;
 
@@ -192,7 +192,7 @@ const ItemExposicao = ({ setOpen }) => {
           <Box key={text.id}>
                 <h1>{text.title}</h1>
                 <Img src={image.url} alt={image.alt} />
-                <ButtonContainer>
+                <ButtonContainer alignRight={id === '1'} >
                     {(id > 1) && <a href={prevLink}>ANTERIOR</a>}
                     {(id < 70) && <a href={nextLink}>PRÓXIMO</a>}
                 </ButtonContainer>
