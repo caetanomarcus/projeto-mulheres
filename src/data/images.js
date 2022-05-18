@@ -393,7 +393,7 @@ export const images = [
     {
         id: 54,
         url:portaVeneno,
-        name: 'Porta-Veneno',
+        name: 'Porta Veneno',
         category: 2
     },
     {

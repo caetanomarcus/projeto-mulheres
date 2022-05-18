@@ -339,6 +339,29 @@ const Infos = ({ setOpen }) => {
         )
     }
 
+    const renderEquipeExterna = () => {
+
+        return (
+            <Box>
+                <ProgramationTitle>Equipe externa</ProgramationTitle>
+                <AutoresBox>
+                    <BlockBox>
+                        <Cargo>Fotografia</Cargo>
+                        <Pessoa>Hevelin Costa</Pessoa>
+                    </BlockBox>
+                    <BlockBox>
+                        <Cargo>Design das peças gráficas</Cargo>
+                        <Pessoa>Lucas Bevilaqua</Pessoa>
+                    </BlockBox>
+                    <BlockBox>
+                        <Cargo>Design e desenvolvimento do site</Cargo>
+                        <Pessoa>Marcus Vinicius Caetano de Freitas</Pessoa>
+                    </BlockBox>
+                </AutoresBox>
+            </Box>
+        )
+    }
+
     useEffect(() => {
         window.scrollTo(0, 0);
 
@@ -352,6 +375,7 @@ const Infos = ({ setOpen }) => {
                 {renderProgramation()}
                 {renderAutores()}
                 {renderCreditos()}
+                {renderEquipeExterna()}
             </Content>
             <Footer />
         </Container>
