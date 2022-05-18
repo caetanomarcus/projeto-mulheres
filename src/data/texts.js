@@ -86,7 +86,7 @@ export const texts =[
                 image: []
             },
             {
-                content: "Segundo Barthes (1984), a fotografia é capaz de repetir mecanicamente o que nunca será possível de maneira existencial. Nesse sentido, um conjunto delas potencializa a evocação da memória – individual e coletiva. Através desse conjunto, que foi selecionado e organizado por uma ou mais pessoas, se busca uma forma de tornar presente o ausente e, em muitos casos, está atrelada a uma separação causada pela morte de um ente querido. Dessa maneira, os álbuns foram se constituindo ao longo da história como espaços de rememoração e de construção de relatos. A confecção de novos formatos, muitos deles menos ornamentados e, por isso, também mais baratos, estiveram alinhados ao processo de industrialização e contou com o uso do plástico e do papel como materiais principais. Alguns deles passaram também a contar com espaços destinados a escrita de pequenas notas pelo seu organizador/idealizador. Partindo do ato de seleção, organização e idealização, o álbum fotográfico é um espaço de infinitas releituras, permitindo representações de uma sequência de instantes que visam construir e conservar a passagem do tempo ou um acontecimento",
+                content: "Segundo Barthes (1984), a fotografia é capaz de repetir mecanicamente o que nunca será possível de maneira existencial. Nesse sentido, um conjunto delas potencializa a evocação da memória – individual e coletiva. Através desse conjunto, que foi selecionado e organizado por uma ou mais pessoas, se busca uma forma de tornar presente o ausente e, em muitos casos, está atrelada a uma separação causada pela morte de um ente querido. Dessa maneira, os álbuns foram se constituindo ao longo da história como espaços de rememoração e de construção de relatos. A confecção de novos formatos, muitos deles menos ornamentados e, por isso, também mais baratos, estiveram alinhados ao processo de industrialização e contou com o uso do plástico e do papel como materiais principais. Alguns deles passaram também a contar com espaços destinados a escrita de pequenas notas pelo seu organizador/idealizador. Partindo do ato de seleção, organização e idealização, o álbum fotográfico é um espaço de infinitas releituras, permitindo representações de uma sequência de instantes que visam construir e conservar a passagem do tempo ou um acontecimento.",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
@@ -375,11 +375,6 @@ export const texts =[
                 title: "Low-Tech Magazine. ",
                 rest: " Doubts on progress and technology. Proofreader: Jenna Collett. fev.2015. Disponível em: https://solar.lowtechmagazine.com/2015/02/heating-people-not-spaces.html Acesso em: 26.mar.2022. "
             },
-            {
-                author: "",
-                title: "",
-                rest: ""
-            }
             
         ]
 
@@ -424,7 +419,7 @@ export const texts =[
                 image: []
             },
             {
-                content: "No caso do Brasil, a difusão e a comercialização de brinquedos à venda remontam à segunda metade do século XIX, no Rio de Janeiro. Torna-se mais comum a oferta de venda de brinquedos em geral e do bilboquê em particular, ao longo do século XX, em outras regiões do país. Em leilão efetuado em janeiro de 1872, como parte do catálogo posto à venda, no lote 76 estava “1 cestinha, 1 espanador e bilboquet e 1 bandeja” como parte dos objetos de uma Saleta(JORNAL DO COMÉRCIO, 18/01/1872, p. 02). No Natal de 1885, o jornal Gazeta de Notícias do Rio de Janeiro anunciava em sua página, dentre os vários brinquedos disponíveis na rua da Assembleia, 111, a venda de bilboquês “brinquedo útil para as crianças” (GAZETA DE NOTÍCIAS, 25/12/1885, p. 6). O bilboquê foi apreciado por séculos, por gerações e culturas distintas, incentivado por ser um brinquedo de destreza e que exigia o desenvolvimento de diversas habilidades.",
+                content: "No caso do Brasil, a difusão e a comercialização de brinquedos à venda remontam à segunda metade do século XIX, no Rio de Janeiro. Torna-se mais comum a oferta de venda de brinquedos em geral e do bilboquê em particular, ao longo do século XX, em outras regiões do país. Em leilão efetuado em janeiro de 1872, como parte do catálogo posto à venda, no lote 76 estava “1 cestinha, 1 espanador e bilboquet e 1 bandeja” como parte dos objetos de uma Saleta (JORNAL DO COMÉRCIO, 18/01/1872, p. 02). No Natal de 1885, o jornal Gazeta de Notícias do Rio de Janeiro anunciava em sua página, dentre os vários brinquedos disponíveis na rua da Assembleia, 111, a venda de bilboquês “brinquedo útil para as crianças” (GAZETA DE NOTÍCIAS, 25/12/1885, p. 6). O bilboquê foi apreciado por séculos, por gerações e culturas distintas, incentivado por ser um brinquedo de destreza e que exigia o desenvolvimento de diversas habilidades.",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
@@ -673,7 +668,7 @@ export const texts =[
                 image: []
             },
             {
-                content: "Para esses presidentes da província do Rio Grande do Norte tais objetos escolares vinham a ser, portanto, aqueles que criavam o costume do discente de ir para a escola de segunda-feira a sexta-feira para aprender a ler, a escrever, a contar, a rezar e a comporta-se de maneira civilizada.",
+                content: "Para esses presidentes da província do Rio Grande do Norte tais objetos escolares vinham a ser, portanto, aqueles que criavam o costume do discente de ir para a escola de segunda-feira a sexta-feira para aprender a ler, a escrever, a contar, a rezar e a comportar-se de maneira civilizada.",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
@@ -969,7 +964,7 @@ export const texts =[
         initialCitations: [
             {
                 text: {
-                    content: "A pena se lançava sobre o papel, deslizava docemente (...) bordando as flores mais delicadas (...). As folhas se animavam ao seu contato (...) a pena trêmula e vacilante caía sobre a mesa sem forças e sem vida,	e soltava uns acentos doces, notas estremecidas como as cordas da harpa ferida pelo vento.(ALENCAR, José de. Ao correr da pena. 3 de setembro de 1854)",
+                    content: "A pena se lançava sobre o papel, deslizava docemente (...) bordando as flores mais delicadas (...). As folhas se animavam ao seu contato (...) a pena trêmula e vacilante caía sobre a mesa sem forças e sem vida,	e soltava uns acentos doces, notas estremecidas como as cordas da harpa ferida pelo vento. (ALENCAR, José de. Ao correr da pena. 3 de setembro de 1854)",
                     footNoteNumber: null, 
                 }
 
@@ -984,7 +979,7 @@ export const texts =[
                 image: []
             },
             {
-                content: "O tinteiro tornou-se, portanto, o par da caneta de pena e ambos se firmaram como dois materiais essenciais ao ato de escrever e cujo lugar de encontro se materializa na própria escrita. Imagens dessas peças raras esculpidas em prata e até em ouro figuram em coleções particulares, não raro estão depositadas como peças de museus e são dadas a contemplar nesta exposição. Elas fascinam, embalam sonhos e exalam uma força de sedução que assusta e atraípois mostram traços descontínuos de um tempo. Pela contemplação dos objetos aqui expostos pode-se conhecer utensílios de escrita de uma época passada, imaginar um estilo de vida e de escrita que desapareceu. Ou quase. Ainda subsistem nas memórias estes objetos antigos portadores de um tempo acumulado que permitem o estudo da história da escrita.",
+                content: "O tinteiro tornou-se, portanto, o par da caneta de pena e ambos se firmaram como dois materiais essenciais ao ato de escrever e cujo lugar de encontro se materializa na própria escrita. Imagens dessas peças raras esculpidas em prata e até em ouro figuram em coleções particulares, não raro estão depositadas como peças de museus e são dadas a contemplar nesta exposição. Elas fascinam, embalam sonhos e exalam uma força de sedução que assusta e  pois mostram traços descontínuos de um tempo. Pela contemplação dos objetos aqui expostos pode-se conhecer utensílios de escrita de uma época passada, imaginar um estilo de vida e de escrita que desapareceu. Ou quase. Ainda subsistem nas memórias estes objetos antigos portadores de um tempo acumulado que permitem o estudo da história da escrita.",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
@@ -1675,7 +1670,7 @@ export const texts =[
                 image: []
             },
             {
-                content: "O conjunto de chaves da gravura exposta, três peças em bronze, com placas de porcelana pintadas à mão, com rosas e folhas, nos traz uma alusão de pensamento de que pertenceriam a uma mulher, que poderia ser usada para fechar aposentos íntimos e também para caixas de objetos pessoais. Não sendo possível afirmar sua utilização por falta de dados. ",
+                content: "O conjunto de chaves da gravura exposta, três peças em bronze, com placas de porcelana pintadas à mão, com rosas e folhas, nos traz uma alusão de pensamento de que pertenceriam a uma mulher, que poderia ser usada para fechar aposentos íntimos e também para caixas de objetos pessoais.",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
@@ -1859,7 +1854,7 @@ export const texts =[
                 image: []
             },
             {
-                content: "No Brasil, o uso do nome escarradeira data de 1881 e o objeto aparece na literatura e em imagens com diferentes formas e tamanhos. Porém, de forma geral, pode- se dizer que se caracterizava como uma espécie de bacia tendo no centro uma peça removível com um furo, para que o cuspe e/ou escarro deslizasse para dentro e ficasse oculto (CUNHA, 2010). Costumeiramente de porcelana, de modo geral bem decorado, compunha o mobiliário das residências de pessoas, no século XIX, que podiam se dar aoluxo de adquirir bens supérfluos. Nas décadas de 40 do século XX, as escarradeiras maispopulares eram esmaltadas na cor branca, seu lugar por excelência era a sala de estar e sepropunha a oferecer conforto à qualquer visita que necessitasse cuspir um pigarro ou simplesmente cuspir, como hábito adquirido e, assim, pudesse encontrar alívio sem transgredir a boa etiqueta da época ¹. Nas repartições públicas as escarradeiras, também eram utilizadas por usuários de tabaco de mascar, tinham tamanho grande e ficavam nassalas de espera ², nos hospitais, era usual se colocar um líquido desinfetante no recipiente (SANTOS, 2004).",
+                content: "No Brasil, o uso do nome escarradeira data de 1881 e o objeto aparece na literatura e em imagens com diferentes formas e tamanhos. Porém, de forma geral, pode- se dizer que se caracterizava como uma espécie de bacia tendo no centro uma peça removível com um furo, para que o cuspe e/ou escarro deslizasse para dentro e ficasse oculto (CUNHA, 2010). Costumeiramente de porcelana, de modo geral bem decorado, compunha o mobiliário das residências de pessoas, no século XIX, que podiam se dar aoluxo de adquirir bens supérfluos. Nas décadas de 40 do século XX, as escarradeiras mais populares eram esmaltadas na cor branca, seu lugar por excelência era a sala de estar e se propunha a oferecer conforto à qualquer visita que necessitasse cuspir um pigarro ou simplesmente cuspir, como hábito adquirido e, assim, pudesse encontrar alívio sem transgredir a boa etiqueta da época ¹. Nas repartições públicas as escarradeiras, também eram utilizadas por usuários de tabaco de mascar, tinham tamanho grande e ficavam nas salas de espera ², nos hospitais, era usual se colocar um líquido desinfetante no recipiente (SANTOS, 2004).",
                 citation: "",
                 footNoteNumber: 2,
                 footNote: "¹ https://www.dicionarioinformal.com.br/escarradeira/ - acesso em 01/10/2021 ² https://www.cgd.pt/Institucional/Patrimonio-Historico-CGD/Estudos/Pages/Escarrador-e-Saude-Publica.aspx - acesso 21/02/2022. ³ https://pt.wikipedia.org/wiki/Escarradeira#cite_note-3/ - acesso em 03/10/2021.",
@@ -1873,7 +1868,7 @@ export const texts =[
                 image: []
             },
             {
-                content: "Existem histórias interessantes do emprego de tal objeto, cujo uso não era tão conhecido, sobretudo, no meio rural. Em entrevista concedida para fins de pesquisa, contou-se que: um prefeito de uma pequena cidade do interior gaúcho, por volta do ano de 1940, teria ido ao Palácio Piratini, sede do governo estadual, em Porto Alegre e, durante sua espera para falar com o governador, cuspia frequentemente no chão. Um funcionário que estava na sala começou a empurrar a escarradeira para ficar próxima aovisitante. Ele, que não conhecia esse objeto, teria dito “parem de empurrar isso para perto de mim, pois daqui a pouco eu cuspo dentro”, (SANTOS, 2004). Se é, ou não, verdade, difícil saber, mas provavelmente fatos assim tenham acontecido em diferentes lugares.",
+                content: "Existem histórias interessantes do emprego de tal objeto, cujo uso não era tão conhecido, sobretudo, no meio rural. Em entrevista concedida para fins de pesquisa, contou-se que: um prefeito de uma pequena cidade do interior gaúcho, por volta do ano de 1940, teria ido ao Palácio Piratini, sede do governo estadual, em Porto Alegre e, durante sua espera para falar com o governador, cuspia frequentemente no chão. Um funcionário que estava na sala começou a empurrar a escarradeira para ficar próxima ao visitante. Ele, que não conhecia esse objeto, teria dito “parem de empurrar isso para perto de mim, pois daqui a pouco eu cuspo dentro”, (SANTOS, 2004). Se é, ou não, verdade, difícil saber, mas provavelmente fatos assim tenham acontecido em diferentes lugares.",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
@@ -2067,7 +2062,7 @@ export const texts =[
                 image: []
             },
             {
-                content: "Esta “escrivaninha de viagem”, transportável, de origem inglesa, datada do século XIX, foi produzida em madeira nobre, é decorada com trabalho de marchetaria que lhe confere leveza e delicadeza. Conta com uma gaveta para guardar papeis. Provavelmente, era utilizada por pessoas que viajavam constantemente, por permitir maior mobilidade. Tal suporte facilita o exercício de escrita de cartas, bilhetes, diários, entre outros manuscritos, bem como possibilita a leitura de livros e jornais, promovendo maior conforto para todas essas atividades. Podemos entender a escrivaninha portátil como uma invenção refinada da mesa fixa ao chão. É possível que tenha sido pensada para o uso masculino, assim, seria possível ler e escrever em qualquer lugar e não apenas no ambiente doméstico ou de trabalho. Mas podemos suspeitar que a escrivaninha portátil também estivesse presente entre as mulheres, sobretudo em seus quartos, lugares de intimidade. Acomodadas em suas camas, sentadas em poltronas, podemos imaginá- las dedicando-se à leitura de textos, talvez interditados, e à escrita íntima, em diários, cartas, cadernos de poesia.",
+                content: "Esta “escrivaninha de viagem”, transportável, de origem inglesa, datada do século XIX, foi produzida em madeira nobre, é decorada com trabalho de marchetaria que lhe confere leveza e delicadeza. Conta com uma gaveta para guardar papeis. Provavelmente, era utilizada por pessoas que viajavam constantemente, por permitir maior mobilidade. Tal suporte facilita o exercício de escrita de cartas, bilhetes, diários, entre outros manuscritos, bem como possibilita a leitura de livros e jornais, promovendo maior conforto para todas essas atividades. Podemos entender a escrivaninha portátil como uma invenção refinada da mesa fixa ao chão. É possível que tenha sido pensada para o uso masculino, assim, seria possível ler e escrever em qualquer lugar e não apenas no ambiente doméstico ou de trabalho. Mas podemos suspeitar que a escrivaninha portátil também estivesse presente entre as mulheres, sobretudo em seus quartos, lugares de intimidade. Acomodadas em suas camas, sentadas em poltronas, podemos imaginá-las dedicando-se à leitura de textos, talvez interditados, e à escrita íntima, em diários, cartas, cadernos de poesia.",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
@@ -2536,11 +2531,6 @@ export const texts =[
                 title: ". Rainha da moda:",
                 rest: "como Maria Antonieta se vestiu para a Revolução. Tradução: Maria de Luiza X. de A. Borges. Rio de Janeiro: Zahar, 2007. Disponível em: https://revistadesvioblog.files.wordpress.com/2018/03/rainha-da-moda-caroline-weber.pdf. Acesso em: 20 mar. 2022"
             },
-            {
-                author: "",
-                title: "",
-                rest: ""
-            }
         ]
 
     },
@@ -2656,13 +2646,13 @@ export const texts =[
                 image: []
             },
             {
-                content: "Não é difícil entender que a história narrada pode ser também reveladora de como a arte de coser se constitui e é constitutiva de práticas socioculturais. Entende-se que o ato de cerzir também se volta para os conhecimentos e saberes relativos às interações, enfocam as representações de mundo, as formas de ação e as manifestações de linguagens ou estilo da moda. Assim, nesse processo artístico desenvolvido entre superfícies, tecidos, ferramentas, fios que se enroscam e se embaraçam, entre costuras, fazeres, materialidades também há um universo de delicadeza e afetividade. Os estudos de Guimarães (2015) sugerem que a bordadura torna-se uma linguagem de experiê ncias, de afeto, de vínculo e de liberdade.",
+                content: "Não é difícil entender que a história narrada pode ser também reveladora de como a arte de coser se constitui e é constitutiva de práticas socioculturais. Entende-se que o ato de cerzir também se volta para os conhecimentos e saberes relativos às interações, enfocam as representações de mundo, as formas de ação e as manifestações de linguagens ou estilo da moda. Assim, nesse processo artístico desenvolvido entre superfícies, tecidos, ferramentas, fios que se enroscam e se embaraçam, entre costuras, fazeres, materialidades também há um universo de delicadeza e afetividade. Os estudos de Guimarães (2015) sugerem que a bordadura torna-se uma linguagem de experiências, de afeto, de vínculo e de liberdade.",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
             },
             {
-                content: "As linguagens são aqui compreendidas como formas sociais historicamente definidas de produção de sentidos, sendo que elas dialogam com os mundos (Bakhtin, 1997) e o que denominamos realidade. Discursivamente orientadas, as práticas linguísticas estão em alinhamento a pelo menos um regime de significação que especifica o que está dentro ou fora do domínio. Nesse sentido, o estilo, as modas podem ser também compreendidas como linguagens, estilos, constituindo-se como visões de mundo e valores sobre a vida (LARAIA, 2001)",
+                content: "As linguagens são aqui compreendidas como formas sociais historicamente definidas de produção de sentidos, sendo que elas dialogam com os mundos (Bakhtin, 1997) e o que denominamos realidade. Discursivamente orientadas, as práticas linguísticas estão em alinhamento a pelo menos um regime de significação que especifica o que está dentro ou fora do domínio. Nesse sentido, o estilo, as modas podem ser também compreendidas como linguagens, estilos, constituindo-se como visões de mundo e valores sobre a vida (LARAIA, 2001).",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
@@ -2797,7 +2787,7 @@ export const texts =[
     },
     {
         id: 32,
-        title: "Gramfone",
+        title: "Gramofone",
         author:{
             name: "Rosa Lydia Teixeira Corrêa ",
             institution: "Pontifícia Universidade Católica do Paraná ",
@@ -2903,7 +2893,7 @@ export const texts =[
                 image: []
             },
             {
-                content: "As harpas de mesa são um pouco maiores são denominadas de harpas de bebê e além disso podem ser usadas como decoração, embora o tamanho maior permita o uso delas como instrumentos reais. Esse tipo de harpa de mesa normalmente tem 51 cm de altura ou mais e tem muito mais cordas do que as menores. Essas harpas costumam ter enfeites igualmente para que possam ser usadas como decoração, mas do mesmo modo podem ser usadas como um brinquedo ou um instrumento de iniciação para crianças. As cordas adicionais significam que músicas simples podem ser tocadas, o que torna esses instrumentos mais versáteis do que as harpas menores.",
+                content: "As harpas de mesa são um pouco maiores, denominadas de harpas de bebê e além disso podem ser usadas como decoração, embora o tamanho maior permita o uso delas como instrumentos reais. Esse tipo de harpa de mesa normalmente tem 51 cm de altura ou mais e tem muito mais cordas do que as menores. Essas harpas costumam ter enfeites igualmente para que possam ser usadas como decoração, mas do mesmo modo podem ser usadas como um brinquedo ou um instrumento de iniciação para crianças. As cordas adicionais significam que músicas simples podem ser tocadas, o que torna esses instrumentos mais versáteis do que as harpas menores.",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
@@ -3453,7 +3443,7 @@ export const texts =[
         },
         text: [
             {
-                content: "A máquina de calcular universal Schubert foi fabricada pela Alemanha e comercializada a partir de 1938, foram produzidas até o ano de 1960. A Schubert, como toda máquina de calcular, foi projetada para simplificar e tornar as operações aritméticas básica mais confiáveis, e cuja operação é principalmente mecânica. Então, resolve cálculos básicos de adição, subtração, multiplicação abreviada, operação de somar vários fatores, divisão. Também era possível realizar cálculo de salários e cálculos de inventários com o apoio de tabelas de cálculos, como a de transformações de frações ordinárias em decimais; de porcentagem. Essa máquina como outras máquinas de calcular da época é composta por:",
+                content: "A máquina de calcular universal Schubert foi fabricada pela Alemanha e comercializada a partir de 1938, sendo produzida até o ano de 1960. A Schubert, como toda máquina de calcular, foi projetada para simplificar e tornar as operações aritméticas básica mais confiáveis, e cuja operação é principalmente mecânica. Então, resolve cálculos básicos de adição, subtração, multiplicação abreviada, operação de somar vários fatores, divisão. Também era possível realizar cálculo de salários e cálculos de inventários com o apoio de tabelas de cálculos, como a de transformações de frações ordinárias em decimais; de porcentagem. Essa máquina como outras máquinas de calcular da época é composta por:",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
@@ -3495,7 +3485,7 @@ export const texts =[
         },
         text: [
             {
-                content: "Numa rápida incursão à internet, facilmente encontramos diversos anunciantes que disponibilizam os cortadores de cabelo manual, os Hair Hand Clippers ou Tondeuse a Cheveux. Desde seu surgimento, na segunda metade do século XIX, esteve em fabricação, com poucas variações quanto ao material e sua mecânica. São geralmente metálicos, possuem duas lâminas em forma de pente que se cruzam a partir da pressão manual de suas alças, semelhante a um alicate. Para um eficaz funcionamento é desejável manter o menor atrito possível entre as lâminas. Sendo assim, era comum os antigos fabricantes também venderem óleos lubrificantes específicos. Com o advento das versões elétricas, a partir dos anos de 1920, seu uso diminuiria gradativamente. Todavia, o objeto segue vivo na atualidade, presentes em cursos para barbeiros, tornando-se mesmo um diferencial de mercado entre aqueles que possuem as “habilidades retrôs”. ",
+                content: "Numa rápida incursão à internet, facilmente encontramos diversos anunciantes que disponibilizam os cortadores de cabelo manual, os Hair Hand Clippers ou Tondeuse a Cheveux. Desde seu surgimento, na segunda metade do século XIX, esteve em fabricação, com poucas variações quanto ao material e sua mecânica. São geralmente metálicos, possuem duas lâminas em forma de pente que se cruzam a partir da pressão manual de suas alças, semelhante a um alicate. Para um eficaz funcionamento é desejável manter o menor atrito possível entre as lâminas. Sendo assim, era comum os antigos fabricantes também venderem óleos lubrificantes específicos. Com o advento das versões elétricas, a partir dos anos de 1920, seu uso diminuiria gradativamente. Todavia, o objeto segue vivo na atualidade, presente em cursos para barbeiros, tornando-se mesmo um diferencial de mercado entre aqueles que possuem as “habilidades retrôs”. ",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
@@ -3831,7 +3821,7 @@ export const texts =[
                 image: []
             },
             {
-                content: "Inventado no século XV, e usado por mais de cinco séculos, o Pince-Nez, nome de origem francesa, significa “óculos sem hastes que se prende ao nariz pela pressão de uma mola. Etimologicamente, é formado por dois termos: pincer, que significa beliscar; e nez, que significa nariz. A grafia usada na língua portuguesa é 'Pincenê', cuja tradução literal significa 'alicate de nariz'. De fato, o Pincenê não tinha hastes e era somente ajustado ao nariz por uma pinça que prendia os dois aros correspondentes às duas lentes e os ajustava à ossatura do nariz. Para evitar que os Pincenês caíssem ao chão, a peça era presa às vestimentas por uma corrente. Os Pincenês deram origem aos óculos Lornhons, também de origem européia, inventados ainda no século XV, criados com um haste lateral dobrável para serem segurados com a mão e colocados em frente aos olhos. Os Lornhons foram fabricados até o século XX e fazem surgir os primeiros modelos de óculos femininos. O modelo tornou-se famoso por ser o 'óculos de ópera', utilizado como acessório especialmente nas idas aos teatros. Sua haste dobrável fora produzida em diversos modelos, distinguindo os mais sofisticados para mulheres e os mais simples para homens. Alguns eram confeccionados com pedras e metais preciosos. Quanto mais sofisticado o design do par, constituído de metal valoroso, como ouro e prata,ornado por pedraria esculpida, maior a “importância” da pessoa na sociedade.",
+                content: "Inventado no século XV, e usado por mais de cinco séculos, o Pince-Nez, nome de origem francesa, significa “óculos sem hastes que se prende ao nariz pela pressão de uma mola. Etimologicamente, é formado por dois termos: pincer, que significa beliscar; e nez, que significa nariz. A grafia usada na língua portuguesa é 'Pincenê', cuja tradução literal significa 'alicate de nariz'. De fato, o Pincenê não tinha hastes e era somente ajustado ao nariz por uma pinça que prendia os dois aros correspondentes às duas lentes e os ajustava à ossatura do nariz. Para evitar que os Pincenês caíssem ao chão, a peça era presa às vestimentas por uma corrente. Os Pincenês deram origem aos óculos Lornhons, também de origem européia, inventados ainda no século XV, criados com um haste lateral dobrável para serem segurados com a mão e colocados em frente aos olhos. Os Lornhons foram fabricados até o século XX e fazem surgir os primeiros modelos de óculos femininos. O modelo tornou-se famoso por ser o 'óculos de ópera', utilizado como acessório especialmente nas idas aos teatros. Sua haste dobrável fora produzida em diversos modelos, distinguindo os mais sofisticados para mulheres e os mais simples para homens. Alguns eram confeccionados com pedras e metais preciosos. Quanto mais sofisticado o design do par, constituído de metal valoroso, como ouro e prata, ornado por pedraria esculpida, maior a “importância” da pessoa na sociedade.",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
@@ -3899,7 +3889,7 @@ export const texts =[
                 image: []
             },
             {
-                content: "A pena de aves foi um instrumento utilizado para o exercício caligráfico durante o século XIX. Era necessário selecionar cuidadosamente a pena a ser utilizada para o exercício da escrita afim de obter uma bonita caligrafia por meio de um exercício de treino muscular. A pena, também chamada de pluma, de ganso ou de pato foi muito utilizada nesse período, quando ainda não havia outros materiais disponíveis para o exercício da escrita. Quanto mais grossa a pena, menos esforço muscular era empregado para a escrita. Para usar a pena fina, era necessário empreender uma habilidade maior para sustentá-la no treino na caligrafia. Jean Hebrárd (2001), afirma que era preciso aprender a escrever para redigir um texto simples e, ainda, o papel era caro e a pluma de ganso era difícil de ser cortada pelos dedos inexperientes das crianças, mas ainda assim, era o instrumento obrigatório para aprender a escrever.",
+                content: "A pena de aves foi um instrumento utilizado para o exercício caligráfico durante o século XIX. Era necessário selecionar cuidadosamente a pena a ser utilizada para o exercício da escrita afim de obter uma bonita caligrafia por meio de um exercício de treino muscular. A pena, também chamada de pluma, de ganso ou de pato foi muito utilizada nesse período, quando ainda não havia outros materiais disponíveis para o exercício da escrita. Quanto mais grossa a pena, menos esforço muscular era empregado para a escrita. Para usar a pena fina, era necessário empreender uma habilidade maior para sustentá-la no treino na caligrafia. Jean Hebrárd (2001) afirma que era preciso aprender a escrever para redigir um texto simples e, ainda, o papel era caro e a pluma de ganso era difícil de ser cortada pelos dedos inexperientes das crianças, mas ainda assim, era o instrumento obrigatório para aprender a escrever.",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
@@ -3958,7 +3948,7 @@ export const texts =[
         text: [
             {
                 content: "",
-                citation: "A pena se lançava sobre o papel, deslizava docemente (...) bordando as flores mais delicadas (...). As folhas se animavam ao seu contato (...) a pena trêmula e vacilante caía sobre a mesa sem forças e sem vida, e soltava uns acentos doces, notas estremecidas como as cordas da harpa ferida pelo vento.(ALENCAR, José de. Ao correr da pena. 3 de setembro de 1854)",
+                citation: "A pena se lançava sobre o papel, deslizava docemente (...) bordando as flores mais delicadas (...). As folhas se animavam ao seu contato (...) a pena trêmula e vacilante caía sobre a mesa sem forças e sem vida, e soltava uns acentos doces, notas estremecidas como as cordas da harpa ferida pelo vento. (ALENCAR, José de. Ao correr da pena. 3 de setembro de 1854)",
                 footNoteNumber: null, 
                 image: []
             },
@@ -4265,7 +4255,7 @@ export const texts =[
         author:{
             name: "Angélica Borges",
             institution: "Universidade do Estado do Rio de Janeiro/UERJ",
-            department: ["Programa de Pós-Graduação em Educação/ProPEd"]
+            department: ["Programa de Pós-Graduação em Educação"]
         },
         text: [
             {
@@ -4287,7 +4277,7 @@ export const texts =[
                 image: []
             },
             {
-                content: "Os trabalhos de agulha igualmente estavam presentes no currículo das escolas normais (após a entrada de mulheres), nos concursos públicos para professoras e nas escolas particulares voltadas para famílias mais abastadas nas quais o currículo era mais diversificado. O ensino de meninas no Colégio Augusto, dirigido por Nísia Floresta Brasileira Augusta, conforme anúncio no Almanak Laemmert, compreendia: “leitura, caligrafia, religião cristã, aritmética, história, geografia, línguas e gramáticas portuguesa, francesa, italiana e inglesa; música, dança, piano, desenho e toda sorte de trabalhos de agulha” (Almanak Laemmert, 1850, p.244)",
+                content: "Os trabalhos de agulha igualmente estavam presentes no currículo das escolas normais (após a entrada de mulheres), nos concursos públicos para professoras e nas escolas particulares voltadas para famílias mais abastadas nas quais o currículo era mais diversificado. O ensino de meninas no Colégio Augusto, dirigido por Nísia Floresta Brasileira Augusta, conforme anúncio no Almanak Laemmert, compreendia: “leitura, caligrafia, religião cristã, aritmética, história, geografia, línguas e gramáticas portuguesa, francesa, italiana e inglesa; música, dança, piano, desenho e toda sorte de trabalhos de agulha” (Almanak Laemmert, 1850, p.244).",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
@@ -4336,7 +4326,7 @@ export const texts =[
     },
     {
         id: 52,
-        title: "Porta-Joias",
+        title: "Porta Joias",
         author:{
             name: "Simone Silveira Amorim",
             institution: "Universidade Tiradentes/Instituto de Tecnologia e Pesquisa",
@@ -4953,7 +4943,7 @@ export const texts =[
                 image: []
             },
             {
-                content: "Importante mencionar ainda a força simbólica que o instrumento teve na luta pela descolonização da Índia em meados do século XX. Na ocasião, Mahatma Gandhi (1869-1948) – liderança do conturbado processo de emancipação da antiga colônia britânica na Ásia -- incentivou seus conterrâneos a desafiarem o poderio inglês ao confeccionarem suas próprias roupas e, assim, recusarem os tecidos estrangeiros e industrializados da Europa.",
+                content: "Importante mencionar ainda a força simbólica que o instrumento teve na luta pela descolonização da Índia em meados do século XX. Na ocasião, Mahatma Gandhi (1869-1948) – liderança do conturbado processo de emancipação da antiga colônia britânica na Ásia - incentivou seus conterrâneos a desafiarem o poderio inglês ao confeccionarem suas próprias roupas e, assim, recusarem os tecidos estrangeiros e industrializados da Europa.",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
@@ -5185,7 +5175,7 @@ export const texts =[
             },
             {
                 author: "VASCONCELOS, Maria Celi Chaves. ",
-                title: "Exposição revela personagem da corte brasileira: condessa de Barra. ",
+                title: "Exposição revela personagem da corte brasileira: condessa de Barral. ",
                 rest: "In. Boletim Faperj. Rio de Janeiro, publicado em 04/12/2014. Disponível em https://www.faperj.br/?id=2801.2.0"
             }
         ]
@@ -5268,7 +5258,7 @@ export const texts =[
         text: [
             {
                 content: "",
-                citationPoesia: "Por água clama o Rio de Janeiro A todo instante em fúria desabrida,E o Governo escutando o seu berreiro Mata-lhe a sede? Não! Faz avenida. [...]Em nossos tempos de neurastemia,Está grassando a avenidomania,Moléstia de feição a mais grotescaPor isso, quando no Café do Brito Pede-se um copo d’água,Ouve-se um grito: - Garçom, um copo de avenida fresca ¹. (TIGRE, p. 36, 2005)",
+                citationPoesia: ["Por água clama o Rio de Janeiro", "A todo instante em fúria desabrida,", "E o Governo escutando o seu berreiro", "Mata-lhe a sede? Não! Faz avenida.", '[...]' ,'Em nossos tempos de neurastemia,','Está grassando a avenidomania,','Moléstia de feição a mais grotesca', 'Por isso, quando no Café do Brito' ,'Pede-se um copo d’água,', 'Ouve-se um grito:', '- Garçom, um copo de avenida fresca ¹.' ,"(TIGRE, p. 36, 2005)"],
                 footNoteNumber: 1,
                 footNote: " ¹ Texto de Bastos Tigres produzido no período das reformas urbanas do Rio de Janeiro do início do século XX.",
                 image: []
@@ -5644,7 +5634,7 @@ export const texts =[
                 image: []
             },
             {
-                content: "Com relação aos procedimentos com a parturiente, o médico Pénard recomendava fazer um corte no períneo. Este procedimento tinha por precaução a possível ruptura no períneo, ainda que não houvesse nenhum experimento científico demonstrando a necessidade de tal intervenção para a laceração do períneo. Dr. Lucien Pénard considerava um mecanismo tolo o ato de passar o dedo ao redor, entre a cabeça da criança e a vulva, a fim de facilitar a passagem. Ressaltava ainda que o método proposto já era utilizado pelo renomado obstetra Paul Antoine Dubois (1795-1871), e por vários assistentes de parto daquele período. Nesses termos, aventava que se armassem com uma tesoura forte e se fizesse, “de cada lado, em direção à parte posterior dos grandes lábios, uma incisão de no máximo um centímetro”. Admite ser um ato doloroso, contudo, sem danos, ao que observa: “sem dúvida, abre-se assim o caminho para duas lágrimas em vez de uma; mas essas lágrimas não irão longe e não interessarão, aliás, a nenhum órgão importante.” ((PÉNARD,1879, p. 244).",
+                content: "Com relação aos procedimentos com a parturiente, o médico Pénard recomendava fazer um corte no períneo. Este procedimento tinha por precaução a possível ruptura no períneo, ainda que não houvesse nenhum experimento científico demonstrando a necessidade de tal intervenção para a laceração do períneo. Dr. Lucien Pénard considerava um mecanismo tolo o ato de passar o dedo ao redor, entre a cabeça da criança e a vulva, a fim de facilitar a passagem. Ressaltava ainda que o método proposto já era utilizado pelo renomado obstetra Paul Antoine Dubois (1795-1871), e por vários assistentes de parto daquele período. Nesses termos, aventava que se armassem com uma tesoura forte e se fizesse, “de cada lado, em direção à parte posterior dos grandes lábios, uma incisão de no máximo um centímetro”. Admite ser um ato doloroso, contudo, sem danos, ao que observa: “sem dúvida, abre-se assim o caminho para duas lágrimas em vez de uma; mas essas lágrimas não irão longe e não interessarão, aliás, a nenhum órgão importante.” (PÉNARD, 1879, p. 244).",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
@@ -6087,7 +6077,7 @@ export const texts =[
                 image: []
             },
             {
-                content: "A fotografia estereoscopica foi inventada em 1844, pelo escocês Sir David Brewster, que aperfeiçoou os estudos da visão binocular de Charles Wheatstone e desenvolveu uma mercadoria de grande apelo comercial. Em 1851, o aparelho Brewster (visor estereoscópico) foi apresentado à rainha Vitória da Inglaterra na primeira Exposição Universal de Londres e se tornou uma febre. O processo utilizava uma câmera com duas lentes gêmeas, cujos centros opticos eram separados por 3,6 cm, distância média entre os olhos humanos. No ato fotográfico, a câmera gerava duas imagens diferentes do mesmo referente que, depois de reveladas, eram colocavas lado a lado num cartão. Através de visor, as imagens se fundiam e geravam uma experiência visual tridimencional ao observador. O sucesso do invento foi tamanho que, em 1854, foi criada a primeira empresa de produção e distribuição de vistas estereoscópicas - a London Stereoscopic Company. A empresa usava o slogan “No home without a Stereoscope”/ “Nenhum lar sem estereoscopia” e continha um catálogo com mais de 10.000 para serem compradas. ",
+                content: "A fotografia estereoscópica foi inventada em 1844, pelo escocês Sir David Brewster, que aperfeiçoou os estudos da visão binocular de Charles Wheatstone e desenvolveu uma mercadoria de grande apelo comercial. Em 1851, o aparelho Brewster (visor estereoscópico) foi apresentado à rainha Vitória da Inglaterra na primeira Exposição Universal de Londres e se tornou uma febre. O processo utilizava uma câmera com duas lentes gêmeas, cujos centros opticos eram separados por 3,6 cm, distância média entre os olhos humanos. No ato fotográfico, a câmera gerava duas imagens diferentes do mesmo referente que, depois de reveladas, eram colocadas lado a lado num cartão. Através de visor, as imagens se fundiam e geravam uma experiência visual tridimencional ao observador. O sucesso do invento foi tamanho que, em 1854, foi criada a primeira empresa de produção e distribuição de vistas estereoscópicas - a London Stereoscopic Company. A empresa usava o slogan “No home without a Stereoscope”/ “Nenhum lar sem estereoscopia” e continha um catálogo com mais de 10.000 para serem compradas. ",
                 citation: "",
                 footNoteNumber: null, 
                 image: []
@@ -6144,7 +6134,7 @@ export const texts =[
         },
         text: [
             {
-                content: "Um visor grafoscópio era um dispositivo do século XIX usado em salas de estar para melhorar a visualização de fotografias e texto. Tal objeto consistia em uma lente de aumento geralmente colocada em uma moldura de madeira e servia para ampliar textos e imagens. O grafoscópio deve basear-se na patente de Charles John Rowsell de 1864. Peça fechada mede 22,5cm x 15cm x 7 cm. Aparelho que faz parte de um conjunto mais amplo de aparelhos e dispositivos óticos, inserido no contexto do século XIX, período de massificação e de difusão da cultura do impresso, de produção e reprodução de imaginários societais e de circulação de repertórios temáticos, indicando novos regimes de produção, apropriação e difusão de sentidos por meio de novas práticas culturais em circulação no bojo da construção de uma civilização/cultura moderna. Nesse sentido, artefatos como esse podem ser entendidos como instrumentos que promovem a circulação e a transferência de novos saberes e a produção de formas de vida urbana, em consonância com a ideia de progresso Trata-se de uma conjuntura marcada por transformações e transferências técnicas e tecnológicas, tornando disponível um novo sistema de objetos que permitiam a difusão de diversos imaginários sociais que envolvem a técnica no interior de uma cultura moderna (eletricidade, telefone, telégrafo, fonógrafo, cinematógrafo, etc.). Um novo sistema de objetos pertencentes a um “sistema técnico que também indicava novas formas aspiracionais da vida moderna e suas imagens” (Narita, 2019), o que contribuía para a organização das formas de socialização em um mundo em profundas mudanças. Além dos aspectos societais, também se pode perceber a influência de tais dispositivos nas práticas educativas, como nos mostra o mesmo autor ao mencionar um ofício assinado por Benjamin Constant em 1882 que informava sobre a utilidade do grafoscópio e seu regime de atenção a uma “variedade de imagens diversamente multiplicadas”, “deixando ver um syllabario ou grande numero de combinações syllabicas em caracteres de imprensa e manuscriptos, desenhos, figuras e quadros communs da vida para as lições de cousas” (Documento do Arquivo Geral da Cidade do Rio de Janeiro, apud Narita 2019).",
+                content: "Um visor grafoscópio era um dispositivo do século XIX usado em salas de estar para melhorar a visualização de fotografias e texto. Tal objeto consistia em uma lente de aumento geralmente colocada em uma moldura de madeira e servia para ampliar textos e imagens. O grafoscópio deve basear-se na patente de Charles John Rowsell de 1864. Peça fechada mede 22,5cm x 15cm x 7 cm. Aparelho que faz parte de um conjunto mais amplo de aparelhos e dispositivos óticos, inserido no contexto do século XIX, período de massificação e de difusão da cultura do impresso, de produção e reprodução de imaginários societais e de circulação de repertórios temáticos, indicando novos regimes de produção, apropriação e difusão de sentidos por meio de novas práticas culturais em circulação no bojo da construção de uma civilização/cultura moderna. Nesse sentido, artefatos como esse podem ser entendidos como instrumentos que promovem a circulação e a transferência de novos saberes e a produção de formas de vida urbana, em consonância com a ideia de progresso. Trata-se de uma conjuntura marcada por transformações e transferências técnicas e tecnológicas, tornando disponível um novo sistema de objetos que permitiam a difusão de diversos imaginários sociais que envolvem a técnica no interior de uma cultura moderna (eletricidade, telefone, telégrafo, fonógrafo, cinematógrafo, etc.). Um novo sistema de objetos pertencentes a um “sistema técnico que também indicava novas formas aspiracionais da vida moderna e suas imagens” (Narita, 2019), o que contribuía para a organização das formas de socialização em um mundo em profundas mudanças. Além dos aspectos societais, também se pode perceber a influência de tais dispositivos nas práticas educativas, como nos mostra o mesmo autor ao mencionar um ofício assinado por Benjamin Constant em 1882 que informava sobre a utilidade do grafoscópio e seu regime de atenção a uma “variedade de imagens diversamente multiplicadas”, “deixando ver um syllabario ou grande numero de combinações syllabicas em caracteres de imprensa e manuscriptos, desenhos, figuras e quadros communs da vida para as lições de cousas” (Documento do Arquivo Geral da Cidade do Rio de Janeiro, apud Narita 2019).",
                 citation: "",
                 footNoteNumber: null, 
                 image: []

@@ -381,7 +381,7 @@ export const images = [
     {
         id: 52,
         url: portaJoias,
-        name: 'Porta-Joias',
+        name: 'Porta Joias',
         category: 2,
     },
     {

@@ -64,17 +64,21 @@ const Paragraph = styled.p`
 `;
 
 const Poesia = styled.p`
-    font-size: 16px;
+    width: fit-content;
+    font-size: 12px;
     margin-top: 14px;
     line-height: 1.6;
     text-align: left;
     font-weight: ${({isbold}) => isbold ? 'bold' : 'normal'};
+    margin-left: 80%;
+
 
     @media (max-width: 480px) {
-        font-size: 14px;
+        font-size: 12px;
         word-break: break-word;
         text-align: justify;
-        line-height: 1.7;
+        line-height: 1.5;
+        margin-left: 20%;
       
     }
     
@@ -180,6 +184,13 @@ const ItemExposicao = ({ setOpen }) => {
 
         return haveSomeFootNote
     }
+    
+    const VerifyIfHaveReferences = (text) => {
+        const result = text.references.map(item => item)
+        const haveSomeReferences = result.some(item => item.title !== '')
+
+        return haveSomeReferences
+    }
 
     const nextLink = `/exposicao/${Number(id) + 1}`;
     const prevLink = `/exposicao/${Number(id) - 1}`;
@@ -221,11 +232,16 @@ const ItemExposicao = ({ setOpen }) => {
                         <Citation key={citation.text.content + Math.random()}>{citation.text.content} <sup>{citation.text.footNoteNumber}</sup></Citation>
                     </div>
                 ))}
-                {text.text.map((paragraph) =>
+                {text.text.map((paragraph) => // id 61 poesia
                     <div key={paragraph.content}>
                         <Paragraph  isbold={verifyIfContainsOneOnlyWord(paragraph.content) || paragraph.content === "Uso no Brasil"}>{(paragraph.content)}</Paragraph>
                         <Citation>{paragraph.citation}</Citation>
-                        <Poesia>{paragraph.citationPoesia}</Poesia>
+                       {paragraph.citationPoesia && paragraph.citationPoesia.map((citation) => (
+                       
+                                <Poesia>{citation}</Poesia>
+                    
+                        ))
+                       }
                         {paragraph.image[0]?.url && <ImageContainer>
                          <p>{paragraph.image[0].legendImage}</p>
                          <InsideImgBox> <InsideImg src={paragraph.image[0].url} alt={'paragraph.insideImgAlt'} /></InsideImgBox>
@@ -253,12 +269,12 @@ const ItemExposicao = ({ setOpen }) => {
             )
 
             }
-            <Box>
+           {VerifyIfHaveReferences(text) && <Box>
                 <ReferencesTitle>Referências bibliográficas</ReferencesTitle>
                 {text.references.map((reference) =>
                     <References key={reference + Math.random()}>{reference.author}  <b>{reference.title}</b>  {reference.rest} </References>
                 )}
-            </Box>
+            </Box>}
           </Content>
             <Footer />
         </Container>
