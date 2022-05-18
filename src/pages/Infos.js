@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import Footer from "../components/Footer";
 import Header from "../components/Header.2";
@@ -338,6 +338,12 @@ const Infos = ({ setOpen }) => {
             </Box>
         )
     }
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+
+    }, [])
+
     return (
         <Container>
             <Header setOpen={setOpen} />

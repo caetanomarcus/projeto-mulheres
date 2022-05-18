@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import styled from "styled-components";
 import { texts } from "../data/texts";
 import { images } from '../data/images';
@@ -184,6 +184,10 @@ const ItemExposicao = ({ setOpen }) => {
     const nextLink = `/exposicao/${Number(id) + 1}`;
     const prevLink = `/exposicao/${Number(id) - 1}`;
 
+     useEffect(() => {
+        window.scrollTo(0, 0);
+
+    }, [])
 
     return (
         <Container>
